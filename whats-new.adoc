@@ -1,0 +1,292 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, administration, amazon fsx for netapp ontap, databases, genai, vmware' 
+summary: Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem parte da fábrica de cargas de trabalho da BlueXP . 
+---
+= Mudanças recentes na fábrica de cargas de trabalho do BlueXP 
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem parte da fábrica de cargas de trabalho da BlueXP .
+
+
+
+== 29 de setembro de 2024
+
+
+
+=== Amazon FSX para NetApp ONTAP
+
+
+
+==== Atualizações de criação de links
+
+* Visualizador de Codebox: Codebox agora está integrado no processo de criação de links. Você pode exibir e copiar o modelo do CloudFormation do Codebox no Workload Factory antes de redirecionar para a AWS para executar a operação.
+* Permissões necessárias: As permissões necessárias para executar a criação de links no AWS CloudFormation agora estão disponíveis para exibir e copiar a partir do assistente criar link no Workload Factory.
+* Suporte para criação manual de links: Esse recurso permite a criação autônoma no AWS CloudFormation com o Registro manual do link ARN. Isso é útil quando uma equipe de segurança ou DevOps auxilia no processo de criação de links.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Crie um link"^]
+
+
+
+=== Workloads de banco de dados
+
+
+
+==== Explore as poupanças para servidores Microsoft SQL detetados no FSX for Windows File Server
+
+Agora você pode explorar a economia de servidores Microsoft SQL detetados no Amazon EC2 com o FSX for Windows File Server de armazenamento na calculadora de economia. Dependendo do seu servidor SQL e requisitos de armazenamento, você pode descobrir que o FSX for ONTAP é o mais econômico para suas cargas de trabalho de banco de dados.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados"^]
+
+
+
+=== Cargas de trabalho do GenAI
+
+
+
+==== Suporte a snapshot e restauração para volumes da base de conhecimento
+
+Agora, você pode proteger seus dados generativos de workloads de AI usando uma cópia pontual de uma base de conhecimento. Isso permite que você proteja seus dados contra perda acidental ou alterações de teste nas configurações da base de conhecimento. Você pode restaurar a versão anterior do volume da base de conhecimento a qualquer momento.
+
+https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume["Tire um instantâneo de um volume da base de conhecimento"]
+
+https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume["Restaurar um snapshot de um volume da base de conhecimento"]
+
+
+
+==== Pausar digitalizações programadas
+
+Agora você pode pausar digitalizações de origem de dados agendadas. Por padrão, workloads de AI generativo varre cada fonte de dados diariamente para ingerir novos dados em cada base de conhecimento. Se você não quiser que as alterações mais recentes sejam ingeridas (durante o teste ou durante a restauração de um instantâneo, por exemplo), você pode pausar as verificações agendadas e retomá-las a qualquer momento.
+
+https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html["Gerenciar bases de conhecimento"]
+
+
+
+==== Volumes de proteção de dados agora compatíveis com bases de conhecimento
+
+Ao selecionar um volume da base de conhecimento, agora você pode escolher um volume de proteção de dados que faça parte de uma relação de replicação do NetApp SnapMirror. Isso permite armazenar bases de conhecimento em volumes que já estão protegidos pela replicação do SnapMirror.
+
+https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["Identifique as fontes de dados a serem integradas em sua base de conhecimento"]
+
+
+
+== 19 de setembro de 2024
+
+
+
+=== Workloads da VMware
+
+
+
+==== Aprimoramentos do VMware Migration Advisor
+
+Esta versão do Workload Factory for VMware apresenta melhorias de funcionalidade e estabilidade, bem como a capacidade de importar e exportar planos de migração ao usar o consultor de migração da VMware.
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Crie um plano de implantação para o Amazon EC2 usando o consultor de migração"]
+
+
+
+== 1 de setembro de 2024
+
+
+
+=== Amazon FSX para NetApp ONTAP
+
+
+
+==== Suporte de modo de leitura para gerenciamento de armazenamento
+
+O modo de leitura está disponível para gerenciamento de armazenamento no Workload Factory. O modo de leitura melhora a experiência do modo básico adicionando permissões somente leitura para que os modelos de infraestrutura como código sejam preenchidos com suas variáveis específicas. Os modelos de infraestrutura como código podem ser executados diretamente da sua conta da AWS sem fornecer permissões de modificação ao Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Saiba mais sobre o modo de leitura"^]
+
+
+
+==== Backup antes do suporte à exclusão de volume
+
+Agora você pode fazer backup de um volume antes de excluí-lo. O backup permanecerá no sistema de arquivos até ser excluído.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Eliminar um volume"^]
+
+
+
+=== Workloads de banco de dados
+
+
+
+==== Explore as poupanças através da personalização
+
+Agora você pode personalizar as configurações do servidor Microsoft SQL no Amazon EC2 com o FSX for Windows File Server e armazenamento Elastic Block Store na calculadora de economia. Dependendo de seus requisitos de armazenamento, você pode descobrir que o FSX for ONTAP é o mais econômico para suas cargas de trabalho de banco de dados.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados"^]
+
+
+
+==== Navegue até a calculadora de poupança a partir da página inicial
+
+Agora você pode navegar para a calculadora de economia a partir da link:https://console.workloads.netapp.com["Console de fábrica da carga de trabalho"^] página inicial. Selecione na Elastic Block Store e no FSX for Windows File Server para começar.
+
+image:screenshot-explore-savings-home-small.png["Captura de tela da página inicial do console do Workload Factory. A imagem mostra o bloco de bancos de dados com um novo botão explorar economia. Clique no botão para abrir um menu suspenso. O menu suspenso tem duas opções - Microsoft SQL Server no EBS e Microsoft SQL Server no FSX para Windows File Server."]
+
+
+
+=== Workloads da VMware
+
+
+
+==== Migrar para o Amazon EC2
+
+O Workload Factory para VMware agora oferece suporte à migração para o Amazon EC2 usando o consultor de migração da VMware.
+
+
+
+=== Cargas de trabalho do GenAI
+
+
+
+==== Estratégias adicionais de divisão
+
+Agora, as cargas de trabalho generativas de IA oferecem suporte a volumes de várias frases e conjuntos baseados em sobreposição para fontes de dados.
+
+
+
+==== Volume dedicado para cada base de conhecimento
+
+Agora, cria um volume dedicado do Amazon FSX for NetApp ONTAP para cada nova base de conhecimento, permitindo políticas de snapshot individuais para cada base de conhecimento e proteção aprimorada contra falhas e envenenamento de dados.
+
+
+
+=== Configuração e administração
+
+
+
+==== Subscrição RSS
+
+A subscrição RSS está disponível no link:https://console.workloads.netapp.com/["Console de fábrica da carga de trabalho"^]. Usar um feed RSS é uma maneira fácil de consumir e estar ciente das mudanças na fábrica de cargas de trabalho do BlueXP .
+
+image:screenshot-rss-subscribe-button.png["Captura de tela do menu suspenso de ajuda do console do Workload Factory. Um novo botão para se inscrever no RSS aparece como uma opção no menu suspenso."]
+
+
+
+==== Suporte para uma única política de permissão por workload
+
+Ao adicionar credenciais da AWS no Workload Factory, agora é possível selecionar uma única política de permissão, seja no modo de leitura ou automação, para cada gerenciamento de storage e workload.
+
+image:screenshot-single-permission-policy-support.png["Captura de tela da seção de configuração de permissões na página credenciais, na qual você pode selecionar políticas de permissões de leitura ou automação para gerenciamento de storage, cargas de trabalho de IA, cargas de trabalho de bancos de dados e cargas de trabalho VMware."]
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Adicione credenciais da AWS ao Workload Factory"^]
+
+
+
+== 4 de agosto de 2024
+
+
+
+=== Amazon FSX para NetApp ONTAP
+
+
+
+==== Suporte ao Terraform
+
+Agora você pode usar o Terraform no Codebox para implantar sistemas de arquivos e VMs de armazenamento.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Crie um sistema de arquivos"^]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Crie uma VM de storage"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Use o Terraform do Codebox"^]
+
+
+
+
+==== Recomendações de taxa de transferência e IOPS na calculadora de armazenamento
+
+A calculadora de armazenamento faz recomendações de configuração do sistema de arquivos FSX for ONTAP para taxa de transferência e IOPS com base nas práticas recomendadas da AWS, que fornece orientação ideal para suas seleções.
+
+
+
+=== Workloads de banco de dados
+
+
+
+==== Melhorias na calculadora de economia
+
+* Descrições da estimativa de custo
++
+Agora você pode aprender como as estimativas de custo são calculadas na calculadora de economia. Você poderá analisar as descrições de todos os cálculos para suas instâncias do Microsoft SQL Server usando o armazenamento do Amazon Elastic Block Store em comparação com o uso do armazenamento do Amazon FSX for ONTAP.
+
+* Suporte para grupo de disponibilidade sempre ativa
++
+Os bancos de dados agora fornecem cálculos de economia de custos para o tipo de implantação de grupo sempre em disponibilidade com o Microsoft SQL Server usando o Amazon Elastic Block Store.
+
+* Otimize o licenciamento do servidor SQL com o FSX for ONTAP
++
+A calculadora de bancos de dados determina se a edição de licença SQL que você usa com o armazenamento do Amazon Elastic Block Store é otimizada para suas cargas de trabalho de banco de dados. Você receberá uma recomendação para a licença SQL ideal com o FSX for ONTAP.
+
+* Várias instâncias de servidor SQL
++
+Os bancos de dados agora fornecem cálculos de economia de custos para uma configuração que hospeda várias instâncias do Microsoft SQL Server usando o Amazon Elastic Block Store.
+
+* Personalizar as definições da calculadora
++
+Agora você pode personalizar as configurações do Microsoft SQL Server, Amazon EC2 e Elastic Block Store para explorar a economia manualmente. A calculadora de economia determinará a melhor configuração com base no custo.
+
+
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados"^]
+
+
+
+=== Cargas de trabalho do GenAI
+
+
+
+==== Integração do Amazon CloudWatch Logs
+
+As cargas de trabalho generativas de IA agora estão integradas ao Amazon CloudWatch Logs, permitindo que você monitore arquivos de log de cargas de trabalho generativas de IA.
+
+
+
+==== Exemplo de aplicativo chatbot
+
+O aplicativo de exemplo do GenAI de fábrica de carga de trabalho da NetApp permite testar a autenticação e a recuperação da sua base de conhecimento publicada da NetApp Workload Factory, interagindo diretamente com ela em um aplicativo de chatbot baseado na web.
+
+
+
+=== Configuração e administração
+
+
+
+==== Suporte ao Terraform
+
+O suporte Terraform está disponível para implantação do sistema de arquivos do Amazon FSX for NetApp ONTAP e criação de VM de armazenamento. O guia de configuração e administração agora tem instruções sobre como usar o Terraform na Codebox.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Use o Terraform do Codebox"^]
+
+
+
+== 7 de julho de 2024
+
+
+
+=== Workloads da VMware
+
+
+
+==== Lançamento inicial do Workload Factory para VMware
+
+A versão inicial inclui a capacidade de usar o consultor de migração da VMware para analisar as configurações atuais da máquina virtual em ambientes vSphere locais e gerar um plano para implantar layouts de VM recomendados no VMware Cloud na AWS e usar sistemas de arquivos personalizados do Amazon FSX for NetApp ONTAP como datastores externos.
+
+
+
+=== Configuração e administração
+
+
+
+==== Lançamento inicial do Workload Factory
+
+O BlueXP  Workload Factory para AWS é uma poderosa plataforma de gerenciamento de ciclo de vida projetada para ajudá-lo a otimizar suas cargas de trabalho usando os sistemas de arquivos do Amazon FSX para NetApp ONTAP. As cargas de trabalho que podem ser otimizadas usando o Workload Factory e o FSX for ONTAP incluem bancos de dados, migrações VMware para VMware Cloud na AWS, chatbots de IA e muito mais.

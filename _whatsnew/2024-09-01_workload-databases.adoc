@@ -1,0 +1,19 @@
+= Explore as poupanças através da personalização
+:allow-uri-read: 
+
+
+
+
+=== Explore as poupanças através da personalização
+
+Agora você pode personalizar as configurações do servidor Microsoft SQL no Amazon EC2 com o FSX for Windows File Server e armazenamento Elastic Block Store na calculadora de economia. Dependendo de seus requisitos de armazenamento, você pode descobrir que o FSX for ONTAP é o mais econômico para suas cargas de trabalho de banco de dados.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados"^]
+
+
+
+=== Navegue até a calculadora de poupança a partir da página inicial
+
+Agora você pode navegar para a calculadora de economia a partir da link:https://console.workloads.netapp.com["Console de fábrica da carga de trabalho"^] página inicial. Selecione na Elastic Block Store e no FSX for Windows File Server para começar.
+
+image:screenshot-explore-savings-home-small.png["Captura de tela da página inicial do console do Workload Factory. A imagem mostra o bloco de bancos de dados com um novo botão explorar economia. Clique no botão para abrir um menu suspenso. O menu suspenso tem duas opções - Microsoft SQL Server no EBS e Microsoft SQL Server no FSX para Windows File Server."]

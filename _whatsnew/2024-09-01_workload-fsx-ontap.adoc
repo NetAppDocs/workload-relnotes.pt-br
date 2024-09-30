@@ -1,0 +1,19 @@
+= Suporte de modo de leitura para gerenciamento de armazenamento
+:allow-uri-read: 
+
+
+
+
+=== Suporte de modo de leitura para gerenciamento de armazenamento
+
+O modo de leitura está disponível para gerenciamento de armazenamento no Workload Factory. O modo de leitura melhora a experiência do modo básico adicionando permissões somente leitura para que os modelos de infraestrutura como código sejam preenchidos com suas variáveis específicas. Os modelos de infraestrutura como código podem ser executados diretamente da sua conta da AWS sem fornecer permissões de modificação ao Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Saiba mais sobre o modo de leitura"^]
+
+
+
+=== Backup antes do suporte à exclusão de volume
+
+Agora você pode fazer backup de um volume antes de excluí-lo. O backup permanecerá no sistema de arquivos até ser excluído.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Eliminar um volume"^]

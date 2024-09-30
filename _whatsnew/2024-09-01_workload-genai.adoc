@@ -1,0 +1,15 @@
+= Estratégias adicionais de divisão
+:allow-uri-read: 
+
+
+
+
+=== Estratégias adicionais de divisão
+
+Agora, as cargas de trabalho generativas de IA oferecem suporte a volumes de várias frases e conjuntos baseados em sobreposição para fontes de dados.
+
+
+
+=== Volume dedicado para cada base de conhecimento
+
+Agora, cria um volume dedicado do Amazon FSX for NetApp ONTAP para cada nova base de conhecimento, permitindo políticas de snapshot individuais para cada base de conhecimento e proteção aprimorada contra falhas e envenenamento de dados.

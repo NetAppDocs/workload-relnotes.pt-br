@@ -1,0 +1,14 @@
+= Atualizações de criação de links
+:allow-uri-read: 
+
+
+
+
+=== Atualizações de criação de links
+
+* Visualizador de Codebox: Codebox agora está integrado no processo de criação de links. Você pode exibir e copiar o modelo do CloudFormation do Codebox no Workload Factory antes de redirecionar para a AWS para executar a operação.
+* Permissões necessárias: As permissões necessárias para executar a criação de links no AWS CloudFormation agora estão disponíveis para exibir e copiar a partir do assistente criar link no Workload Factory.
+* Suporte para criação manual de links: Esse recurso permite a criação autônoma no AWS CloudFormation com o Registro manual do link ARN. Isso é útil quando uma equipe de segurança ou DevOps auxilia no processo de criação de links.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Crie um link"^]

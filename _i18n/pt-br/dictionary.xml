@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="38bd169945a371832b0b65c9086b1792" category="doc">Workloads de banco de dados</block>
+  <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX para NetApp ONTAP</block>
+  <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Cargas de trabalho do GenAI</block>
+  <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuração e administração</block>
+  <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workloads da VMware</block>
+  <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Lançamento inicial do Workload Factory</block>
+  <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">O BlueXP  Workload Factory para AWS é uma poderosa plataforma de gerenciamento de ciclo de vida projetada para ajudá-lo a otimizar suas cargas de trabalho usando os sistemas de arquivos do Amazon FSX para NetApp ONTAP. As cargas de trabalho que podem ser otimizadas usando o Workload Factory e o FSX for ONTAP incluem bancos de dados, migrações VMware para VMware Cloud na AWS, chatbots de IA e muito mais.</block>
+  <block id="e34fc91d682ebcf23e9732294872ca80" category="doc">Lançamento inicial do Workload Factory para VMware</block>
+  <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">A versão inicial inclui a capacidade de usar o consultor de migração da VMware para analisar as configurações atuais da máquina virtual em ambientes vSphere locais e gerar um plano para implantar layouts de VM recomendados no VMware Cloud na AWS e usar sistemas de arquivos personalizados do Amazon FSX for NetApp ONTAP como datastores externos.</block>
+  <block id="4b93fd033dead8dde7a70076fe4dfb36" category="doc">Melhorias na calculadora de economia</block>
+  <block id="7aeef6f406aa249df106ff2e48e80f59" category="list-text">Descrições da estimativa de custo</block>
+  <block id="797ceaeb99ff17f4fc79415b43e229c3" category="paragraph">Agora você pode aprender como as estimativas de custo são calculadas na calculadora de economia. Você poderá analisar as descrições de todos os cálculos para suas instâncias do Microsoft SQL Server usando o armazenamento do Amazon Elastic Block Store em comparação com o uso do armazenamento do Amazon FSX for ONTAP.</block>
+  <block id="97e6e4674ea0e2696f6137e7c1d5fce2" category="list-text">Suporte para grupo de disponibilidade sempre ativa</block>
+  <block id="7e13c18d88bdfda9d3e5101fdaebc5e5" category="paragraph">Os bancos de dados agora fornecem cálculos de economia de custos para o tipo de implantação de grupo sempre em disponibilidade com o Microsoft SQL Server usando o Amazon Elastic Block Store.</block>
+  <block id="d95a98a3c6f52fb50654c75b5740f82a" category="list-text">Otimize o licenciamento do servidor SQL com o FSX for ONTAP</block>
+  <block id="4f59760365b695f240f546ba35bdcf33" category="paragraph">A calculadora de bancos de dados determina se a edição de licença SQL que você usa com o armazenamento do Amazon Elastic Block Store é otimizada para suas cargas de trabalho de banco de dados. Você receberá uma recomendação para a licença SQL ideal com o FSX for ONTAP.</block>
+  <block id="97c3c8be68d473c11d60e943dcab0fec" category="list-text">Várias instâncias de servidor SQL</block>
+  <block id="c740ba36619fc4bc695bdeaf1e4ec860" category="paragraph">Os bancos de dados agora fornecem cálculos de economia de custos para uma configuração que hospeda várias instâncias do Microsoft SQL Server usando o Amazon Elastic Block Store.</block>
+  <block id="6c8658cb4905e48d7d602b288bfcf8be" category="list-text">Personalizar as definições da calculadora</block>
+  <block id="3d97983d64bf9e9b4ee62805c09d1774" category="paragraph">Agora você pode personalizar as configurações do Microsoft SQL Server, Amazon EC2 e Elastic Block Store para explorar a economia manualmente. A calculadora de economia determinará a melhor configuração com base no custo.</block>
+  <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados</block>
+  <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
+  <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Suporte ao Terraform</block>
+  <block id="0fd886acd6700c343d655429665d7e6a" category="paragraph">Agora você pode usar o Terraform no Codebox para implantar sistemas de arquivos e VMs de armazenamento.</block>
+  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">Crie um sistema de arquivos</block>
+  <block id="a384088a79fca35da6b697720f2ddd66" category="list-text"><block ref="a384088a79fca35da6b697720f2ddd66" category="inline-link-macro-rx"></block></block>
+  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="inline-link-macro">Crie uma VM de storage</block>
+  <block id="a9803c91b8fa40d3fdc106b005fdb16c" category="list-text"><block ref="a9803c91b8fa40d3fdc106b005fdb16c" category="inline-link-macro-rx"></block></block>
+  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Use o Terraform do Codebox</block>
+  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
+  <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">Recomendações de taxa de transferência e IOPS na calculadora de armazenamento</block>
+  <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">A calculadora de armazenamento faz recomendações de configuração do sistema de arquivos FSX for ONTAP para taxa de transferência e IOPS com base nas práticas recomendadas da AWS, que fornece orientação ideal para suas seleções.</block>
+  <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Integração do Amazon CloudWatch Logs</block>
+  <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">As cargas de trabalho generativas de IA agora estão integradas ao Amazon CloudWatch Logs, permitindo que você monitore arquivos de log de cargas de trabalho generativas de IA.</block>
+  <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">Exemplo de aplicativo chatbot</block>
+  <block id="75a337f9fd41608c507045c7429174be" category="paragraph">O aplicativo de exemplo do GenAI de fábrica de carga de trabalho da NetApp permite testar a autenticação e a recuperação da sua base de conhecimento publicada da NetApp Workload Factory, interagindo diretamente com ela em um aplicativo de chatbot baseado na web.</block>
+  <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">O suporte Terraform está disponível para implantação do sistema de arquivos do Amazon FSX for NetApp ONTAP e criação de VM de armazenamento. O guia de configuração e administração agora tem instruções sobre como usar o Terraform na Codebox.</block>
+  <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">Explore as poupanças através da personalização</block>
+  <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Agora você pode personalizar as configurações do servidor Microsoft SQL no Amazon EC2 com o FSX for Windows File Server e armazenamento Elastic Block Store na calculadora de economia. Dependendo de seus requisitos de armazenamento, você pode descobrir que o FSX for ONTAP é o mais econômico para suas cargas de trabalho de banco de dados.</block>
+  <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">Navegue até a calculadora de poupança a partir da página inicial</block>
+  <block id="8fd935558171bd50056871ef9ee7bd05" category="inline-link-macro">Console de fábrica da carga de trabalho</block>
+  <block id="370242ff4edf6eea7ad9f29f501888cd" category="paragraph">Agora você pode navegar para a calculadora de economia a partir da <block ref="ed002915dbbbf90a20b3d8fdf4cc2390" category="inline-link-macro-rx"></block> página inicial. Selecione na Elastic Block Store e no FSX for Windows File Server para começar.</block>
+  <block id="b6e7a46e866a97d8ad38a3ce2e41e926" category="inline-image-macro">Captura de tela da página inicial do console do Workload Factory. A imagem mostra o bloco de bancos de dados com um novo botão explorar economia. Clique no botão para abrir um menu suspenso. O menu suspenso tem duas opções - Microsoft SQL Server no EBS e Microsoft SQL Server no FSX para Windows File Server.</block>
+  <block id="a7396d19dde0193e37cada3b5524bb0b" category="paragraph"><block ref="a7396d19dde0193e37cada3b5524bb0b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f0881d896f399a09e86122a09c00b74d" category="doc">Suporte de modo de leitura para gerenciamento de armazenamento</block>
+  <block id="8db376980442524a58ebd917532846d7" category="paragraph">O modo de leitura está disponível para gerenciamento de armazenamento no Workload Factory. O modo de leitura melhora a experiência do modo básico adicionando permissões somente leitura para que os modelos de infraestrutura como código sejam preenchidos com suas variáveis específicas. Os modelos de infraestrutura como código podem ser executados diretamente da sua conta da AWS sem fornecer permissões de modificação ao Workload Factory.</block>
+  <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">Saiba mais sobre o modo de leitura</block>
+  <block id="2d68ad2bd6b1f5ddb456706e84602c5e" category="paragraph"><block ref="2d68ad2bd6b1f5ddb456706e84602c5e" category="inline-link-macro-rx"></block></block>
+  <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">Backup antes do suporte à exclusão de volume</block>
+  <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">Agora você pode fazer backup de um volume antes de excluí-lo. O backup permanecerá no sistema de arquivos até ser excluído.</block>
+  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">Eliminar um volume</block>
+  <block id="8fb924f94cef9a4615d9910253ac7353" category="paragraph"><block ref="8fb924f94cef9a4615d9910253ac7353" category="inline-link-macro-rx"></block></block>
+  <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">Estratégias adicionais de divisão</block>
+  <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">Agora, as cargas de trabalho generativas de IA oferecem suporte a volumes de várias frases e conjuntos baseados em sobreposição para fontes de dados.</block>
+  <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">Volume dedicado para cada base de conhecimento</block>
+  <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">Agora, cria um volume dedicado do Amazon FSX for NetApp ONTAP para cada nova base de conhecimento, permitindo políticas de snapshot individuais para cada base de conhecimento e proteção aprimorada contra falhas e envenenamento de dados.</block>
+  <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Subscrição RSS</block>
+  <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">A subscrição RSS está disponível no <block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>. Usar um feed RSS é uma maneira fácil de consumir e estar ciente das mudanças na fábrica de cargas de trabalho do BlueXP .</block>
+  <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">Captura de tela do menu suspenso de ajuda do console do Workload Factory. Um novo botão para se inscrever no RSS aparece como uma opção no menu suspenso.</block>
+  <block id="c508966f04ada556baaaa0b94e781209" category="paragraph"><block ref="c508966f04ada556baaaa0b94e781209" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Suporte para uma única política de permissão por workload</block>
+  <block id="c876ca70d1ae73b09cdc0004b328448e" category="paragraph">Ao adicionar credenciais da AWS no Workload Factory, agora é possível selecionar uma única política de permissão, seja no modo de leitura ou automação, para cada gerenciamento de storage e workload.</block>
+  <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Captura de tela da seção de configuração de permissões na página credenciais, na qual você pode selecionar políticas de permissões de leitura ou automação para gerenciamento de storage, cargas de trabalho de IA, cargas de trabalho de bancos de dados e cargas de trabalho VMware.</block>
+  <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">Adicione credenciais da AWS ao Workload Factory</block>
+  <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
+  <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrar para o Amazon EC2</block>
+  <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">O Workload Factory para VMware agora oferece suporte à migração para o Amazon EC2 usando o consultor de migração da VMware.</block>
+  <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Aprimoramentos do VMware Migration Advisor</block>
+  <block id="bdcdfcdfcb9e0d2084c9c9ff58163d0b" category="paragraph">Esta versão do Workload Factory for VMware apresenta melhorias de funcionalidade e estabilidade, bem como a capacidade de importar e exportar planos de migração ao usar o consultor de migração da VMware.</block>
+  <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Crie um plano de implantação para o Amazon EC2 usando o consultor de migração</block>
+  <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
+  <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Explore as poupanças para servidores Microsoft SQL detetados no FSX for Windows File Server</block>
+  <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Agora você pode explorar a economia de servidores Microsoft SQL detetados no Amazon EC2 com o FSX for Windows File Server de armazenamento na calculadora de economia. Dependendo do seu servidor SQL e requisitos de armazenamento, você pode descobrir que o FSX for ONTAP é o mais econômico para suas cargas de trabalho de banco de dados.</block>
+  <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">Atualizações de criação de links</block>
+  <block id="15f127e6d8c5111ce85f47eff68232a7" category="list-text">Visualizador de Codebox: Codebox agora está integrado no processo de criação de links. Você pode exibir e copiar o modelo do CloudFormation do Codebox no Workload Factory antes de redirecionar para a AWS para executar a operação.</block>
+  <block id="8efc4e00ac03374d3e1dc5d19c40016b" category="list-text">Permissões necessárias: As permissões necessárias para executar a criação de links no AWS CloudFormation agora estão disponíveis para exibir e copiar a partir do assistente criar link no Workload Factory.</block>
+  <block id="3721bd571f4111dad2c363436de34c51" category="list-text">Suporte para criação manual de links: Esse recurso permite a criação autônoma no AWS CloudFormation com o Registro manual do link ARN. Isso é útil quando uma equipe de segurança ou DevOps auxilia no processo de criação de links.</block>
+  <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">Crie um link</block>
+  <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
+  <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">Suporte a snapshot e restauração para volumes da base de conhecimento</block>
+  <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Agora, você pode proteger seus dados generativos de workloads de AI usando uma cópia pontual de uma base de conhecimento. Isso permite que você proteja seus dados contra perda acidental ou alterações de teste nas configurações da base de conhecimento. Você pode restaurar a versão anterior do volume da base de conhecimento a qualquer momento.</block>
+  <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">Tire um instantâneo de um volume da base de conhecimento</block>
+  <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
+  <block id="3d1e45266a0a6784e668353081a13cd0" category="inline-link">Restaurar um snapshot de um volume da base de conhecimento</block>
+  <block id="340b5c4d996cad6cf6d27d13faf94e89" category="paragraph"><block ref="340b5c4d996cad6cf6d27d13faf94e89" category="inline-link-rx"></block></block>
+  <block id="073751c61467c5e36c6cc197d92a75c4" category="section-title">Pausar digitalizações programadas</block>
+  <block id="6c31cb11ffc4d11a5aed0e968bb5f8c9" category="paragraph">Agora você pode pausar digitalizações de origem de dados agendadas. Por padrão, workloads de AI generativo varre cada fonte de dados diariamente para ingerir novos dados em cada base de conhecimento. Se você não quiser que as alterações mais recentes sejam ingeridas (durante o teste ou durante a restauração de um instantâneo, por exemplo), você pode pausar as verificações agendadas e retomá-las a qualquer momento.</block>
+  <block id="67f0dcee920749eead316e2518099abb" category="inline-link">Gerenciar bases de conhecimento</block>
+  <block id="f951fa0f2608d186cd1f0bd8889ac232" category="paragraph"><block ref="f951fa0f2608d186cd1f0bd8889ac232" category="inline-link-rx"></block></block>
+  <block id="9813be0bded00d4a8f5457f2e27277fa" category="section-title">Volumes de proteção de dados agora compatíveis com bases de conhecimento</block>
+  <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">Ao selecionar um volume da base de conhecimento, agora você pode escolher um volume de proteção de dados que faça parte de uma relação de replicação do NetApp SnapMirror. Isso permite armazenar bases de conhecimento em volumes que já estão protegidos pela replicação do SnapMirror.</block>
+  <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">Identifique as fontes de dados a serem integradas em sua base de conhecimento</block>
+  <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legais</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Avisos legais fornecem acesso a declarações de direitos autorais, marcas registradas, patentes e muito mais.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Direitos de autor</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marcas comerciais</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, o logotipo DA NetApp e as marcas listadas na página de marcas comerciais da NetApp são marcas comerciais da NetApp, Inc. Outros nomes de produtos e empresas podem ser marcas comerciais de seus respetivos proprietários.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Patentes</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Uma lista atual de patentes de propriedade da NetApp pode ser encontrada em:</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Política de privacidade</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Os arquivos de aviso fornecem informações sobre direitos autorais de terceiros e licenças usadas no software NetApp.</block>
+  <block id="7ff3a8c05743322eb30cf5ff925b4e8c" category="summary">Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem parte da fábrica de cargas de trabalho da BlueXP .</block>
+  <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">Mudanças recentes na fábrica de cargas de trabalho do BlueXP </block>
+  <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">29 de setembro de 2024</block>
+  <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 de setembro de 2024</block>
+  <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 de setembro de 2024</block>
+  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 de agosto de 2024</block>
+  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">7 de julho de 2024</block>
+  <block id="cce08aba345d6d02161a37f9cd0d876d" category="sidebar">Essas notas de versão descrevem melhorias recentes nos serviços de nuvem que fazem parte da fábrica de cargas de trabalho do BlueXP .</block>
+  <block id="0fb18bb5f075569f125aa8add5a67dc2" category="sidebar">Notas de versão de fábrica do BlueXP  Workload</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">O que há de novo</block>
+  <block id="608c98c104593db43938566d31ac7d6e" category="sidebar">Mudanças recentes na fábrica de cargas de trabalho</block>
+  <block id="7cdd7814bbdae8c80aca5d088683d506" category="sidebar">Notas de versão de fábrica da carga de trabalho</block>
+  <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Mudanças recentes</block>
+</blocks>

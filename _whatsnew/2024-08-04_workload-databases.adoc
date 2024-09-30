@@ -1,0 +1,31 @@
+= Melhorias na calculadora de economia
+:allow-uri-read: 
+
+
+
+
+=== Melhorias na calculadora de economia
+
+* Descrições da estimativa de custo
++
+Agora você pode aprender como as estimativas de custo são calculadas na calculadora de economia. Você poderá analisar as descrições de todos os cálculos para suas instâncias do Microsoft SQL Server usando o armazenamento do Amazon Elastic Block Store em comparação com o uso do armazenamento do Amazon FSX for ONTAP.
+
+* Suporte para grupo de disponibilidade sempre ativa
++
+Os bancos de dados agora fornecem cálculos de economia de custos para o tipo de implantação de grupo sempre em disponibilidade com o Microsoft SQL Server usando o Amazon Elastic Block Store.
+
+* Otimize o licenciamento do servidor SQL com o FSX for ONTAP
++
+A calculadora de bancos de dados determina se a edição de licença SQL que você usa com o armazenamento do Amazon Elastic Block Store é otimizada para suas cargas de trabalho de banco de dados. Você receberá uma recomendação para a licença SQL ideal com o FSX for ONTAP.
+
+* Várias instâncias de servidor SQL
++
+Os bancos de dados agora fornecem cálculos de economia de custos para uma configuração que hospeda várias instâncias do Microsoft SQL Server usando o Amazon Elastic Block Store.
+
+* Personalizar as definições da calculadora
++
+Agora você pode personalizar as configurações do Microsoft SQL Server, Amazon EC2 e Elastic Block Store para explorar a economia manualmente. A calculadora de economia determinará a melhor configuração com base no custo.
+
+
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados"^]

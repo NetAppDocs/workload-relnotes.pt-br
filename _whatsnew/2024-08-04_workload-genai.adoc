@@ -1,0 +1,15 @@
+= Integração do Amazon CloudWatch Logs
+:allow-uri-read: 
+
+
+
+
+=== Integração do Amazon CloudWatch Logs
+
+As cargas de trabalho generativas de IA agora estão integradas ao Amazon CloudWatch Logs, permitindo que você monitore arquivos de log de cargas de trabalho generativas de IA.
+
+
+
+=== Exemplo de aplicativo chatbot
+
+O aplicativo de exemplo do GenAI de fábrica de carga de trabalho da NetApp permite testar a autenticação e a recuperação da sua base de conhecimento publicada da NetApp Workload Factory, interagindo diretamente com ela em um aplicativo de chatbot baseado na web.

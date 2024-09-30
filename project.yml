@@ -1,0 +1,29 @@
+---
+settings:
+  name: Release notes
+  rss_page: whats-new.html
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  release_notes_autogen:
+    auto_release_notes_enabled: true
+    repositories_features:
+    - workload-fsx-ontap
+    - workload-databases
+    - workload-vmware
+    - workload-genai
+    - workload-setup-admin
+  langs: pt-br,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: Notas de versão de fábrica da carga de trabalho
+    url: "/index.html"
+  - title: Mudanças recentes
+    url: "/whats-new.html"
+  - title: Avisos legais
+    url: "/legal-notices.html"
+product-family:
+  name: Workload Factory
+  repo: workload-family
