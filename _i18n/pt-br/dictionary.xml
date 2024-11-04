@@ -7,8 +7,6 @@
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workloads da VMware</block>
   <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Lançamento inicial do Workload Factory</block>
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">O BlueXP  Workload Factory para AWS é uma poderosa plataforma de gerenciamento de ciclo de vida projetada para ajudá-lo a otimizar suas cargas de trabalho usando os sistemas de arquivos do Amazon FSX para NetApp ONTAP. As cargas de trabalho que podem ser otimizadas usando o Workload Factory e o FSX for ONTAP incluem bancos de dados, migrações VMware para VMware Cloud na AWS, chatbots de IA e muito mais.</block>
-  <block id="e34fc91d682ebcf23e9732294872ca80" category="doc">Lançamento inicial do Workload Factory para VMware</block>
-  <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">A versão inicial inclui a capacidade de usar o consultor de migração da VMware para analisar as configurações atuais da máquina virtual em ambientes vSphere locais e gerar um plano para implantar layouts de VM recomendados no VMware Cloud na AWS e usar sistemas de arquivos personalizados do Amazon FSX for NetApp ONTAP como datastores externos.</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Suporte ao Terraform</block>
@@ -120,4 +118,6 @@
   <block id="822802a1673e79cb7dbd54947e4dc32c" category="paragraph">Agora você pode usar o Terraform na caixa Codebox para implantar o Microsoft SQL Server.</block>
   <block id="83f5267b900a40e93e73e9ace47d4412" category="inline-link-macro">Crie um servidor de banco de dados</block>
   <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
+  <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">Ajuda da taxa de redução de dados do consultor de migração da VMware</block>
+  <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">Esta versão do Workload Factory for VMware apresenta um assistente de taxa de redução de dados. O assistente de taxa de redução de dados ajuda você a decidir qual é a melhor proporção para seu inventário e armazenamento da VMware ao se preparar para a integração na nuvem da AWS.</block>
 </blocks>
