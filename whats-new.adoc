@@ -67,6 +67,20 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
+=== Cargas de trabalho do GenAI
+
+
+
+==== Mascarar informações pessoais identificáveis com guardrails de dados
+
+A carga de trabalho generativa de IA apresenta o recurso de guardrails de dados, alimentado pela classificação BlueXP . O recurso de guardrails de dados identifica e mascara informações pessoais identificáveis (PII) ajudando você a manter a conformidade e fortalecer a segurança de seus dados organizacionais confidenciais.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["Crie uma base de conhecimento"]
+
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Saiba mais sobre a classificação BlueXP"^]
+
+
+
 == 29 de setembro de 2024
 
 
@@ -237,22 +251,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Ad
 
 
 == 4 de agosto de 2024
-
-
-
-=== Cargas de trabalho do GenAI
-
-
-
-==== Integração do Amazon CloudWatch Logs
-
-As cargas de trabalho generativas de IA agora estão integradas ao Amazon CloudWatch Logs, permitindo que você monitore arquivos de log de cargas de trabalho generativas de IA.
-
-
-
-==== Exemplo de aplicativo chatbot
-
-O aplicativo de exemplo do GenAI de fábrica de carga de trabalho da NetApp permite testar a autenticação e a recuperação da sua base de conhecimento publicada da NetApp Workload Factory, interagindo diretamente com ela em um aplicativo de chatbot baseado na web.
 
 
 

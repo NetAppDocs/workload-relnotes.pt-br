@@ -12,10 +12,6 @@
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Suporte ao Terraform</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Use o Terraform do Codebox</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Integração do Amazon CloudWatch Logs</block>
-  <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">As cargas de trabalho generativas de IA agora estão integradas ao Amazon CloudWatch Logs, permitindo que você monitore arquivos de log de cargas de trabalho generativas de IA.</block>
-  <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">Exemplo de aplicativo chatbot</block>
-  <block id="75a337f9fd41608c507045c7429174be" category="paragraph">O aplicativo de exemplo do GenAI de fábrica de carga de trabalho da NetApp permite testar a autenticação e a recuperação da sua base de conhecimento publicada da NetApp Workload Factory, interagindo diretamente com ela em um aplicativo de chatbot baseado na web.</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">O suporte Terraform está disponível para implantação do sistema de arquivos do Amazon FSX for NetApp ONTAP e criação de VM de armazenamento. O guia de configuração e administração agora tem instruções sobre como usar o Terraform na Codebox.</block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">Explore as poupanças através da personalização</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Agora você pode personalizar as configurações do servidor Microsoft SQL no Amazon EC2 com o FSX for Windows File Server e armazenamento Elastic Block Store na calculadora de economia. Dependendo de seus requisitos de armazenamento, você pode descobrir que o FSX for ONTAP é o mais econômico para suas cargas de trabalho de banco de dados.</block>
@@ -120,4 +116,10 @@
   <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">Ajuda da taxa de redução de dados do consultor de migração da VMware</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">Esta versão do Workload Factory for VMware apresenta um assistente de taxa de redução de dados. O assistente de taxa de redução de dados ajuda você a decidir qual é a melhor proporção para seu inventário e armazenamento da VMware ao se preparar para a integração na nuvem da AWS.</block>
+  <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">Mascarar informações pessoais identificáveis com guardrails de dados</block>
+  <block id="0f21cd7bd10e747bca7894a609acc04b" category="paragraph">A carga de trabalho generativa de IA apresenta o recurso de guardrails de dados, alimentado pela classificação BlueXP . O recurso de guardrails de dados identifica e mascara informações pessoais identificáveis (PII) ajudando você a manter a conformidade e fortalecer a segurança de seus dados organizacionais confidenciais.</block>
+  <block id="0da805b7cc0727848a84e995ab36cd76" category="inline-link-macro">Crie uma base de conhecimento</block>
+  <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
+  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">Saiba mais sobre a classificação BlueXP</block>
+  <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
 </blocks>
