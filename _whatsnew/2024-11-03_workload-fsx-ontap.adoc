@@ -1,0 +1,13 @@
+= Vistas de separador no inventário de armazenamento
+:allow-uri-read: 
+
+
+
+
+=== Vistas de separador no inventário de armazenamento
+
+O inventário de armazenamento foi atualizado para uma vista de duas abas:
+
+* Guia FSX for ONTAP: Exibe os sistemas de arquivos FSX for ONTAP que você tem atualmente.
+* Guia economia: Exibe os sistemas de armazenamento Elastic Block Store, FSX for Windows File Server e Elastic File Systems. A partir daí, você pode explorar as economias desses sistemas comparando-os com o FSX for ONTAP.
+

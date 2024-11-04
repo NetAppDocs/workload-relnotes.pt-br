@@ -23,15 +23,8 @@
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Suporte ao Terraform</block>
-  <block id="0fd886acd6700c343d655429665d7e6a" category="paragraph">Agora você pode usar o Terraform no Codebox para implantar sistemas de arquivos e VMs de armazenamento.</block>
-  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">Crie um sistema de arquivos</block>
-  <block id="a384088a79fca35da6b697720f2ddd66" category="list-text"><block ref="a384088a79fca35da6b697720f2ddd66" category="inline-link-macro-rx"></block></block>
-  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="inline-link-macro">Crie uma VM de storage</block>
-  <block id="a9803c91b8fa40d3fdc106b005fdb16c" category="list-text"><block ref="a9803c91b8fa40d3fdc106b005fdb16c" category="inline-link-macro-rx"></block></block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Use o Terraform do Codebox</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">Recomendações de taxa de transferência e IOPS na calculadora de armazenamento</block>
-  <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">A calculadora de armazenamento faz recomendações de configuração do sistema de arquivos FSX for ONTAP para taxa de transferência e IOPS com base nas práticas recomendadas da AWS, que fornece orientação ideal para suas seleções.</block>
   <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Integração do Amazon CloudWatch Logs</block>
   <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">As cargas de trabalho generativas de IA agora estão integradas ao Amazon CloudWatch Logs, permitindo que você monitore arquivos de log de cargas de trabalho generativas de IA.</block>
   <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">Exemplo de aplicativo chatbot</block>
@@ -126,4 +119,9 @@
   <block id="608c98c104593db43938566d31ac7d6e" category="sidebar">Mudanças recentes na fábrica de cargas de trabalho</block>
   <block id="7cdd7814bbdae8c80aca5d088683d506" category="sidebar">Notas de versão de fábrica da carga de trabalho</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Mudanças recentes</block>
+  <block id="31139fb3d548620b7d82f880e4660606" category="doc">Vistas de separador no inventário de armazenamento</block>
+  <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">O inventário de armazenamento foi atualizado para uma vista de duas abas:</block>
+  <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">Guia FSX for ONTAP: Exibe os sistemas de arquivos FSX for ONTAP que você tem atualmente.</block>
+  <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">Guia economia: Exibe os sistemas de armazenamento Elastic Block Store, FSX for Windows File Server e Elastic File Systems. A partir daí, você pode explorar as economias desses sistemas comparando-os com o FSX for ONTAP.</block>
+  <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">3 de novembro de 2024</block>
 </blocks>
