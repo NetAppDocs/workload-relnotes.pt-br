@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, administration, amazon fsx for netapp ontap, databases, genai, vmware' 
 summary: Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem parte da fábrica de cargas de trabalho da BlueXP . 
 ---
-= Mudanças recentes na fábrica de cargas de trabalho do BlueXP 
+= Mudanças recentes na fábrica de carga de trabalho do BlueXP 
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

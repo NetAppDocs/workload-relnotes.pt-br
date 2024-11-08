@@ -89,18 +89,12 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Os arquivos de aviso fornecem informações sobre direitos autorais de terceiros e licenças usadas no software NetApp.</block>
-  <block id="7ff3a8c05743322eb30cf5ff925b4e8c" category="summary">Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem parte da fábrica de cargas de trabalho da BlueXP .</block>
-  <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">Mudanças recentes na fábrica de cargas de trabalho do BlueXP </block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">29 de setembro de 2024</block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 de setembro de 2024</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 de setembro de 2024</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 de agosto de 2024</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">7 de julho de 2024</block>
-  <block id="cce08aba345d6d02161a37f9cd0d876d" category="sidebar">Essas notas de versão descrevem melhorias recentes nos serviços de nuvem que fazem parte da fábrica de cargas de trabalho do BlueXP .</block>
-  <block id="0fb18bb5f075569f125aa8add5a67dc2" category="sidebar">Notas de versão de fábrica do BlueXP  Workload</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">O que há de novo</block>
-  <block id="608c98c104593db43938566d31ac7d6e" category="sidebar">Mudanças recentes na fábrica de cargas de trabalho</block>
-  <block id="7cdd7814bbdae8c80aca5d088683d506" category="sidebar">Notas de versão de fábrica da carga de trabalho</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Mudanças recentes</block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">Vistas de separador no inventário de armazenamento</block>
   <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">O inventário de armazenamento foi atualizado para uma vista de duas abas:</block>
@@ -122,4 +116,8 @@
   <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
   <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">Saiba mais sobre a classificação BlueXP</block>
   <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
+  <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem parte da fábrica de cargas de trabalho da BlueXP .</block>
+  <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Mudanças recentes na fábrica de carga de trabalho do BlueXP </block>
+  <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Essas notas de versão descrevem melhorias recentes nos serviços de nuvem que fazem parte da fábrica de cargas de trabalho do BlueXP .</block>
+  <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notas de versão de fábrica do workload do BlueXP </block>
 </blocks>
