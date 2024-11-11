@@ -91,12 +91,12 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 ==== Atualizações de criação de links
 
-* Visualizador de Codebox: Codebox agora está integrado no processo de criação de links. Você pode exibir e copiar o modelo do CloudFormation do Codebox no Workload Factory antes de redirecionar para a AWS para executar a operação.
-* Permissões necessárias: As permissões necessárias para executar a criação de links no AWS CloudFormation agora estão disponíveis para exibir e copiar a partir do assistente criar link no Workload Factory.
+* Visualizador de Codebox: Codebox agora está integrado no processo de criação de links. Você pode exibir e copiar o modelo do CloudFormation do Codebox na fábrica de carga de trabalho antes de redirecionar para a AWS para executar a operação.
+* Permissões necessárias: As permissões necessárias para executar a criação de links no AWS CloudFormation agora estão disponíveis para exibir e copiar a partir do assistente criar link na fábrica de cargas de trabalho.
 * Suporte para criação manual de links: Esse recurso permite a criação autônoma no AWS CloudFormation com o Registro manual do link ARN. Isso é útil quando uma equipe de segurança ou DevOps auxilia no processo de criação de links.
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Crie um link"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Crie um link"]
 
 
 
@@ -168,9 +168,9 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 ==== Suporte de modo de leitura para gerenciamento de armazenamento
 
-O modo de leitura está disponível para gerenciamento de armazenamento no Workload Factory. O modo de leitura melhora a experiência do modo básico adicionando permissões somente leitura para que os modelos de infraestrutura como código sejam preenchidos com suas variáveis específicas. Os modelos de infraestrutura como código podem ser executados diretamente da sua conta da AWS sem fornecer permissões de modificação ao Workload Factory.
+O modo de leitura está disponível para gerenciamento de storage na fábrica de carga de trabalho. O modo de leitura melhora a experiência do modo básico adicionando permissões somente leitura para que os modelos de infraestrutura como código sejam preenchidos com suas variáveis específicas. Os modelos de infraestrutura como código podem ser executados diretamente da sua conta da AWS sem fornecer permissões de modificação à fábrica de carga de trabalho.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Saiba mais sobre o modo de leitura"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Saiba mais sobre o modo de leitura"]
 
 
 
@@ -178,7 +178,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["
 
 Agora você pode fazer backup de um volume antes de excluí-lo. O backup permanecerá no sistema de arquivos até ser excluído.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Eliminar um volume"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Eliminar um volume"]
 
 
 
