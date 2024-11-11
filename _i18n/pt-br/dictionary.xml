@@ -5,8 +5,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Cargas de trabalho do GenAI</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuração e administração</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workloads da VMware</block>
-  <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Lançamento inicial do Workload Factory</block>
-  <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">O BlueXP  Workload Factory para AWS é uma poderosa plataforma de gerenciamento de ciclo de vida projetada para ajudá-lo a otimizar suas cargas de trabalho usando os sistemas de arquivos do Amazon FSX para NetApp ONTAP. As cargas de trabalho que podem ser otimizadas usando o Workload Factory e o FSX for ONTAP incluem bancos de dados, migrações VMware para VMware Cloud na AWS, chatbots de IA e muito mais.</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Suporte ao Terraform</block>
@@ -30,15 +28,9 @@
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">Volume dedicado para cada base de conhecimento</block>
   <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">Agora, cria um volume dedicado do Amazon FSX for NetApp ONTAP para cada nova base de conhecimento, permitindo políticas de snapshot individuais para cada base de conhecimento e proteção aprimorada contra falhas e envenenamento de dados.</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Subscrição RSS</block>
-  <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">A subscrição RSS está disponível no <block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>. Usar um feed RSS é uma maneira fácil de consumir e estar ciente das mudanças na fábrica de cargas de trabalho do BlueXP .</block>
-  <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">Captura de tela do menu suspenso de ajuda do console do Workload Factory. Um novo botão para se inscrever no RSS aparece como uma opção no menu suspenso.</block>
-  <block id="c508966f04ada556baaaa0b94e781209" category="paragraph"><block ref="c508966f04ada556baaaa0b94e781209" category="inline-image-macro-rx" type="image"></block></block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Suporte para uma única política de permissão por workload</block>
-  <block id="c876ca70d1ae73b09cdc0004b328448e" category="paragraph">Ao adicionar credenciais da AWS no Workload Factory, agora é possível selecionar uma única política de permissão, seja no modo de leitura ou automação, para cada gerenciamento de storage e workload.</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Captura de tela da seção de configuração de permissões na página credenciais, na qual você pode selecionar políticas de permissões de leitura ou automação para gerenciamento de storage, cargas de trabalho de IA, cargas de trabalho de bancos de dados e cargas de trabalho VMware.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">Adicione credenciais da AWS ao Workload Factory</block>
-  <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrar para o Amazon EC2</block>
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Aprimoramentos do VMware Migration Advisor</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Crie um plano de implantação para o Amazon EC2 usando o consultor de migração</block>
@@ -85,7 +77,6 @@
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 de setembro de 2024</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 de setembro de 2024</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 de agosto de 2024</block>
-  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">7 de julho de 2024</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">O que há de novo</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Mudanças recentes</block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">Vistas de separador no inventário de armazenamento</block>
@@ -120,4 +111,17 @@
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Visualizador de Codebox: Codebox agora está integrado no processo de criação de links. Você pode exibir e copiar o modelo do CloudFormation do Codebox na fábrica de carga de trabalho antes de redirecionar para a AWS para executar a operação.</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Permissões necessárias: As permissões necessárias para executar a criação de links no AWS CloudFormation agora estão disponíveis para exibir e copiar a partir do assistente criar link na fábrica de cargas de trabalho.</block>
   <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
+  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">console de fábrica do workload</block>
+  <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">A subscrição RSS está disponível no <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. Usar um feed RSS é uma maneira fácil de consumir e estar ciente das mudanças na fábrica de carga de trabalho do BlueXP .</block>
+  <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Captura de tela do menu suspenso de ajuda do console de fábrica de carga de trabalho. Um novo botão para se inscrever no RSS aparece como uma opção no menu suspenso.</block>
+  <block id="482a329f24c123c31a109c24729cb2cd" category="paragraph"><block ref="482a329f24c123c31a109c24729cb2cd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e47b743d0cc8e0b8906e37286d9b43b" category="paragraph">Ao adicionar credenciais da AWS na fábrica de workloads, agora você pode selecionar uma única política de permissão, seja no modo de leitura ou automação, para cada workload e gerenciamento de storage.</block>
+  <block id="9f46892803d8b6c63d3b7f51fd44a421" category="inline-link-macro">Adicione credenciais da AWS à fábrica do workload</block>
+  <block id="d9dd14fb1d1e7ca9c6da6770d9176783" category="paragraph"><block ref="d9dd14fb1d1e7ca9c6da6770d9176783" category="inline-link-macro-rx"></block></block>
+  <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">Integração de fábrica do workload no console BlueXP</block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">Consola BlueXP</block>
+  <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">Agora você pode usar a fábrica de carga de trabalho do <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>. A experiência do console do BlueXP  fornece a mesma funcionalidade que o console de fábrica da carga de trabalho.</block>
+  <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">Saiba como acessar a fábrica da carga de trabalho a partir do console BlueXP</block>
+  <block id="df2137c00b08ad833b0954cdd4247de3" category="paragraph"><block ref="df2137c00b08ad833b0954cdd4247de3" category="inline-link-macro-rx"></block></block>
+  <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">11 de novembro de 2024</block>
 </blocks>
