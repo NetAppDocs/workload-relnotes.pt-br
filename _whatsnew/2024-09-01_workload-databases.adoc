@@ -14,6 +14,6 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Expl
 
 === Navegue até a calculadora de poupança a partir da página inicial
 
-Agora você pode navegar para a calculadora de economia a partir da link:https://console.workloads.netapp.com["Console de fábrica da carga de trabalho"^] página inicial. Selecione na Elastic Block Store e no FSX for Windows File Server para começar.
+Agora você pode navegar para a calculadora de economia a partir da link:https://console.workloads.netapp.com["console de fábrica do workload"^] página inicial. Selecione na Elastic Block Store e no FSX for Windows File Server para começar.
 
-image:screenshot-explore-savings-home-small.png["Captura de tela da página inicial do console do Workload Factory. A imagem mostra o bloco de bancos de dados com um novo botão explorar economia. Clique no botão para abrir um menu suspenso. O menu suspenso tem duas opções - Microsoft SQL Server no EBS e Microsoft SQL Server no FSX para Windows File Server."]
+image:screenshot-explore-savings-home-small.png["captura de tela da página inicial do console de fábrica da carga de trabalho. A imagem mostra o bloco de bancos de dados com um novo botão explorar economia. Clique no botão para abrir um menu suspenso. O menu suspenso tem duas opções - Microsoft SQL Server no EBS e Microsoft SQL Server no FSX para Windows File Server."]

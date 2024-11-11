@@ -14,10 +14,6 @@
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">Explore as poupanças através da personalização</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Agora você pode personalizar as configurações do servidor Microsoft SQL no Amazon EC2 com o FSX for Windows File Server e armazenamento Elastic Block Store na calculadora de economia. Dependendo de seus requisitos de armazenamento, você pode descobrir que o FSX for ONTAP é o mais econômico para suas cargas de trabalho de banco de dados.</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">Navegue até a calculadora de poupança a partir da página inicial</block>
-  <block id="8fd935558171bd50056871ef9ee7bd05" category="inline-link-macro">Console de fábrica da carga de trabalho</block>
-  <block id="370242ff4edf6eea7ad9f29f501888cd" category="paragraph">Agora você pode navegar para a calculadora de economia a partir da <block ref="ed002915dbbbf90a20b3d8fdf4cc2390" category="inline-link-macro-rx"></block> página inicial. Selecione na Elastic Block Store e no FSX for Windows File Server para começar.</block>
-  <block id="b6e7a46e866a97d8ad38a3ce2e41e926" category="inline-image-macro">Captura de tela da página inicial do console do Workload Factory. A imagem mostra o bloco de bancos de dados com um novo botão explorar economia. Clique no botão para abrir um menu suspenso. O menu suspenso tem duas opções - Microsoft SQL Server no EBS e Microsoft SQL Server no FSX para Windows File Server.</block>
-  <block id="a7396d19dde0193e37cada3b5524bb0b" category="paragraph"><block ref="a7396d19dde0193e37cada3b5524bb0b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f0881d896f399a09e86122a09c00b74d" category="doc">Suporte de modo de leitura para gerenciamento de armazenamento</block>
   <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">Saiba mais sobre o modo de leitura</block>
   <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">Backup antes do suporte à exclusão de volume</block>
@@ -124,4 +120,7 @@
   <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">Saiba como acessar a fábrica da carga de trabalho a partir do console BlueXP</block>
   <block id="df2137c00b08ad833b0954cdd4247de3" category="paragraph"><block ref="df2137c00b08ad833b0954cdd4247de3" category="inline-link-macro-rx"></block></block>
   <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">11 de novembro de 2024</block>
+  <block id="e93e8519fa9c34d76ec0735119a46866" category="paragraph">Agora você pode navegar para a calculadora de economia a partir da <block ref="fe6e1b2479e1125e03c713ad62b5343f" category="inline-link-macro-rx"></block> página inicial. Selecione na Elastic Block Store e no FSX for Windows File Server para começar.</block>
+  <block id="ab1e050e49bbc49befbca952f74f0443" category="inline-image-macro">captura de tela da página inicial do console de fábrica da carga de trabalho. A imagem mostra o bloco de bancos de dados com um novo botão explorar economia. Clique no botão para abrir um menu suspenso. O menu suspenso tem duas opções - Microsoft SQL Server no EBS e Microsoft SQL Server no FSX para Windows File Server.</block>
+  <block id="923f11c15ceba3bc0e4d37309ab27ed2" category="paragraph"><block ref="923f11c15ceba3bc0e4d37309ab27ed2" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
