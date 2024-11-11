@@ -43,9 +43,7 @@
   <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">Adicione credenciais da AWS ao Workload Factory</block>
   <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrar para o Amazon EC2</block>
-  <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">O Workload Factory para VMware agora oferece suporte à migração para o Amazon EC2 usando o consultor de migração da VMware.</block>
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Aprimoramentos do VMware Migration Advisor</block>
-  <block id="bdcdfcdfcb9e0d2084c9c9ff58163d0b" category="paragraph">Esta versão do Workload Factory for VMware apresenta melhorias de funcionalidade e estabilidade, bem como a capacidade de importar e exportar planos de migração ao usar o consultor de migração da VMware.</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Crie um plano de implantação para o Amazon EC2 usando o consultor de migração</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Explore as poupanças para servidores Microsoft SQL detetados no FSX for Windows File Server</block>
@@ -120,4 +118,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Mudanças recentes na fábrica de carga de trabalho do BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Essas notas de versão descrevem melhorias recentes nos serviços de nuvem que fazem parte da fábrica de cargas de trabalho do BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notas de versão de fábrica do workload do BlueXP </block>
+  <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">A fábrica de workloads para VMware agora oferece suporte à migração para o Amazon EC2 usando o consultor de migração da VMware.</block>
+  <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Esta versão da fábrica de carga de trabalho para VMware apresenta melhorias de funcionalidade e estabilidade, bem como a capacidade de importar e exportar planos de migração ao usar o consultor de migração da VMware.</block>
 </blocks>
