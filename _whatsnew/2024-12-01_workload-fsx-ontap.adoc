@@ -1,0 +1,45 @@
+= Armazenamento de bloco para sistemas de arquivos FSX para ONTAP com escalabilidade horizontal
+:allow-uri-read: 
+
+
+
+
+=== Armazenamento de bloco para sistemas de arquivos FSX para ONTAP com escalabilidade horizontal
+
+Agora você pode provisionar o armazenamento em bloco no FSX for ONTAP ao usar uma implantação de sistema de arquivos com escalabilidade horizontal com até 6 pares de HA.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Crie um sistema de arquivos FSX for ONTAP na fábrica de cargas de trabalho do BlueXP"]
+
+
+
+=== Comando de montagem disponível
+
+Os comandos de montagem agora estão disponíveis para acesso NFS e CIFS a um volume. Você pode obter o ponto de montagem para um volume dentro de um sistema de arquivos FSX for ONTAP selecionando *ações básicas* e depois *Exibir comando de montagem*.
+
+image:screenshot-view-mount-command.png["Captura de tela que mostra para exibir o comando de montagem entrando em um sistema de arquivos fsx for ONTAP, selecionando o menu de volume, selecionando ações básicas e, em seguida, selecionando o comando view mount. A caixa de diálogo de comando mount é exibida e exibe o comando mount para acesso CIFS ou NFS."]
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/access-data.html["Exibir o comando de montagem para um volume"]
+
+
+
+=== Atualizar a eficiência de storage após a criação de volume
+
+Agora você pode ativar ou desativar a eficiência de storage para volumes FlexVol após a criação de volume. A eficiência de storage inclui deduplicação, compressão de dados e compactação de dados. Ao ativar a eficiência de storage, você economiza espaço ideal em um FlexVol volume.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/update-storage-efficiency.html["Atualizar a eficiência de storage de um volume"]
+
+
+
+=== Detecção e replicação de clusters ONTAP no local
+
+Descubra e replique dados de cluster do ONTAP no local para um sistema de arquivos FSX for ONTAP para que ele possa ser usado para enriquecer bases de conhecimento de IA. Todos os fluxos de trabalho de descoberta e replicação no local são possíveis a partir da nova guia *On-Premise ONTAP* no inventário de armazenamento.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Descubra um cluster ONTAP no local"]
+
+
+
+=== As credenciais da AWS melhoram a análise da calculadora de economia
+
+Agora você tem a opção de adicionar credenciais da AWS a partir da calculadora de economia. Adicionar credenciais melhora a precisão da análise de calculadora de economia de seus ambientes de armazenamento Amazon Elastic Block Store, Elastic File Systems e FSX for Windows File Server em comparação com o FSX for ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["Explore as economias com o FSX for ONTAP na fábrica de cargas de trabalho do BlueXP"]
