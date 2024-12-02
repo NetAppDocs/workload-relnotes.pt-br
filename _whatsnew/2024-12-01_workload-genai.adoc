@@ -1,0 +1,19 @@
+= Clonar uma base de conhecimento a partir de um instantâneo
+:allow-uri-read: 
+
+
+
+
+=== Clonar uma base de conhecimento a partir de um instantâneo
+
+Agora, a fábrica de workloads da BlueXP  para o GenAI é compatível com a clonagem de uma base de conhecimento a partir de um snapshot. Isso permite a recuperação rápida de bases de conhecimento e a criação de novas bases de conhecimento com fontes de dados existentes, além de ajudar na recuperação e desenvolvimento de dados.
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["Clonar uma base de conhecimento"]
+
+
+
+=== Detecção e replicação de clusters ONTAP no local
+
+Descubra e replique dados de cluster do ONTAP no local para um sistema de arquivos FSX for ONTAP para que ele possa ser usado para enriquecer bases de conhecimento de IA. Todos os fluxos de trabalho de descoberta e replicação no local são possíveis a partir da nova guia *On-Premise ONTAP* no inventário de armazenamento.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Descubra um cluster ONTAP no local"]

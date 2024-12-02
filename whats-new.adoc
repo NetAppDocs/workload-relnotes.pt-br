@@ -65,6 +65,46 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["Expl
 
 
 
+=== Workloads de banco de dados
+
+
+
+==== A otimização contínua adiciona correção e avaliação de computação
+
+Os bancos de dados agora fornecem insights e recomendações para ajudá-lo a otimizar recursos de computação para instâncias do Microsoft SQL Server. Medimos a utilização da CPU e aproveitamos o serviço AWS Compute Optimizer para recomendar os tipos de instância ideais de tamanho certo e notificá-lo sobre patches de sistema operacional disponíveis. A otimização dos recursos de computação pode ajudar você a tomar decisões conscientes sobre os tipos de instâncias, o que resulta em economia de custos e utilização eficiente de recursos.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Otimizar configurações de recursos de computação"]
+
+
+
+==== Suporte ao PostgreSQL
+
+Agora você pode implantar e gerenciar implantações de servidor PostgreSQL independentes em bancos de dados.
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Crie um servidor PostgreSQL"]
+
+
+
+=== Cargas de trabalho do GenAI
+
+
+
+==== Clonar uma base de conhecimento a partir de um instantâneo
+
+Agora, a fábrica de workloads da BlueXP  para o GenAI é compatível com a clonagem de uma base de conhecimento a partir de um snapshot. Isso permite a recuperação rápida de bases de conhecimento e a criação de novas bases de conhecimento com fontes de dados existentes, além de ajudar na recuperação e desenvolvimento de dados.
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["Clonar uma base de conhecimento"]
+
+
+
+==== Detecção e replicação de clusters ONTAP no local
+
+Descubra e replique dados de cluster do ONTAP no local para um sistema de arquivos FSX for ONTAP para que ele possa ser usado para enriquecer bases de conhecimento de IA. Todos os fluxos de trabalho de descoberta e replicação no local são possíveis a partir da nova guia *On-Premise ONTAP* no inventário de armazenamento.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Descubra um cluster ONTAP no local"]
+
+
+
 == 11 de novembro de 2024
 
 
@@ -228,26 +268,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
-=== Workloads de banco de dados
-
-
-
-==== Explore as poupanças através da personalização
-
-Agora você pode personalizar as configurações do servidor Microsoft SQL no Amazon EC2 com o FSX for Windows File Server e armazenamento Elastic Block Store na calculadora de economia. Dependendo de seus requisitos de armazenamento, você pode descobrir que o FSX for ONTAP é o mais econômico para suas cargas de trabalho de banco de dados.
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados"^]
-
-
-
-==== Navegue até a calculadora de poupança a partir da página inicial
-
-Agora você pode navegar para a calculadora de economia a partir da link:https://console.workloads.netapp.com["console de fábrica do workload"^] página inicial. Selecione na Elastic Block Store e no FSX for Windows File Server para começar.
-
-image:screenshot-explore-savings-home-small.png["captura de tela da página inicial do console de fábrica da carga de trabalho. A imagem mostra o bloco de bancos de dados com um novo botão explorar economia. Clique no botão para abrir um menu suspenso. O menu suspenso tem duas opções - Microsoft SQL Server no EBS e Microsoft SQL Server no FSX para Windows File Server."]
-
-
-
 === Workloads da VMware
 
 
@@ -255,22 +275,6 @@ image:screenshot-explore-savings-home-small.png["captura de tela da página inic
 ==== Migrar para o Amazon EC2
 
 A fábrica de workloads para VMware agora oferece suporte à migração para o Amazon EC2 usando o consultor de migração da VMware.
-
-
-
-=== Cargas de trabalho do GenAI
-
-
-
-==== Estratégias adicionais de divisão
-
-Agora, as cargas de trabalho generativas de IA oferecem suporte a volumes de várias frases e conjuntos baseados em sobreposição para fontes de dados.
-
-
-
-==== Volume dedicado para cada base de conhecimento
-
-Agora, cria um volume dedicado do Amazon FSX for NetApp ONTAP para cada nova base de conhecimento, permitindo políticas de snapshot individuais para cada base de conhecimento e proteção aprimorada contra falhas e envenenamento de dados.
 
 
 
