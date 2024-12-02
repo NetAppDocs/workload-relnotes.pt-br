@@ -143,4 +143,6 @@
   <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*Coleta de dados*: A fábrica de carga de trabalho do BlueXP  para VMware oferece suporte à capacidade de coletar dados por um período de tempo específico quando você usa o consultor de migração.</block>
   <block id="2e47bf0e10f6acdee08b3889dc872c4c" category="list-text">*Seleção de VM*: A fábrica de cargas de trabalho do BlueXP  para VMware agora oferece suporte à seleção de VMs que você deseja incluir na implantação de migração.</block>
   <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">* Experiência rápida vs. Avançada*: Quando você usa o consultor de migração, agora você pode escolher uma experiência de migração rápida, usando RVtools, ou a experiência avançada, que usa o coletor de dados do consultor de migração.</block>
+  <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">Carga de trabalho de fábrica da BlueXP</block>
+  <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
 </blocks>
