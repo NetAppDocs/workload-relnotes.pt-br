@@ -18,8 +18,6 @@
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Aprimoramentos do VMware Migration Advisor</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Crie um plano de implantação para o Amazon EC2 usando o consultor de migração</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
-  <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Explore as poupanças para servidores Microsoft SQL detetados no FSX for Windows File Server</block>
-  <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Agora você pode explorar a economia de servidores Microsoft SQL detetados no Amazon EC2 com o FSX for Windows File Server de armazenamento na calculadora de economia. Dependendo do seu servidor SQL e requisitos de armazenamento, você pode descobrir que o FSX for ONTAP é o mais econômico para suas cargas de trabalho de banco de dados.</block>
   <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">Suporte a snapshot e restauração para volumes da base de conhecimento</block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Agora, você pode proteger seus dados generativos de workloads de AI usando uma cópia pontual de uma base de conhecimento. Isso permite que você proteja seus dados contra perda acidental ou alterações de teste nas configurações da base de conhecimento. Você pode restaurar a versão anterior do volume da base de conhecimento a qualquer momento.</block>
   <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">Tire um instantâneo de um volume da base de conhecimento</block>
@@ -148,4 +146,20 @@
   <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">Gerenciar compartilhamentos CIFS</block>
   <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">5 de janeiro de 2025</block>
+  <block id="f418f614e126c9d215de85f00b5b7a7e" category="doc">Aprimoramentos no Dashboard de bancos de dados</block>
+  <block id="c18a3eee23770f4e57bfa9ffe245c428" category="paragraph">Um novo design do Dashboard inclui os seguintes gráficos e aprimoramentos:</block>
+  <block id="47ecffc6ee3a1f9bca5a81d55169b8b6" category="list-text">O gráfico de distribuição de host mostra o número de hosts do Microsoft SQL Server e hosts PostgreSQL</block>
+  <block id="ec506ecd03b96cac2e19d3abac7aa16e" category="list-text">Os detalhes de distribuição de instâncias incluem o número total de instâncias detetadas e o número de instâncias gerenciadas do Microsoft SQL Server e PostgreSQL</block>
+  <block id="9bb5ee528a11ed94b071f88a078be55e" category="list-text">Os detalhes de distribuição de bancos de dados incluem o número total de bancos de dados e o número de bancos de dados gerenciados do Microsoft SQL Server e PostgreSQL</block>
+  <block id="01fe24ee345a62672acb8a16826117d0" category="list-text">Pontuação e status de otimização para instâncias gerenciadas e on-line</block>
+  <block id="341934677d47967f5c6e737476247396" category="list-text">Detalhes de otimização para categorias de storage, computação e aplicações</block>
+  <block id="fb2f60a13243e168f321a9de2af52d51" category="list-text">Detalhes de otimização para configurações de instâncias do Microsoft SQL Server, como dimensionamento de storage, layout de storage, storage ONTAP, computação e aplicativos</block>
+  <block id="18168aa68b74c030711fe95b2b74afac" category="list-text">Economias potenciais para cargas de trabalho de banco de dados executadas em ambientes de armazenamento Amazon Elastic Block Store e FSX for Windows em comparação com o armazenamento do Amazon FSX for NetApp ONTAP</block>
+  <block id="1886db6545ee593b7bf9014a318fd354" category="section-title">Novo estado "Concluído com problemas" na monitorização de trabalhos</block>
+  <block id="ddd4a54acb0820f07017dcad26528779" category="paragraph">A funcionalidade de monitorização de trabalhos para bases de dados fornece agora o novo estado "Concluído com problemas" para que possa saber quais os subtrabalhos com problemas e quais são os problemas.</block>
+  <block id="c72aad21ecf48b0a4f27430d70c166da" category="inline-link-macro">Monitore seus bancos de dados</block>
+  <block id="5c89f4f6af1a71c2ed6cfac605e94c16" category="paragraph"><block ref="5c89f4f6af1a71c2ed6cfac605e94c16" category="inline-link-macro-rx"></block></block>
+  <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">Avaliação e otimização para licenças do Microsoft SQL Server superprovisionadas</block>
+  <block id="f90a806c02db45741274868bc065ab90" category="paragraph">A calculadora de economia agora avalia se a edição Enterprise é necessária para a implantação do Microsoft SQL Server. Se uma licença estiver superprovisionada, a calculadora recomenda a downgrade. Você será capaz de fazer downgrade automaticamente da licença em bancos de dados otimizando o aplicativo.</block>
+  <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">6 de janeiro de 2025</block>
 </blocks>

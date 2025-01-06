@@ -1,0 +1,36 @@
+= Aprimoramentos no Dashboard de bancos de dados
+:allow-uri-read: 
+
+
+
+
+=== Aprimoramentos no Dashboard de bancos de dados
+
+Um novo design do Dashboard inclui os seguintes gráficos e aprimoramentos:
+
+* O gráfico de distribuição de host mostra o número de hosts do Microsoft SQL Server e hosts PostgreSQL
+* Os detalhes de distribuição de instâncias incluem o número total de instâncias detetadas e o número de instâncias gerenciadas do Microsoft SQL Server e PostgreSQL
+* Os detalhes de distribuição de bancos de dados incluem o número total de bancos de dados e o número de bancos de dados gerenciados do Microsoft SQL Server e PostgreSQL
+* Pontuação e status de otimização para instâncias gerenciadas e on-line
+* Detalhes de otimização para categorias de storage, computação e aplicações
+* Detalhes de otimização para configurações de instâncias do Microsoft SQL Server, como dimensionamento de storage, layout de storage, storage ONTAP, computação e aplicativos
+* Economias potenciais para cargas de trabalho de banco de dados executadas em ambientes de armazenamento Amazon Elastic Block Store e FSX for Windows em comparação com o armazenamento do Amazon FSX for NetApp ONTAP
+
+
+
+
+=== Novo estado "Concluído com problemas" na monitorização de trabalhos
+
+A funcionalidade de monitorização de trabalhos para bases de dados fornece agora o novo estado "Concluído com problemas" para que possa saber quais os subtrabalhos com problemas e quais são os problemas.
+
+link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["Monitore seus bancos de dados"]
+
+
+
+=== Avaliação e otimização para licenças do Microsoft SQL Server superprovisionadas
+
+A calculadora de economia agora avalia se a edição Enterprise é necessária para a implantação do Microsoft SQL Server. Se uma licença estiver superprovisionada, a calculadora recomenda a downgrade. Você será capaz de fazer downgrade automaticamente da licença em bancos de dados otimizando o aplicativo.
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados"^]
+* link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Otimize suas cargas de trabalho do SQL Server"]
+
