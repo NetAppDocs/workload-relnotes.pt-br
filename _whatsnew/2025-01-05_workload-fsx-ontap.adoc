@@ -1,0 +1,17 @@
+= Aprimoramentos de compartilhamento de volume CIFS
+:allow-uri-read: 
+
+
+
+
+=== Aprimoramentos de compartilhamento de volume CIFS
+
+Os seguintes aprimoramentos estão disponíveis para gerenciar o compartilhamento CIFS para volumes em um sistema de arquivos do Amazon FSX for ONTAP na fábrica de carga de trabalho do BlueXP :
+
+* Suporte para vários compartilhamentos CIFS em um volume
+* A opção de atualizar usuários e grupos a qualquer momento
+* A opção de atualizar permissões para usuários e grupos a qualquer momento
+* Exclusão de compartilhamento CIFS
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["Gerenciar compartilhamentos CIFS"]
