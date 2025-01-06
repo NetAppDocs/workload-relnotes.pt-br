@@ -1,0 +1,27 @@
+= Nome do instantâneo personalizado
+:allow-uri-read: 
+
+
+
+
+=== Nome do instantâneo personalizado
+
+Agora você pode fornecer um nome de instantâneo para um instantâneo ad-hoc.
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#protect-a-knowledge-base-with-snapshots["Proteja uma base de conhecimento com snapshots"]
+
+
+
+=== Nome de instância personalizado do mecanismo de AI
+
+Agora você pode dar um nome personalizado à instância do mecanismo de AI durante a implantação.
+
+link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Implantar a infraestrutura do GenAI"]
+
+
+
+=== Reconstruir a infraestrutura do GenAI corrompida ou ausente
+
+Se a instância do seu mecanismo de AI ficar corrompida ou for excluída, você pode deixar que a carga de trabalho reconstrua-a de fábrica para você. A fábrica de carga de trabalho reanexa automaticamente suas bases de conhecimento à infraestrutura após a conclusão da reconstrução, para que elas estejam prontas para uso.
+
+link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Solução de problemas"]

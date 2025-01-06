@@ -18,20 +18,6 @@
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Aprimoramentos do VMware Migration Advisor</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Crie um plano de implantação para o Amazon EC2 usando o consultor de migração</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
-  <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">Suporte a snapshot e restauração para volumes da base de conhecimento</block>
-  <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Agora, você pode proteger seus dados generativos de workloads de AI usando uma cópia pontual de uma base de conhecimento. Isso permite que você proteja seus dados contra perda acidental ou alterações de teste nas configurações da base de conhecimento. Você pode restaurar a versão anterior do volume da base de conhecimento a qualquer momento.</block>
-  <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">Tire um instantâneo de um volume da base de conhecimento</block>
-  <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
-  <block id="3d1e45266a0a6784e668353081a13cd0" category="inline-link">Restaurar um snapshot de um volume da base de conhecimento</block>
-  <block id="340b5c4d996cad6cf6d27d13faf94e89" category="paragraph"><block ref="340b5c4d996cad6cf6d27d13faf94e89" category="inline-link-rx"></block></block>
-  <block id="073751c61467c5e36c6cc197d92a75c4" category="section-title">Pausar digitalizações programadas</block>
-  <block id="6c31cb11ffc4d11a5aed0e968bb5f8c9" category="paragraph">Agora você pode pausar digitalizações de origem de dados agendadas. Por padrão, workloads de AI generativo varre cada fonte de dados diariamente para ingerir novos dados em cada base de conhecimento. Se você não quiser que as alterações mais recentes sejam ingeridas (durante o teste ou durante a restauração de um instantâneo, por exemplo), você pode pausar as verificações agendadas e retomá-las a qualquer momento.</block>
-  <block id="67f0dcee920749eead316e2518099abb" category="inline-link">Gerenciar bases de conhecimento</block>
-  <block id="f951fa0f2608d186cd1f0bd8889ac232" category="paragraph"><block ref="f951fa0f2608d186cd1f0bd8889ac232" category="inline-link-rx"></block></block>
-  <block id="9813be0bded00d4a8f5457f2e27277fa" category="section-title">Volumes de proteção de dados agora compatíveis com bases de conhecimento</block>
-  <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">Ao selecionar um volume da base de conhecimento, agora você pode escolher um volume de proteção de dados que faça parte de uma relação de replicação do NetApp SnapMirror. Isso permite armazenar bases de conhecimento em volumes que já estão protegidos pela replicação do SnapMirror.</block>
-  <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">Identifique as fontes de dados a serem integradas em sua base de conhecimento</block>
-  <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legais</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Avisos legais fornecem acesso a declarações de direitos autorais, marcas registradas, patentes e muito mais.</block>
@@ -51,7 +37,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Os arquivos de aviso fornecem informações sobre direitos autorais de terceiros e licenças usadas no software NetApp.</block>
-  <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">29 de setembro de 2024</block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 de setembro de 2024</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 de setembro de 2024</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 de agosto de 2024</block>
@@ -162,4 +147,16 @@
   <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">Avaliação e otimização para licenças do Microsoft SQL Server superprovisionadas</block>
   <block id="f90a806c02db45741274868bc065ab90" category="paragraph">A calculadora de economia agora avalia se a edição Enterprise é necessária para a implantação do Microsoft SQL Server. Se uma licença estiver superprovisionada, a calculadora recomenda a downgrade. Você será capaz de fazer downgrade automaticamente da licença em bancos de dados otimizando o aplicativo.</block>
   <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">6 de janeiro de 2025</block>
+  <block id="a117d99fd0597e840921767ec50fe791" category="doc">Nome do instantâneo personalizado</block>
+  <block id="34df51ccce053f8aef051fe069f6004a" category="paragraph">Agora você pode fornecer um nome de instantâneo para um instantâneo ad-hoc.</block>
+  <block id="af467f026dd1b56c8564e770bf39737f" category="inline-link-macro">Proteja uma base de conhecimento com snapshots</block>
+  <block id="2cbaa1be80e354895c4d9e497cad82ad" category="paragraph"><block ref="2cbaa1be80e354895c4d9e497cad82ad" category="inline-link-macro-rx"></block></block>
+  <block id="63713d130d6ced83e06b8a2f84ca4236" category="section-title">Nome de instância personalizado do mecanismo de AI</block>
+  <block id="5a22f1756638135653917db715aeec43" category="paragraph">Agora você pode dar um nome personalizado à instância do mecanismo de AI durante a implantação.</block>
+  <block id="e379b913896cf9bdd4e2d6717212215a" category="inline-link-macro">Implantar a infraestrutura do GenAI</block>
+  <block id="c3e29d6f9db8b5f89b548e4659ce60ad" category="paragraph"><block ref="c3e29d6f9db8b5f89b548e4659ce60ad" category="inline-link-macro-rx"></block></block>
+  <block id="cc78f676d3193b6273b428bb17c26dd7" category="section-title">Reconstruir a infraestrutura do GenAI corrompida ou ausente</block>
+  <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">Se a instância do seu mecanismo de AI ficar corrompida ou for excluída, você pode deixar que a carga de trabalho reconstrua-a de fábrica para você. A fábrica de carga de trabalho reanexa automaticamente suas bases de conhecimento à infraestrutura após a conclusão da reconstrução, para que elas estejam prontas para uso.</block>
+  <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">Solução de problemas</block>
+  <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
 </blocks>
