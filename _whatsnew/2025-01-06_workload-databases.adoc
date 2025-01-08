@@ -31,6 +31,6 @@ link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["Mo
 
 A calculadora de economia agora avalia se a edição Enterprise é necessária para a implantação do Microsoft SQL Server. Se uma licença estiver superprovisionada, a calculadora recomenda a downgrade. Você será capaz de fazer downgrade automaticamente da licença em bancos de dados otimizando o aplicativo.
 
-* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados"^]
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore as economias com o FSX for ONTAP para suas cargas de trabalho de banco de dados"]
 * link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Otimize suas cargas de trabalho do SQL Server"]
 
