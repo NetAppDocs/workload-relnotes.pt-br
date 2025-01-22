@@ -9,10 +9,6 @@
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Suporte ao Terraform</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Use o Terraform do Codebox</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Subscrição RSS</block>
-  <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Suporte para uma única política de permissão por workload</block>
-  <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Captura de tela da seção de configuração de permissões na página credenciais, na qual você pode selecionar políticas de permissões de leitura ou automação para gerenciamento de storage, cargas de trabalho de IA, cargas de trabalho de bancos de dados e cargas de trabalho VMware.</block>
-  <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Crie um plano de implantação para o Amazon EC2 usando o consultor de migração</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
@@ -34,7 +30,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Os arquivos de aviso fornecem informações sobre direitos autorais de terceiros e licenças usadas no software NetApp.</block>
-  <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 de setembro de 2024</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">O que há de novo</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Mudanças recentes</block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">Vistas de separador no inventário de armazenamento</block>
@@ -61,13 +56,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Mudanças recentes na fábrica de carga de trabalho do BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Essas notas de versão descrevem melhorias recentes nos serviços de nuvem que fazem parte da fábrica de cargas de trabalho do BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notas de versão de fábrica do workload do BlueXP </block>
-  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">console de fábrica do workload</block>
-  <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">A subscrição RSS está disponível no <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. Usar um feed RSS é uma maneira fácil de consumir e estar ciente das mudanças na fábrica de carga de trabalho do BlueXP .</block>
-  <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Captura de tela do menu suspenso de ajuda do console de fábrica de carga de trabalho. Um novo botão para se inscrever no RSS aparece como uma opção no menu suspenso.</block>
-  <block id="482a329f24c123c31a109c24729cb2cd" category="paragraph"><block ref="482a329f24c123c31a109c24729cb2cd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4e47b743d0cc8e0b8906e37286d9b43b" category="paragraph">Ao adicionar credenciais da AWS na fábrica de workloads, agora você pode selecionar uma única política de permissão, seja no modo de leitura ou automação, para cada workload e gerenciamento de storage.</block>
-  <block id="9f46892803d8b6c63d3b7f51fd44a421" category="inline-link-macro">Adicione credenciais da AWS à fábrica do workload</block>
-  <block id="d9dd14fb1d1e7ca9c6da6770d9176783" category="paragraph"><block ref="d9dd14fb1d1e7ca9c6da6770d9176783" category="inline-link-macro-rx"></block></block>
   <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">Integração de fábrica do workload no console BlueXP</block>
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">Consola BlueXP</block>
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">Agora você pode usar a fábrica de carga de trabalho do <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>. A experiência do console do BlueXP  fornece a mesma funcionalidade que o console de fábrica da carga de trabalho.</block>
@@ -160,4 +148,8 @@
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Salvar ou baixar um plano de migração*: Agora você pode salvar ou baixar um plano de migração e carregar o plano de migração para preencher o consultor de migração. Quando você salva um plano de migração, o plano é salvo com sua conta de fábrica de carga de trabalho.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*Seleção aprimorada de VM*: A fábrica de cargas de trabalho do BlueXP  para VMware agora oferece suporte à filtragem e pesquisa da lista de VMs que você deseja incluir em sua implantação de migração.</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
+  <block id="ca475a2b63c70fedcf8f6650024d480b" category="doc">Permissões de fábrica do workload do BlueXP</block>
+  <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">Agora você pode visualizar as permissões que a fábrica de workloads do BlueXP  usa para executar várias operações, desde a descoberta de seus ambientes de storage até a implantação de recursos da AWS, como sistemas de arquivos em armazenamento ou bases de conhecimento para workloads do GenAI. Você pode visualizar as políticas e permissões do IAM para workloads de storage, bancos de dados, VMware e GenAI.</block>
+  <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
+  <block id="43c56433351f336a8ecd0e9efa7ddca4" category="section-title">22 de janeiro de 2025</block>
 </blocks>
