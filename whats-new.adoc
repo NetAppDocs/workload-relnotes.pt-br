@@ -15,6 +15,35 @@ Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem par
 
 
 
+== 3 de fevereiro de 2025
+
+
+
+=== Workloads de banco de dados
+
+
+
+==== Ambientes de banco de dados no local análise de custos e Planejamento de migração
+
+A fábrica de workloads do BlueXP  para bancos de dados agora deteta, analisa e ajuda você a Planejar a migração de banco de dados no local para o Amazon FSX for NetApp ONTAP. Use a calculadora de economia para estimar o custo da execução do ambiente de banco de dados local na nuvem e analisar as recomendações para migrar o ambiente de banco de dados local para a nuvem.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore economia para ambientes de banco de dados no local"]
+
+
+
+==== Novas avaliações de otimização para bancos de dados
+
+As avaliações a seguir estão agora disponíveis na fábrica de workloads do BlueXP  para bancos de dados. Essas avaliações estão focadas em detetar e proteger contra possíveis vulnerabilidades de segurança e detetar e aliviar gargalos de desempenho.
+
+* *Receive Side Scaling (RSS) Configuration*: Verifica se a configuração RSS está ativada e se o número de filas está definido para o valor recomendado. A avaliação também fornece recomendações para otimizar a configuração de RSS.
+* *Configuração do servidor de grau máximo de paralelismo (MAXDOP)*: A avaliação verifica se o MAXDOP está configurado corretamente e fornece recomendações para otimizar o desempenho.
+* *Microsoft SQL Server patches*: A avaliação verifica se os patches mais recentes estão instalados nas instâncias do SQL Server e fornece recomendações para instalar os patches mais recentes.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Otimizar configurações"]
+
+
+
 == 22 de janeiro de 2025
 
 
@@ -287,28 +316,6 @@ O inventário de armazenamento foi atualizado para uma vista de duas abas:
 
 * Guia FSX for ONTAP: Exibe os sistemas de arquivos FSX for ONTAP que você tem atualmente.
 * Guia economia: Exibe os sistemas de armazenamento Elastic Block Store, FSX for Windows File Server e Elastic File Systems. A partir daí, você pode explorar as economias desses sistemas comparando-os com o FSX for ONTAP.
-
-
-
-
-=== Workloads de banco de dados
-
-
-
-==== Otimize continuamente suas cargas de trabalho do Microsoft SQL Server com bancos de dados
-
-A fábrica de carga de trabalho do BlueXP  apresenta orientação contínua e corrimões para garantir a otimização contínua e a adesão às práticas recomendadas para o componente de armazenamento de suas cargas de trabalho do Microsoft SQL Server no Amazon FSX for NetApp ONTAP. Esse recurso verifica continuamente seu estado do Microsoft SQL Server offline, fornecendo a você um relatório abrangente de insights, oportunidades e recomendações para ajudá-lo a alcançar o máximo de desempenho, economia e conformidade.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Otimize suas cargas de trabalho do SQL Server"]
-
-
-
-==== Suporte ao Terraform
-
-Agora você pode usar o Terraform na caixa Codebox para implantar o Microsoft SQL Server.
-
-* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["Crie um servidor de banco de dados"^]
-* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Use o Terraform do Codebox"^]
 
 
 

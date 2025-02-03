@@ -1,0 +1,24 @@
+= Ambientes de banco de dados no local análise de custos e Planejamento de migração
+:allow-uri-read: 
+
+
+
+
+=== Ambientes de banco de dados no local análise de custos e Planejamento de migração
+
+A fábrica de workloads do BlueXP  para bancos de dados agora deteta, analisa e ajuda você a Planejar a migração de banco de dados no local para o Amazon FSX for NetApp ONTAP. Use a calculadora de economia para estimar o custo da execução do ambiente de banco de dados local na nuvem e analisar as recomendações para migrar o ambiente de banco de dados local para a nuvem.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore economia para ambientes de banco de dados no local"]
+
+
+
+=== Novas avaliações de otimização para bancos de dados
+
+As avaliações a seguir estão agora disponíveis na fábrica de workloads do BlueXP  para bancos de dados. Essas avaliações estão focadas em detetar e proteger contra possíveis vulnerabilidades de segurança e detetar e aliviar gargalos de desempenho.
+
+* *Receive Side Scaling (RSS) Configuration*: Verifica se a configuração RSS está ativada e se o número de filas está definido para o valor recomendado. A avaliação também fornece recomendações para otimizar a configuração de RSS.
+* *Configuração do servidor de grau máximo de paralelismo (MAXDOP)*: A avaliação verifica se o MAXDOP está configurado corretamente e fornece recomendações para otimizar o desempenho.
+* *Microsoft SQL Server patches*: A avaliação verifica se os patches mais recentes estão instalados nas instâncias do SQL Server e fornece recomendações para instalar os patches mais recentes.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Otimizar configurações"]
