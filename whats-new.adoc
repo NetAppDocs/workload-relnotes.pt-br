@@ -84,6 +84,26 @@ link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#ben
 
 
 
+=== Configuração e administração
+
+
+
+==== CloudShell disponível no console de fábrica da carga de trabalho do BlueXP
+
+O CloudShell está disponível em qualquer lugar no console de fábrica de carga de trabalho do BlueXP . O CloudShell permite que você use as credenciais da AWS e do ONTAP fornecidas na sua conta do BlueXP  e execute os comandos da CLI da AWS ou da CLI do ONTAP em um ambiente semelhante ao shell.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Use o CloudShell"]
+
+
+
+==== Atualização de permissões para bancos de dados
+
+A seguinte permissão está agora disponível no modo _read_ para bancos de dados: `iam:SimulatePrincipalPolicy`.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Log de alteração de referência de permissões"]
+
+
+
 == 22 de janeiro de 2025
 
 
@@ -323,22 +343,6 @@ link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clon
 Descubra e replique dados de cluster do ONTAP no local para um sistema de arquivos FSX for ONTAP para que ele possa ser usado para enriquecer bases de conhecimento de IA. Todos os fluxos de trabalho de descoberta e replicação no local são possíveis a partir da nova guia *On-Premise ONTAP* no inventário de armazenamento.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Descubra um cluster ONTAP no local"]
-
-
-
-== 11 de novembro de 2024
-
-
-
-=== Configuração e administração
-
-
-
-==== Integração de fábrica do workload no console BlueXP
-
-Agora você pode usar a fábrica de carga de trabalho do link:https://console.bluexp.netapp.com["Consola BlueXP"^]. A experiência do console do BlueXP  fornece a mesma funcionalidade que o console de fábrica da carga de trabalho.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Saiba como acessar a fábrica da carga de trabalho a partir do console BlueXP"]
 
 
 

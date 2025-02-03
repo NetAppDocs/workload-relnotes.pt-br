@@ -42,12 +42,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Mudanças recentes na fábrica de carga de trabalho do BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Essas notas de versão descrevem melhorias recentes nos serviços de nuvem que fazem parte da fábrica de cargas de trabalho do BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notas de versão de fábrica do workload do BlueXP </block>
-  <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">Integração de fábrica do workload no console BlueXP</block>
-  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">Consola BlueXP</block>
-  <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">Agora você pode usar a fábrica de carga de trabalho do <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>. A experiência do console do BlueXP  fornece a mesma funcionalidade que o console de fábrica da carga de trabalho.</block>
-  <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">Saiba como acessar a fábrica da carga de trabalho a partir do console BlueXP</block>
-  <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">11 de novembro de 2024</block>
-  <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
   <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">Armazenamento de bloco para sistemas de arquivos FSX para ONTAP com escalabilidade horizontal</block>
   <block id="152983842f852ef5bae46ac675caec95" category="paragraph">Agora você pode provisionar o armazenamento em bloco no FSX for ONTAP ao usar uma implantação de sistema de arquivos com escalabilidade horizontal com até 6 pares de HA.</block>
   <block id="88ece72bda0e38c0bdca32d19f42a979" category="inline-link-macro">Crie um sistema de arquivos FSX for ONTAP na fábrica de cargas de trabalho do BlueXP</block>
@@ -163,4 +157,12 @@
   <block id="77c129bd3271a24d7bdf27f4904c52f4" category="inline-link-macro">Saiba mais sobre a fábrica de cargas de trabalho da BlueXP  para o GenAI</block>
   <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2 de fevereiro de 2025</block>
+  <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="doc">CloudShell disponível no console de fábrica da carga de trabalho do BlueXP</block>
+  <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">O CloudShell está disponível em qualquer lugar no console de fábrica de carga de trabalho do BlueXP . O CloudShell permite que você use as credenciais da AWS e do ONTAP fornecidas na sua conta do BlueXP  e execute os comandos da CLI da AWS ou da CLI do ONTAP em um ambiente semelhante ao shell.</block>
+  <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">Use o CloudShell</block>
+  <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
+  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">Atualização de permissões para bancos de dados</block>
+  <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">A seguinte permissão está agora disponível no modo _read_ para bancos de dados:<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
+  <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Log de alteração de referência de permissões</block>
+  <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
 </blocks>
