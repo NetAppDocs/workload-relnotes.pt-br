@@ -38,12 +38,6 @@
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">Ajuda da taxa de redução de dados do consultor de migração da VMware</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">Esta versão do Workload Factory for VMware apresenta um assistente de taxa de redução de dados. O assistente de taxa de redução de dados ajuda você a decidir qual é a melhor proporção para seu inventário e armazenamento da VMware ao se preparar para a integração na nuvem da AWS.</block>
-  <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">Mascarar informações pessoais identificáveis com guardrails de dados</block>
-  <block id="0f21cd7bd10e747bca7894a609acc04b" category="paragraph">A carga de trabalho generativa de IA apresenta o recurso de guardrails de dados, alimentado pela classificação BlueXP . O recurso de guardrails de dados identifica e mascara informações pessoais identificáveis (PII) ajudando você a manter a conformidade e fortalecer a segurança de seus dados organizacionais confidenciais.</block>
-  <block id="0da805b7cc0727848a84e995ab36cd76" category="inline-link-macro">Crie uma base de conhecimento</block>
-  <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
-  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">Saiba mais sobre a classificação BlueXP</block>
-  <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem parte da fábrica de cargas de trabalho da BlueXP .</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Mudanças recentes na fábrica de carga de trabalho do BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Essas notas de versão descrevem melhorias recentes nos serviços de nuvem que fazem parte da fábrica de cargas de trabalho do BlueXP .</block>
@@ -156,4 +150,17 @@
   <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">Otimizar configurações</block>
   <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
   <block id="b19ee84dca9cb059a9aa42ed54c05752" category="section-title">3 de fevereiro de 2025</block>
+  <block id="77fd00559b8279b555e48d21e5e67c34" category="doc">Filtragem do tipo de arquivo para fontes de dados</block>
+  <block id="47cf5538cc85b7acf0e24098fc5bbffd" category="paragraph">O GenAI agora suporta a seleção de tipos de arquivo específicos para incluir na digitalização da fonte de dados quando você adiciona uma fonte de dados.</block>
+  <block id="9bd079cbc91b32393983ae28a378c00c" category="inline-link-macro">Adicione fontes de dados à base de conhecimento</block>
+  <block id="e57c1e86c82776cdcb9c50b4e82943f8" category="paragraph"><block ref="e57c1e86c82776cdcb9c50b4e82943f8" category="inline-link-macro-rx"></block></block>
+  <block id="f191d5f0a123d62966b3617a9d8c752c" category="section-title">Filtragem de data de modificação de arquivo para fontes de dados</block>
+  <block id="b1be3e2e5ab05373dbf3927507ea84d2" category="paragraph">O GenAI agora suporta arquivos de filtragem para incluir na verificação da fonte de dados por data de modificação quando você adiciona uma fonte de dados. Você pode escolher um intervalo de datas de modificação para os arquivos incluídos.</block>
+  <block id="7a7ba68ff13813a8c9d7413b67a91e34" category="section-title">Suporte para arquivos de imagem e suporte aprimorado para arquivos PDF</block>
+  <block id="02edd7a4065e5f73535b550150fc46f2" category="paragraph">O GenAI agora suporta a digitalização de arquivos de imagem e imagens dentro de arquivos PDF (também conhecido como suporte a arquivos multimodais). Se você escolher arquivos de imagem, o texto das imagens é digitalizado para a fonte de dados e usado como dados. Essa capacidade inclui imagens em documentos PDF; se você incluir tipos de arquivo PDF, as imagens em cada PDF são digitalizadas para texto e esse texto é incluído nas informações da fonte de dados.</block>
+  <block id="b9a5ff8382cbb9f5609b8bff25344245" category="section-title">Pesquisa híbrida e suporte de reclassificação</block>
+  <block id="429b63d212adaceb6de8dae934d76ea4" category="paragraph">O GenAI agora aumenta a relevância dos resultados de pesquisa usando a pesquisa híbrida e reclassificando os resultados. A pesquisa híbrida combina buscas de palavras-chave com busca vetorial e semântica. Os resultados padrão de pesquisa de palavras-chave são aumentados com correspondências próximas e nuance linguística, aumentando a relevância. O GenAI reclassifica os resultados da pesquisa e apenas retorna resultados com a maior relevância.</block>
+  <block id="77c129bd3271a24d7bdf27f4904c52f4" category="inline-link-macro">Saiba mais sobre a fábrica de cargas de trabalho da BlueXP  para o GenAI</block>
+  <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
+  <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2 de fevereiro de 2025</block>
 </blocks>
