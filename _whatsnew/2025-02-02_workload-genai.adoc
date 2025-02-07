@@ -1,6 +1,14 @@
-= Filtragem do tipo de arquivo para fontes de dados
+= Suporte para modelos de fundação Amazon Nova
 :allow-uri-read: 
 
+
+
+
+=== Suporte para modelos de fundação Amazon Nova
+
+O GenAI agora suporta os modelos de fundação Amazon Nova. São suportados Amazon Nova Micro, Amazon Nova Lite e Amazon Nova Pro.
+
+link:https://docs.netapp.com/us-en/workload-genai/requirements.html["Requisitos do GenAI"]
 
 
 
