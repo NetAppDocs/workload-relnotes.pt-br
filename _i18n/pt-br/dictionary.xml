@@ -43,14 +43,6 @@
   <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">Descubra um cluster ONTAP no local</block>
   <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">1 de dezembro de 2024</block>
-  <block id="18caf85143cff2e29943f7fa50a9d531" category="doc">A otimização contínua adiciona correção e avaliação de computação</block>
-  <block id="275b08f4e33388b6598899e256fe46b3" category="paragraph">Os bancos de dados agora fornecem insights e recomendações para ajudá-lo a otimizar recursos de computação para instâncias do Microsoft SQL Server. Medimos a utilização da CPU e aproveitamos o serviço AWS Compute Optimizer para recomendar os tipos de instância ideais de tamanho certo e notificá-lo sobre patches de sistema operacional disponíveis. A otimização dos recursos de computação pode ajudar você a tomar decisões conscientes sobre os tipos de instâncias, o que resulta em economia de custos e utilização eficiente de recursos.</block>
-  <block id="9aa94e25ba754a44d094b78775213e48" category="inline-link-macro">Otimizar configurações de recursos de computação</block>
-  <block id="25a5dc6deeba5d476ff665ad9c968a2b" category="paragraph"><block ref="25a5dc6deeba5d476ff665ad9c968a2b" category="inline-link-macro-rx"></block></block>
-  <block id="f3cfd7c95d3ff2b556d90beb191fa77a" category="section-title">Suporte ao PostgreSQL</block>
-  <block id="49db1f79602c9ba8e5704a68010c4023" category="paragraph">Agora você pode implantar e gerenciar implantações de servidor PostgreSQL independentes em bancos de dados.</block>
-  <block id="3627a14d7dc2feba3834d63a37ebb394" category="inline-link-macro">Crie um servidor PostgreSQL</block>
-  <block id="02b7dd87f2a54e2b540ac84598c20252" category="paragraph"><block ref="02b7dd87f2a54e2b540ac84598c20252" category="inline-link-macro-rx"></block></block>
   <block id="f8a21101d47aa852f29a4be35904736e" category="doc">Clonar uma base de conhecimento a partir de um instantâneo</block>
   <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">Agora, a fábrica de workloads da BlueXP  para o GenAI é compatível com a clonagem de uma base de conhecimento a partir de um snapshot. Isso permite a recuperação rápida de bases de conhecimento e a criação de novas bases de conhecimento com fontes de dados existentes, além de ajudar na recuperação e desenvolvimento de dados.</block>
   <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">Clonar uma base de conhecimento</block>
@@ -198,4 +190,23 @@
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Eventos CloudShell no Tracker</block>
   <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">Agora você pode rastrear eventos do CloudShell no Tracker.</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2 de março de 2025</block>
+  <block id="e1e5f5c3c58578921409fc2e6d5eedd8" category="doc">PostgreSQL configuração de alta disponibilidade e criação rápida</block>
+  <block id="ed9e60a4e06d1c99d8eb3562ecbf8b63" category="paragraph">Dois novos recursos são suportados na fábrica de workloads do BlueXP  para bancos de dados:</block>
+  <block id="c657a4dd8aa01cb30f32e751a8482131" category="list-text">Configuração de alta disponibilidade (HA) do PostgreSQL: Agora você pode implantar uma configuração de HA para o servidor PostgreSQL.</block>
+  <block id="d86f1a99d557ac15f85400fdfbdb8b14" category="list-text">Criação rápida: Você pode usar essa opção de implantação rápida para criar um servidor PostgreSQL com configuração de HA e práticas recomendadas incorporadas.</block>
+  <block id="f57c49a06b4a8a20d9a723cd677b9655" category="inline-link-macro">Crie um servidor PostgreSQL</block>
+  <block id="d3420539383bb38c88221d86000226d1" category="paragraph"><block ref="d3420539383bb38c88221d86000226d1" category="inline-link-macro-rx"></block></block>
+  <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">Suporte Terraform para criação de servidor PostgreSQL</block>
+  <block id="9156ac6cc60e32ed114af1a49af0ffed" category="paragraph">Agora você pode usar o Terraform a partir do Codebox para implantar o PostgreSQL.</block>
+  <block id="7a5745faeabd31c33609adf25373d8a1" category="inline-link-macro">Crie um servidor de banco de dados PostgreSQL</block>
+  <block id="61b5b69de9c821f5e486ec9c30a821a4" category="list-text"><block ref="61b5b69de9c821f5e486ec9c30a821a4" category="inline-link-macro-rx"></block></block>
+  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Use o Terraform do Codebox</block>
+  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
+  <block id="6a7893eb24462b3da7dd0a66586c5738" category="section-title">Avaliação de resiliência para agendamento de snapshot local</block>
+  <block id="677bceea5ebbea10cf85a91ebf42050e" category="paragraph">Uma nova avaliação de resiliência está disponível para workloads de banco de dados. Avaliamos se os volumes para suas instâncias do Microsoft SQL Server têm políticas de snapshot agendadas válidas. Os snapshots são cópias pontuais de seus dados e ajudam a manter seus ambientes de banco de dados resilientes em caso de perda de dados.</block>
+  <block id="90814442b7f0694d712f43efffe9c178" category="section-title">Correção MAXDOP para cargas de trabalho de banco de dados</block>
+  <block id="3231190e9014bf678d835272ec7c9234" category="paragraph">A fábrica de carga de trabalho do BlueXP  para bancos de dados agora suporta correção para a configuração de servidor de grau máximo de paralelismo (MAXDOP). Quando a configuração MAXDOP é subótima, você pode permitir que a carga de trabalho do BlueXP  otimize a configuração para você.</block>
+  <block id="4a21bedf189bb26f9f4aeb26c0dc26a2" category="section-title">Relatório de análise de economia de e-mail</block>
+  <block id="5b89ef008454fd9a61723d3572865363" category="paragraph">Ao explorar a economia para seus ambientes de armazenamento do Amazon Elastic Block Store e do FSX for Windows, em comparação com o FSX for ONTAP, você pode enviar o relatório de recomendação por e-mail para você, membros da equipe e clientes.</block>
+  <block id="22f6de27f80cdc30dc0dd58f113f7c70" category="section-title">3 de março de 2025</block>
 </blocks>

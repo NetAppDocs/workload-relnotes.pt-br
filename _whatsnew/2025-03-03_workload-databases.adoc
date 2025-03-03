@@ -1,0 +1,47 @@
+= PostgreSQL configuração de alta disponibilidade e criação rápida
+:allow-uri-read: 
+
+
+
+
+=== PostgreSQL configuração de alta disponibilidade e criação rápida
+
+Dois novos recursos são suportados na fábrica de workloads do BlueXP  para bancos de dados:
+
+* Configuração de alta disponibilidade (HA) do PostgreSQL: Agora você pode implantar uma configuração de HA para o servidor PostgreSQL.
+* Criação rápida: Você pode usar essa opção de implantação rápida para criar um servidor PostgreSQL com configuração de HA e práticas recomendadas incorporadas.
+
+
+link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["Crie um servidor PostgreSQL"]
+
+
+
+=== Suporte Terraform para criação de servidor PostgreSQL
+
+Agora você pode usar o Terraform a partir do Codebox para implantar o PostgreSQL.
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Crie um servidor de banco de dados PostgreSQL"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Use o Terraform do Codebox"^]
+
+
+
+
+=== Avaliação de resiliência para agendamento de snapshot local
+
+Uma nova avaliação de resiliência está disponível para workloads de banco de dados. Avaliamos se os volumes para suas instâncias do Microsoft SQL Server têm políticas de snapshot agendadas válidas. Os snapshots são cópias pontuais de seus dados e ajudam a manter seus ambientes de banco de dados resilientes em caso de perda de dados.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Otimizar configurações"]
+
+
+
+=== Correção MAXDOP para cargas de trabalho de banco de dados
+
+A fábrica de carga de trabalho do BlueXP  para bancos de dados agora suporta correção para a configuração de servidor de grau máximo de paralelismo (MAXDOP). Quando a configuração MAXDOP é subótima, você pode permitir que a carga de trabalho do BlueXP  otimize a configuração para você.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Otimizar configurações"]
+
+
+
+=== Relatório de análise de economia de e-mail
+
+Ao explorar a economia para seus ambientes de armazenamento do Amazon Elastic Block Store e do FSX for Windows, em comparação com o FSX for ONTAP, você pode enviar o relatório de recomendação por e-mail para você, membros da equipe e clientes.
