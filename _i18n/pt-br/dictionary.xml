@@ -38,28 +38,10 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Mudanças recentes na fábrica de carga de trabalho do BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Essas notas de versão descrevem melhorias recentes nos serviços de nuvem que fazem parte da fábrica de cargas de trabalho do BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notas de versão de fábrica do workload do BlueXP </block>
-  <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">Armazenamento de bloco para sistemas de arquivos FSX para ONTAP com escalabilidade horizontal</block>
-  <block id="152983842f852ef5bae46ac675caec95" category="paragraph">Agora você pode provisionar o armazenamento em bloco no FSX for ONTAP ao usar uma implantação de sistema de arquivos com escalabilidade horizontal com até 6 pares de HA.</block>
-  <block id="88ece72bda0e38c0bdca32d19f42a979" category="inline-link-macro">Crie um sistema de arquivos FSX for ONTAP na fábrica de cargas de trabalho do BlueXP</block>
-  <block id="8cce6f6c21973d5dff1898076cddb209" category="paragraph"><block ref="8cce6f6c21973d5dff1898076cddb209" category="inline-link-macro-rx"></block></block>
-  <block id="609b2d9256f15ecb9d57d3f545d91174" category="section-title">Comando de montagem disponível</block>
-  <block id="67ba5d91692276a76737790f2df885ec" category="paragraph">Os comandos de montagem agora estão disponíveis para acesso NFS e CIFS a um volume. Você pode obter o ponto de montagem para um volume dentro de um sistema de arquivos FSX for ONTAP selecionando *ações básicas* e depois *Exibir comando de montagem*.</block>
-  <block id="f12470a0bbf95a722b70847640bd40c9" category="inline-image-macro">Captura de tela que mostra para exibir o comando de montagem entrando em um sistema de arquivos fsx for ONTAP, selecionando o menu de volume, selecionando ações básicas e, em seguida, selecionando o comando view mount. A caixa de diálogo de comando mount é exibida e exibe o comando mount para acesso CIFS ou NFS.</block>
-  <block id="21817bf964617ea4f875252102707119" category="paragraph"><block ref="21817bf964617ea4f875252102707119" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0087bca38db021c2b14c65d5893a9339" category="inline-link-macro">Exibir o comando de montagem para um volume</block>
-  <block id="41cd808fdcb8411a8a73071649aca98e" category="paragraph"><block ref="41cd808fdcb8411a8a73071649aca98e" category="inline-link-macro-rx"></block></block>
-  <block id="70bf70871888ae321ee591627f1f149f" category="section-title">Atualizar a eficiência de storage após a criação de volume</block>
-  <block id="4b1987aeb3ee9f5859457d872de9697a" category="paragraph">Agora você pode ativar ou desativar a eficiência de storage para volumes FlexVol após a criação de volume. A eficiência de storage inclui deduplicação, compressão de dados e compactação de dados. Ao ativar a eficiência de storage, você economiza espaço ideal em um FlexVol volume.</block>
-  <block id="b8ae90ddbb68f3303ee755cd1d9b5819" category="inline-link-macro">Atualizar a eficiência de storage de um volume</block>
-  <block id="d26d51c8a86d1db1cfe8dd0317cc6274" category="paragraph"><block ref="d26d51c8a86d1db1cfe8dd0317cc6274" category="inline-link-macro-rx"></block></block>
   <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">Detecção e replicação de clusters ONTAP no local</block>
   <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">Descubra e replique dados de cluster do ONTAP no local para um sistema de arquivos FSX for ONTAP para que ele possa ser usado para enriquecer bases de conhecimento de IA. Todos os fluxos de trabalho de descoberta e replicação no local são possíveis a partir da nova guia *On-Premise ONTAP* no inventário de armazenamento.</block>
   <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">Descubra um cluster ONTAP no local</block>
   <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
-  <block id="67e962050c9494ada1eab84c21826e3c" category="section-title">As credenciais da AWS melhoram a análise da calculadora de economia</block>
-  <block id="81e738c909aeee7a4a781716391eae27" category="paragraph">Agora você tem a opção de adicionar credenciais da AWS a partir da calculadora de economia. Adicionar credenciais melhora a precisão da análise de calculadora de economia de seus ambientes de armazenamento Amazon Elastic Block Store, Elastic File Systems e FSX for Windows File Server em comparação com o FSX for ONTAP.</block>
-  <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">Explore as economias com o FSX for ONTAP na fábrica de cargas de trabalho do BlueXP</block>
-  <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">1 de dezembro de 2024</block>
   <block id="18caf85143cff2e29943f7fa50a9d531" category="doc">A otimização contínua adiciona correção e avaliação de computação</block>
   <block id="275b08f4e33388b6598899e256fe46b3" category="paragraph">Os bancos de dados agora fornecem insights e recomendações para ajudá-lo a otimizar recursos de computação para instâncias do Microsoft SQL Server. Medimos a utilização da CPU e aproveitamos o serviço AWS Compute Optimizer para recomendar os tipos de instância ideais de tamanho certo e notificá-lo sobre patches de sistema operacional disponíveis. A otimização dos recursos de computação pode ajudar você a tomar decisões conscientes sobre os tipos de instâncias, o que resulta em economia de custos e utilização eficiente de recursos.</block>
@@ -195,4 +177,25 @@
   <block id="ba0908c46e81d6dfcc41f1af42be123c" category="paragraph">O GenAI agora suporta os modelos de fundação Amazon Nova. São suportados Amazon Nova Micro, Amazon Nova Lite e Amazon Nova Pro.</block>
   <block id="43b842fd441ce1ce92d22fb0ca25a507" category="inline-link-macro">Requisitos do GenAI</block>
   <block id="5ddfb412189af7bcce0a056c9fcef326" category="paragraph"><block ref="5ddfb412189af7bcce0a056c9fcef326" category="inline-link-macro-rx"></block></block>
+  <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">Melhorias no gerenciamento automático de capacidade</block>
+  <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">Quando o gerenciamento automático de capacidade está ativado, a fábrica de workloads da BlueXP  verifica se um sistema de arquivos atingiu seu limite de capacidade a cada 30 minutos, em vez de a cada 2 horas.</block>
+  <block id="b8f4f574565ae3f9b004976be6075660" category="paragraph">A fábrica de carga de trabalho também verifica os inodes disponíveis em volumes e aumenta sua contagem de acordo com os limites configurados de gerenciamento automático de capacidade.</block>
+  <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">A configuração de IOPS provisionadas não é mais afetada quando o limite de capacidade é atingido.</block>
+  <block id="c21bf517f636f8492b01232a674a8d2e" category="section-title">Instantâneos imutáveis</block>
+  <block id="525386f4531b9b4bbd2b84ae92c59c07" category="paragraph">Agora você pode bloquear snapshots, tornando-os imutáveis, por um período de retenção específico. O bloqueio impede o acesso não autorizado e as exclusões maliciosas de instantâneos. Você pode habilitar snapshots imutáveis durante a criação de políticas de snapshot, ao criar snapshots manuais e após a criação de snapshots.</block>
+  <block id="b811c826e0c0b54d5803fe35cb209c82" category="section-title">Atualização de ficheiros imutáveis</block>
+  <block id="a321ab5f7c12f7cdaa9d6077d68dc055" category="paragraph">Agora você pode fazer as seguintes alterações na configuração de arquivos imutáveis: Política de retenção, período de retenção, período de confirmação automática e modo de adição de volume.</block>
+  <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">Gerenciar arquivos imutáveis</block>
+  <block id="0825291b8f1461ab76888807d639764b" category="paragraph"><block ref="0825291b8f1461ab76888807d639764b" category="inline-link-macro-rx"></block></block>
+  <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">Aprimoramentos na replicação de dados</block>
+  <block id="114e60d7d0f811f597761cf833328a96" category="list-text">Replicação entre contas: A replicação entre duas contas da AWS é compatível com o console de fábrica do workload do BlueXP , bem como o gerenciamento de replicação.</block>
+  <block id="6fa19d46a9961be1aeabe428c8550d2f" category="list-text">Replicação de volume de proteção de dados: Os volumes de proteção de dados agora são compatíveis com replicação em cascata, quando os volumes são replicados a partir de volumes replicados.</block>
+  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">Replicar um volume de proteção de dados</block>
+  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
+  <block id="0348e63af5ee6958b15125648a1ecae7" category="list-text">Pausar e retomar a replicação: Você pode pausar (quiesce) atualizações de replicação agendadas do volume de origem para o volume de destino e, em seguida, retomar a programação de replicação quando estiver pronto. Durante a pausa, os volumes de origem e destino tornam-se independentes e o volume de destino faz a transição de somente leitura para leitura e gravação.</block>
+  <block id="38485996f06c5e13eed5605901b52530" category="inline-link-macro">Pausar e retomar uma relação de replicação</block>
+  <block id="fc81b1e4233a48b719520033e56b4194" category="paragraph"><block ref="fc81b1e4233a48b719520033e56b4194" category="inline-link-macro-rx"></block></block>
+  <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Eventos CloudShell no Tracker</block>
+  <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">Agora você pode rastrear eventos do CloudShell no Tracker.</block>
+  <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2 de março de 2025</block>
 </blocks>
