@@ -24,7 +24,7 @@ Agora você pode bloquear snapshots, tornando-os imutáveis, por um período de 
 
 Agora você pode fazer as seguintes alterações na configuração de arquivos imutáveis: Política de retenção, período de retenção, período de confirmação automática e modo de adição de volume.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Gerenciar arquivos imutáveis"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Gerenciar arquivos imutáveis"]
 
 
 
