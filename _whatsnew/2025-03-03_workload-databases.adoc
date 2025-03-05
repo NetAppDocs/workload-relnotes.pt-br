@@ -20,8 +20,8 @@ link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-upd
 
 Agora você pode usar o Terraform a partir do Codebox para implantar o PostgreSQL.
 
-* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Crie um servidor de banco de dados PostgreSQL"^]
-* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Use o Terraform do Codebox"^]
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Crie um servidor de banco de dados PostgreSQL"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Use o Terraform do Codebox"]
 
 
 

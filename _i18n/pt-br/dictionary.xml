@@ -188,9 +188,7 @@
   <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">Suporte Terraform para criação de servidor PostgreSQL</block>
   <block id="9156ac6cc60e32ed114af1a49af0ffed" category="paragraph">Agora você pode usar o Terraform a partir do Codebox para implantar o PostgreSQL.</block>
   <block id="7a5745faeabd31c33609adf25373d8a1" category="inline-link-macro">Crie um servidor de banco de dados PostgreSQL</block>
-  <block id="61b5b69de9c821f5e486ec9c30a821a4" category="list-text"><block ref="61b5b69de9c821f5e486ec9c30a821a4" category="inline-link-macro-rx"></block></block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Use o Terraform do Codebox</block>
-  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="6a7893eb24462b3da7dd0a66586c5738" category="section-title">Avaliação de resiliência para agendamento de snapshot local</block>
   <block id="677bceea5ebbea10cf85a91ebf42050e" category="paragraph">Uma nova avaliação de resiliência está disponível para workloads de banco de dados. Avaliamos se os volumes para suas instâncias do Microsoft SQL Server têm políticas de snapshot agendadas válidas. Os snapshots são cópias pontuais de seus dados e ajudam a manter seus ambientes de banco de dados resilientes em caso de perda de dados.</block>
   <block id="90814442b7f0694d712f43efffe9c178" category="section-title">Correção MAXDOP para cargas de trabalho de banco de dados</block>
@@ -215,4 +213,6 @@
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*Tipo de instância estimado*: O Migration Advisor agora pode examinar os requisitos do seu ambiente e fornecer um tipo de instância estimado do Amazon EC2 para cada VM. Você pode optar por incluir o tipo de instância estimado para cada VM durante a etapa de escopo do consultor de migração.</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">* Capacidade de recomendar volumes do Amazon EBS*: O consultor de migração agora pode recomendar a migração de volumes de dados para o Amazon Elastic Block Store (EBS) em vez do Amazon FSX for NetApp ONTAP devido a necessidades específicas de capacidade ou desempenho de uma determinada região.</block>
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">* Atribuição automática de sistema de arquivos aprimorada*: A atribuição de sistema de arquivos do Amazon FSX for NetApp ONTAP foi melhorada para otimizar melhor o custo e minimizar o throughput.</block>
+  <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
+  <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
 </blocks>
