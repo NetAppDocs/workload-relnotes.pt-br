@@ -8,8 +8,6 @@
 
 Quando o gerenciamento automático de capacidade está ativado, a fábrica de workloads da BlueXP  verifica se um sistema de arquivos atingiu seu limite de capacidade a cada 30 minutos, em vez de a cada 2 horas.
 
-A fábrica de carga de trabalho também verifica os inodes disponíveis em volumes e aumenta sua contagem de acordo com os limites configurados de gerenciamento automático de capacidade.
-
 A configuração de IOPS provisionadas não é mais afetada quando o limite de capacidade é atingido.
 
 
