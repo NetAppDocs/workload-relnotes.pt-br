@@ -181,7 +181,6 @@
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">Configuração de alta disponibilidade do PostgreSQL</block>
   <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">Agora você pode implantar uma configuração de alta disponibilidade (HA) para o servidor PostgreSQL.</block>
-  <block id="42bc8432872c22cf4fdbb156ae58a17e" category="doc">O CloudShell relata erros gerados por IA para comandos da CLI do ONTAP</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Ao usar o CloudShell, cada vez que você emite um comando ONTAP CLI e um erro ocorre, você pode obter respostas de erro geradas por IA que incluem uma descrição da falha, a causa da falha e uma resolução detalhada.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM:Atualização de permissão SimulatePermissionPolicy</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Agora você pode gerenciar a<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> permissão no console de fábrica de workload ao adicionar credenciais adicionais de conta da AWS ou adicionar uma nova funcionalidade de workload, como o workload do GenAI.</block>
@@ -221,4 +220,5 @@
   <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*Melhorias na eficiência do script do coletor de dados*: O script do coletor de dados do consultor de migração do EC2 otimiza o uso da CPU ao coletar dados para implantações menores de VM.</block>
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">Use a API de fábrica da carga de trabalho</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
+  <block id="ef74d01649997b60252254da8a1573fd" category="doc">O CloudShell relata respostas de erro geradas por IA para os comandos da CLI do ONTAP</block>
 </blocks>
