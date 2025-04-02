@@ -221,4 +221,8 @@
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">Use a API de fábrica da carga de trabalho</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">O CloudShell relata respostas de erro geradas por IA para os comandos da CLI do ONTAP</block>
+  <block id="4992f7a0d7d6ee4776bb87ff9118642c" category="section-title">Detalhes do grupo de segurança para criação do sistema de arquivos</block>
+  <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">Um grupo de segurança é criado como parte do processo de criação do sistema de arquivos FSX for ONTAP. Detalhes do grupo de segurança, incluindo protocolos, portas e funções, estão agora disponíveis.</block>
+  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">Crie um sistema de arquivos</block>
+  <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
 </blocks>

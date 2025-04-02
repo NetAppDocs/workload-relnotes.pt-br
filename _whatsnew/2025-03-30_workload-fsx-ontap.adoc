@@ -36,3 +36,11 @@ Agora, quando você seleciona uma política de disposição em categorias durant
 * _Otimizado para custos (todos)_
 * _Desempenho otimizado (somente Snapshots)_
 
+
+
+
+=== Detalhes do grupo de segurança para criação do sistema de arquivos
+
+Um grupo de segurança é criado como parte do processo de criação do sistema de arquivos FSX for ONTAP. Detalhes do grupo de segurança, incluindo protocolos, portas e funções, estão agora disponíveis.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Crie um sistema de arquivos"]
