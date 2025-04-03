@@ -30,7 +30,7 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 === Suporte para arquivos de imagem e suporte aprimorado para arquivos PDF
 
-O GenAI agora suporta a digitalização de arquivos de imagem e imagens dentro de arquivos PDF (também conhecido como suporte a arquivos multimodais). Se você escolher arquivos de imagem, o texto das imagens é digitalizado para a fonte de dados e usado como dados. Essa capacidade inclui imagens em documentos PDF; se você incluir tipos de arquivo PDF, as imagens em cada PDF são digitalizadas para texto e esse texto é incluído nas informações da fonte de dados.
+O GenAI agora oferece suporte ao aprimoramento de respostas a consultas de base de conhecimento com insights de imagens e descrições de gráficos, bem como texto de documentos, levando a respostas mais ricas e de maior qualidade. O GenAI agora pode digitalizar arquivos de imagem e imagens dentro de arquivos PDF (também conhecido como suporte a arquivos multimodais). Se você optar por digitalizar imagens ou arquivos PDF, o texto das imagens (incluindo imagens incorporadas em documentos PDF) é digitalizado na fonte de dados e os insights das digitalizações são incluídos nas respostas às consultas da base de conhecimento.
 
 link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Adicione fontes de dados à base de conhecimento"]
 
@@ -38,6 +38,6 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 === Pesquisa híbrida e suporte de reclassificação
 
-O GenAI agora aumenta a relevância dos resultados de pesquisa usando a pesquisa híbrida e reclassificando os resultados. A pesquisa híbrida combina buscas de palavras-chave com busca vetorial e semântica. Os resultados padrão de pesquisa de palavras-chave são aumentados com correspondências próximas e nuance linguística, aumentando a relevância. O GenAI reclassifica os resultados da pesquisa e apenas retorna resultados com a maior relevância.
+O GenAI agora pode aumentar significativamente a relevância e a precisão dos resultados de pesquisa usando a pesquisa híbrida e reclassificando os resultados. A pesquisa híbrida combina os pontos fortes da pesquisa tradicional baseada em palavras-chave com técnicas avançadas de pesquisa semântica baseadas em vetores densos. Os resultados padrão de pesquisa de palavras-chave são aumentados com correspondências próximas e nuance linguística, aumentando a relevância. Em seguida, o GenAI refina esses resultados ainda mais usando modelos avançados de reclassificação, como cohere Rerank e Amazon Rerank, e retorna os resultados mais relevantes. Esta capacidade está disponível para bases de conhecimento recém-criadas.
 
 link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["Saiba mais sobre a fábrica de cargas de trabalho da BlueXP  para o GenAI"]
