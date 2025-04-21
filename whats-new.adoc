@@ -150,7 +150,7 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 Esta versão do GenAI introduz suporte ao formato de arquivo JSON e JSONP ao criar `.json` arquivos de fontes de dados. Arquivos JSON com objetos aninhados são suportados, com suporte limitado para arrays aninhados.
 
-link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formatos de arquivo de origem de dados suportados"]
+link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Formatos de arquivo de origem de dados suportados"]
 
 
 
@@ -349,7 +349,7 @@ Esta versão do GenAI oferece suporte aprimorado a arquivos:
 * O GenAI agora suporta a introdução de arquivos DOCX do Microsoft Word que incluem imagens. As imagens incorporadas nos documentos DOCX são digitalizadas e os insights de texto das imagens incorporadas são incluídos nas respostas às consultas da base de conhecimento.
 
 
-link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formatos de arquivo de origem de dados suportados"]
+link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Formatos de arquivo de origem de dados suportados"]
 
 
 

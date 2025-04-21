@@ -147,7 +147,6 @@
   <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">Os modelos de chat apresentam suporte CSV melhorado. Isso permite respostas mais úteis ao consultar dados de arquivos CSV.</block>
   <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">O GenAI agora pode ingerir arquivos Apache Parquet a partir de fontes de dados.</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">Formatos de arquivo de origem de dados suportados</block>
-  <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">Esta versão da fábrica de carga de trabalho do BlueXP  para VMware apresenta várias melhorias na experiência do consultor de migração do Amazon EC2:</block>
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*Tipo de instância estimado*: O Migration Advisor agora pode examinar os requisitos do seu ambiente e fornecer um tipo de instância estimado do Amazon EC2 para cada VM. Você pode optar por incluir o tipo de instância estimado para cada VM durante a etapa de escopo do consultor de migração.</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">* Capacidade de recomendar volumes do Amazon EBS*: O consultor de migração agora pode recomendar a migração de volumes de dados para o Amazon Elastic Block Store (EBS) em vez do Amazon FSX for NetApp ONTAP devido a necessidades específicas de capacidade ou desempenho de uma determinada região.</block>
@@ -224,4 +223,5 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">Crie um servidor PostgreSQL na fábrica de carga de trabalho do BlueXP</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">4 de abril de 2025</block>
+  <block id="b70e34d229298faea8d481f1cfdd32a9" category="paragraph"><block ref="b70e34d229298faea8d481f1cfdd32a9" category="inline-link-macro-rx"></block></block>
 </blocks>
