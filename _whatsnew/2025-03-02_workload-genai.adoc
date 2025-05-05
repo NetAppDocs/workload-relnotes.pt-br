@@ -8,7 +8,7 @@
 
 Agora você pode copiar perguntas e respostas diretamente para a área de transferência, ajustar o tamanho da janela de bate-papo e alterar seu título. Além disso, as respostas de bate-papo agora podem incluir tabelas, que também são copiáveis.
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Teste uma base de conhecimento do GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["Teste uma base de conhecimento do GenAI"]
 
 
 
@@ -16,7 +16,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Teste
 
 As respostas de bate-papo agora incluem citações que listam os arquivos e blocos de dados que foram usados para gerar a resposta.
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Teste uma base de conhecimento do GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["Teste uma base de conhecimento do GenAI"]
 
 
 
@@ -29,4 +29,4 @@ Esta versão do GenAI oferece suporte aprimorado a arquivos:
 * O GenAI agora suporta a introdução de arquivos DOCX do Microsoft Word que incluem imagens. As imagens incorporadas nos documentos DOCX são digitalizadas e os insights de texto das imagens incorporadas são incluídos nas respostas às consultas da base de conhecimento.
 
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Formatos de arquivo de origem de dados suportados"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["Formatos de arquivo de origem de dados suportados"]

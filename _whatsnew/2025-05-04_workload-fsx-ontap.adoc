@@ -1,0 +1,127 @@
+= Proteção autônoma contra ransomware para sistemas de arquivos FSX for ONTAP
+:allow-uri-read: 
+
+
+
+
+=== Proteção autônoma contra ransomware para sistemas de arquivos FSX for ONTAP
+
+Proteja seus dados com o Autonomous ransomware Protection (ARP), um recurso que usa a análise de workload em ambientes nas (NFS/SMB) para detectar e avisar sobre atividades anormais que podem ser um ataque. Quando um ataque é suspeito, o ARP também cria novos snapshots imutáveis a partir dos quais você pode restaurar seus dados.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Proteja seus dados com o Autonomous ransomware Protection"]
+
+
+
+=== Aprimoramento do rebalanceamento de volume do FlexGroup
+
+A fábrica de workloads do BlueXP  apresenta o assistente de rebalanceamento de volume do FlexGroup com várias opções de layout para reequilibrar os dados em um volume do FlexGroup. O rebalanceamento redistribui os dados uniformemente para os volumes membros do FlexGroup.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["Rebalancear a capacidade em um volume FlexGroup"]
+
+
+
+=== Implemente as melhores práticas para um sistema de arquivos FSX for ONTAP
+
+A fábrica do BlueXP  Workload fornece um painel onde você pode verificar o status bem arquitetado das configurações do sistema de arquivos. Você pode aproveitar essa análise para implementar as práticas recomendadas para seus sistemas de arquivos FSX for ONTAP. A análise de configuração do sistema de arquivos inclui as seguintes configurações: Limite de capacidade SSD, snapshots locais programados, backups programados do FSX para ONTAP, disposição de dados em categorias e replicação de dados remota.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["Saiba mais sobre a análise bem arquitetada para configurações do sistema de arquivos"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Implemente as práticas recomendadas para seus sistemas de arquivos"]
+
+
+
+
+=== Opções de estilo de segurança de volume de protocolo duplo
+
+Você tem a opção de escolher NTFS ou UNIX como o estilo de segurança de um volume para determinar o método pelo qual os usuários e permissões acessam um volume.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crie um volume"]
+
+
+
+=== Aprimoramentos de replicação
+
+
+
+==== Replicação reversa com suporte do FSX for ONTAP para no local
+
+A replicação reversa agora está disponível a partir de um sistema de arquivos FSX for ONTAP para um cluster ONTAP no local a partir do console de fábrica de carga de trabalho.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/reverse-replication.html["Replicação reversa"]
+
+
+
+==== Replicação de volume de proteção de dados
+
+Agora é possível replicar volumes de proteção de dados.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["Replicar um volume de proteção de dados"]
+
+
+
+==== Seleção de vários volumes
+
+A seleção de vários volumes está disponível para que você possa selecionar exatamente os volumes que deseja replicar.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Crie uma relação de replicação"]
+
+
+
+==== Rótulos de política de retenção de longo prazo
+
+Quando você ativa a retenção a longo prazo para uma relação de replicação, os rótulos de volumes de origem e destino devem corresponder exatamente. Agora, a fábrica de carga de trabalho do BlueXP  pode criar automaticamente rótulos de volume de origem ausentes para você.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Crie uma relação de replicação"]
+
+
+
+=== Nome de arquivo FSX for ONTAP visível na criação de volume
+
+Melhoramos a visibilidade dos sistemas de arquivos do FSX para ONTAP durante a criação de volume. Você verá o sistema de arquivos FSX for ONTAP ao criar um volume, então você saberá exatamente onde o volume está sendo criado.
+
+
+
+=== Conta da AWS visível no workload do Storage
+
+Melhoramos a visibilidade da conta em todo o workload do storage. Você verá a conta da AWS ao navegar para as guias *volumes*, *VMs de armazenamento* e *replicação*.
+
+
+
+=== Aprimoramentos de associação de links
+
+* Você pode associar rapidamente um link de um sistema de arquivos FSX for ONTAP na guia Inventário.
+* A fábrica de workloads do BlueXP  agora dá suporte ao uso de credenciais de usuário alternativas do ONTAP para associação de links.
+
+
+
+
+=== Suporte de autenticação de link para o AWS Secrets Manager
+
+Agora você tem a opção de usar segredos do AWS Secrets Manager para autenticar links para que você não precise usar credenciais armazenadas na fábrica de carga de trabalho do BlueXP .
+
+
+
+=== Suporte de resposta do Rastreador
+
+O Tracker agora fornece respostas à API para que você possa ver a saída da API REST relacionada à tarefa.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Monitore as operações com o Tracker"]
+
+
+
+=== Validação de capacidade ao restaurar um volume de um backup
+
+Ao restaurar um volume a partir de um backup, a carga de trabalho do BlueXP  determina se você tem capacidade suficiente para a restauração e pode adicionar automaticamente a capacidade da camada de storage SSD, caso não o faça.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/restore-from-backup.html["Restaurar um volume a partir de uma cópia de segurança"]
+
+
+
+=== Suporte para credenciais de usuário alternativas do ONTAP
+
+A fábrica de workloads agora é compatível com conjuntos alternativos de credenciais ONTAP para a criação de sistemas de arquivos para minimizar os riscos de segurança. Em vez de usar apenas o usuário fsxadmin, você pode selecionar um conjunto diferente de credenciais ONTAP ou optar por não fornecer uma senha para os usuários fsxadmin e vsaadmin.
+
+
+
+=== Terminologia de permissões atualizada
+
+A interface do usuário e a documentação de fábrica da carga de trabalho agora usam "somente leitura" para se referir a permissões de leitura e "leitura-gravação" para se referir a permissões de automação.

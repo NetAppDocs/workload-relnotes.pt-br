@@ -1,0 +1,51 @@
+= Melhorias no painel de instrumentos
+:allow-uri-read: 
+
+
+
+
+=== Melhorias no painel de instrumentos
+
+* As visualizações entre contas e entre regiões estão disponíveis à medida que você navega entre guias no console de fábrica da carga de trabalho do BlueXP . As novas visualizações melhoram o gerenciamento, o monitoramento e a otimização de recursos.
+* A partir do bloco *economias potenciais* no painel, você poderá revisar rapidamente o que você pode economizar mudando para o FSX for ONTAP da Amazon Elastic Block Store ou do Amazon FSX for Windows File Server.
+
+
+
+
+=== Análise ad hoc disponível para configurações de banco de dados
+
+A fábrica de carga de trabalho do BlueXP  para bancos de dados verifica automaticamente instâncias gerenciadas do Microsoft SQL Server com o armazenamento do FSX for ONTAP para possíveis problemas de configuração. Agora, além da digitalização diária, você pode digitalizar a qualquer momento.
+
+
+
+=== Remoção de registos de avaliação no local
+
+Depois de explorar a economia de um host no local do Microsoft SQL Server, você tem a opção de remover o Registro de host no local da fábrica de workloads do BlueXP .
+
+
+
+=== Melhorias na otimização
+
+
+
+==== Limpeza de clones
+
+A avaliação e a correção da limpeza de clones identifica e gerencia clones antigos e caros. Os clones com mais de 60 dias podem ser atualizados ou excluídos do console de fábrica do workload do BlueXP .
+
+
+
+==== Adiar e descartar a análise de configuração
+
+Algumas configurações podem não se aplicar aos ambientes de banco de dados. Agora você tem opções para adiar uma análise de configuração específica em 30 dias ou ignorar a análise.
+
+
+
+=== Remoção de registos de avaliação no local
+
+Depois de explorar a economia de um host no local do Microsoft SQL Server, você tem a opção de remover o Registro de host no local da fábrica de workloads do BlueXP .
+
+
+
+=== Terminologia de permissões atualizada
+
+A interface do usuário e a documentação de fábrica da carga de trabalho agora usam "somente leitura" para se referir a permissões de leitura e "leitura-gravação" para se referir a permissões de automação.

@@ -8,7 +8,7 @@
 
 Esta versão do GenAI introduz suporte ao formato de arquivo JSON e JSONP ao criar `.json` arquivos de fontes de dados. Arquivos JSON com objetos aninhados são suportados, com suporte limitado para arrays aninhados.
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Formatos de arquivo de origem de dados suportados"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["Formatos de arquivo de origem de dados suportados"]
 
 
 
@@ -24,7 +24,7 @@ link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-Chat
 
 O GenAI agora inclui suporte para o modelo de bate-papo Anthropologic Claude 3,7 Sonnet. Os recursos beta do Claude 3,7 Sonnet permitem até 128K tokens de saída por solicitação e suportam novas ações de uso do computador. Claude 3,7 Sonnet modo de pensamento estendido será suportado em um futuro lançamento do GenAI.
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Crie uma base de conhecimento do GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Crie uma base de conhecimento do GenAI"]
 
 
 
@@ -40,4 +40,4 @@ link:https://console.workloads.netapp.com/api-doc["Use a API de fábrica da carg
 
 Agora você pode implantar a infraestrutura do GenAI em toda a link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["Nuvens privadas virtuais (VPCs)"^]região e usar a mesma conta da AWS. Você pode implantar o mecanismo de AI em uma VPC e, em seguida, criar uma base de conhecimento em uma VPC com peered e selecionar sistemas de arquivos do Amazon FSX for NetApp ONTAP que residem em uma VPC com peered.
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Crie uma base de conhecimento do GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Crie uma base de conhecimento do GenAI"]

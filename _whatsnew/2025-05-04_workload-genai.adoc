@@ -1,0 +1,35 @@
+= Suporte para NetApp ONTAP Connector para Amazon Q
+:allow-uri-read: 
+
+
+
+
+=== Suporte para NetApp ONTAP Connector para Amazon Q
+
+Esta versão do GenAI apresenta suporte para o NetApp ONTAP Connector para Amazon Q, permitindo que você crie conetores para o Amazon Q Business. Aproveite de forma rápida e fácil o assistente de IA do Amazon Q Business com menos configuração inicial do que criar uma base de conhecimento do GenAI para a Amazon bedrock.
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Crie um GenAI Connector para Amazon Q Business"]
+
+
+
+=== Suporte aprimorado ao modelo de chat
+
+O GenAI agora suporta os seguintes modelos de bate-papo adicionais para bases de conhecimento:
+
+* link:https://docs.mistral.ai/getting-started/models/models_overview/["Modelos Mistral AI"^]
+* link:https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Modelos de texto Amazon Titan"^]
+* link:https://www.llama.com/docs/model-cards-and-prompt-formats/["Modelos Meta Llama"^]
+* link:https://docs.ai21.com/["Jamba 1,5 modelos"^]
+* link:https://docs.cohere.com/docs/the-cohere-platform["Modelos Cohere Command"^]
+* link:https://aws.amazon.com/bedrock/deepseek/["Modelos Deepseek"^]
+
+
+O GenAI suporta os modelos de cada provedor que a Amazon bedrock suporta: link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Modelos de base suportados na Amazon bedrock"^]
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Crie uma base de conhecimento do GenAI"]
+
+
+
+=== Terminologia de permissões atualizada
+
+A interface do usuário e a documentação de fábrica da carga de trabalho agora usam "somente leitura" para se referir a permissões de leitura e "leitura-gravação" para se referir a permissões de automação.
