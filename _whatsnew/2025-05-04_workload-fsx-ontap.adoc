@@ -124,4 +124,4 @@ A fábrica de workloads agora é compatível com conjuntos alternativos de crede
 
 === Terminologia de permissões atualizada
 
-A interface do usuário e a documentação de fábrica da carga de trabalho agora usam "somente leitura" para se referir a permissões de leitura e "leitura-gravação" para se referir a permissões de automação.
+A interface do usuário e a documentação do Workload Factory agora usam "somente leitura" para se referir às permissões de leitura e "leitura/gravação" para se referir às permissões de automação.
