@@ -15,6 +15,56 @@ Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem par
 
 
 
+== 3 de junho de 2025
+
+
+
+=== Workloads de banco de dados
+
+
+
+==== Detecção de PostgreSQL e Oracle
+
+Agora você pode descobrir as instâncias que executam bancos de dados do servidor PostgreSQL e implantações de bancos de dados Oracle na sua conta da AWS no console do Workload Factory. As instâncias descobertas aparecerão no inventário de bancos de dados.
+
+
+
+==== Terminologia de "Otimização" atualizada
+
+Anteriormente chamado de "Otimização", o workload factory agora usa "problemas bem arquitetados" e "status bem arquitetados" para descrever a análise de configurações de banco de dados e "correção" para descrever a correção de oportunidades para melhorar as configurações de banco de dados para atender às recomendações de melhores práticas.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Análise de configuração para ambientes de banco de dados em fábrica de carga de trabalho"]
+
+
+
+==== Integração aprimorada para instâncias de host
+
+Em vez dos termos "não detectado", "não gerenciado" ou "gerenciado" para o gerenciamento de instâncias de host, o Workload Factory agora usa "registro" para integrar instâncias de host. O novo processo de registro inclui a autenticação e a preparação de instâncias de host para que você possa criar, monitorar, analisar e corrigir recursos nas configurações do seu banco de dados no console do Workload Factory. A etapa de preparação no processo de registro indica se suas instâncias de host estão prontas para gerenciamento.
+
+link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gerenciamento de instâncias"]
+
+
+
+=== Cargas de trabalho do GenAI
+
+
+
+==== Tracker disponível para operações de monitoramento e rastreamento
+
+O recurso de monitoramento do Tracker agora está disponível no GenAI. Você pode usar o Tracker para monitorar e acompanhar o progresso e o status de operações pendentes, em andamento e concluídas, revisar detalhes de tarefas e subtarefas operacionais, diagnosticar problemas ou falhas, editar parâmetros de operações com falha e repetir operações com falha.
+
+link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html["Monitore as operações de carga de trabalho com o Tracker na fábrica de carga de trabalho BlueXP"]
+
+
+
+==== Escolha um modelo de reranker para uma base de conhecimento
+
+Agora você pode aumentar a relevância dos resultados de consultas reclassificadas selecionando um modelo de reclassificação específico para usar com uma base de conhecimento. O GenAI suporta os modelos Cohere Rerank e Amazon Rerank.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Crie uma base de conhecimento do GenAI"]
+
+
+
 == 4 de maio de 2025
 
 
@@ -462,54 +512,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 
 
-== 3 de março de 2025
-
-
-
-=== Workloads de banco de dados
-
-
-
-==== Configuração de alta disponibilidade do PostgreSQL
-
-Agora você pode implantar uma configuração de alta disponibilidade (HA) para o servidor PostgreSQL.
-
-link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["Crie um servidor PostgreSQL"]
-
-
-
-==== Suporte Terraform para criação de servidor PostgreSQL
-
-Agora você pode usar o Terraform a partir do Codebox para implantar o PostgreSQL.
-
-* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Crie um servidor de banco de dados PostgreSQL"]
-* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Use o Terraform do Codebox"]
-
-
-
-
-==== Avaliação de resiliência para agendamento de snapshot local
-
-Uma nova avaliação de resiliência está disponível para workloads de banco de dados. Avaliamos se os volumes para suas instâncias do Microsoft SQL Server têm políticas de snapshot agendadas válidas. Os snapshots são cópias pontuais de seus dados e ajudam a manter seus ambientes de banco de dados resilientes em caso de perda de dados.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Otimizar configurações"]
-
-
-
-==== Correção MAXDOP para cargas de trabalho de banco de dados
-
-A fábrica de carga de trabalho do BlueXP  para bancos de dados agora suporta correção para a configuração de servidor de grau máximo de paralelismo (MAXDOP). Quando a configuração MAXDOP é subótima, você pode permitir que a carga de trabalho do BlueXP  otimize a configuração para você.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Otimizar configurações"]
-
-
-
-==== Relatório de análise de economia de e-mail
-
-Ao explorar a economia para seus ambientes de armazenamento do Amazon Elastic Block Store e do FSX for Windows, em comparação com o FSX for ONTAP, você pode enviar o relatório de recomendação por e-mail para você, membros da equipe e clientes.
-
-
-
 == 2 de março de 2025
 
 
@@ -573,39 +575,6 @@ Esta versão da fábrica de carga de trabalho do BlueXP  para VMware apresenta 
 
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Crie um plano de implantação para o Amazon EC2 usando o consultor de migração"]
-
-
-
-=== Cargas de trabalho do GenAI
-
-
-
-==== Aprimoramentos de chatbot incorporados
-
-Agora você pode copiar perguntas e respostas diretamente para a área de transferência, ajustar o tamanho da janela de bate-papo e alterar seu título. Além disso, as respostas de bate-papo agora podem incluir tabelas, que também são copiáveis.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["Teste uma base de conhecimento do GenAI"]
-
-
-
-==== Suporte a citações de resposta de chat
-
-As respostas de bate-papo agora incluem citações que listam os arquivos e blocos de dados que foram usados para gerar a resposta.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["Teste uma base de conhecimento do GenAI"]
-
-
-
-==== Suporte aprimorado ao tipo de arquivo
-
-Esta versão do GenAI oferece suporte aprimorado a arquivos:
-
-* Os modelos de chat apresentam suporte CSV melhorado. Isso permite respostas mais úteis ao consultar dados de arquivos CSV.
-* O GenAI agora pode ingerir arquivos Apache Parquet a partir de fontes de dados.
-* O GenAI agora suporta a introdução de arquivos DOCX do Microsoft Word que incluem imagens. As imagens incorporadas nos documentos DOCX são digitalizadas e os insights de texto das imagens incorporadas são incluídos nas respostas às consultas da base de conhecimento.
-
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["Formatos de arquivo de origem de dados suportados"]
 
 
 
