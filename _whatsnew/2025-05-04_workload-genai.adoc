@@ -1,14 +1,14 @@
-= Suporte para NetApp ONTAP Connector para Amazon Q
+= Suporte para NetApp Connector para Amazon Q Business
 :allow-uri-read: 
 
 
 
 
-=== Suporte para NetApp ONTAP Connector para Amazon Q
+=== Suporte para NetApp Connector para Amazon Q Business
 
-Esta versão do GenAI apresenta suporte para o NetApp ONTAP Connector para Amazon Q, permitindo que você crie conetores para o Amazon Q Business. Aproveite de forma rápida e fácil o assistente de IA do Amazon Q Business com menos configuração inicial do que criar uma base de conhecimento do GenAI para a Amazon bedrock.
+Esta versão do GenAI apresenta suporte ao NetApp Connector para Amazon Q Business, permitindo que você crie conectores para o Amazon Q Business. Aproveite de forma rápida e fácil o assistente de IA do Amazon Q Business com menos configuração inicial do que criar uma base de conhecimento do GenAI para a Amazon bedrock.
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Crie um GenAI Connector para Amazon Q Business"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Crie um conector NetApp para o Amazon Q Business"]
 
 
 
@@ -26,7 +26,7 @@ O GenAI agora suporta os seguintes modelos de bate-papo adicionais para bases de
 
 O GenAI suporta os modelos de cada provedor que a Amazon bedrock suporta: link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Modelos de base suportados na Amazon bedrock"^]
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Crie uma base de conhecimento do GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Crie uma base de conhecimento do GenAI"]
 
 
 

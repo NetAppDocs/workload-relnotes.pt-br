@@ -84,7 +84,6 @@
   <block id="26ea891fa4f63d071728537d886e0f6c" category="section-title">Suporte para o modelo de bate-papo Anthropologic Claude Sonnet 3,7</block>
   <block id="4c58515c1bd9657f223b7731d306475c" category="paragraph">O GenAI agora inclui suporte para o modelo de bate-papo Anthropologic Claude 3,7 Sonnet. Os recursos beta do Claude 3,7 Sonnet permitem até 128K tokens de saída por solicitação e suportam novas ações de uso do computador. Claude 3,7 Sonnet modo de pensamento estendido será suportado em um futuro lançamento do GenAI.</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">Crie uma base de conhecimento do GenAI</block>
-  <block id="fe72cb2aff5f7bf6138e806921c5d3d6" category="paragraph"><block ref="fe72cb2aff5f7bf6138e806921c5d3d6" category="inline-link-macro-rx"></block></block>
   <block id="40bd8fe426c37e97f38be2c5a2728752" category="section-title">Suporte para adicionar fontes de dados de compartilhamentos genéricos NFS/SMB</block>
   <block id="1813c42a79840f7d495281cf050a30dc" category="paragraph">Usando a API de fábrica de carga de trabalho, agora você pode adicionar uma fonte de dados de um compartilhamento genérico NFSv3, NFSv4 ou SMB. Quando você adiciona uma fonte de dados de um compartilhamento NFS ou SMB, o volume da base de conhecimento permanece em um volume do Amazon FSX for NetApp ONTAP. A IU da Web de fábrica da carga de trabalho suportará esse recurso em uma versão futura.</block>
   <block id="fbc7eedf5c13a549330a0c3f52777db8" category="section-title">Suporte a peering VPC</block>
@@ -183,10 +182,6 @@
   <block id="6a04144fb90318983f201c0a346bc6b3" category="paragraph"><block ref="6a04144fb90318983f201c0a346bc6b3" category="inline-link-macro-rx"></block></block>
   <block id="2bbce7d3d059871083eb12013b7bc70d" category="section-title">Suporte para credenciais de usuário alternativas do ONTAP</block>
   <block id="21fe54f48c52f1924f6b2b74751f1611" category="paragraph">A fábrica de workloads agora é compatível com conjuntos alternativos de credenciais ONTAP para a criação de sistemas de arquivos para minimizar os riscos de segurança. Em vez de usar apenas o usuário fsxadmin, você pode selecionar um conjunto diferente de credenciais ONTAP ou optar por não fornecer uma senha para os usuários fsxadmin e vsaadmin.</block>
-  <block id="fa499afb5b0e71cede67d6430b479aad" category="doc">Suporte para NetApp ONTAP Connector para Amazon Q</block>
-  <block id="c77dd74f22a4c7346ab562d5eff0bc5a" category="paragraph">Esta versão do GenAI apresenta suporte para o NetApp ONTAP Connector para Amazon Q, permitindo que você crie conetores para o Amazon Q Business. Aproveite de forma rápida e fácil o assistente de IA do Amazon Q Business com menos configuração inicial do que criar uma base de conhecimento do GenAI para a Amazon bedrock.</block>
-  <block id="cf79fa4b0d1663f0ab76e8bc4b4e5ff3" category="inline-link-macro">Crie um GenAI Connector para Amazon Q Business</block>
-  <block id="9e4085aea7ddf49d777bc0d6415232d0" category="paragraph"><block ref="9e4085aea7ddf49d777bc0d6415232d0" category="inline-link-macro-rx"></block></block>
   <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">Suporte aprimorado ao modelo de chat</block>
   <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">O GenAI agora suporta os seguintes modelos de bate-papo adicionais para bases de conhecimento:</block>
   <block id="ba7ee7dc8867588bd50d38f7762f4e93" category="inline-link-macro">Modelos Mistral AI</block>
@@ -243,4 +238,8 @@
   <block id="af1e7fa29b343a7d9bd55952a334e8c9" category="paragraph">Ao criar um novo volume, as eficiências de armazenamento, incluindo compactação, compressão e desduplicação de dados, são ativadas por padrão.</block>
   <block id="55321b0c9d5d13d71a60766806796f90" category="inline-link-macro">Crie um novo volume na fábrica de carga de trabalho</block>
   <block id="9257e0b60b0f1cd3867c62713d3370aa" category="paragraph"><block ref="9257e0b60b0f1cd3867c62713d3370aa" category="inline-link-macro-rx"></block></block>
+  <block id="93f953f50f24ae6dbf0400fde1bcc67d" category="doc">Suporte para NetApp Connector para Amazon Q Business</block>
+  <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">Esta versão do GenAI apresenta suporte ao NetApp Connector para Amazon Q Business, permitindo que você crie conectores para o Amazon Q Business. Aproveite de forma rápida e fácil o assistente de IA do Amazon Q Business com menos configuração inicial do que criar uma base de conhecimento do GenAI para a Amazon bedrock.</block>
+  <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Crie um conector NetApp para o Amazon Q Business</block>
+  <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
 </blocks>
