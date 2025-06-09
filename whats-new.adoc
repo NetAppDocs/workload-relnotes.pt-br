@@ -15,6 +15,33 @@ Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem par
 
 
 
+== 8 de junho de 2025
+
+
+
+=== Amazon FSX para NetApp ONTAP
+
+
+
+==== Nova análise bem arquitetada e suporte para correção de problemas
+
+O gerenciamento automático de capacidade para sistemas de arquivos FSx para ONTAP agora está incluído como uma análise de configuração no painel de status bem arquitetado.
+
+Além disso, a fábrica de carga de trabalho agora oferece suporte à correção dos seguintes problemas de configuração:
+
+* Limite de capacidade SSD
+* Categorização de dados
+* Instantâneos locais programados
+* FSx para backups ONTAP
+* Replicação de dados remota
+* Eficiência de storage
+* Gerenciamento automático de capacidade
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Corrigir problemas de configuração"]
+
+
+
 == 3 de junho de 2025
 
 
@@ -426,53 +453,6 @@ link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.h
 
 
 == 30 de março de 2025
-
-
-
-=== Amazon FSX para NetApp ONTAP
-
-
-
-==== Gerenciamento automático de capacidade para sistemas com escalabilidade horizontal
-
-A fábrica de carga de trabalho agora procura inodes disponíveis em volumes e aumenta sua contagem de acordo com os limites configurados de gerenciamento automático de capacidade. Esse recurso é compatível com o gerenciamento automático de capacidade para sistemas com escalabilidade horizontal. Você pode habilitar o gerenciamento inodes como parte do gerenciamento automático de capacidade.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Ativar o gerenciamento automático de capacidade"]
-
-
-
-==== API FlexGroup Rebalanceance
-
-O workload da BlueXP  libera de fábrica a API FlexGroup Rebalanceance que permite executar um plano para rebalancear os dados em um FlexGroup. O rebalanceamento redistribui os dados uniformemente para os volumes dos membros.
-
-link:https://console.workloads.netapp.com/api-doc["Documentação da API de fábrica do workload do BlueXP"]
-
-
-
-==== O formulário de replicação de dados inclui casos de uso
-
-O formulário de replicação de dados agora inclui casos de uso para facilitar o preenchimento do formulário. Você selecionará um dos seguintes casos de uso para replicação de dados: Migração, recuperação de desastres quentes, recuperação de desastres inativos, arquivamento ou outro. Depois de selecionar um caso de uso, a fábrica de carga de trabalho recomenda valores de acordo com as práticas recomendadas. Você pode aceitar os valores pré-selecionados ou personalizar os valores no formulário.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Replique dados"]
-
-
-
-==== Alterações na terminologia da política de disposição em camadas de dados
-
-Agora, quando você seleciona uma política de disposição em categorias durante a criação de volume, replicação de dados ou atualizações de políticas de disposição em camadas existentes, você encontrará novos termos para descrever as políticas de disposição em categorias.
-
-* _Balanced (Auto)_
-* _Otimizado para custos (todos)_
-* _Desempenho otimizado (somente Snapshots)_
-
-
-
-
-==== Detalhes do grupo de segurança para criação do sistema de arquivos
-
-Um grupo de segurança é criado como parte do processo de criação do sistema de arquivos FSX for ONTAP. Detalhes do grupo de segurança, incluindo protocolos, portas e funções, estão agora disponíveis.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Crie um sistema de arquivos"]
 
 
 

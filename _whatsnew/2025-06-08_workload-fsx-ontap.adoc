@@ -1,0 +1,22 @@
+= Nova análise bem arquitetada e suporte para correção de problemas
+:allow-uri-read: 
+
+
+
+
+=== Nova análise bem arquitetada e suporte para correção de problemas
+
+O gerenciamento automático de capacidade para sistemas de arquivos FSx para ONTAP agora está incluído como uma análise de configuração no painel de status bem arquitetado.
+
+Além disso, a fábrica de carga de trabalho agora oferece suporte à correção dos seguintes problemas de configuração:
+
+* Limite de capacidade SSD
+* Categorização de dados
+* Instantâneos locais programados
+* FSx para backups ONTAP
+* Replicação de dados remota
+* Eficiência de storage
+* Gerenciamento automático de capacidade
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Corrigir problemas de configuração"]
