@@ -390,6 +390,14 @@ Ao usar o CloudShell de fábrica de carga de trabalho do BlueXP , você pode co
 
 A interface do usuário e a documentação do Workload Factory agora usam "somente leitura" para se referir às permissões de leitura e "leitura/gravação" para se referir às permissões de automação.
 
+Diretiva não resolvida em <stdin> - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+
+=== Terminologia de permissões atualizada
+
+A interface do usuário e a documentação do Workload Factory agora usam "somente leitura" para se referir às permissões de leitura e "leitura/gravação" para se referir às permissões de automação.
+
 
 
 == 4 de abril de 2025
@@ -578,3 +586,17 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Use
 A seguinte permissão está agora disponível no modo _read_ para bancos de dados: `iam:SimulatePrincipalPolicy`.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Log de alteração de referência de permissões"]
+
+
+
+== 1 de dezembro de 2024
+
+Diretiva não resolvida em <stdin> - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+
+=== Builders Workload no lançamento inicial
+
+A fábrica de cargas de trabalho da BlueXP  para construtores simplifica o consumo e o acesso de versões de software, eliminando a necessidade de ferramentas ou scripts personalizados. Ele permite que você consuma versões de software como clones instantâneos integrados ao Perforce Helix Core como um espaço de trabalho conveniente para seus processos de desenvolvimento, economizando tempo e recursos.
+
+A versão inicial inclui a capacidade de gerenciar projetos e espaços de trabalho e automatizar ações com o Codebox. Você também pode integrar Builders com Perforce Helix Core, para que você possa gerenciar diferentes versões de cada projeto e alternar entre eles rapidamente.
