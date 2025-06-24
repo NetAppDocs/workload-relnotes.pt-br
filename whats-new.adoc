@@ -17,11 +17,13 @@ Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem par
 
 == 16 de junho de 2025
 
-Diretiva não resolvida em <stdin> - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+=== Cargas de trabalho dos construtores
 
 
 
-=== Suporte a clones
+==== Suporte a clones
 
 Agora você pode clonar um projeto no BlueXP Workload Factory para Builders. Ao clonar um projeto, o Builders cria um novo projeto a partir de um snapshot, com a mesma configuração do original. A clonagem é útil para criar projetos semelhantes rapidamente ou para fins de teste. Você pode montar o novo clone do projeto seguindo as instruções no Builders.
 
@@ -404,11 +406,13 @@ Ao usar o CloudShell de fábrica de carga de trabalho do BlueXP , você pode co
 
 A interface do usuário e a documentação do Workload Factory agora usam "somente leitura" para se referir às permissões de leitura e "leitura/gravação" para se referir às permissões de automação.
 
-Diretiva não resolvida em <stdin> - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+=== Cargas de trabalho dos construtores
 
 
 
-=== Terminologia de permissões atualizada
+==== Terminologia de permissões atualizada
 
 A interface do usuário e a documentação do Workload Factory agora usam "somente leitura" para se referir às permissões de leitura e "leitura/gravação" para se referir às permissões de automação.
 
@@ -605,11 +609,13 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 == 1 de dezembro de 2024
 
-Diretiva não resolvida em <stdin> - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+=== Cargas de trabalho dos construtores
 
 
 
-=== Builders Workload no lançamento inicial
+==== Builders Workload no lançamento inicial
 
 A fábrica de cargas de trabalho da BlueXP  para construtores simplifica o consumo e o acesso de versões de software, eliminando a necessidade de ferramentas ou scripts personalizados. Ele permite que você consuma versões de software como clones instantâneos integrados ao Perforce Helix Core como um espaço de trabalho conveniente para seus processos de desenvolvimento, economizando tempo e recursos.
 

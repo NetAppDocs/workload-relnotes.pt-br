@@ -232,7 +232,6 @@
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">Builders Workload no lançamento inicial</block>
   <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">A fábrica de cargas de trabalho da BlueXP  para construtores simplifica o consumo e o acesso de versões de software, eliminando a necessidade de ferramentas ou scripts personalizados. Ele permite que você consuma versões de software como clones instantâneos integrados ao Perforce Helix Core como um espaço de trabalho conveniente para seus processos de desenvolvimento, economizando tempo e recursos.</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">A versão inicial inclui a capacidade de gerenciar projetos e espaços de trabalho e automatizar ações com o Codebox. Você também pode integrar Builders com Perforce Helix Core, para que você possa gerenciar diferentes versões de cada projeto e alternar entre eles rapidamente.</block>
-  <block id="e562428972beeca78a1b44b300444717" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">1 de dezembro de 2024</block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">Suporte a clones</block>
   <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">Agora você pode clonar um projeto no BlueXP Workload Factory para Builders. Ao clonar um projeto, o Builders cria um novo projeto a partir de um snapshot, com a mesma configuração do original. A clonagem é útil para criar projetos semelhantes rapidamente ou para fins de teste. Você pode montar o novo clone do projeto seguindo as instruções no Builders.</block>
@@ -244,4 +243,5 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">Atualização de permissões para bancos de dados</block>
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">A seguinte permissão está agora disponível no modo _read_ para bancos de dados:<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2 de fevereiro de 2025</block>
+  <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Cargas de trabalho dos construtores</block>
 </blocks>
