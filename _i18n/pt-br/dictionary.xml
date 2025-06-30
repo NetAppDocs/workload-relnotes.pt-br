@@ -233,4 +233,7 @@
   <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">O serviço de notificação da fábrica de carga de trabalho do BlueXP permite que a fábrica de carga de trabalho envie notificações para o serviço de alertas do BlueXP ou para um tópico do Amazon SNS. As notificações enviadas aos alertas do BlueXP aparecem no painel de alertas do BlueXP. Quando a fábrica de carga de trabalho publica notificações em um tópico do Amazon SNS, os assinantes do tópico (como pessoas ou outros aplicativos) recebem as notificações nos endpoints configurados para o tópico (como e-mail ou mensagens SMS).</block>
   <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">Configurar notificações de fábrica de carga de trabalho do BlueXP</block>
   <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
+  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">Atualização de permissões para bancos de dados</block>
+  <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">A seguinte permissão agora está disponível no modo _somente leitura_ para bancos de dados: <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> .</block>
+  <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
 </blocks>
