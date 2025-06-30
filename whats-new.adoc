@@ -45,6 +45,18 @@ https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add
 
 
 
+=== Configuração e administração
+
+
+
+==== Suporte ao serviço de notificação de fábrica de carga de trabalho BlueXP
+
+O serviço de notificação da fábrica de carga de trabalho do BlueXP permite que a fábrica de carga de trabalho envie notificações para o serviço de alertas do BlueXP ou para um tópico do Amazon SNS. As notificações enviadas aos alertas do BlueXP aparecem no painel de alertas do BlueXP. Quando a fábrica de carga de trabalho publica notificações em um tópico do Amazon SNS, os assinantes do tópico (como pessoas ou outros aplicativos) recebem as notificações nos endpoints configurados para o tópico (como e-mail ou mensagens SMS).
+
+https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurar notificações de fábrica de carga de trabalho do BlueXP"]
+
+
+
 == 16 de junho de 2025
 
 
@@ -543,30 +555,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Use
 ==== IAM:Atualização de permissão SimulatePermissionPolicy
 
 Agora você pode gerenciar a `iam:SimulatePrincipalPolicy` permissão no console de fábrica de workload ao adicionar credenciais adicionais de conta da AWS ou adicionar uma nova funcionalidade de workload, como o workload do GenAI.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Log de alteração de referência de permissões"]
-
-
-
-== 2 de fevereiro de 2025
-
-
-
-=== Configuração e administração
-
-
-
-==== CloudShell disponível no console de fábrica da carga de trabalho do BlueXP
-
-O CloudShell está disponível em qualquer lugar no console de fábrica de carga de trabalho do BlueXP . O CloudShell permite que você use as credenciais da AWS e do ONTAP fornecidas na sua conta do BlueXP  e execute os comandos da CLI da AWS ou da CLI do ONTAP em um ambiente semelhante ao shell.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Use o CloudShell"]
-
-
-
-==== Atualização de permissões para bancos de dados
-
-A seguinte permissão está agora disponível no modo _read_ para bancos de dados: `iam:SimulatePrincipalPolicy`.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Log de alteração de referência de permissões"]
 
