@@ -43,34 +43,14 @@
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">Crie um volume</block>
   <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
-  <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2 de março de 2025</block>
-  <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">Suporte aprimorado ao tipo de arquivo</block>
-  <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">Formatos de arquivo de origem de dados suportados</block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">Esta versão da fábrica de carga de trabalho do BlueXP  para VMware apresenta várias melhorias na experiência do consultor de migração do Amazon EC2:</block>
-  <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*Tipo de instância estimado*: O Migration Advisor agora pode examinar os requisitos do seu ambiente e fornecer um tipo de instância estimado do Amazon EC2 para cada VM. Você pode optar por incluir o tipo de instância estimado para cada VM durante a etapa de escopo do consultor de migração.</block>
-  <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">* Capacidade de recomendar volumes do Amazon EBS*: O consultor de migração agora pode recomendar a migração de volumes de dados para o Amazon Elastic Block Store (EBS) em vez do Amazon FSX for NetApp ONTAP devido a necessidades específicas de capacidade ou desempenho de uma determinada região.</block>
-  <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">* Atribuição automática de sistema de arquivos aprimorada*: A atribuição de sistema de arquivos do Amazon FSX for NetApp ONTAP foi melhorada para otimizar melhor o custo e minimizar o throughput.</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Ao usar o CloudShell, cada vez que você emite um comando ONTAP CLI e um erro ocorre, você pode obter respostas de erro geradas por IA que incluem uma descrição da falha, a causa da falha e uma resolução detalhada.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM:Atualização de permissão SimulatePermissionPolicy</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Agora você pode gerenciar a<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> permissão no console de fábrica de workload ao adicionar credenciais adicionais de conta da AWS ou adicionar uma nova funcionalidade de workload, como o workload do GenAI.</block>
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">30 de março de 2025</block>
-  <block id="f3a4976ab2464242211263cea7e247f9" category="paragraph">Esta versão do GenAI introduz suporte ao formato de arquivo JSON e JSONP ao criar<block ref="cc8f0c0e5a5cef9b33f236a0a9c19ca0" prefix=" " category="inline-code"></block> arquivos de fontes de dados. Arquivos JSON com objetos aninhados são suportados, com suporte limitado para arrays aninhados.</block>
-  <block id="0a8f6f086d5f30a416a61fd3606f1025" category="section-title">Suporte de internacionalização para o aplicativo de amostra de chatbot externo</block>
-  <block id="a2f4023c744ab1521036ee54ec2e15ba" category="paragraph">Agora você pode facilmente alterar a interface do usuário do aplicativo de chatbot externo de amostra do GenAI para um idioma ou localidade diferente.</block>
-  <block id="5b8a8facbec8623a03d7cae8b62bfeb7" category="inline-link-macro">Aplicação de chatbot de amostra externa GenAI</block>
-  <block id="4d79fade08f1e8c2d92bbdf0e3237924" category="paragraph"><block ref="4d79fade08f1e8c2d92bbdf0e3237924" category="inline-link-macro-rx"></block></block>
-  <block id="26ea891fa4f63d071728537d886e0f6c" category="section-title">Suporte para o modelo de bate-papo Anthropologic Claude Sonnet 3,7</block>
-  <block id="4c58515c1bd9657f223b7731d306475c" category="paragraph">O GenAI agora inclui suporte para o modelo de bate-papo Anthropologic Claude 3,7 Sonnet. Os recursos beta do Claude 3,7 Sonnet permitem até 128K tokens de saída por solicitação e suportam novas ações de uso do computador. Claude 3,7 Sonnet modo de pensamento estendido será suportado em um futuro lançamento do GenAI.</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">Crie uma base de conhecimento do GenAI</block>
-  <block id="40bd8fe426c37e97f38be2c5a2728752" category="section-title">Suporte para adicionar fontes de dados de compartilhamentos genéricos NFS/SMB</block>
-  <block id="1813c42a79840f7d495281cf050a30dc" category="paragraph">Usando a API de fábrica de carga de trabalho, agora você pode adicionar uma fonte de dados de um compartilhamento genérico NFSv3, NFSv4 ou SMB. Quando você adiciona uma fonte de dados de um compartilhamento NFS ou SMB, o volume da base de conhecimento permanece em um volume do Amazon FSX for NetApp ONTAP. A IU da Web de fábrica da carga de trabalho suportará esse recurso em uma versão futura.</block>
-  <block id="fbc7eedf5c13a549330a0c3f52777db8" category="section-title">Suporte a peering VPC</block>
-  <block id="52bc46202bc9013e258f32f66b8bf88a" category="inline-link-macro">Nuvens privadas virtuais (VPCs)</block>
-  <block id="93dbde0ee04c36dce05b96f3551f8606" category="paragraph">Agora você pode implantar a infraestrutura do GenAI em toda a <block ref="f008838004ac43a2c4a5b39672df7daf" category="inline-link-macro-rx"></block>região e usar a mesma conta da AWS. Você pode implantar o mecanismo de AI em uma VPC e, em seguida, criar uma base de conhecimento em uma VPC com peered e selecionar sistemas de arquivos do Amazon FSX for NetApp ONTAP que residem em uma VPC com peered.</block>
   <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">*Orientação aprimorada de atribuição de volume*: As informações de atribuição de volume nas etapas "Classify" e "Package" do consultor de migração do EC2 apresentam maior legibilidade e usabilidade. Mais informações úteis são exibidas sobre cada volume, permitindo que você identifique melhor os volumes e determine como atribuí-los.</block>
   <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*Melhorias na eficiência do script do coletor de dados*: O script do coletor de dados do consultor de migração do EC2 otimiza o uso da CPU ao coletar dados para implantações menores de VM.</block>
-  <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">Use a API de fábrica da carga de trabalho</block>
-  <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">O CloudShell relata respostas de erro geradas por IA para os comandos da CLI do ONTAP</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">Melhorias na otimização</block>
   <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">Novas avaliações de otimização, correções e a exibição de vários recursos estão disponíveis ao otimizar seus ambientes de banco de dados.</block>
@@ -91,7 +71,6 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">Crie um servidor PostgreSQL na fábrica de carga de trabalho do BlueXP</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">4 de abril de 2025</block>
-  <block id="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="paragraph"><block ref="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="inline-link-macro-rx"></block></block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">Melhorias no painel de instrumentos</block>
   <block id="04f9acced28b52e064ba8ccb957a615c" category="list-text">As visualizações entre contas e entre regiões estão disponíveis à medida que você navega entre guias no console de fábrica da carga de trabalho do BlueXP . As novas visualizações melhoram o gerenciamento, o monitoramento e a otimização de recursos.</block>
@@ -244,4 +223,15 @@
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">A seguinte permissão está agora disponível no modo _read_ para bancos de dados:<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2 de fevereiro de 2025</block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Cargas de trabalho dos construtores</block>
+  <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">Suporte para fontes de dados hospedadas em sistemas de arquivos NFS/SMB genéricos</block>
+  <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">Agora você pode adicionar uma fonte de dados de um compartilhamento SMB ou NFS genérico. Isso permite incluir arquivos armazenados em volumes hospedados por sistemas de arquivos diferentes do Amazon FSx para NetApp ONTAP.</block>
+  <block id="5cba57d460e5683815517b44a7811760" category="inline-link">Adicionar fontes de dados a uma base de conhecimento</block>
+  <block id="b37629096d44c6fda917848365c84ebe" category="paragraph"><block ref="b37629096d44c6fda917848365c84ebe" category="inline-link-rx"></block></block>
+  <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link">Adicionar fontes de dados a um conector</block>
+  <block id="5cd676bef1867c904c092c33ad4a8f2d" category="paragraph"><block ref="5cd676bef1867c904c092c33ad4a8f2d" category="inline-link-rx"></block></block>
+  <block id="1832a7f4d2abf297aa0cee87f4c043e3" category="doc">Apresentando o suporte do consultor de migração para o Amazon Elastic VMWare Service</block>
+  <block id="0a2319b536912bd5824ac0880375783c" category="paragraph">A fábrica de cargas de trabalho BlueXP para VMware agora oferece suporte ao Amazon Elastic VMware Service. Você pode migrar rapidamente suas cargas de trabalho VMware locais para o Amazon Elastic VMware Service usando o Migration Advisor, otimizando custos e permitindo maior controle sobre seu ambiente VMware sem precisar refatorar ou reestruturar seus aplicativos.</block>
+  <block id="e64998710319712d47612cc187a1dc35" category="inline-link">Crie um plano de implantação para o Amazon EVS usando o consultor de migração</block>
+  <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
+  <block id="32d7d361955b5f8cb1cd26f6803b7d7d" category="section-title">29 de junho de 2025</block>
 </blocks>

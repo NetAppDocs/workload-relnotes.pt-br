@@ -15,6 +15,36 @@ Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem par
 
 
 
+== 29 de junho de 2025
+
+
+
+=== Workloads da VMware
+
+
+
+==== Apresentando o suporte do consultor de migração para o Amazon Elastic VMWare Service
+
+A fábrica de cargas de trabalho BlueXP para VMware agora oferece suporte ao Amazon Elastic VMware Service. Você pode migrar rapidamente suas cargas de trabalho VMware locais para o Amazon Elastic VMware Service usando o Migration Advisor, otimizando custos e permitindo maior controle sobre seu ambiente VMware sem precisar refatorar ou reestruturar seus aplicativos.
+
+https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manual.html["Crie um plano de implantação para o Amazon EVS usando o consultor de migração"]
+
+
+
+=== Cargas de trabalho do GenAI
+
+
+
+==== Suporte para fontes de dados hospedadas em sistemas de arquivos NFS/SMB genéricos
+
+Agora você pode adicionar uma fonte de dados de um compartilhamento SMB ou NFS genérico. Isso permite incluir arquivos armazenados em volumes hospedados por sistemas de arquivos diferentes do Amazon FSx para NetApp ONTAP.
+
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Adicionar fontes de dados a uma base de conhecimento"]
+
+https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["Adicionar fontes de dados a um conector"]
+
+
+
 == 16 de junho de 2025
 
 
@@ -498,50 +528,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
-=== Cargas de trabalho do GenAI
-
-
-
-==== Suporte aprimorado ao tipo de arquivo
-
-Esta versão do GenAI introduz suporte ao formato de arquivo JSON e JSONP ao criar `.json` arquivos de fontes de dados. Arquivos JSON com objetos aninhados são suportados, com suporte limitado para arrays aninhados.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["Formatos de arquivo de origem de dados suportados"]
-
-
-
-==== Suporte de internacionalização para o aplicativo de amostra de chatbot externo
-
-Agora você pode facilmente alterar a interface do usuário do aplicativo de chatbot externo de amostra do GenAI para um idioma ou localidade diferente.
-
-link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["Aplicação de chatbot de amostra externa GenAI"]
-
-
-
-==== Suporte para o modelo de bate-papo Anthropologic Claude Sonnet 3,7
-
-O GenAI agora inclui suporte para o modelo de bate-papo Anthropologic Claude 3,7 Sonnet. Os recursos beta do Claude 3,7 Sonnet permitem até 128K tokens de saída por solicitação e suportam novas ações de uso do computador. Claude 3,7 Sonnet modo de pensamento estendido será suportado em um futuro lançamento do GenAI.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Crie uma base de conhecimento do GenAI"]
-
-
-
-==== Suporte para adicionar fontes de dados de compartilhamentos genéricos NFS/SMB
-
-Usando a API de fábrica de carga de trabalho, agora você pode adicionar uma fonte de dados de um compartilhamento genérico NFSv3, NFSv4 ou SMB. Quando você adiciona uma fonte de dados de um compartilhamento NFS ou SMB, o volume da base de conhecimento permanece em um volume do Amazon FSX for NetApp ONTAP. A IU da Web de fábrica da carga de trabalho suportará esse recurso em uma versão futura.
-
-link:https://console.workloads.netapp.com/api-doc["Use a API de fábrica da carga de trabalho"^]
-
-
-
-==== Suporte a peering VPC
-
-Agora você pode implantar a infraestrutura do GenAI em toda a link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["Nuvens privadas virtuais (VPCs)"^]região e usar a mesma conta da AWS. Você pode implantar o mecanismo de AI em uma VPC e, em seguida, criar uma base de conhecimento em uma VPC com peered e selecionar sistemas de arquivos do Amazon FSX for NetApp ONTAP que residem em uma VPC com peered.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Crie uma base de conhecimento do GenAI"]
-
-
-
 === Configuração e administração
 
 
@@ -559,27 +545,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Use
 Agora você pode gerenciar a `iam:SimulatePrincipalPolicy` permissão no console de fábrica de workload ao adicionar credenciais adicionais de conta da AWS ou adicionar uma nova funcionalidade de workload, como o workload do GenAI.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Log de alteração de referência de permissões"]
-
-
-
-== 2 de março de 2025
-
-
-
-=== Workloads da VMware
-
-
-
-==== Melhorias do consultor de migração do Amazon EC2
-
-Esta versão da fábrica de carga de trabalho do BlueXP  para VMware apresenta várias melhorias na experiência do consultor de migração do Amazon EC2:
-
-* *Tipo de instância estimado*: O Migration Advisor agora pode examinar os requisitos do seu ambiente e fornecer um tipo de instância estimado do Amazon EC2 para cada VM. Você pode optar por incluir o tipo de instância estimado para cada VM durante a etapa de escopo do consultor de migração.
-* * Capacidade de recomendar volumes do Amazon EBS*: O consultor de migração agora pode recomendar a migração de volumes de dados para o Amazon Elastic Block Store (EBS) em vez do Amazon FSX for NetApp ONTAP devido a necessidades específicas de capacidade ou desempenho de uma determinada região.
-* * Atribuição automática de sistema de arquivos aprimorada*: A atribuição de sistema de arquivos do Amazon FSX for NetApp ONTAP foi melhorada para otimizar melhor o custo e minimizar o throughput.
-
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Crie um plano de implantação para o Amazon EC2 usando o consultor de migração"]
 
 
 
