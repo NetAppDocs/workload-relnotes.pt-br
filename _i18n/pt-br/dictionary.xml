@@ -35,14 +35,10 @@
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Melhorias do consultor de migração do Amazon EC2</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">Carga de trabalho de fábrica da BlueXP</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">Otimizar configurações</block>
-  <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
   <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">Use o CloudShell</block>
   <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Log de alteração de referência de permissões</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">Crie um volume</block>
-  <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">Esta versão da fábrica de carga de trabalho do BlueXP  para VMware apresenta várias melhorias na experiência do consultor de migração do Amazon EC2:</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Ao usar o CloudShell, cada vez que você emite um comando ONTAP CLI e um erro ocorre, você pode obter respostas de erro geradas por IA que incluem uma descrição da falha, a causa da falha e uma resolução detalhada.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM:Atualização de permissão SimulatePermissionPolicy</block>
@@ -53,24 +49,6 @@
   <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*Melhorias na eficiência do script do coletor de dados*: O script do coletor de dados do consultor de migração do EC2 otimiza o uso da CPU ao coletar dados para implantações menores de VM.</block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">O CloudShell relata respostas de erro geradas por IA para os comandos da CLI do ONTAP</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">Melhorias na otimização</block>
-  <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">Novas avaliações de otimização, correções e a exibição de vários recursos estão disponíveis ao otimizar seus ambientes de banco de dados.</block>
-  <block id="3cde2cfbcdbdd79a3c1d3d6b547ab80d" category="section-title">Avaliações de resiliência</block>
-  <block id="218733e992141498b68631094f232446" category="paragraph">Os aprimoramentos incluem novas avaliações de resiliência para verificar se os recursos de redundância de dados e recuperação de desastres estão configurados para seus ambientes de banco de dados.</block>
-  <block id="a8b36cbcd13facdcd526df9ca0c4aba5" category="list-text">Backups do FSX para ONTAP: Analisa se os sistemas de arquivos FSX for ONTAP que atendem os volumes da instância do SQL Server são configurados com backups programados do FSX para ONTAP.</block>
-  <block id="3ddd695d01877806196cb9bc8be009da" category="list-text">Replicação entre regiões: Avalia se o FSX para sistemas de arquivos ONTAP que atendem instâncias do Microsoft SQL Server estão configurados com replicação entre regiões.</block>
-  <block id="233f3c54635152d78b375495cd0b5580" category="section-title">Correção de computação</block>
-  <block id="c4b982d56748631e5cf80fe05312f901" category="paragraph">A correção de Receive Side Scaling (RSS) configura o RSS para distribuir o processamento de rede entre vários processadores e garantir uma distribuição de carga eficiente.</block>
-  <block id="9ed609dc6760dae060dbad52b3aa2d42" category="section-title">Correção de snapshot local</block>
-  <block id="229b55b063b8208ec58911841f6bad18" category="paragraph">Define políticas de snapshot para volumes para suas instâncias do Microsoft SQL Server para manter seus ambientes de banco de dados resilientes em caso de perda de dados.</block>
-  <block id="14684cd0a52a7f7301e2400ff9ce8c16" category="section-title">Suporte para seleção múltipla de recursos</block>
-  <block id="909e5b19987da9dd66e288802ac9729e" category="paragraph">Ao otimizar as configurações do banco de dados, você poderá selecionar recursos específicos em vez de todos os recursos.</block>
-  <block id="d36362545a72cd1eef4186ca8a99dca1" category="section-title">Visualização de inventário melhorada</block>
-  <block id="9f3b67d6f0d3de869a895be1df755a3b" category="paragraph">A guia Inventário no console de fábrica de carga de trabalho foi simplificada para que ele contenha apenas servidores SQL executados no Amazon FSX for NetApp ONTAP. Agora você encontrará servidores SQL no local e em execução na Amazon Elastic Block Store e no Amazon FSX for Windows File Server na guia explorar economia.</block>
-  <block id="b66e93ffc0672f74db831d8f9d81fdba" category="section-title">Criação rápida disponível para a implantação do servidor PostgreSQL</block>
-  <block id="f7d019f8da84eee0771921896cbb0cd5" category="paragraph">Você pode usar essa opção de implantação rápida para criar um servidor PostgreSQL com configuração de HA e práticas recomendadas incorporadas.</block>
-  <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">Crie um servidor PostgreSQL na fábrica de carga de trabalho do BlueXP</block>
-  <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
-  <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">4 de abril de 2025</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">Melhorias no painel de instrumentos</block>
   <block id="04f9acced28b52e064ba8ccb957a615c" category="list-text">As visualizações entre contas e entre regiões estão disponíveis à medida que você navega entre guias no console de fábrica da carga de trabalho do BlueXP . As novas visualizações melhoram o gerenciamento, o monitoramento e a otimização de recursos.</block>
@@ -84,56 +62,6 @@
   <block id="6da89f0beda0fbec41b06125b0b7ad32" category="section-title">Adiar e descartar a análise de configuração</block>
   <block id="4a9a50cea48d9e2ded3becc284af4e41" category="paragraph">Algumas configurações podem não se aplicar aos ambientes de banco de dados. Agora você tem opções para adiar uma análise de configuração específica em 30 dias ou ignorar a análise.</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">Terminologia de permissões atualizada</block>
-  <block id="36099969c15a5d064d7174336be7e668" category="doc">Proteção autônoma contra ransomware para sistemas de arquivos FSX for ONTAP</block>
-  <block id="08c5452d94d72a6c740ead774c83f8a0" category="paragraph">Proteja seus dados com o Autonomous ransomware Protection (ARP), um recurso que usa a análise de workload em ambientes nas (NFS/SMB) para detectar e avisar sobre atividades anormais que podem ser um ataque. Quando um ataque é suspeito, o ARP também cria novos snapshots imutáveis a partir dos quais você pode restaurar seus dados.</block>
-  <block id="19fcea201a57b2af997865e1bebd5eb8" category="inline-link-macro">Proteja seus dados com o Autonomous ransomware Protection</block>
-  <block id="8deff747fe441bd05b94960711ba6dc7" category="paragraph"><block ref="8deff747fe441bd05b94960711ba6dc7" category="inline-link-macro-rx"></block></block>
-  <block id="a915f8d1a90241b0905e5e0102866336" category="section-title">Aprimoramento do rebalanceamento de volume do FlexGroup</block>
-  <block id="b4e8b949e8b2a108d117e8d00573baa5" category="paragraph">A fábrica de workloads do BlueXP  apresenta o assistente de rebalanceamento de volume do FlexGroup com várias opções de layout para reequilibrar os dados em um volume do FlexGroup. O rebalanceamento redistribui os dados uniformemente para os volumes membros do FlexGroup.</block>
-  <block id="a3fa0d8d3f4c7edc445cef1c52eb31b4" category="inline-link-macro">Rebalancear a capacidade em um volume FlexGroup</block>
-  <block id="ba5f40b0cbda6629d8835a8ddec32ba7" category="paragraph"><block ref="ba5f40b0cbda6629d8835a8ddec32ba7" category="inline-link-macro-rx"></block></block>
-  <block id="b4650b4ce326d6a3b7fad5e98b1b29d3" category="section-title">Implemente as melhores práticas para um sistema de arquivos FSX for ONTAP</block>
-  <block id="23298c67bec69aa678274ba1b4e76d09" category="paragraph">A fábrica do BlueXP  Workload fornece um painel onde você pode verificar o status bem arquitetado das configurações do sistema de arquivos. Você pode aproveitar essa análise para implementar as práticas recomendadas para seus sistemas de arquivos FSX for ONTAP. A análise de configuração do sistema de arquivos inclui as seguintes configurações: Limite de capacidade SSD, snapshots locais programados, backups programados do FSX para ONTAP, disposição de dados em categorias e replicação de dados remota.</block>
-  <block id="20c1cdeb819f1a107044754c5b7cd16d" category="inline-link-macro">Saiba mais sobre a análise bem arquitetada para configurações do sistema de arquivos</block>
-  <block id="f85ae2c7c8690dad4aad4469edd0d4d1" category="list-text"><block ref="f85ae2c7c8690dad4aad4469edd0d4d1" category="inline-link-macro-rx"></block></block>
-  <block id="ee8bd13e9852f521384a9366f9fddac8" category="inline-link-macro">Implemente as práticas recomendadas para seus sistemas de arquivos</block>
-  <block id="809288260d1cdd9ac42626b2cf175ba5" category="list-text"><block ref="809288260d1cdd9ac42626b2cf175ba5" category="inline-link-macro-rx"></block></block>
-  <block id="b9b3a3dd5e7f3f2002c13a1dde978328" category="section-title">Opções de estilo de segurança de volume de protocolo duplo</block>
-  <block id="8138182381112922a4c0de3123a20759" category="paragraph">Você tem a opção de escolher NTFS ou UNIX como o estilo de segurança de um volume para determinar o método pelo qual os usuários e permissões acessam um volume.</block>
-  <block id="01723ef9eeaed61dd2633adc90d31f85" category="section-title">Aprimoramentos de replicação</block>
-  <block id="b2e52f2d95b8128fa0aa997184d2e917" category="section-title">Replicação reversa com suporte do FSX for ONTAP para no local</block>
-  <block id="987500c5a62dc35588c50c1cdc64759a" category="paragraph">A replicação reversa agora está disponível a partir de um sistema de arquivos FSX for ONTAP para um cluster ONTAP no local a partir do console de fábrica de carga de trabalho.</block>
-  <block id="7ffd90bebe955a3d38da9e78eaaaf49b" category="inline-link-macro">Replicação reversa</block>
-  <block id="ad52c9d51cc60d89ce36c30b38feb597" category="paragraph"><block ref="ad52c9d51cc60d89ce36c30b38feb597" category="inline-link-macro-rx"></block></block>
-  <block id="e949ed7c07a946c5c5337cf0219fbc8a" category="section-title">Replicação de volume de proteção de dados</block>
-  <block id="b160179bf174efa559aefeb2a6a265ff" category="paragraph">Agora é possível replicar volumes de proteção de dados.</block>
-  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">Replicar um volume de proteção de dados</block>
-  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
-  <block id="f45e31e9eb62670abb227bd17e863909" category="section-title">Seleção de vários volumes</block>
-  <block id="11b72bb293d845376d594d8db15c5c42" category="paragraph">A seleção de vários volumes está disponível para que você possa selecionar exatamente os volumes que deseja replicar.</block>
-  <block id="ca0c3dd7dca9f636af3209d526098e1e" category="inline-link-macro">Crie uma relação de replicação</block>
-  <block id="4027269222ebe19f8c7ce0489bd4a099" category="paragraph"><block ref="4027269222ebe19f8c7ce0489bd4a099" category="inline-link-macro-rx"></block></block>
-  <block id="a07aceed52eedb73437d4be9dffb7512" category="section-title">Rótulos de política de retenção de longo prazo</block>
-  <block id="4f41e87d14e054d42c2670ea8c528589" category="paragraph">Quando você ativa a retenção a longo prazo para uma relação de replicação, os rótulos de volumes de origem e destino devem corresponder exatamente. Agora, a fábrica de carga de trabalho do BlueXP  pode criar automaticamente rótulos de volume de origem ausentes para você.</block>
-  <block id="cfe8fde03c6d1a12606f20570c95dd3a" category="section-title">Nome de arquivo FSX for ONTAP visível na criação de volume</block>
-  <block id="15ed156f4715eb4b7e7feb040d7c9c90" category="paragraph">Melhoramos a visibilidade dos sistemas de arquivos do FSX para ONTAP durante a criação de volume. Você verá o sistema de arquivos FSX for ONTAP ao criar um volume, então você saberá exatamente onde o volume está sendo criado.</block>
-  <block id="92698312f3f978b9a3975381093aea27" category="section-title">Conta da AWS visível no workload do Storage</block>
-  <block id="d4ba91ca8b32dac38d8a02560db45f99" category="paragraph">Melhoramos a visibilidade da conta em todo o workload do storage. Você verá a conta da AWS ao navegar para as guias *volumes*, *VMs de armazenamento* e *replicação*.</block>
-  <block id="44918ad8d6b4fa49e31aa71e8c3e972b" category="section-title">Aprimoramentos de associação de links</block>
-  <block id="730fff71d8c1a3c83285cf73a189adc1" category="list-text">Você pode associar rapidamente um link de um sistema de arquivos FSX for ONTAP na guia Inventário.</block>
-  <block id="794643699de592957f5ae7ac7b70d1be" category="list-text">A fábrica de workloads do BlueXP  agora dá suporte ao uso de credenciais de usuário alternativas do ONTAP para associação de links.</block>
-  <block id="7dc7c15512069d38e071e0b7f2eb0075" category="section-title">Suporte de autenticação de link para o AWS Secrets Manager</block>
-  <block id="9eee39cc8777da8f7dbd19a76d917105" category="paragraph">Agora você tem a opção de usar segredos do AWS Secrets Manager para autenticar links para que você não precise usar credenciais armazenadas na fábrica de carga de trabalho do BlueXP .</block>
-  <block id="e740d5331c1318c8aeedd3bc928fee0f" category="section-title">Suporte de resposta do Rastreador</block>
-  <block id="afa647328e65fc54651ec9202e08f684" category="paragraph">O Tracker agora fornece respostas à API para que você possa ver a saída da API REST relacionada à tarefa.</block>
-  <block id="2e0c4c64c2671f5575eb184e577dcdae" category="inline-link-macro">Monitore as operações com o Tracker</block>
-  <block id="51901acdd0b1d27e153698e9d896b4ab" category="paragraph"><block ref="51901acdd0b1d27e153698e9d896b4ab" category="inline-link-macro-rx"></block></block>
-  <block id="3d84fc344c6f90d01ec1ed67bf66b2cf" category="section-title">Validação de capacidade ao restaurar um volume de um backup</block>
-  <block id="02fb27a360f5d3b300cee7fd194ec4ab" category="paragraph">Ao restaurar um volume a partir de um backup, a carga de trabalho do BlueXP  determina se você tem capacidade suficiente para a restauração e pode adicionar automaticamente a capacidade da camada de storage SSD, caso não o faça.</block>
-  <block id="669e24f4895025d47b6321e03f0890e4" category="inline-link-macro">Restaurar um volume a partir de uma cópia de segurança</block>
-  <block id="6a04144fb90318983f201c0a346bc6b3" category="paragraph"><block ref="6a04144fb90318983f201c0a346bc6b3" category="inline-link-macro-rx"></block></block>
-  <block id="2bbce7d3d059871083eb12013b7bc70d" category="section-title">Suporte para credenciais de usuário alternativas do ONTAP</block>
-  <block id="21fe54f48c52f1924f6b2b74751f1611" category="paragraph">A fábrica de workloads agora é compatível com conjuntos alternativos de credenciais ONTAP para a criação de sistemas de arquivos para minimizar os riscos de segurança. Em vez de usar apenas o usuário fsxadmin, você pode selecionar um conjunto diferente de credenciais ONTAP ou optar por não fornecer uma senha para os usuários fsxadmin e vsaadmin.</block>
   <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">Suporte aprimorado ao modelo de chat</block>
   <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">O GenAI agora suporta os seguintes modelos de bate-papo adicionais para bases de conhecimento:</block>
   <block id="ba7ee7dc8867588bd50d38f7762f4e93" category="inline-link-macro">Modelos Mistral AI</block>
@@ -161,8 +89,6 @@
   <block id="a832a618559e9b6325bfe90eb3e86587" category="paragraph">Anteriormente chamado de "Otimização", o workload factory agora usa "problemas bem arquitetados" e "status bem arquitetados" para descrever a análise de configurações de banco de dados e "correção" para descrever a correção de oportunidades para melhorar as configurações de banco de dados para atender às recomendações de melhores práticas.</block>
   <block id="c551233916d554410ddca9f767142b1a" category="inline-link-macro">Análise de configuração para ambientes de banco de dados em fábrica de carga de trabalho</block>
   <block id="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="paragraph"><block ref="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="inline-link-macro-rx"></block></block>
-  <block id="f0b8560f05681c5a0a0de7a2cb0d761e" category="section-title">Integração aprimorada para instâncias de host</block>
-  <block id="2acb806aac138a6758718c6f833095ab" category="paragraph">Em vez dos termos "não detectado", "não gerenciado" ou "gerenciado" para o gerenciamento de instâncias de host, o Workload Factory agora usa "registro" para integrar instâncias de host. O novo processo de registro inclui a autenticação e a preparação de instâncias de host para que você possa criar, monitorar, analisar e corrigir recursos nas configurações do seu banco de dados no console do Workload Factory. A etapa de preparação no processo de registro indica se suas instâncias de host estão prontas para gerenciamento.</block>
   <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">Gerenciamento de instâncias</block>
   <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
   <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">Tracker disponível para operações de monitoramento e rastreamento</block>
@@ -236,4 +162,55 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">Atualização de permissões para bancos de dados</block>
   <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">A seguinte permissão agora está disponível no modo _somente leitura_ para bancos de dados: <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> .</block>
   <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
+  <block id="a43e14359a13ff9144351ad74db7b351" category="section-title">Integração aprimorada para instâncias</block>
+  <block id="af2ef84a7c6d5792c23eddfef4cc4ed9" category="paragraph">Em vez dos termos "não detectado", "não gerenciado" ou "gerenciado" para o gerenciamento de instâncias, o Workload Factory agora usa "registro" para integração de instâncias. O novo processo de registro inclui a autenticação e a preparação de instâncias para que você possa criar, monitorar, analisar e corrigir recursos nas configurações do seu banco de dados no console do Workload Factory. A etapa de preparação no processo de registro indica se suas instâncias estão prontas para gerenciamento.</block>
+  <block id="a10c281531128badfefa7086b353ead0" category="paragraph"><block ref="a10c281531128badfefa7086b353ead0" category="inline-link-macro-rx"></block></block>
+  <block id="16608889ffd4210e3527b28d2cabeee1" category="paragraph">O painel de armazenamento no console da fábrica de carga de trabalho inclui novos cartões para oportunidades de economia. O cartão na parte superior do painel exibe o número de oportunidades de economia para ambientes de armazenamento executados no Amazon Elastic Block Store (EBS), Amazon FSx para Windows File Server e Amazon Elastic File Systems (EFS). Na parte inferior do painel, três novos cartões exibem oportunidades de economia por serviço de armazenamento da Amazon: EBS, FSx para Windows File Server e EFS. Em todos os cartões, você pode explorar as oportunidades de economia com mais detalhes.</block>
+  <block id="e2fc557edefb4b2854999f60dbd0d379" category="paragraph">A partir do cartão de cobertura de proteção do FSx para ONTAP e do cartão de integridade do relacionamento de replicação, você pode verificar se há volumes parcialmente protegidos em seus sistemas de arquivos FSx para ONTAP, bem como investigar problemas com os relacionamentos de replicação. Em ambos os casos, você pode tomar medidas para resolver os problemas.</block>
+  <block id="34ccfe489231e34890602e4f0419b843" category="section-title">Melhorias na guia Volume</block>
+  <block id="f659fbcb502240d4138a6337d4da17d5" category="paragraph">A aba Volumes no console da fábrica de carga de trabalho foi aprimorada para fornecer uma visão mais abrangente do seu FSx para sistemas de arquivos ONTAP. As melhorias incluem novos cartões para capacidade de SSD, pool de capacidade e Proteção Autônoma contra Ransomware da NetApp com IA (ARP/AI). Esses cartões resumem a utilização da capacidade e a proteção ARP/AI para todos os volumes no sistema de arquivos.</block>
+  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">Suporte para sistemas de arquivos Amazon FSX para NetApp ONTAP de segunda geração</block>
+  <block id="7efd44dd06c377a68f3fc78abf7d91fb" category="paragraph">A fábrica de carga de trabalho agora oferece suporte aos sistemas de arquivos Amazon FSx for NetApp ONTAP de segunda geração. Você pode criar, gerenciar e monitorar sistemas de arquivos de segunda geração no console da fábrica de carga de trabalho. Todas as novas regiões comerciais são compatíveis.</block>
+  <block id="cd0ce691a9b616ae8983f22db2fb8a6d" category="inline-link-macro">Crie um sistema de arquivos de segunda geração na fábrica de carga de trabalho</block>
+  <block id="f784f74601a71805db546f7b6842f0e5" category="paragraph"><block ref="f784f74601a71805db546f7b6842f0e5" category="inline-link-macro-rx"></block></block>
+  <block id="094caa4bbbbdba779d6ef8c57b995856" category="section-title">Suporte de volume FlexVol para rebalanceamento de capacidade de volume</block>
+  <block id="ab0d60978b39ce0cb886ec1fbf91bad8" category="paragraph">Os volumes FlexVol podem ser descobertos no console da fábrica de carga de trabalho. Você pode verificar o equilíbrio dos seus volumes FlexVol e rebalanceá-los para redistribuir a capacidade quando desequilíbrios surgirem ao longo do tempo devido à adição de novos arquivos e ao crescimento de arquivos.</block>
+  <block id="226bb141f0b474b8b8d4e55bfe659a94" category="inline-link-macro">Rebalancear a capacidade de um volume FlexVol</block>
+  <block id="7f11a5de29d58c93cc212be8cf51b761" category="paragraph"><block ref="7f11a5de29d58c93cc212be8cf51b761" category="inline-link-macro-rx"></block></block>
+  <block id="d7581ee541e7cfa51fd2f75f93b7e64e" category="section-title">Atualização de terminologia</block>
+  <block id="6e0c2d8cb551de024f6700ca0407257e" category="paragraph">O termo "Proteção Autônoma contra Ransomware" (ARP) foi atualizado para "Proteção Autônoma contra Ransomware da NetApp com IA" (ARP/AI) no console da fábrica de carga de trabalho.</block>
+  <block id="d474538a7c98b462c08197d24f7c1c60" category="section-title">ARP/AI habilitado por padrão para novos volumes</block>
+  <block id="6a3bf8c141dbbeed37af8236f412b19a" category="paragraph">Ao criar um novo volume no console do Workload Factory, a Proteção Autônoma contra Ransomware com IA (ARP/AI) da NetApp é habilitada por padrão se o sistema de arquivos tiver uma política de ARP/AI. Isso significa que o volume é protegido automaticamente contra ataques de ransomware usando recursos de detecção e resposta orientados por IA.</block>
+  <block id="7e0b28b27ce3985a4a8d693330a04cb7" category="inline-link-macro">Criar um volume na fábrica de carga de trabalho</block>
+  <block id="3bf76f3556904b928c43201c04108364" category="paragraph"><block ref="3bf76f3556904b928c43201c04108364" category="inline-link-macro-rx"></block></block>
+  <block id="442d07125b5c2363eae9c33039172225" category="section-title">Suporte de replicação para arquivos imutáveis</block>
+  <block id="6250cd311debe5758acc69f81921ab78" category="paragraph">A fábrica de carga de trabalho suporta a replicação de volumes imutáveis de um sistema FSx for ONTAP para outro sistema de arquivos FSx for ONTAP, a fim de proteger dados críticos contra exclusões acidentais ou ataques maliciosos, como ransomware. O volume de destino e seu sistema de arquivos host serão imutáveis, ou seja, bloqueados, e quaisquer dados no sistema de arquivos de destino não poderão ser modificados ou removidos até o término do período de retenção.</block>
+  <block id="b6fc33d7434bb860ad528753113881b1" category="inline-link-macro">Aprenda a criar um relacionamento de replicação</block>
+  <block id="d3dbddfb353eaaa957947efb04ca7013" category="paragraph"><block ref="d3dbddfb353eaaa957947efb04ca7013" category="inline-link-macro-rx"></block></block>
+  <block id="d836bf4f72557e9399ce062e72ef15f6" category="section-title">Melhorias na criação de links</block>
+  <block id="1f8ca754f0193efb8fdc1c63a4d96672" category="paragraph">Os seguintes aprimoramentos foram feitos no processo de criação de links no console do Workload Factory.</block>
+  <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">Conete-se a um sistema de arquivos FSX for ONTAP com um link do Lambda</block>
+  <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
+  <block id="5c44c7d986372ccb1d679985b5416b64" category="section-title">Gerenciar a função de execução e as permissões do IAM durante a criação do link</block>
+  <block id="43f8bec3c8d83ff27c8f5d629cd49d4d" category="paragraph">Agora você pode gerenciar a função de execução do IAM e a política de permissões associada ao criar um link no console do Workload Factory. Um link estabelece a conectividade entre sua conta do Workload Factory e um ou mais sistemas de arquivos FSx for ONTAP. Você tem duas opções para atribuir a função de execução do IAM e as permissões de link: automaticamente ou fornecidas pelo usuário. Gerenciar a função de execução e a política de permissões associada no Workload Factory significa que você não precisa mais usar código de terceiros.</block>
+  <block id="f83708b425052a7f19c02dfd5c3d0688" category="section-title">Suporte Terraform para criação de links</block>
+  <block id="d993aa63b5e96ec8db4090bd87d5c850" category="paragraph">Agora você pode usar o Terraform do Codebox para criar um link para associar a um sistema de arquivos FSx para ONTAP. Essa funcionalidade é para usuários que criam links manualmente.</block>
+  <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">A fábrica de carga de trabalho fornece as seguintes notificações para bancos de dados:</block>
+  <block id="33e3371223dba19c723617802e06af8d" category="list-text">Relatório bem arquitetado</block>
+  <block id="d415d128365eca1587931ed756de7819" category="list-text">Implantação de host</block>
+  <block id="83f1d9ca1a0c4c2fc51a371c0d773f76" category="list-text">Proteção</block>
+  <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">Aprimoramento de integração para registro de instâncias</block>
+  <block id="0a969bb4f7ed7e29d7225c0409a1750b" category="paragraph">O Workload Factory para Bancos de Dados aprimorou seu processo de integração para registro de instâncias em execução no Amazon FSx para armazenamento NetApp ONTAP. Agora você pode selecionar instâncias em massa para registro. Após o registro de uma instância, você pode criar e gerenciar recursos de host do banco de dados no console do Workload Factory.</block>
+  <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Análise e correção para configuração de tempo limite de E/S do Microsoft Multipath</block>
+  <block id="221618cb9e519d5c3dd0fcbb1e4f1205" category="paragraph">O status bem arquitetado para suas instâncias de host de banco de dados agora inclui a análise e a correção para a configuração de tempo limite do Microsoft Multipath I/O (MPIO). Definir o tempo limite do MPIO para 60 segundos garante a conectividade e a estabilidade do armazenamento FSx for ONTAP durante failovers. Se a configuração do MPIO não estiver definida corretamente, o Workload Factory fornecerá uma correção para definir o valor do tempo limite do MPIO para 60 segundos.</block>
+  <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">Implementar configurações de banco de dados bem arquitetadas na fábrica de carga de trabalho</block>
+  <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
+  <block id="2bf19cd7fefccda37a9e51c8d6ae9ef1" category="section-title">Melhorias nos gráficos do inventário do host</block>
+  <block id="29a6225f1f6846093fcfd562090e8654" category="paragraph">Na tela de inventário do host, vários gráficos de utilização de recursos, como throughput e IOPS, agora exibem dados de 7 dias, para que você possa monitorar o desempenho dos nós SQL a partir do console da fábrica de carga de trabalho com mais eficiência. As métricas de desempenho coletadas dos nós SQL serão salvas no Amazon CloudWatch, que pode ser usado para o Logs Insights ou para integração com outros serviços analíticos em seu ambiente.</block>
+  <block id="02212e54266ecdf641215b97bf4ab24e" category="paragraph">Nas guias Instâncias e Bancos de dados no inventário do host, aprimoramos a descrição e a visualização da proteção do host.</block>
+  <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">Suporte para autenticação do Windows na fábrica de carga de trabalho</block>
+  <block id="b3a0e7d1a5170a15143af7a7f86f02b8" category="paragraph">Agora, o Workload Factory oferece suporte à autenticação do SQL Server usando usuários autenticados do Windows para registrar instâncias de host e se beneficiar dos recursos de gerenciamento de host.</block>
+  <block id="47668721b89b4afabeb23e27f6ac9b38" category="inline-link-macro">Registrar instâncias de host na fábrica de carga de trabalho para bancos de dados</block>
+  <block id="4f178ea0296d3da0481606b8e3df7542" category="paragraph"><block ref="4f178ea0296d3da0481606b8e3df7542" category="inline-link-macro-rx"></block></block>
+  <block id="0a9f9a33b436eb81633ee8f4b2cb121d" category="section-title">30 de junho de 2025</block>
 </blocks>

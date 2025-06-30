@@ -15,7 +15,146 @@ Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem par
 
 
 
+== 30 de junho de 2025
+
+
+
+=== Workloads de banco de dados
+
+
+
+==== Suporte ao serviço de notificação de fábrica de carga de trabalho BlueXP
+
+O serviço de notificação da fábrica de carga de trabalho do BlueXP permite que a fábrica de carga de trabalho envie notificações para o serviço de alertas do BlueXP ou para um tópico do Amazon SNS. As notificações enviadas aos alertas do BlueXP aparecem no painel de alertas do BlueXP. Quando a fábrica de carga de trabalho publica notificações em um tópico do Amazon SNS, os assinantes do tópico (como pessoas ou outros aplicativos) recebem as notificações nos endpoints configurados para o tópico (como e-mail ou mensagens SMS).
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurar notificações de fábrica de carga de trabalho do BlueXP"^]
+
+A fábrica de carga de trabalho fornece as seguintes notificações para bancos de dados:
+
+* Relatório bem arquitetado
+* Implantação de host
+* Proteção
+
+
+
+
+==== Aprimoramento de integração para registro de instâncias
+
+O Workload Factory para Bancos de Dados aprimorou seu processo de integração para registro de instâncias em execução no Amazon FSx para armazenamento NetApp ONTAP. Agora você pode selecionar instâncias em massa para registro. Após o registro de uma instância, você pode criar e gerenciar recursos de host do banco de dados no console do Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gerenciamento de instâncias"]
+
+
+
+==== Análise e correção para configuração de tempo limite de E/S do Microsoft Multipath
+
+O status bem arquitetado para suas instâncias de host de banco de dados agora inclui a análise e a correção para a configuração de tempo limite do Microsoft Multipath I/O (MPIO). Definir o tempo limite do MPIO para 60 segundos garante a conectividade e a estabilidade do armazenamento FSx for ONTAP durante failovers. Se a configuração do MPIO não estiver definida corretamente, o Workload Factory fornecerá uma correção para definir o valor do tempo limite do MPIO para 60 segundos.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas na fábrica de carga de trabalho"]
+
+
+
+==== Melhorias nos gráficos do inventário do host
+
+Na tela de inventário do host, vários gráficos de utilização de recursos, como throughput e IOPS, agora exibem dados de 7 dias, para que você possa monitorar o desempenho dos nós SQL a partir do console da fábrica de carga de trabalho com mais eficiência. As métricas de desempenho coletadas dos nós SQL serão salvas no Amazon CloudWatch, que pode ser usado para o Logs Insights ou para integração com outros serviços analíticos em seu ambiente.
+
+Nas guias Instâncias e Bancos de dados no inventário do host, aprimoramos a descrição e a visualização da proteção do host.
+
+
+
+==== Suporte para autenticação do Windows na fábrica de carga de trabalho
+
+Agora, o Workload Factory oferece suporte à autenticação do SQL Server usando usuários autenticados do Windows para registrar instâncias de host e se beneficiar dos recursos de gerenciamento de host.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Registrar instâncias de host na fábrica de carga de trabalho para bancos de dados"]
+
+
+
 == 29 de junho de 2025
+
+
+
+=== Amazon FSX para NetApp ONTAP
+
+
+
+==== Suporte ao serviço de notificação de fábrica de carga de trabalho BlueXP
+
+O serviço de notificação da fábrica de carga de trabalho do BlueXP permite que a fábrica de carga de trabalho envie notificações para o serviço de alertas do BlueXP ou para um tópico do Amazon SNS. As notificações enviadas aos alertas do BlueXP aparecem no painel de alertas do BlueXP. Quando a fábrica de carga de trabalho publica notificações em um tópico do Amazon SNS, os assinantes do tópico (como pessoas ou outros aplicativos) recebem as notificações nos endpoints configurados para o tópico (como e-mail ou mensagens SMS).
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurar notificações de fábrica de carga de trabalho do BlueXP"^]
+
+
+
+==== Melhorias no painel de armazenamento
+
+O painel de armazenamento no console da fábrica de carga de trabalho inclui novos cartões para oportunidades de economia. O cartão na parte superior do painel exibe o número de oportunidades de economia para ambientes de armazenamento executados no Amazon Elastic Block Store (EBS), Amazon FSx para Windows File Server e Amazon Elastic File Systems (EFS). Na parte inferior do painel, três novos cartões exibem oportunidades de economia por serviço de armazenamento da Amazon: EBS, FSx para Windows File Server e EFS. Em todos os cartões, você pode explorar as oportunidades de economia com mais detalhes.
+
+A partir do cartão de cobertura de proteção do FSx para ONTAP e do cartão de integridade do relacionamento de replicação, você pode verificar se há volumes parcialmente protegidos em seus sistemas de arquivos FSx para ONTAP, bem como investigar problemas com os relacionamentos de replicação. Em ambos os casos, você pode tomar medidas para resolver os problemas.
+
+
+
+==== Melhorias na guia Volume
+
+A aba Volumes no console da fábrica de carga de trabalho foi aprimorada para fornecer uma visão mais abrangente do seu FSx para sistemas de arquivos ONTAP. As melhorias incluem novos cartões para capacidade de SSD, pool de capacidade e Proteção Autônoma contra Ransomware da NetApp com IA (ARP/AI). Esses cartões resumem a utilização da capacidade e a proteção ARP/AI para todos os volumes no sistema de arquivos.
+
+
+
+==== Suporte para sistemas de arquivos Amazon FSX para NetApp ONTAP de segunda geração
+
+A fábrica de carga de trabalho agora oferece suporte aos sistemas de arquivos Amazon FSx for NetApp ONTAP de segunda geração. Você pode criar, gerenciar e monitorar sistemas de arquivos de segunda geração no console da fábrica de carga de trabalho. Todas as novas regiões comerciais são compatíveis.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Crie um sistema de arquivos de segunda geração na fábrica de carga de trabalho"]
+
+
+
+==== Suporte de volume FlexVol para rebalanceamento de capacidade de volume
+
+Os volumes FlexVol podem ser descobertos no console da fábrica de carga de trabalho. Você pode verificar o equilíbrio dos seus volumes FlexVol e rebalanceá-los para redistribuir a capacidade quando desequilíbrios surgirem ao longo do tempo devido à adição de novos arquivos e ao crescimento de arquivos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["Rebalancear a capacidade de um volume FlexVol"]
+
+
+
+==== Atualização de terminologia
+
+O termo "Proteção Autônoma contra Ransomware" (ARP) foi atualizado para "Proteção Autônoma contra Ransomware da NetApp com IA" (ARP/AI) no console da fábrica de carga de trabalho.
+
+
+
+==== ARP/AI habilitado por padrão para novos volumes
+
+Ao criar um novo volume no console do Workload Factory, a Proteção Autônoma contra Ransomware com IA (ARP/AI) da NetApp é habilitada por padrão se o sistema de arquivos tiver uma política de ARP/AI. Isso significa que o volume é protegido automaticamente contra ataques de ransomware usando recursos de detecção e resposta orientados por IA.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Criar um volume na fábrica de carga de trabalho"]
+
+
+
+==== Suporte de replicação para arquivos imutáveis
+
+A fábrica de carga de trabalho suporta a replicação de volumes imutáveis de um sistema FSx for ONTAP para outro sistema de arquivos FSx for ONTAP, a fim de proteger dados críticos contra exclusões acidentais ou ataques maliciosos, como ransomware. O volume de destino e seu sistema de arquivos host serão imutáveis, ou seja, bloqueados, e quaisquer dados no sistema de arquivos de destino não poderão ser modificados ou removidos até o término do período de retenção.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Aprenda a criar um relacionamento de replicação"]
+
+
+
+==== Melhorias na criação de links
+
+Os seguintes aprimoramentos foram feitos no processo de criação de links no console do Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Conete-se a um sistema de arquivos FSX for ONTAP com um link do Lambda"]
+
+
+
+===== Gerenciar a função de execução e as permissões do IAM durante a criação do link
+
+Agora você pode gerenciar a função de execução do IAM e a política de permissões associada ao criar um link no console do Workload Factory. Um link estabelece a conectividade entre sua conta do Workload Factory e um ou mais sistemas de arquivos FSx for ONTAP. Você tem duas opções para atribuir a função de execução do IAM e as permissões de link: automaticamente ou fornecidas pelo usuário. Gerenciar a função de execução e a política de permissões associada no Workload Factory significa que você não precisa mais usar código de terceiros.
+
+
+
+===== Suporte Terraform para criação de links
+
+Agora você pode usar o Terraform do Codebox para criar um link para associar a um sistema de arquivos FSx para ONTAP. Essa funcionalidade é para usuários que criam links manualmente.
 
 
 
@@ -174,9 +313,9 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["An
 
 
 
-==== Integração aprimorada para instâncias de host
+==== Integração aprimorada para instâncias
 
-Em vez dos termos "não detectado", "não gerenciado" ou "gerenciado" para o gerenciamento de instâncias de host, o Workload Factory agora usa "registro" para integrar instâncias de host. O novo processo de registro inclui a autenticação e a preparação de instâncias de host para que você possa criar, monitorar, analisar e corrigir recursos nas configurações do seu banco de dados no console do Workload Factory. A etapa de preparação no processo de registro indica se suas instâncias de host estão prontas para gerenciamento.
+Em vez dos termos "não detectado", "não gerenciado" ou "gerenciado" para o gerenciamento de instâncias, o Workload Factory agora usa "registro" para integração de instâncias. O novo processo de registro inclui a autenticação e a preparação de instâncias para que você possa criar, monitorar, analisar e corrigir recursos nas configurações do seu banco de dados no console do Workload Factory. A etapa de preparação no processo de registro indica se suas instâncias estão prontas para gerenciamento.
 
 link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gerenciamento de instâncias"]
 
@@ -203,134 +342,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 
 == 4 de maio de 2025
-
-
-
-=== Amazon FSX para NetApp ONTAP
-
-
-
-==== Proteção autônoma contra ransomware para sistemas de arquivos FSX for ONTAP
-
-Proteja seus dados com o Autonomous ransomware Protection (ARP), um recurso que usa a análise de workload em ambientes nas (NFS/SMB) para detectar e avisar sobre atividades anormais que podem ser um ataque. Quando um ataque é suspeito, o ARP também cria novos snapshots imutáveis a partir dos quais você pode restaurar seus dados.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Proteja seus dados com o Autonomous ransomware Protection"]
-
-
-
-==== Aprimoramento do rebalanceamento de volume do FlexGroup
-
-A fábrica de workloads do BlueXP  apresenta o assistente de rebalanceamento de volume do FlexGroup com várias opções de layout para reequilibrar os dados em um volume do FlexGroup. O rebalanceamento redistribui os dados uniformemente para os volumes membros do FlexGroup.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["Rebalancear a capacidade em um volume FlexGroup"]
-
-
-
-==== Implemente as melhores práticas para um sistema de arquivos FSX for ONTAP
-
-A fábrica do BlueXP  Workload fornece um painel onde você pode verificar o status bem arquitetado das configurações do sistema de arquivos. Você pode aproveitar essa análise para implementar as práticas recomendadas para seus sistemas de arquivos FSX for ONTAP. A análise de configuração do sistema de arquivos inclui as seguintes configurações: Limite de capacidade SSD, snapshots locais programados, backups programados do FSX para ONTAP, disposição de dados em categorias e replicação de dados remota.
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["Saiba mais sobre a análise bem arquitetada para configurações do sistema de arquivos"]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Implemente as práticas recomendadas para seus sistemas de arquivos"]
-
-
-
-
-==== Opções de estilo de segurança de volume de protocolo duplo
-
-Você tem a opção de escolher NTFS ou UNIX como o estilo de segurança de um volume para determinar o método pelo qual os usuários e permissões acessam um volume.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crie um volume"]
-
-
-
-==== Aprimoramentos de replicação
-
-
-
-===== Replicação reversa com suporte do FSX for ONTAP para no local
-
-A replicação reversa agora está disponível a partir de um sistema de arquivos FSX for ONTAP para um cluster ONTAP no local a partir do console de fábrica de carga de trabalho.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/reverse-replication.html["Replicação reversa"]
-
-
-
-===== Replicação de volume de proteção de dados
-
-Agora é possível replicar volumes de proteção de dados.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["Replicar um volume de proteção de dados"]
-
-
-
-===== Seleção de vários volumes
-
-A seleção de vários volumes está disponível para que você possa selecionar exatamente os volumes que deseja replicar.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Crie uma relação de replicação"]
-
-
-
-===== Rótulos de política de retenção de longo prazo
-
-Quando você ativa a retenção a longo prazo para uma relação de replicação, os rótulos de volumes de origem e destino devem corresponder exatamente. Agora, a fábrica de carga de trabalho do BlueXP  pode criar automaticamente rótulos de volume de origem ausentes para você.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Crie uma relação de replicação"]
-
-
-
-==== Nome de arquivo FSX for ONTAP visível na criação de volume
-
-Melhoramos a visibilidade dos sistemas de arquivos do FSX para ONTAP durante a criação de volume. Você verá o sistema de arquivos FSX for ONTAP ao criar um volume, então você saberá exatamente onde o volume está sendo criado.
-
-
-
-==== Conta da AWS visível no workload do Storage
-
-Melhoramos a visibilidade da conta em todo o workload do storage. Você verá a conta da AWS ao navegar para as guias *volumes*, *VMs de armazenamento* e *replicação*.
-
-
-
-==== Aprimoramentos de associação de links
-
-* Você pode associar rapidamente um link de um sistema de arquivos FSX for ONTAP na guia Inventário.
-* A fábrica de workloads do BlueXP  agora dá suporte ao uso de credenciais de usuário alternativas do ONTAP para associação de links.
-
-
-
-
-==== Suporte de autenticação de link para o AWS Secrets Manager
-
-Agora você tem a opção de usar segredos do AWS Secrets Manager para autenticar links para que você não precise usar credenciais armazenadas na fábrica de carga de trabalho do BlueXP .
-
-
-
-==== Suporte de resposta do Rastreador
-
-O Tracker agora fornece respostas à API para que você possa ver a saída da API REST relacionada à tarefa.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Monitore as operações com o Tracker"]
-
-
-
-==== Validação de capacidade ao restaurar um volume de um backup
-
-Ao restaurar um volume a partir de um backup, a carga de trabalho do BlueXP  determina se você tem capacidade suficiente para a restauração e pode adicionar automaticamente a capacidade da camada de storage SSD, caso não o faça.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/restore-from-backup.html["Restaurar um volume a partir de uma cópia de segurança"]
-
-
-
-==== Suporte para credenciais de usuário alternativas do ONTAP
-
-A fábrica de workloads agora é compatível com conjuntos alternativos de credenciais ONTAP para a criação de sistemas de arquivos para minimizar os riscos de segurança. Em vez de usar apenas o usuário fsxadmin, você pode selecionar um conjunto diferente de credenciais ONTAP ou optar por não fornecer uma senha para os usuários fsxadmin e vsaadmin.
-
-
-
-==== Terminologia de permissões atualizada
-
-A interface do usuário e a documentação do Workload Factory agora usam "somente leitura" para se referir às permissões de leitura e "leitura/gravação" para se referir às permissões de automação.
 
 
 
@@ -465,66 +476,6 @@ A interface do usuário e a documentação do Workload Factory agora usam "somen
 ==== Terminologia de permissões atualizada
 
 A interface do usuário e a documentação do Workload Factory agora usam "somente leitura" para se referir às permissões de leitura e "leitura/gravação" para se referir às permissões de automação.
-
-
-
-== 4 de abril de 2025
-
-
-
-=== Workloads de banco de dados
-
-
-
-==== Melhorias na otimização
-
-Novas avaliações de otimização, correções e a exibição de vários recursos estão disponíveis ao otimizar seus ambientes de banco de dados.
-
-
-
-===== Avaliações de resiliência
-
-Os aprimoramentos incluem novas avaliações de resiliência para verificar se os recursos de redundância de dados e recuperação de desastres estão configurados para seus ambientes de banco de dados.
-
-* Backups do FSX para ONTAP: Analisa se os sistemas de arquivos FSX for ONTAP que atendem os volumes da instância do SQL Server são configurados com backups programados do FSX para ONTAP.
-* Replicação entre regiões: Avalia se o FSX para sistemas de arquivos ONTAP que atendem instâncias do Microsoft SQL Server estão configurados com replicação entre regiões.
-
-
-
-
-===== Correção de computação
-
-A correção de Receive Side Scaling (RSS) configura o RSS para distribuir o processamento de rede entre vários processadores e garantir uma distribuição de carga eficiente.
-
-
-
-===== Correção de snapshot local
-
-Define políticas de snapshot para volumes para suas instâncias do Microsoft SQL Server para manter seus ambientes de banco de dados resilientes em caso de perda de dados.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Otimizar configurações"]
-
-
-
-===== Suporte para seleção múltipla de recursos
-
-Ao otimizar as configurações do banco de dados, você poderá selecionar recursos específicos em vez de todos os recursos.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Otimizar configurações"]
-
-
-
-==== Visualização de inventário melhorada
-
-A guia Inventário no console de fábrica de carga de trabalho foi simplificada para que ele contenha apenas servidores SQL executados no Amazon FSX for NetApp ONTAP. Agora você encontrará servidores SQL no local e em execução na Amazon Elastic Block Store e no Amazon FSX for Windows File Server na guia explorar economia.
-
-
-
-==== Criação rápida disponível para a implantação do servidor PostgreSQL
-
-Você pode usar essa opção de implantação rápida para criar um servidor PostgreSQL com configuração de HA e práticas recomendadas incorporadas.
-
-link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Crie um servidor PostgreSQL na fábrica de carga de trabalho do BlueXP"]
 
 
 

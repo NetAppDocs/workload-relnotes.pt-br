@@ -1,0 +1,83 @@
+= Suporte ao serviço de notificação de fábrica de carga de trabalho BlueXP
+:allow-uri-read: 
+
+
+
+
+=== Suporte ao serviço de notificação de fábrica de carga de trabalho BlueXP
+
+O serviço de notificação da fábrica de carga de trabalho do BlueXP permite que a fábrica de carga de trabalho envie notificações para o serviço de alertas do BlueXP ou para um tópico do Amazon SNS. As notificações enviadas aos alertas do BlueXP aparecem no painel de alertas do BlueXP. Quando a fábrica de carga de trabalho publica notificações em um tópico do Amazon SNS, os assinantes do tópico (como pessoas ou outros aplicativos) recebem as notificações nos endpoints configurados para o tópico (como e-mail ou mensagens SMS).
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurar notificações de fábrica de carga de trabalho do BlueXP"^]
+
+
+
+=== Melhorias no painel de armazenamento
+
+O painel de armazenamento no console da fábrica de carga de trabalho inclui novos cartões para oportunidades de economia. O cartão na parte superior do painel exibe o número de oportunidades de economia para ambientes de armazenamento executados no Amazon Elastic Block Store (EBS), Amazon FSx para Windows File Server e Amazon Elastic File Systems (EFS). Na parte inferior do painel, três novos cartões exibem oportunidades de economia por serviço de armazenamento da Amazon: EBS, FSx para Windows File Server e EFS. Em todos os cartões, você pode explorar as oportunidades de economia com mais detalhes.
+
+A partir do cartão de cobertura de proteção do FSx para ONTAP e do cartão de integridade do relacionamento de replicação, você pode verificar se há volumes parcialmente protegidos em seus sistemas de arquivos FSx para ONTAP, bem como investigar problemas com os relacionamentos de replicação. Em ambos os casos, você pode tomar medidas para resolver os problemas.
+
+
+
+=== Melhorias na guia Volume
+
+A aba Volumes no console da fábrica de carga de trabalho foi aprimorada para fornecer uma visão mais abrangente do seu FSx para sistemas de arquivos ONTAP. As melhorias incluem novos cartões para capacidade de SSD, pool de capacidade e Proteção Autônoma contra Ransomware da NetApp com IA (ARP/AI). Esses cartões resumem a utilização da capacidade e a proteção ARP/AI para todos os volumes no sistema de arquivos.
+
+
+
+=== Suporte para sistemas de arquivos Amazon FSX para NetApp ONTAP de segunda geração
+
+A fábrica de carga de trabalho agora oferece suporte aos sistemas de arquivos Amazon FSx for NetApp ONTAP de segunda geração. Você pode criar, gerenciar e monitorar sistemas de arquivos de segunda geração no console da fábrica de carga de trabalho. Todas as novas regiões comerciais são compatíveis.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Crie um sistema de arquivos de segunda geração na fábrica de carga de trabalho"]
+
+
+
+=== Suporte de volume FlexVol para rebalanceamento de capacidade de volume
+
+Os volumes FlexVol podem ser descobertos no console da fábrica de carga de trabalho. Você pode verificar o equilíbrio dos seus volumes FlexVol e rebalanceá-los para redistribuir a capacidade quando desequilíbrios surgirem ao longo do tempo devido à adição de novos arquivos e ao crescimento de arquivos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["Rebalancear a capacidade de um volume FlexVol"]
+
+
+
+=== Atualização de terminologia
+
+O termo "Proteção Autônoma contra Ransomware" (ARP) foi atualizado para "Proteção Autônoma contra Ransomware da NetApp com IA" (ARP/AI) no console da fábrica de carga de trabalho.
+
+
+
+=== ARP/AI habilitado por padrão para novos volumes
+
+Ao criar um novo volume no console do Workload Factory, a Proteção Autônoma contra Ransomware com IA (ARP/AI) da NetApp é habilitada por padrão se o sistema de arquivos tiver uma política de ARP/AI. Isso significa que o volume é protegido automaticamente contra ataques de ransomware usando recursos de detecção e resposta orientados por IA.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Criar um volume na fábrica de carga de trabalho"]
+
+
+
+=== Suporte de replicação para arquivos imutáveis
+
+A fábrica de carga de trabalho suporta a replicação de volumes imutáveis de um sistema FSx for ONTAP para outro sistema de arquivos FSx for ONTAP, a fim de proteger dados críticos contra exclusões acidentais ou ataques maliciosos, como ransomware. O volume de destino e seu sistema de arquivos host serão imutáveis, ou seja, bloqueados, e quaisquer dados no sistema de arquivos de destino não poderão ser modificados ou removidos até o término do período de retenção.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Aprenda a criar um relacionamento de replicação"]
+
+
+
+=== Melhorias na criação de links
+
+Os seguintes aprimoramentos foram feitos no processo de criação de links no console do Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Conete-se a um sistema de arquivos FSX for ONTAP com um link do Lambda"]
+
+
+
+==== Gerenciar a função de execução e as permissões do IAM durante a criação do link
+
+Agora você pode gerenciar a função de execução do IAM e a política de permissões associada ao criar um link no console do Workload Factory. Um link estabelece a conectividade entre sua conta do Workload Factory e um ou mais sistemas de arquivos FSx for ONTAP. Você tem duas opções para atribuir a função de execução do IAM e as permissões de link: automaticamente ou fornecidas pelo usuário. Gerenciar a função de execução e a política de permissões associada no Workload Factory significa que você não precisa mais usar código de terceiros.
+
+
+
+==== Suporte Terraform para criação de links
+
+Agora você pode usar o Terraform do Codebox para criar um link para associar a um sistema de arquivos FSx para ONTAP. Essa funcionalidade é para usuários que criam links manualmente.

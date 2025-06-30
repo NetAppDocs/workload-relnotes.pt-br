@@ -18,8 +18,8 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["An
 
 
 
-=== Integração aprimorada para instâncias de host
+=== Integração aprimorada para instâncias
 
-Em vez dos termos "não detectado", "não gerenciado" ou "gerenciado" para o gerenciamento de instâncias de host, o Workload Factory agora usa "registro" para integrar instâncias de host. O novo processo de registro inclui a autenticação e a preparação de instâncias de host para que você possa criar, monitorar, analisar e corrigir recursos nas configurações do seu banco de dados no console do Workload Factory. A etapa de preparação no processo de registro indica se suas instâncias de host estão prontas para gerenciamento.
+Em vez dos termos "não detectado", "não gerenciado" ou "gerenciado" para o gerenciamento de instâncias, o Workload Factory agora usa "registro" para integração de instâncias. O novo processo de registro inclui a autenticação e a preparação de instâncias para que você possa criar, monitorar, analisar e corrigir recursos nas configurações do seu banco de dados no console do Workload Factory. A etapa de preparação no processo de registro indica se suas instâncias estão prontas para gerenciamento.
 
 link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gerenciamento de instâncias"]

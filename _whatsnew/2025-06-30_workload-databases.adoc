@@ -1,0 +1,50 @@
+= Suporte ao serviço de notificação de fábrica de carga de trabalho BlueXP
+:allow-uri-read: 
+
+
+
+
+=== Suporte ao serviço de notificação de fábrica de carga de trabalho BlueXP
+
+O serviço de notificação da fábrica de carga de trabalho do BlueXP permite que a fábrica de carga de trabalho envie notificações para o serviço de alertas do BlueXP ou para um tópico do Amazon SNS. As notificações enviadas aos alertas do BlueXP aparecem no painel de alertas do BlueXP. Quando a fábrica de carga de trabalho publica notificações em um tópico do Amazon SNS, os assinantes do tópico (como pessoas ou outros aplicativos) recebem as notificações nos endpoints configurados para o tópico (como e-mail ou mensagens SMS).
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurar notificações de fábrica de carga de trabalho do BlueXP"^]
+
+A fábrica de carga de trabalho fornece as seguintes notificações para bancos de dados:
+
+* Relatório bem arquitetado
+* Implantação de host
+* Proteção
+
+
+
+
+=== Aprimoramento de integração para registro de instâncias
+
+O Workload Factory para Bancos de Dados aprimorou seu processo de integração para registro de instâncias em execução no Amazon FSx para armazenamento NetApp ONTAP. Agora você pode selecionar instâncias em massa para registro. Após o registro de uma instância, você pode criar e gerenciar recursos de host do banco de dados no console do Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gerenciamento de instâncias"]
+
+
+
+=== Análise e correção para configuração de tempo limite de E/S do Microsoft Multipath
+
+O status bem arquitetado para suas instâncias de host de banco de dados agora inclui a análise e a correção para a configuração de tempo limite do Microsoft Multipath I/O (MPIO). Definir o tempo limite do MPIO para 60 segundos garante a conectividade e a estabilidade do armazenamento FSx for ONTAP durante failovers. Se a configuração do MPIO não estiver definida corretamente, o Workload Factory fornecerá uma correção para definir o valor do tempo limite do MPIO para 60 segundos.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas na fábrica de carga de trabalho"]
+
+
+
+=== Melhorias nos gráficos do inventário do host
+
+Na tela de inventário do host, vários gráficos de utilização de recursos, como throughput e IOPS, agora exibem dados de 7 dias, para que você possa monitorar o desempenho dos nós SQL a partir do console da fábrica de carga de trabalho com mais eficiência. As métricas de desempenho coletadas dos nós SQL serão salvas no Amazon CloudWatch, que pode ser usado para o Logs Insights ou para integração com outros serviços analíticos em seu ambiente.
+
+Nas guias Instâncias e Bancos de dados no inventário do host, aprimoramos a descrição e a visualização da proteção do host.
+
+
+
+=== Suporte para autenticação do Windows na fábrica de carga de trabalho
+
+Agora, o Workload Factory oferece suporte à autenticação do SQL Server usando usuários autenticados do Windows para registrar instâncias de host e se beneficiar dos recursos de gerenciamento de host.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Registrar instâncias de host na fábrica de carga de trabalho para bancos de dados"]
