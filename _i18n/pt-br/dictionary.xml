@@ -45,19 +45,7 @@
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">30 de março de 2025</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">Crie uma base de conhecimento do GenAI</block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">O CloudShell relata respostas de erro geradas por IA para os comandos da CLI do ONTAP</block>
-  <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">Melhorias na otimização</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
-  <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">Melhorias no painel de instrumentos</block>
-  <block id="04f9acced28b52e064ba8ccb957a615c" category="list-text">As visualizações entre contas e entre regiões estão disponíveis à medida que você navega entre guias no console de fábrica da carga de trabalho do BlueXP . As novas visualizações melhoram o gerenciamento, o monitoramento e a otimização de recursos.</block>
-  <block id="6e21267988cadc818dd398393c695465" category="list-text">A partir do bloco *economias potenciais* no painel, você poderá revisar rapidamente o que você pode economizar mudando para o FSX for ONTAP da Amazon Elastic Block Store ou do Amazon FSX for Windows File Server.</block>
-  <block id="255a96bb0a74416846fbad7e40f8ddf4" category="section-title">Análise ad hoc disponível para configurações de banco de dados</block>
-  <block id="2b1a16b6cd72c9555872ec61d3334af5" category="paragraph">A fábrica de carga de trabalho do BlueXP  para bancos de dados verifica automaticamente instâncias gerenciadas do Microsoft SQL Server com o armazenamento do FSX for ONTAP para possíveis problemas de configuração. Agora, além da digitalização diária, você pode digitalizar a qualquer momento.</block>
-  <block id="365d8fe4130e8c12f4a3defc920178dd" category="section-title">Remoção de registos de avaliação no local</block>
-  <block id="c4fd25bd6650f0eaedfd01e29fbecddd" category="paragraph">Depois de explorar a economia de um host no local do Microsoft SQL Server, você tem a opção de remover o Registro de host no local da fábrica de workloads do BlueXP .</block>
-  <block id="ae548505379d0043460d8c15540cb546" category="section-title">Limpeza de clones</block>
-  <block id="0d003b1e16a8cf8a4b6c0774ee3a0f41" category="paragraph">A avaliação e a correção da limpeza de clones identifica e gerencia clones antigos e caros. Os clones com mais de 60 dias podem ser atualizados ou excluídos do console de fábrica do workload do BlueXP .</block>
-  <block id="6da89f0beda0fbec41b06125b0b7ad32" category="section-title">Adiar e descartar a análise de configuração</block>
-  <block id="4a9a50cea48d9e2ded3becc284af4e41" category="paragraph">Algumas configurações podem não se aplicar aos ambientes de banco de dados. Agora você tem opções para adiar uma análise de configuração específica em 30 dias ou ignorar a análise.</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">Terminologia de permissões atualizada</block>
   <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">Suporte aprimorado ao modelo de chat</block>
   <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">O GenAI agora suporta os seguintes modelos de bate-papo adicionais para bases de conhecimento:</block>
@@ -231,4 +219,15 @@
   <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">Agora você pode explorar as possíveis economias ao migrar suas cargas de trabalho do VMware para o Amazon Elastic VMware Service (EVS). A calculadora de economia permite que você compare os custos de uso do Amazon EVS com e sem o Amazon FSx for NetApp ONTAP como armazenamento subjacente. A calculadora exibe potenciais economias em tempo real à medida que você ajusta as características do seu ambiente.</block>
   <block id="b5ddf28fa6b1419129cc60c87384d5f3" category="inline-link">Explore as economias do Amazon Elastic VMware Service com a BlueXP workload factory</block>
   <block id="e5201134512b46a1979954f15ddb8c25" category="paragraph"><block ref="e5201134512b46a1979954f15ddb8c25" category="inline-link-rx"></block></block>
+  <block id="65bff5c812b0782e85c3554a907e01d2" category="doc">A análise bem arquitetada inclui validação de cluster de alta disponibilidade</block>
+  <block id="bdd55244a112c438dfe30c6c85a4fcb1" category="paragraph">A análise bem arquitetada agora inclui validação para clusters de alta disponibilidade. Esta validação verifica todas as configurações relacionadas ao cluster do lado do servidor, incluindo a disponibilidade e a configuração do disco em ambos os nós, a configuração do cluster do Windows e a prontidão para failover. Isso garante que o cluster do Windows esteja configurado corretamente e possa fazer failover com sucesso quando necessário.</block>
+  <block id="ad229ca0142680e057d4328835a9c1ef" category="section-title">Menu multinível disponível para instâncias</block>
+  <block id="de0915fdab5af6d02111d53dcfd6ccb3" category="paragraph">O console da fábrica de carga de trabalho agora inclui um menu multinível para instâncias. Essa mudança fornece uma estrutura de navegação mais organizada e intuitiva para gerenciar instâncias. As opções de menu para gerenciamento de instâncias incluem visualizar o painel da instância, visualizar bancos de dados, criar um banco de dados e criar um clone do sandbox.</block>
+  <block id="8d79c3f1283ecc54b044e383580c41e0" category="inline-image-macro">Uma captura de tela do menu da tabela de instâncias com uma estrutura de menu de vários níveis. Selecione o menu da tabela de instâncias e gerencie a instância para visualizar bancos de dados, criar um banco de dados e criar um clone do sandbox.</block>
+  <block id="6f3cad43f8bb61ac11ebd8e87e6d6240" category="paragraph"><block ref="6f3cad43f8bb61ac11ebd8e87e6d6240" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5892d833ba074396906362cfc3ad6370" category="section-title">Nova opção de autenticação para explorar economias</block>
+  <block id="3035f336d9539562dbf5355f26c10a4f" category="paragraph">Quando o<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> Se o usuário não tiver permissões suficientes no Microsoft SQL Server, você poderá autenticar com credenciais do SQL Server ou adicionar as permissões ausentes do SQL Server.<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> .</block>
+  <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">Explore potenciais economias para seus ambientes de banco de dados com o Amazon FSx for NetApp ONTAP</block>
+  <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
+  <block id="a76bbcc12fcf5f723f1560cd99c60ab3" category="section-title">2025-08-04</block>
 </blocks>

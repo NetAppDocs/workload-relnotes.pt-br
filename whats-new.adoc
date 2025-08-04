@@ -15,6 +15,38 @@ Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem par
 
 
 
+== 2025-08-04
+
+
+
+=== Workloads de banco de dados
+
+
+
+==== A análise bem arquitetada inclui validação de cluster de alta disponibilidade
+
+A análise bem arquitetada agora inclui validação para clusters de alta disponibilidade. Esta validação verifica todas as configurações relacionadas ao cluster do lado do servidor, incluindo a disponibilidade e a configuração do disco em ambos os nós, a configuração do cluster do Windows e a prontidão para failover. Isso garante que o cluster do Windows esteja configurado corretamente e possa fazer failover com sucesso quando necessário.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas na fábrica de carga de trabalho"]
+
+
+
+==== Menu multinível disponível para instâncias
+
+O console da fábrica de carga de trabalho agora inclui um menu multinível para instâncias. Essa mudança fornece uma estrutura de navegação mais organizada e intuitiva para gerenciar instâncias. As opções de menu para gerenciamento de instâncias incluem visualizar o painel da instância, visualizar bancos de dados, criar um banco de dados e criar um clone do sandbox.
+
+image:manage-instance-table-menu.png["Uma captura de tela do menu da tabela de instâncias com uma estrutura de menu de vários níveis. Selecione o menu da tabela de instâncias e gerencie a instância para visualizar bancos de dados, criar um banco de dados e criar um clone do sandbox."]
+
+
+
+==== Nova opção de autenticação para explorar economias
+
+Quando o `NT Authority\SYSTEM` Se o usuário não tiver permissões suficientes no Microsoft SQL Server, você poderá autenticar com credenciais do SQL Server ou adicionar as permissões ausentes do SQL Server. `NT Authority\SYSTEM` .
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore potenciais economias para seus ambientes de banco de dados com o Amazon FSx for NetApp ONTAP"]
+
+
+
 == 2025-08-03
 
 
@@ -390,58 +422,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 
 == 4 de maio de 2025
-
-
-
-=== Workloads de banco de dados
-
-
-
-==== Melhorias no painel de instrumentos
-
-* As visualizações entre contas e entre regiões estão disponíveis à medida que você navega entre guias no console de fábrica da carga de trabalho do BlueXP . As novas visualizações melhoram o gerenciamento, o monitoramento e a otimização de recursos.
-* A partir do bloco *economias potenciais* no painel, você poderá revisar rapidamente o que você pode economizar mudando para o FSX for ONTAP da Amazon Elastic Block Store ou do Amazon FSX for Windows File Server.
-
-
-
-
-==== Análise ad hoc disponível para configurações de banco de dados
-
-A fábrica de carga de trabalho do BlueXP  para bancos de dados verifica automaticamente instâncias gerenciadas do Microsoft SQL Server com o armazenamento do FSX for ONTAP para possíveis problemas de configuração. Agora, além da digitalização diária, você pode digitalizar a qualquer momento.
-
-
-
-==== Remoção de registos de avaliação no local
-
-Depois de explorar a economia de um host no local do Microsoft SQL Server, você tem a opção de remover o Registro de host no local da fábrica de workloads do BlueXP .
-
-
-
-==== Melhorias na otimização
-
-
-
-===== Limpeza de clones
-
-A avaliação e a correção da limpeza de clones identifica e gerencia clones antigos e caros. Os clones com mais de 60 dias podem ser atualizados ou excluídos do console de fábrica do workload do BlueXP .
-
-
-
-===== Adiar e descartar a análise de configuração
-
-Algumas configurações podem não se aplicar aos ambientes de banco de dados. Agora você tem opções para adiar uma análise de configuração específica em 30 dias ou ignorar a análise.
-
-
-
-==== Remoção de registos de avaliação no local
-
-Depois de explorar a economia de um host no local do Microsoft SQL Server, você tem a opção de remover o Registro de host no local da fábrica de workloads do BlueXP .
-
-
-
-==== Terminologia de permissões atualizada
-
-A interface do usuário e a documentação do Workload Factory agora usam "somente leitura" para se referir às permissões de leitura e "leitura/gravação" para se referir às permissões de automação.
 
 
 
