@@ -98,24 +98,7 @@
   <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">Escolha um modelo de reranker para uma base de conhecimento</block>
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">Agora você pode aumentar a relevância dos resultados de consultas reclassificadas selecionando um modelo de reclassificação específico para usar com uma base de conhecimento. O GenAI suporta os modelos Cohere Rerank e Amazon Rerank.</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">3 de junho de 2025</block>
-  <block id="7583f12b4559f6687c67d8588da1e2f7" category="doc">Aprimoramento de crescimento automático de volume</block>
-  <block id="b57fe4f5ee65a0e01f61993297811ebf" category="paragraph">Agora você pode definir o tamanho de crescimento automático dos seus volumes para que o tamanho do volume possa crescer além do tamanho provisionado para as necessidades comerciais e os requisitos do aplicativo.</block>
-  <block id="9f1effd9ace68ca00fe9e9e3c024b362" category="inline-link-macro">Ativar volume com crescimento automático</block>
-  <block id="0177289fb77b50bdfc34ab44aa432a21" category="paragraph"><block ref="0177289fb77b50bdfc34ab44aa432a21" category="inline-link-macro-rx"></block></block>
-  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">Atualização de análise bem arquitetada</block>
-  <block id="8500b95246538dfef049532751c1e9f5" category="paragraph">A Workload Factory agora analisa seus sistemas de arquivos FSx for ONTAP para verificar se as eficiências de armazenamento, incluindo compactação, compressão e desduplicação de dados, estão sendo utilizadas. As eficiências de armazenamento medem a eficácia com que os sistemas de arquivos utilizam o espaço disponível.</block>
-  <block id="26e5625f54c5c47a57293d23260101c7" category="inline-link-macro">Veja o status bem arquitetado das eficiências de armazenamento</block>
-  <block id="80378f8a6a0c86610258fa79cd78497b" category="paragraph"><block ref="80378f8a6a0c86610258fa79cd78497b" category="inline-link-macro-rx"></block></block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">Melhorias no painel de armazenamento</block>
-  <block id="47586d678be72b51ea7ac193f83c19b2" category="paragraph">A partir de hoje, ao abrir a carga de trabalho de Armazenamento no console da fábrica de cargas de trabalho, você visualizará o *Painel*. O painel recém-projetado oferece uma visão holística do seu FSx para sistemas ONTAP, incluindo o número de sistemas de arquivos, a capacidade total do SSD, a visão geral do status bem arquitetado, a visão geral da proteção de dados e a integridade do relacionamento de replicação.</block>
-  <block id="74d3ed8321cbdac2928290eee4795cef" category="section-title">Melhorias na guia Volumes</block>
-  <block id="0d25e8e0a888c31329b48ed4a33f98f6" category="paragraph">A carga de trabalho de Armazenamento fez melhorias na aba Volumes dentro de um sistema de arquivos FSx para ONTAP no console da fábrica de carga de trabalho. As melhorias incluem:</block>
-  <block id="90a8a55f34e9e967f8619ecc5b0ba92a" category="list-text">*Novos cartões*: Capacidade SSD, Pool de capacidade e Proteção Autônoma contra Ransomware (ARP)</block>
-  <block id="f80c9595c105a10d312aac80217ebb84" category="list-text">*Novas colunas*: Distribuição de capacidade, Capacidade de SSD usada, Pool de capacidade usada e Eficiência de SSD</block>
-  <block id="92eacda944854c6bfa8676c60aaa4c96" category="section-title">Atualização de eficiência de armazenamento para criação de volume</block>
-  <block id="af1e7fa29b343a7d9bd55952a334e8c9" category="paragraph">Ao criar um novo volume, as eficiências de armazenamento, incluindo compactação, compressão e desduplicação de dados, são ativadas por padrão.</block>
-  <block id="55321b0c9d5d13d71a60766806796f90" category="inline-link-macro">Crie um novo volume na fábrica de carga de trabalho</block>
-  <block id="9257e0b60b0f1cd3867c62713d3370aa" category="paragraph"><block ref="9257e0b60b0f1cd3867c62713d3370aa" category="inline-link-macro-rx"></block></block>
   <block id="93f953f50f24ae6dbf0400fde1bcc67d" category="doc">Suporte para NetApp Connector para Amazon Q Business</block>
   <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">Esta versão do GenAI apresenta suporte ao NetApp Connector para Amazon Q Business, permitindo que você crie conectores para o Amazon Q Business. Aproveite de forma rápida e fácil o assistente de IA do Amazon Q Business com menos configuração inicial do que criar uma base de conhecimento do GenAI para a Amazon bedrock.</block>
   <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Crie um conector NetApp para o Amazon Q Business</block>
@@ -208,4 +191,41 @@
   <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">Agora, o Workload Factory oferece suporte à autenticação do SQL Server usando usuários autenticados do Windows para registrar instâncias e se beneficiar dos recursos de gerenciamento.</block>
   <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">Registrar instâncias na fábrica de carga de trabalho para bancos de dados</block>
   <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
+  <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">Melhorias na guia Relacionamentos de replicação</block>
+  <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">Adicionamos várias colunas novas à tabela de relacionamentos de replicação para fornecer mais informações sobre seus relacionamentos de replicação na guia *Relacionamentos de replicação*. A tabela agora inclui as seguintes colunas:</block>
+  <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">Política do SnapMirror</block>
+  <block id="7d93b9eb1786d863bc7d27df5febb919" category="list-text">Sistema de arquivos de origem</block>
+  <block id="144b2facd92022aa813f8fba914dfa05" category="list-text">Sistema de arquivos de destino</block>
+  <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">Estado do relacionamento</block>
+  <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">Último horário de transferência</block>
+  <block id="8fc34772d0100e115cdb03c17176f5bc" category="section-title">Melhorias na proteção autônoma contra ransomware da NetApp com IA (ARP/AI)</block>
+  <block id="5cd47e76c4117ef90e78977edb2349c2" category="paragraph">Esta versão apresenta o termo atualizado "NetApp Autonomous Ransomware Protection with AI (ARP/AI)" para refletir melhor a integração de inteligência artificial em nossos recursos de proteção contra ransomware.</block>
+  <block id="d0ab441d90a6563b6caf3b18a96b121c" category="paragraph">Além disso, as seguintes melhorias foram feitas no ARP/AI:</block>
+  <block id="19f6fcd2887386ba088303687102d4fd" category="list-text">ARP/AI em nível de volume: agora você pode habilitar ARP/AI em nível de volume, permitindo proteger volumes específicos dentro do seu FSx para sistemas de arquivos ONTAP .</block>
+  <block id="ef292cf56fa95b6bcb87c8b89a0273e1" category="list-text">Criação automática de snapshots: você pode definir a política de ARP/AI para tirar snapshots automáticos e definir com que frequência os snapshots são tirados para volumes com ARP/AI habilitado, aprimorando sua estratégia de proteção de dados.</block>
+  <block id="7ebe1fb355350f028323680fa93854c0" category="list-text">Snapshots imutáveis: o ARP/AI agora suporta snapshots imutáveis, que não podem ser excluídos ou modificados, fornecendo uma camada adicional de segurança contra ataques de ransomware.</block>
+  <block id="dc86b2499972aa0a3c70449e20618ca2" category="list-text">Detecção: inclui vários métodos de detecção, como alta taxa de dados de entropia no nível de volume, taxa de criação de arquivo, taxa de renomeação de arquivo, taxa de exclusão de arquivo e análise comportamental, além de extensão de arquivo nunca vista antes que ajuda a detectar anomalias e potenciais ataques de ransomware.</block>
+  <block id="0b3b06fcd7ae5de19a9937c92e9669fe" category="inline-link-macro">Proteja seus dados com a Proteção Autônoma contra Ransomware da NetApp com IA (ARP/AI)</block>
+  <block id="b4b81f7655965069dc9b6d72c40d3191" category="paragraph"><block ref="b4b81f7655965069dc9b6d72c40d3191" category="inline-link-macro-rx"></block></block>
+  <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">Atualizações de análise bem arquitetadas</block>
+  <block id="3c7a76fc8745c5306663d7f95b167472" category="paragraph">O Workload Factory agora analisa seus sistemas de arquivos FSx for ONTAP para as seguintes configurações:</block>
+  <block id="e30059be004aa836033b5a45f85d0fe0" category="list-text">Confiabilidade dos dados de retenção de longo prazo: verifica se os rótulos atribuídos à política de snapshot do volume de origem são idênticos aos rótulos atribuídos à política de retenção de longo prazo. Quando os rótulos são idênticos, a replicação de dados é confiável entre os volumes de origem e de destino.</block>
+  <block id="d991a7b8584b3d26f44a90d9e27f7f7d" category="list-text">NetApp Autonomous Ransomware Protection com IA (ARP/AI): verifica se o ARP/AI está habilitado em seus sistemas de arquivos. Este recurso ajuda você a detectar e se recuperar de ataques de ransomware.</block>
+  <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">Visualize o status bem arquitetado do seu FSx para sistemas de arquivos ONTAP</block>
+  <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
+  <block id="e3d4a0c1fd9bad5ddfe8b2fc326f6d42" category="section-title">Descartar uma configuração da análise bem arquitetada</block>
+  <block id="0b27c1a80fbacb5253a337c3d45236f9" category="paragraph">Agora você pode descartar uma ou mais configurações da análise bem arquitetada. Isso permite que você ignore configurações específicas que não deseja abordar no momento.</block>
+  <block id="c4a9d2577a7099266e1214d55f11cf0b" category="paragraph"><block ref="c4a9d2577a7099266e1214d55f11cf0b" category="inline-link-macro-rx"></block></block>
+  <block id="f83708b425052a7f19c02dfd5c3d0688" category="section-title">Suporte Terraform para criação de links</block>
+  <block id="19c03fb90a9425b9fecd16c7b0e03e4e" category="paragraph">Agora você pode usar o Terraform do Codebox para criar um link para associação com um sistema de arquivos FSx para ONTAP . Esta funcionalidade é para usuários que criam links manualmente.</block>
+  <block id="b1dfc57db13615cb83125300396102cb" category="section-title">Novo suporte regional para explorar economias em armazenamento</block>
+  <block id="dc2d48a6756b8920e1a0b103864fa0c3" category="paragraph">As seguintes novas regiões agora têm suporte para explorar economias no Amazon Elastic Block Store (EBS), FSx for Windows File Server e Elastic File Systems (EFS):</block>
+  <block id="8dbb07a18d46f63d8b3c8994d5ccc351" category="list-text">México</block>
+  <block id="103357e3e40a9c0e4e9d36110f7bbc7a" category="list-text">Tailândia</block>
+  <block id="743828d5c9c11b38d3dbbf76d787f497" category="section-title">Melhorias na criação e gerenciamento de compartilhamentos SMB/CIFS</block>
+  <block id="421075462886e558113f14b52fe22487" category="paragraph">Agora você pode criar compartilhamentos SMB/CIFS que apontam para diretórios dentro de um volume. Dentro do volume, você poderá ver quais compartilhamentos existem, para onde os compartilhamentos estão apontando e as permissões concedidas a usuários e grupos específicos.</block>
+  <block id="4662a232249c09ca958781da08211b0c" category="paragraph">Para volumes de proteção de dados, o fluxo de criação de um compartilhamento SMB/CIFS agora inclui a criação de um caminho de junção para o volume para fins de montagem.</block>
+  <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">Criar um compartilhamento CIFS para um volume</block>
+  <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
+  <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">2025-08-03</block>
 </blocks>

@@ -1,0 +1,80 @@
+= Melhorias na guia Relacionamentos de replicação
+:allow-uri-read: 
+
+
+
+
+=== Melhorias na guia Relacionamentos de replicação
+
+Adicionamos várias colunas novas à tabela de relacionamentos de replicação para fornecer mais informações sobre seus relacionamentos de replicação na guia *Relacionamentos de replicação*. A tabela agora inclui as seguintes colunas:
+
+* Política do SnapMirror
+* Sistema de arquivos de origem
+* Sistema de arquivos de destino
+* Estado do relacionamento
+* Último horário de transferência
+
+
+
+
+=== Melhorias na proteção autônoma contra ransomware da NetApp com IA (ARP/AI)
+
+Esta versão apresenta o termo atualizado "NetApp Autonomous Ransomware Protection with AI (ARP/AI)" para refletir melhor a integração de inteligência artificial em nossos recursos de proteção contra ransomware.
+
+Além disso, as seguintes melhorias foram feitas no ARP/AI:
+
+* ARP/AI em nível de volume: agora você pode habilitar ARP/AI em nível de volume, permitindo proteger volumes específicos dentro do seu FSx para sistemas de arquivos ONTAP .
+* Criação automática de snapshots: você pode definir a política de ARP/AI para tirar snapshots automáticos e definir com que frequência os snapshots são tirados para volumes com ARP/AI habilitado, aprimorando sua estratégia de proteção de dados.
+* Snapshots imutáveis: o ARP/AI agora suporta snapshots imutáveis, que não podem ser excluídos ou modificados, fornecendo uma camada adicional de segurança contra ataques de ransomware.
+* Detecção: inclui vários métodos de detecção, como alta taxa de dados de entropia no nível de volume, taxa de criação de arquivo, taxa de renomeação de arquivo, taxa de exclusão de arquivo e análise comportamental, além de extensão de arquivo nunca vista antes que ajuda a detectar anomalias e potenciais ataques de ransomware.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Proteja seus dados com a Proteção Autônoma contra Ransomware da NetApp com IA (ARP/AI)"]
+
+
+
+=== Atualizações de análise bem arquitetadas
+
+O Workload Factory agora analisa seus sistemas de arquivos FSx for ONTAP para as seguintes configurações:
+
+* Confiabilidade dos dados de retenção de longo prazo: verifica se os rótulos atribuídos à política de snapshot do volume de origem são idênticos aos rótulos atribuídos à política de retenção de longo prazo. Quando os rótulos são idênticos, a replicação de dados é confiável entre os volumes de origem e de destino.
+* NetApp Autonomous Ransomware Protection com IA (ARP/AI): verifica se o ARP/AI está habilitado em seus sistemas de arquivos. Este recurso ajuda você a detectar e se recuperar de ataques de ransomware.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Visualize o status bem arquitetado do seu FSx para sistemas de arquivos ONTAP"]
+
+
+
+=== Descartar uma configuração da análise bem arquitetada
+
+Agora você pode descartar uma ou mais configurações da análise bem arquitetada. Isso permite que você ignore configurações específicas que não deseja abordar no momento.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Descartar uma configuração da análise bem arquitetada"]
+
+
+
+=== Suporte Terraform para criação de links
+
+Agora você pode usar o Terraform do Codebox para criar um link para associação com um sistema de arquivos FSx para ONTAP . Esta funcionalidade é para usuários que criam links manualmente.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Conete-se a um sistema de arquivos FSX for ONTAP com um link do Lambda"]
+
+
+
+=== Novo suporte regional para explorar economias em armazenamento
+
+As seguintes novas regiões agora têm suporte para explorar economias no Amazon Elastic Block Store (EBS), FSx for Windows File Server e Elastic File Systems (EFS):
+
+* México
+* Tailândia
+
+
+
+
+=== Melhorias na criação e gerenciamento de compartilhamentos SMB/CIFS
+
+Agora você pode criar compartilhamentos SMB/CIFS que apontam para diretórios dentro de um volume. Dentro do volume, você poderá ver quais compartilhamentos existem, para onde os compartilhamentos estão apontando e as permissões concedidas a usuários e grupos específicos.
+
+Para volumes de proteção de dados, o fluxo de criação de um compartilhamento SMB/CIFS agora inclui a criação de um caminho de junção para o volume para fins de montagem.
+
+link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismiss/manage-cifs-share.html#create-a-cifs-share-for-a-volume["Criar um compartilhamento CIFS para um volume"]
