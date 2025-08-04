@@ -47,22 +47,6 @@
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">O CloudShell relata respostas de erro geradas por IA para os comandos da CLI do ONTAP</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">Terminologia de permissões atualizada</block>
-  <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">Suporte aprimorado ao modelo de chat</block>
-  <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">O GenAI agora suporta os seguintes modelos de bate-papo adicionais para bases de conhecimento:</block>
-  <block id="ba7ee7dc8867588bd50d38f7762f4e93" category="inline-link-macro">Modelos Mistral AI</block>
-  <block id="fffe8738239ad19b2e24fda4b92d99f8" category="list-text"><block ref="fffe8738239ad19b2e24fda4b92d99f8" category="inline-link-macro-rx"></block></block>
-  <block id="ac4754b088e15ec23e2e33942607b0db" category="inline-link-macro">Modelos de texto Amazon Titan</block>
-  <block id="91b642108b49f539aef5f1e7e8429b9a" category="list-text"><block ref="91b642108b49f539aef5f1e7e8429b9a" category="inline-link-macro-rx"></block></block>
-  <block id="3e431ea8f1bf6f1b755d11be49ab7215" category="inline-link-macro">Modelos Meta Llama</block>
-  <block id="957aa19111afb49cbdb72a75c11a7824" category="list-text"><block ref="957aa19111afb49cbdb72a75c11a7824" category="inline-link-macro-rx"></block></block>
-  <block id="025fda77b8ffb8c9e7812b66f625dcdb" category="inline-link-macro">Jamba 1,5 modelos</block>
-  <block id="00be89811246b5f1554783fae811628a" category="list-text"><block ref="00be89811246b5f1554783fae811628a" category="inline-link-macro-rx"></block></block>
-  <block id="d5bedd5eb6b3c4a63a27527880abc5ae" category="inline-link-macro">Modelos Cohere Command</block>
-  <block id="01f2d137c910887f5780defdf71aa720" category="list-text"><block ref="01f2d137c910887f5780defdf71aa720" category="inline-link-macro-rx"></block></block>
-  <block id="7af238b1ae959fcc9ca0417cb2d5f9a7" category="inline-link-macro">Modelos Deepseek</block>
-  <block id="96734ae1eb62df22f906e39314369633" category="list-text"><block ref="96734ae1eb62df22f906e39314369633" category="inline-link-macro-rx"></block></block>
-  <block id="dbc68fe7976455ff2b6f2e5143dfd308" category="inline-link-macro">Modelos de base suportados na Amazon bedrock</block>
-  <block id="b198f4cca9409499187762bec5420672" category="paragraph">O GenAI suporta os modelos de cada provedor que a Amazon bedrock suporta: <block ref="9f10081366e85554159ed4dc640b95c7" category="inline-link-macro-rx"></block></block>
   <block id="74d516ef8dfa098bb4cd92313c403475" category="doc">Suporte autocompleto do CloudShell</block>
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">Ao usar o CloudShell de fábrica de carga de trabalho do BlueXP , você pode começar a digitar um comando e pressionar a tecla Tab para exibir as opções disponíveis. Se houver várias possibilidades, a CLI exibirá uma lista de sugestões. Esse recurso aumenta a produtividade minimizando erros e acelerando a execução de comandos.</block>
   <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">Esta versão da fábrica de carga de trabalho do BlueXP  para VMware apresenta a seguinte melhoria para a experiência do consultor de migração do Amazon EC2:</block>
@@ -84,10 +68,6 @@
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">Agora você pode aumentar a relevância dos resultados de consultas reclassificadas selecionando um modelo de reclassificação específico para usar com uma base de conhecimento. O GenAI suporta os modelos Cohere Rerank e Amazon Rerank.</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">3 de junho de 2025</block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">Melhorias no painel de armazenamento</block>
-  <block id="93f953f50f24ae6dbf0400fde1bcc67d" category="doc">Suporte para NetApp Connector para Amazon Q Business</block>
-  <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">Esta versão do GenAI apresenta suporte ao NetApp Connector para Amazon Q Business, permitindo que você crie conectores para o Amazon Q Business. Aproveite de forma rápida e fácil o assistente de IA do Amazon Q Business com menos configuração inicial do que criar uma base de conhecimento do GenAI para a Amazon bedrock.</block>
-  <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Crie um conector NetApp para o Amazon Q Business</block>
-  <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">A interface do usuário e a documentação do Workload Factory agora usam "somente leitura" para se referir às permissões de leitura e "leitura/gravação" para se referir às permissões de automação.</block>
   <block id="2423cc9c7b9124d70e9fba7ab98b53df" category="doc">Nova análise bem arquitetada e suporte para correção de problemas</block>
   <block id="b03b65ae167fa7999b9020739117ae19" category="paragraph">O gerenciamento automático de capacidade para sistemas de arquivos FSx para ONTAP agora está incluído como uma análise de configuração no painel de status bem arquitetado.</block>
@@ -230,4 +210,10 @@
   <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">Explore potenciais economias para seus ambientes de banco de dados com o Amazon FSx for NetApp ONTAP</block>
   <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
   <block id="a76bbcc12fcf5f723f1560cd99c60ab3" category="section-title">2025-08-04</block>
+  <block id="1d92da78b598707dec3df4d7281f1ec3" category="doc">Armazenamento seguro para resultados de dados estruturados</block>
+  <block id="c4b4739fe392b8cae69417a08008577b" category="paragraph">Se os resultados da consulta do chatbot contiverem dados estruturados, o GenAI poderá armazenar os resultados em um bucket do Amazon S3. Quando esses resultados são armazenados em um bucket S3, você pode baixá-los usando o link de download na sessão de bate-papo.</block>
+  <block id="9a0737b14158e601f99b4265c5bd3e5a" category="section-title">Disponibilidade do servidor MCP</block>
+  <block id="7577ac9e07061812bfe5cec74bafd782" category="paragraph">A NetApp agora fornece um servidor Model Context Protocol (MCP) com BlueXP workload factory para GenAI. Você pode instalar o servidor localmente para permitir que clientes MCP externos descubram e recuperem resultados de consultas de uma base de conhecimento do GenAI.</block>
+  <block id="6ce9fdd00e9870d205a0b965e8d376fd" category="inline-link-macro">Servidor GenAI MCP da fábrica de carga de trabalho da NetApp</block>
+  <block id="499a63951a1faf063a1d481e63ba0fd9" category="paragraph"><block ref="499a63951a1faf063a1d481e63ba0fd9" category="inline-link-macro-rx"></block></block>
 </blocks>
