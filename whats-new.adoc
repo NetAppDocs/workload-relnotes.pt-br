@@ -15,6 +15,24 @@ Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem par
 
 
 
+== 2025-08-12
+
+
+
+=== Workloads de banco de dados
+
+
+
+==== O BlueXP backup and recovery agora oferecem suporte à carga de trabalho do Microsoft SQL Server
+
+O BlueXP backup and recovery permitem que você faça backup, restaure, verifique e clone bancos de dados e grupos de disponibilidade do Microsoft SQL Server. No console do Workload Factory, você pode acessar e usar o BlueXP backup and recovery para proteger cargas de trabalho do Microsoft SQL Server.
+
+link:protect-sql-server.html["Aprenda a proteger cargas de trabalho do Microsoft SQL Server por meio do console do Workload Factory"^] .
+
+Para obter detalhes sobre BlueXP backup and recovery, consulte olink:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["Visão geral da proteção de cargas de trabalho do Microsoft SQL com BlueXP backup and recovery"^] .
+
+
+
 == 2025-08-04
 
 
@@ -392,32 +410,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.htm
 
 
 == 3 de junho de 2025
-
-
-
-=== Workloads de banco de dados
-
-
-
-==== Detecção de PostgreSQL e Oracle
-
-Agora você pode descobrir as instâncias que executam bancos de dados do servidor PostgreSQL e implantações de bancos de dados Oracle na sua conta da AWS no console do Workload Factory. As instâncias descobertas aparecerão no inventário de bancos de dados.
-
-
-
-==== Terminologia de "Otimização" atualizada
-
-Anteriormente chamado de "Otimização", o workload factory agora usa "problemas bem arquitetados" e "status bem arquitetados" para descrever a análise de configurações de banco de dados e "correção" para descrever a correção de oportunidades para melhorar as configurações de banco de dados para atender às recomendações de melhores práticas.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Análise de configuração para ambientes de banco de dados em fábrica de carga de trabalho"]
-
-
-
-==== Integração aprimorada para instâncias
-
-Em vez dos termos "não detectado", "não gerenciado" ou "gerenciado" para o gerenciamento de instâncias, o Workload Factory agora usa "registro" para integração de instâncias. O novo processo de registro inclui a autenticação e a preparação de instâncias para que você possa criar, monitorar, analisar e corrigir recursos nas configurações do seu banco de dados no console do Workload Factory. A etapa de preparação no processo de registro indica se suas instâncias estão prontas para gerenciamento.
-
-link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gerenciamento de instâncias"]
 
 
 
