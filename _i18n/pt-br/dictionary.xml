@@ -211,8 +211,8 @@
   <block id="22218c6d37412d25750364bd0d4047b5" category="doc">O BlueXP backup and recovery agora oferecem suporte à carga de trabalho do Microsoft SQL Server</block>
   <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">O BlueXP backup and recovery permitem que você faça backup, restaure, verifique e clone bancos de dados e grupos de disponibilidade do Microsoft SQL Server. No console do Workload Factory, você pode acessar e usar o BlueXP backup and recovery para proteger cargas de trabalho do Microsoft SQL Server.</block>
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">Aprenda a proteger cargas de trabalho do Microsoft SQL Server por meio do console do Workload Factory</block>
-  <block id="479793fb579bc2de418f794ebb8ef29a" category="paragraph"><block ref="9a9685babd9ed5904e91ddba265de923" category="inline-link-macro-rx"></block> .</block>
   <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">Visão geral da proteção de cargas de trabalho do Microsoft SQL com BlueXP backup and recovery</block>
   <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">Para obter detalhes sobre BlueXP backup and recovery, consulte o<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block> .</block>
   <block id="39454dfcfa6a1a0351437e0b1d0da294" category="section-title">2025-08-12</block>
+  <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> .</block>
 </blocks>
