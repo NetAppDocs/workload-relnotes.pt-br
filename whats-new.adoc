@@ -15,6 +15,52 @@ Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem par
 
 
 
+== 2025-09-01
+
+
+
+=== Workloads de banco de dados
+
+
+
+==== Analisador de log de erros com tecnologia de IA da Agentic
+
+O analisador de log de erros com tecnologia de IA da Agentic é um novo recurso que utiliza algoritmos avançados de aprendizado de máquina para detectar e analisar automaticamente erros em arquivos de log. Esta ferramenta tem como objetivo agilizar o processo de solução de problemas, fornecendo aos desenvolvedores insights e recomendações práticas com base nos padrões identificados nos logs.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Saiba mais sobre o analisador de log de erros com tecnologia de IA da Agentic"]
+
+
+
+==== Suporte Oracle
+
+A fábrica de carga de trabalho inclui suporte para bancos de dados Oracle. No console do Workload Factory, você pode visualizar seus bancos de dados Oracle no inventário, registrar bancos de dados para usar recursos avançados no Workload Factory e analisar bancos de dados Oracle para alinhamento com as melhores práticas usando o recurso bem arquitetado. A análise bem arquitetada determina se as configurações de armazenamento para bancos de dados Oracle estão otimizadas. Você pode usar essas informações para tomar decisões informadas sobre suas implantações de banco de dados e garantir que elas estejam sendo executadas com eficiência.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas na fábrica de carga de trabalho"]
+
+
+
+==== Suporte para implantações do Microsoft SQL Server em FSx de segunda geração para sistemas de arquivos ONTAP
+
+O Workload Factory oferece suporte a implantações do Microsoft SQL Server em FSx de segunda geração para sistemas de arquivos ONTAP . Esse aprimoramento permite que você aproveite os recursos mais recentes e as melhorias de desempenho disponíveis nos sistemas de arquivos de segunda geração ao gerenciar suas cargas de trabalho do SQL Server.
+
+
+
+==== Autenticação do Windows para proteção do SQL Server
+
+A autenticação de instâncias do Microsoft SQL Server com credenciais do Windows está incorporada no fluxo de trabalho para preparar hosts do Microsoft SQL Server para proteção com BlueXP backup and recovery. Esta costumava ser uma etapa pré-requisito a ser concluída manualmente. Em vez disso, você será solicitado a compartilhar credenciais do Windows com acesso administrativo caso não tenha registrado os hosts no Workload Factory usando credenciais do Windows.
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Aprenda a proteger cargas de trabalho do Microsoft SQL Server por meio do console do Workload Factory"] .
+
+
+
+==== A análise bem arquitetada inclui alinhamento de MTU para SQL Server
+
+A análise bem arquitetada avalia e corrige o desalinhamento da Unidade Máxima de Transmissão (MTU) entre pontos de extremidade do Microsoft SQL Server no FSx para armazenamento ONTAP . O alinhamento das configurações de MTU ajuda a otimizar o desempenho da rede e a reduzir a latência das cargas de trabalho do SQL Server.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas na fábrica de carga de trabalho"]
+
+
+
 == 2025-08-12
 
 
@@ -23,7 +69,7 @@ Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem par
 
 
 
-==== O BlueXP backup and recovery agora oferecem suporte à carga de trabalho do Microsoft SQL Server
+==== O BlueXP backup and recovery agora oferecem suporte a cargas de trabalho do Microsoft SQL Server
 
 O BlueXP backup and recovery permitem que você faça backup, restaure, verifique e clone bancos de dados e grupos de disponibilidade do Microsoft SQL Server. No console do Workload Factory, você pode acessar e usar o BlueXP backup and recovery para proteger cargas de trabalho do Microsoft SQL Server.
 
@@ -187,60 +233,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 A NetApp agora fornece um servidor Model Context Protocol (MCP) com BlueXP workload factory para GenAI. Você pode instalar o servidor localmente para permitir que clientes MCP externos descubram e recuperem resultados de consultas de uma base de conhecimento do GenAI.
 
 link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["Servidor GenAI MCP da fábrica de carga de trabalho da NetApp"^]
-
-
-
-== 30 de junho de 2025
-
-
-
-=== Workloads de banco de dados
-
-
-
-==== Suporte ao serviço de notificação de fábrica de carga de trabalho BlueXP
-
-O serviço de notificação da fábrica de carga de trabalho do BlueXP permite que a fábrica de carga de trabalho envie notificações para o serviço de alertas do BlueXP ou para um tópico do Amazon SNS. As notificações enviadas aos alertas do BlueXP aparecem no painel de alertas do BlueXP. Quando a fábrica de carga de trabalho publica notificações em um tópico do Amazon SNS, os assinantes do tópico (como pessoas ou outros aplicativos) recebem as notificações nos endpoints configurados para o tópico (como e-mail ou mensagens SMS).
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurar notificações de fábrica de carga de trabalho do BlueXP"^]
-
-A fábrica de carga de trabalho fornece as seguintes notificações para bancos de dados:
-
-* Relatório bem arquitetado
-* Implantação de host
-
-
-
-
-==== Aprimoramento de integração para registro de instâncias
-
-O Workload Factory para Bancos de Dados aprimorou seu processo de integração para registro de instâncias em execução no Amazon FSx para armazenamento NetApp ONTAP. Agora você pode selecionar instâncias em massa para registro. Depois que uma instância é registrada, você pode criar e gerenciar recursos de banco de dados no console do Workload Factory.
-
-link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gerenciamento de instâncias"]
-
-
-
-==== Análise e correção para configuração de tempo limite de E/S do Microsoft Multipath
-
-O status bem arquitetado para suas instâncias de banco de dados agora inclui a análise e a correção para a configuração de tempo limite do Microsoft Multipath I/O (MPIO). Definir o tempo limite do MPIO para 60 segundos garante a conectividade e a estabilidade do armazenamento FSx for ONTAP durante failovers. Se a configuração do MPIO não estiver definida corretamente, o Workload Factory fornecerá uma correção para definir o valor do tempo limite do MPIO para 60 segundos.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas na fábrica de carga de trabalho"]
-
-
-
-==== Melhorias nos gráficos do inventário de instâncias
-
-Na tela de inventário de instâncias, vários gráficos de utilização de recursos, como taxa de transferência e IOPS, agora exibem 7 dias de dados para que você possa monitorar o desempenho dos nós SQL no console do workload factory com mais eficiência. As métricas de desempenho coletadas dos nós SQL serão salvas no Amazon CloudWatch, que pode ser usado para o Logs Insights ou para integração com outros serviços analíticos em seu ambiente.
-
-Nas guias Instâncias e Bancos de dados no inventário, aprimoramos a descrição e a visualização para proteção.
-
-
-
-==== Suporte para autenticação do Windows na fábrica de carga de trabalho
-
-Agora, o Workload Factory oferece suporte à autenticação do SQL Server usando usuários autenticados do Windows para registrar instâncias e se beneficiar dos recursos de gerenciamento.
-
-link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Registrar instâncias na fábrica de carga de trabalho para bancos de dados"]
 
 
 
