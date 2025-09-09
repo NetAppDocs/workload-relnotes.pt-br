@@ -15,6 +15,56 @@ Saiba mais sobre as mudanças mais recentes nas cargas de trabalho que fazem par
 
 
 
+== 2025-09-09
+
+
+
+=== Amazon FSX para NetApp ONTAP
+
+
+
+==== Melhorias no relatório de inventário de armazenamento
+
+O Workload Factory aprimorou os dados relatados para seus sistemas de arquivos FSx para ONTAP . O relatório para download na página de inventário do FSx para ONTAP inclui as seguintes novas colunas:
+
+* SSD usado: mostra o valor da capacidade do SSD usada
+* Utilização do SSD: mostra a porcentagem da capacidade do SSD em uso
+* Utilização da taxa de transferência: mostra a utilização média e máxima dos últimos 30 dias
+* Utilização de E/S: mostra a utilização média e máxima de E/S dos últimos 30 dias
+* Utilização da CPU: mostra a utilização média e máxima da CPU nos últimos 30 dias
+
+
+
+
+==== Melhorias no gerenciamento de instantâneos
+
+O Workload Factory fez vários aprimoramentos para visualizar detalhes de instantâneos de volume e gerenciar instantâneos de volume. Essas melhorias facilitam a compreensão do status dos seus instantâneos e a proteção dos seus dados.
+
+image:screenshot-menu-view-volume-details.png["Captura de tela que mostra o menu de volume do FSx para ONTAP com ações básicas e, em seguida, exibe detalhes do volume."]
+
+Itens adicionais aparecem em Detalhes do volume, na guia Proteção:
+
+* Nome da política de instantâneo
+* Reserva de espaço instantâneo
+* Capacidade de reserva de espaço instantâneo
+
+
+image:screenshot-volume-details-protection.png["Captura de tela que mostra detalhes do volume do FSx para ONTAP com a aba de proteção aberta."]
+
+A nova tela de gerenciamento de instantâneos pode ser acessada de um volume; ela fornece informações sobre a política de instantâneos do volume e inclui uma tabela com todos os instantâneos do volume. A tabela exibe os seguintes detalhes do instantâneo: hora de criação, tamanho, hora de expiração, proteção imutável do instantâneo e rótulos. Na tela de gerenciamento, você pode alterar a política de snapshot do volume, criar um snapshot manualmente e editar, acessar, restaurar e excluir snapshots.
+
+image:screenshot-manage-snapshots-screen.png["Captura de tela que mostra a tela de gerenciamento de instantâneos."]
+
+
+
+==== Diminuição da capacidade de armazenamento SSD disponível
+
+A fábrica de carga de trabalho oferece suporte à redução da capacidade da unidade de estado sólido (SSD) dos seus sistemas de arquivos de primeira e segunda geração. Com a capacidade elástica do sistema de arquivos, você pode ajustar dinamicamente a capacidade dos seus sistemas de arquivos para atender às necessidades das suas cargas de trabalho.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["Ajustar a capacidade do sistema de arquivos"]
+
+
+
 == 2025-09-01
 
 
@@ -371,33 +421,6 @@ https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html[
 Agora você pode clonar um projeto no BlueXP Workload Factory para Builders. Ao clonar um projeto, o Builders cria um novo projeto a partir de um snapshot, com a mesma configuração do original. A clonagem é útil para criar projetos semelhantes rapidamente ou para fins de teste. Você pode montar o novo clone do projeto seguindo as instruções no Builders.
 
 https://docs.netapp.com/us-en/workload-builders/version-projects.html["Gerenciar versões da fábrica de carga de trabalho BlueXP para projetos do Builders"]
-
-
-
-== 8 de junho de 2025
-
-
-
-=== Amazon FSX para NetApp ONTAP
-
-
-
-==== Nova análise bem arquitetada e suporte para correção de problemas
-
-O gerenciamento automático de capacidade para sistemas de arquivos FSx para ONTAP agora está incluído como uma análise de configuração no painel de status bem arquitetado.
-
-Além disso, a fábrica de carga de trabalho agora oferece suporte à correção dos seguintes problemas de configuração:
-
-* Limite de capacidade SSD
-* Categorização de dados
-* Instantâneos locais programados
-* FSx para backups ONTAP
-* Replicação de dados remota
-* Eficiência de storage
-* Gerenciamento automático de capacidade
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Corrigir problemas de configuração"]
 
 
 
