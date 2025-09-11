@@ -5,8 +5,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Cargas de trabalho do GenAI</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuração e administração</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Workloads da VMware</block>
-  <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Crie um plano de implantação para o Amazon EC2 usando o consultor de migração</block>
-  <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Avisos legais</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Avisos legais fornecem acesso a declarações de direitos autorais, marcas registradas, patentes e muito mais.</block>
@@ -32,44 +30,16 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Mudanças recentes na fábrica de carga de trabalho do BlueXP </block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">Essas notas de versão descrevem melhorias recentes nos serviços de nuvem que fazem parte da fábrica de cargas de trabalho do BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notas de versão de fábrica do workload do BlueXP </block>
-  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Melhorias do consultor de migração do Amazon EC2</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">Carga de trabalho de fábrica da BlueXP</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">Use o CloudShell</block>
-  <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Log de alteração de referência de permissões</block>
-  <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Ao usar o CloudShell, cada vez que você emite um comando ONTAP CLI e um erro ocorre, você pode obter respostas de erro geradas por IA que incluem uma descrição da falha, a causa da falha e uma resolução detalhada.</block>
-  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM:Atualização de permissão SimulatePermissionPolicy</block>
-  <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Agora você pode gerenciar a<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> permissão no console de fábrica de workload ao adicionar credenciais adicionais de conta da AWS ou adicionar uma nova funcionalidade de workload, como o workload do GenAI.</block>
-  <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">30 de março de 2025</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">Crie uma base de conhecimento do GenAI</block>
-  <block id="ef74d01649997b60252254da8a1573fd" category="doc">O CloudShell relata respostas de erro geradas por IA para os comandos da CLI do ONTAP</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
-  <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">Terminologia de permissões atualizada</block>
-  <block id="74d516ef8dfa098bb4cd92313c403475" category="doc">Suporte autocompleto do CloudShell</block>
-  <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">Ao usar o CloudShell de fábrica de carga de trabalho do BlueXP , você pode começar a digitar um comando e pressionar a tecla Tab para exibir as opções disponíveis. Se houver várias possibilidades, a CLI exibirá uma lista de sugestões. Esse recurso aumenta a produtividade minimizando erros e acelerando a execução de comandos.</block>
-  <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">Esta versão da fábrica de carga de trabalho do BlueXP  para VMware apresenta a seguinte melhoria para a experiência do consultor de migração do Amazon EC2:</block>
-  <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">*Insights de infraestrutura de dados da NetApp como fonte de dados*: A fábrica de carga de trabalho agora se coneta diretamente com os insights de infraestrutura de dados da NetApp para coletar informações de implantação da VMware quando você usa o coletor de dados do consultor de migração do EC2.</block>
-  <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">4 de maio de 2025</block>
-  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">Tracker disponível para operações de monitoramento e rastreamento</block>
-  <block id="8daed4c7913162875cceb19ef5e0bf4c" category="paragraph">O recurso de monitoramento do Tracker agora está disponível no GenAI. Você pode usar o Tracker para monitorar e acompanhar o progresso e o status de operações pendentes, em andamento e concluídas, revisar detalhes de tarefas e subtarefas operacionais, diagnosticar problemas ou falhas, editar parâmetros de operações com falha e repetir operações com falha.</block>
-  <block id="27e9b8493c313885af8902ac1ae67e24" category="inline-link-macro">Monitore as operações de carga de trabalho com o Tracker na fábrica de carga de trabalho BlueXP</block>
-  <block id="6cfb11211ef97bba3b2359a766b22994" category="paragraph"><block ref="6cfb11211ef97bba3b2359a766b22994" category="inline-link-macro-rx"></block></block>
-  <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">Escolha um modelo de reranker para uma base de conhecimento</block>
-  <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">Agora você pode aumentar a relevância dos resultados de consultas reclassificadas selecionando um modelo de reclassificação específico para usar com uma base de conhecimento. O GenAI suporta os modelos Cohere Rerank e Amazon Rerank.</block>
-  <block id="8443221e1b90a24e56685750c704746a" category="section-title">3 de junho de 2025</block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">Melhorias no painel de armazenamento</block>
-  <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">A interface do usuário e a documentação do Workload Factory agora usam "somente leitura" para se referir às permissões de leitura e "leitura/gravação" para se referir às permissões de automação.</block>
-  <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">Builders Workload no lançamento inicial</block>
-  <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">A fábrica de cargas de trabalho da BlueXP  para construtores simplifica o consumo e o acesso de versões de software, eliminando a necessidade de ferramentas ou scripts personalizados. Ele permite que você consuma versões de software como clones instantâneos integrados ao Perforce Helix Core como um espaço de trabalho conveniente para seus processos de desenvolvimento, economizando tempo e recursos.</block>
-  <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">A versão inicial inclui a capacidade de gerenciar projetos e espaços de trabalho e automatizar ações com o Codebox. Você também pode integrar Builders com Perforce Helix Core, para que você possa gerenciar diferentes versões de cada projeto e alternar entre eles rapidamente.</block>
-  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">1 de dezembro de 2024</block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">Suporte a clones</block>
   <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">Agora você pode clonar um projeto no BlueXP Workload Factory para Builders. Ao clonar um projeto, o Builders cria um novo projeto a partir de um snapshot, com a mesma configuração do original. A clonagem é útil para criar projetos semelhantes rapidamente ou para fins de teste. Você pode montar o novo clone do projeto seguindo as instruções no Builders.</block>
   <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">Gerenciar versões da fábrica de carga de trabalho BlueXP para projetos do Builders</block>
   <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
-  <block id="918963c77ef42064702ac721d5a06ebb" category="section-title">16 de junho de 2025</block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Cargas de trabalho dos construtores</block>
   <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">Suporte para fontes de dados hospedadas em sistemas de arquivos NFS/SMB genéricos</block>
   <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">Agora você pode adicionar uma fonte de dados de um compartilhamento SMB ou NFS genérico. Isso permite incluir arquivos armazenados em volumes hospedados por sistemas de arquivos diferentes do Amazon FSx para NetApp ONTAP.</block>
@@ -81,7 +51,6 @@
   <block id="0a2319b536912bd5824ac0880375783c" category="paragraph">A fábrica de cargas de trabalho BlueXP para VMware agora oferece suporte ao Amazon Elastic VMware Service. Você pode migrar rapidamente suas cargas de trabalho VMware locais para o Amazon Elastic VMware Service usando o Migration Advisor, otimizando custos e permitindo maior controle sobre seu ambiente VMware sem precisar refatorar ou reestruturar seus aplicativos.</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">Crie um plano de implantação para o Amazon EVS usando o consultor de migração</block>
   <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
-  <block id="32d7d361955b5f8cb1cd26f6803b7d7d" category="section-title">29 de junho de 2025</block>
   <block id="64c17706e0528a5c44c7beee628cc101" category="doc">Suporte ao serviço de notificação de fábrica de carga de trabalho BlueXP</block>
   <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">O serviço de notificação da fábrica de carga de trabalho do BlueXP permite que a fábrica de carga de trabalho envie notificações para o serviço de alertas do BlueXP ou para um tópico do Amazon SNS. As notificações enviadas aos alertas do BlueXP aparecem no painel de alertas do BlueXP. Quando a fábrica de carga de trabalho publica notificações em um tópico do Amazon SNS, os assinantes do tópico (como pessoas ou outros aplicativos) recebem as notificações nos endpoints configurados para o tópico (como e-mail ou mensagens SMS).</block>
   <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">Configurar notificações de fábrica de carga de trabalho do BlueXP</block>
@@ -154,7 +123,6 @@
   <block id="4662a232249c09ca958781da08211b0c" category="paragraph">Para volumes de proteção de dados, o fluxo de criação de um compartilhamento SMB/CIFS agora inclui a criação de um caminho de junção para o volume para fins de montagem.</block>
   <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">Criar um compartilhamento CIFS para um volume</block>
   <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
-  <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">2025-08-03</block>
   <block id="424013c53fd9187a66e051bb44ddaa34" category="doc">Suporte aprimorado do consultor de migração para o Amazon Elastic VMWare Service</block>
   <block id="37ac2db5bb5bc7f50e3b58bbb706b64b" category="paragraph">O consultor de migração do Amazon Elastic VMware Service agora oferece suporte à implantação e montagem automáticas do seu sistema de arquivos Amazon FSx for NetApp ONTAP . Isso permite que você comece a implantar suas VMs no FSx para sistemas de arquivos ONTAP quando a migração para o ambiente Amazon EVS estiver concluída.</block>
   <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">Calcule a economia de custos da migração para o Amazon Elastic VMware Service</block>
@@ -171,7 +139,6 @@
   <block id="3035f336d9539562dbf5355f26c10a4f" category="paragraph">Quando o<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> Se o usuário não tiver permissões suficientes no Microsoft SQL Server, você poderá autenticar com credenciais do SQL Server ou adicionar as permissões ausentes do SQL Server.<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> .</block>
   <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">Explore potenciais economias para seus ambientes de banco de dados com o Amazon FSx for NetApp ONTAP</block>
   <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
-  <block id="a76bbcc12fcf5f723f1560cd99c60ab3" category="section-title">2025-08-04</block>
   <block id="1d92da78b598707dec3df4d7281f1ec3" category="doc">Armazenamento seguro para resultados de dados estruturados</block>
   <block id="c4b4739fe392b8cae69417a08008577b" category="paragraph">Se os resultados da consulta do chatbot contiverem dados estruturados, o GenAI poderá armazenar os resultados em um bucket do Amazon S3. Quando esses resultados são armazenados em um bucket S3, você pode baixá-los usando o link de download na sessão de bate-papo.</block>
   <block id="9a0737b14158e601f99b4265c5bd3e5a" category="section-title">Disponibilidade do servidor MCP</block>
@@ -182,7 +149,6 @@
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">Aprenda a proteger cargas de trabalho do Microsoft SQL Server por meio do console do Workload Factory</block>
   <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">Visão geral da proteção de cargas de trabalho do Microsoft SQL com BlueXP backup and recovery</block>
   <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">Para obter detalhes sobre BlueXP backup and recovery, consulte o<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block> .</block>
-  <block id="39454dfcfa6a1a0351437e0b1d0da294" category="section-title">2025-08-12</block>
   <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> .</block>
   <block id="1d7888e9a7739b1a3282310704484ae5" category="doc">O BlueXP backup and recovery agora oferecem suporte a cargas de trabalho do Microsoft SQL Server</block>
   <block id="c66ae4617a5e7b903fa49494f6025fe3" category="doc">Analisador de log de erros com tecnologia de IA da Agentic</block>
@@ -197,7 +163,6 @@
   <block id="66eac601a6b6ad939034aba1005b0d1f" category="paragraph">A autenticação de instâncias do Microsoft SQL Server com credenciais do Windows está incorporada no fluxo de trabalho para preparar hosts do Microsoft SQL Server para proteção com BlueXP backup and recovery. Esta costumava ser uma etapa pré-requisito a ser concluída manualmente. Em vez disso, você será solicitado a compartilhar credenciais do Windows com acesso administrativo caso não tenha registrado os hosts no Workload Factory usando credenciais do Windows.</block>
   <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">A análise bem arquitetada inclui alinhamento de MTU para SQL Server</block>
   <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">A análise bem arquitetada avalia e corrige o desalinhamento da Unidade Máxima de Transmissão (MTU) entre pontos de extremidade do Microsoft SQL Server no FSx para armazenamento ONTAP . O alinhamento das configurações de MTU ajuda a otimizar o desempenho da rede e a reduzir a latência das cargas de trabalho do SQL Server.</block>
-  <block id="38a5777d2aaca4d9102a019c09e0009c" category="section-title">2025-09-01</block>
   <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">Melhorias no relatório de inventário de armazenamento</block>
   <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">O Workload Factory aprimorou os dados relatados para seus sistemas de arquivos FSx para ONTAP . O relatório para download na página de inventário do FSx para ONTAP inclui as seguintes novas colunas:</block>
   <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">SSD usado: mostra o valor da capacidade do SSD usada</block>
@@ -222,5 +187,28 @@
   <block id="0cc6e64eaa35165d8791def1903c483a" category="paragraph">A fábrica de carga de trabalho oferece suporte à redução da capacidade da unidade de estado sólido (SSD) dos seus sistemas de arquivos de primeira e segunda geração. Com a capacidade elástica do sistema de arquivos, você pode ajustar dinamicamente a capacidade dos seus sistemas de arquivos para atender às necessidades das suas cargas de trabalho.</block>
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">Ajustar a capacidade do sistema de arquivos</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
-  <block id="a68e5a2143abf532b515a7b3b1734351" category="section-title">2025-09-09</block>
+  <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">A fábrica de carga de trabalho fornece as seguintes notificações para bancos de dados:</block>
+  <block id="33e3371223dba19c723617802e06af8d" category="list-text">Relatório bem arquitetado</block>
+  <block id="d415d128365eca1587931ed756de7819" category="list-text">Implantação de host</block>
+  <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">Aprimoramento de integração para registro de instâncias</block>
+  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">O Workload Factory for Databases aprimorou seu processo de integração para registrar instâncias em execução no Amazon FSx for NetApp ONTAP .  Agora você pode selecionar instâncias em massa para registro.  Depois que uma instância é registrada, você pode criar e gerenciar recursos de banco de dados no console do Workload Factory.</block>
+  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">Gerenciamento de instâncias</block>
+  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
+  <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Análise e correção para configuração de tempo limite de E/S do Microsoft Multipath</block>
+  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">O status bem arquitetado para suas instâncias de banco de dados agora inclui a análise e a correção para a configuração de tempo limite do Microsoft Multipath I/O (MPIO).  Definir o tempo limite do MPIO para 60 segundos garante a conectividade e a estabilidade do FSx para armazenamento ONTAP durante failovers.  Se a configuração do MPIO não estiver definida corretamente, a fábrica de carga de trabalho fornecerá uma correção para definir o valor de tempo limite do MPIO para 60 segundos.</block>
+  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">Melhorias nos gráficos do inventário de instâncias</block>
+  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">Na tela de inventário de instâncias, vários gráficos de utilização de recursos, como taxa de transferência e IOPS, agora exibem 7 dias de dados para que você possa monitorar o desempenho dos nós SQL no console do workload factory com mais eficiência.  As métricas de desempenho coletadas dos nós SQL serão salvas no Amazon CloudWatch, que pode ser usado para Logs Insights ou integração com outros serviços analíticos em seu ambiente.</block>
+  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">Nas guias Instâncias e Bancos de dados no inventário, aprimoramos a descrição e a visualização para proteção.</block>
+  <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">Suporte para autenticação do Windows na fábrica de carga de trabalho</block>
+  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">Agora, o Workload Factory oferece suporte à autenticação do SQL Server usando usuários autenticados do Windows para registrar instâncias e se beneficiar dos recursos de gerenciamento.</block>
+  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">Registrar instâncias na fábrica de carga de trabalho para bancos de dados</block>
+  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
+  <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">09 de setembro de 2025</block>
+  <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">01 de setembro de 2025</block>
+  <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">12 de agosto de 2025</block>
+  <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">04 de agosto de 2025</block>
+  <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">03 de agosto de 2025</block>
+  <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">30 de junho de 2025</block>
+  <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">29 de junho de 2025</block>
+  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">16 de junho de 2025</block>
 </blocks>
