@@ -59,7 +59,7 @@ image:screenshot-manage-snapshots-screen.png["Captura de tela que mostra a tela 
 
 ==== Diminuição da capacidade de armazenamento SSD disponível
 
-A fábrica de carga de trabalho oferece suporte à redução da capacidade da unidade de estado sólido (SSD) dos seus sistemas de arquivos de primeira e segunda geração. Com a capacidade elástica do sistema de arquivos, você pode ajustar dinamicamente a capacidade dos seus sistemas de arquivos para atender às necessidades das suas cargas de trabalho.
+A fábrica de carga de trabalho oferece suporte à redução da capacidade da unidade de estado sólido (SSD) dos seus sistemas de arquivos de segunda geração. Com a capacidade elástica do sistema de arquivos, você pode ajustar dinamicamente a capacidade dos seus sistemas de arquivos para atender às necessidades das suas cargas de trabalho.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["Ajustar a capacidade do sistema de arquivos"]
 
@@ -459,19 +459,3 @@ https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#ch
 O serviço de notificação da fábrica de carga de trabalho do BlueXP permite que a fábrica de carga de trabalho envie notificações para o serviço de alertas do BlueXP ou para um tópico do Amazon SNS. As notificações enviadas aos alertas do BlueXP aparecem no painel de alertas do BlueXP. Quando a fábrica de carga de trabalho publica notificações em um tópico do Amazon SNS, os assinantes do tópico (como pessoas ou outros aplicativos) recebem as notificações nos endpoints configurados para o tópico (como e-mail ou mensagens SMS).
 
 https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurar notificações de fábrica de carga de trabalho do BlueXP"]
-
-
-
-== 16 de junho de 2025
-
-
-
-=== Cargas de trabalho dos construtores
-
-
-
-==== Suporte a clones
-
-Agora você pode clonar um projeto no BlueXP Workload Factory para Builders. Ao clonar um projeto, o Builders cria um novo projeto a partir de um snapshot, com a mesma configuração do original. A clonagem é útil para criar projetos semelhantes rapidamente ou para fins de teste. Você pode montar o novo clone do projeto seguindo as instruções no Builders.
-
-https://docs.netapp.com/us-en/workload-builders/version-projects.html["Gerenciar versões da fábrica de carga de trabalho BlueXP para projetos do Builders"]
