@@ -29,6 +29,56 @@ O BlueXP foi renomeado e redesenhado para refletir melhor o papel que ele tem no
 
 
 
+=== Workloads de banco de dados
+
+
+
+==== BlueXP workload factory agora NetApp Workload Factory
+
+O BlueXP foi renomeado e redesenhado para refletir melhor o papel que ele tem no gerenciamento da sua infraestrutura de dados. Como resultado, a BlueXP workload factory foi renomeada para NetApp Workload Factory.
+
+
+
+==== Melhorias para Oracle no console do Workload Factory
+
+
+
+===== Tela de recursos do banco de dados Oracle
+
+Cada banco de dados Oracle tem sua própria tela de recursos dedicada, disponível no inventário de bancos de dados. A tela de recursos fornece uma visão geral com o nome do banco de dados, status (on-line ou off-line), locação e tipo de implantação. Também estão incluídos gráficos com os seguintes dados ao longo de um período de três meses: utilização da CPU, latência, IOPS e taxa de transferência. A utilização da capacidade fornece o tamanho total do banco de dados, o tamanho dos dados gravados, a capacidade usada da unidade de estado sólido e o armazenamento do pool de capacidade usado.
+
+Na tela de recursos, você pode visualizar informações sobre o servidor Oracle (modelo de implantação, sistema operacional, edição, versão e muito mais), localização (conta AWS, região, zona de disponibilidade e sub-rede), armazenamento e computação (detalhes do sistema de arquivos FSx para ONTAP , tipo de instância de banco de dados e LUNs e volumes associados) e conectividade (VPC e protocolo de acesso). Você também pode verificar o status bem arquitetado das configurações do banco de dados e visualizar bancos de dados conectáveis ​​(PDBs) associados ao banco de dados.
+
+
+
+===== Suporte para bancos de dados plugáveis Oracle
+
+Os bancos de dados plugáveis ​​do Oracle podem ser visualizados no inventário de bancos de dados e na tela de recursos do banco de dados contêiner pai. As seguintes informações sobre seus PDBs estão disponíveis: nome do CDB, nome do host, status de proteção, tamanho do banco de dados, sistema de arquivos FSx para ONTAP , credenciais da AWS, conta da AWS e região.
+
+
+
+===== Análise bem arquitetada para Oracle
+
+A análise bem arquitetada inclui avaliações de problemas de configuração com o layout de armazenamento para bancos de dados Oracle sobre NFS ou sobre iSCSI com ou sem Gerenciamento Automático de Armazenamento (ASM) e problemas de configuração de armazenamento no sistema operacional para Oracle sobre LUNs iSCSI. Você pode usar essas informações para tomar decisões informadas sobre suas implantações de banco de dados e garantir que elas estejam sendo executadas com eficiência.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas no Workload Factory"]
+
+
+
+==== Melhorias no inventário de bancos de dados
+
+Na tela de instância no inventário de bancos de dados, as opções para corrigir, adiar e descartar um problema de configuração estão disponíveis para instâncias únicas ou múltiplas do Microsoft SQL Server ou para bancos de dados únicos ou múltiplos do Oracle.
+
+
+
+==== Otimize as economias na calculadora de armazenamento para Amazon Elastic Block Store (EBS)
+
+O Workload Factory pode analisar o uso do desempenho do seu EBS e então sugerir a melhor e mais econômica configuração do FSx para ONTAP para que você possa economizar mais mudando para o FSx para ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Explore economias para ambientes de armazenamento detectados no console do Workload Factory"]
+
+
+
 === Configuração e administração
 
 
@@ -115,11 +165,19 @@ O BlueXP foi renomeado e redesenhado para refletir melhor o papel que ele tem no
 
 
 
-==== Apresentando o Centro de Planejamento de Cargas de Trabalho da VMware
+==== Apresentando o centro de planejamento de cargas de trabalho da VMware
 
 O centro de planejamento de cargas de trabalho da VMware permite que você visualize e gerencie seu inventário de VMs e planos de migração em um só lugar. Você pode carregar e salvar vários inventários de VMs de diferentes ambientes e começar a planejar uma migração para o serviço AWS EC2 ou Amazon Elastic VMware para qualquer um deles. Você também pode criar e salvar planos de migração do AWS EC2 ou EVS.
 
 https://docs.netapp.com/us-en/workload-vmware/explore-planning-center.html["Explore o centro de planejamento de cargas de trabalho da VMware"]
+
+
+
+==== Apresentando o suporte do consultor de migração para o Amazon Elastic VMWare Service
+
+O BlueXP Workload Factory para VMware agora permite que você use o consultor de migração do Amazon Elastic VMware Service para migrar rapidamente suas cargas de trabalho VMware locais para o Amazon Elastic VMware Service. Depois de criar um plano de migração usando o consultor de migração, ele é salvo automaticamente na lista de planos de migração no centro de planejamento.
+
+https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs.html["Crie um plano de implantação para o Amazon EVS usando o consultor de migração"]
 
 
 
@@ -418,7 +476,7 @@ link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismi
 
 ==== Suporte aprimorado do consultor de migração para o Amazon Elastic VMWare Service
 
-O consultor de migração do Amazon Elastic VMware Service agora oferece suporte à implantação e montagem automáticas do seu sistema de arquivos Amazon FSx for NetApp ONTAP . Isso permite que você comece a implantar suas VMs no FSx para sistemas de arquivos ONTAP quando a migração para o ambiente Amazon EVS estiver concluída.
+O NetApp Workload Factory agora oferece suporte à implantação e montagem automáticas do seu sistema de arquivos Amazon FSx for NetApp ONTAP . Isso permite que você comece a implantar suas VMs no FSx para sistemas de arquivos ONTAP quando a migração para o ambiente Amazon EVS estiver concluída.
 
 https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manual.html["Crie um plano de implantação para o Amazon EVS usando o consultor de migração"]
 
