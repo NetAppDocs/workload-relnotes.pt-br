@@ -170,4 +170,25 @@
   <block id="8d1adece5e8b196b0a88b0589326fdf6" category="section-title">Integração do Ask Me com o MCP</block>
   <block id="979df5bd82476afb53055b0675f703a3" category="paragraph">O Ask Me, assistente de IA da Workload Factory, é integrado ao Model Context Protocol (MCP). Usando o MCP, o Ask Me interage com segurança com ambientes externos e consulta ferramentas de API para fornecer respostas personalizadas para seu ambiente de armazenamento específico.</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">06 de outubro de 2025</block>
+  <block id="945d9800b1b25a8b224232b57dabb8a6" category="doc">Otimize as economias na calculadora de armazenamento para Amazon Elastic Block Store (EBS)</block>
+  <block id="b051b129322b1fa228bb46d5704f8ad2" category="paragraph">O Workload Factory pode analisar o uso do desempenho do seu EBS e então sugerir a melhor e mais econômica configuração do FSx para ONTAP para que você possa economizar mais mudando para o FSx para ONTAP.</block>
+  <block id="75851f48043c7a3877391f5330fb19c1" category="inline-link-macro">Explore economias para ambientes de armazenamento detectados no console do Workload Factory</block>
+  <block id="4f3edd63a55b4b51bcfc2a68ac50724c" category="paragraph"><block ref="4f3edd63a55b4b51bcfc2a68ac50724c" category="inline-link-macro-rx"></block></block>
+  <block id="524dbd97409f5770f9a380227ba4daea" category="section-title">Acesso rápido à tela de recursos do inventário do sistema de arquivos</block>
+  <block id="be962e12d3d4430561fa9a1d6c25c200" category="paragraph">Você pode navegar rapidamente para uma tela de recursos do sistema de arquivos FSx for ONTAP selecionando o nome do sistema de arquivos, agora um hiperlink, no inventário do FSx for ONTAP .</block>
+  <block id="5c731a647da91c3579ce81b8d9274fca" category="section-title">Descubra relacionamentos de cache no console do Workload Factory</block>
+  <block id="7736e3de8e44f415eeeee23744591c40" category="paragraph">Se você tiver relacionamentos _cache_ entre o sistema de arquivos FSx for ONTAP e outro tipo de armazenamento ONTAP (sistema local, Cloud Volumes ONTAP e FSx for ONTAP), poderá descobri-los e visualizá-los no console do Workload Factory. Isso permite que você entenda melhor os fluxos de dados, otimize a utilização do cache e melhore a eficiência em ambientes distribuídos.</block>
+  <block id="a9ace78aa94256517b0d3b32c8e62e7e" category="inline-link-macro">Descubra e visualize relacionamentos de cache no console do Workload Factory</block>
+  <block id="0d0589415fc04e290e6c826d0b2f4d56" category="paragraph"><block ref="0d0589415fc04e290e6c826d0b2f4d56" category="inline-link-macro-rx"></block></block>
+  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">Atualização de análise bem arquitetada</block>
+  <block id="c9e2abe4bb9341b4452bdb977083efb6" category="paragraph">O Workload Factory agora analisa seus sistemas de arquivos FSx for ONTAP para a seguinte configuração:</block>
+  <block id="0d646d7995307f809d73f1d2f653df3d" category="paragraph">Limite de utilização da capacidade do arquivo de volume: verifica se os limites de capacidade do arquivo estão definidos como 80% ou menos. Isso ajuda a evitar a falta de espaço nos seus sistemas de arquivos.</block>
+  <block id="99caf3ded950ba093933b266e2734b14" category="section-title">Melhorias nas ações para problemas de configuração</block>
+  <block id="8c66f900656d8687c4beaead10bd47de" category="paragraph">Na guia *Análise bem arquitetada* no painel de um sistema de arquivos FSx para ONTAP , em vez de descartar uma configuração inteira para um sistema de arquivos, você também pode selecionar um ou mais volumes dentro de um sistema de arquivos para corrigir, descartar ou reativar.</block>
+  <block id="3b6856525ae98f397c04f2dd7b07deae" category="section-title">Notificação adicional para armazenamento</block>
+  <block id="b62e88c90eef0f29a13cbdcb4e304ae2" category="paragraph">O serviço de notificação do NetApp Workload Factory inclui a notificação semanal de problemas de configuração bem arquitetados.</block>
+  <block id="06ccf3bb3519e2c352207978ae4f36eb" category="inline-link-macro">Tipos de notificação e mensagens na documentação de configuração e administração do Workload Factory</block>
+  <block id="f484540569100bc3d0403ccb87d3a713" category="paragraph"><block ref="f484540569100bc3d0403ccb87d3a713" category="inline-link-macro-rx"></block></block>
+  <block id="872ee1a2a3a499ce76f0f789c2151656" category="section-title">Arquivos imutáveis suportam exclusão privilegiada</block>
+  <block id="0a7266fd80158c418fbcd6837ec4dbe0" category="paragraph">Com esse recurso, você pode configurar acesso privilegiado de exclusão para arquivos imutáveis ​​em seus sistemas de arquivos FSx for ONTAP . Isso permite que você proteja dados críticos contra exclusão acidental ou maliciosa, ao mesmo tempo em que permite que usuários autorizados substituam o bloqueio e excluam esses arquivos conforme necessário. A habilitação da exclusão privilegiada está disponível durante a criação do volume ou para volumes existentes.</block>
 </blocks>
