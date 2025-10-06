@@ -16,7 +16,7 @@ Usando a API do Workload Factory, agora você pode adicionar uma fonte de dados 
 
 link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Crie um conector NetApp para o Amazon Q Business"]
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["6320af7d92cd5d357460c5cbc5f642a9"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["Adicionar fontes de dados a um conector"]
 
 
 
