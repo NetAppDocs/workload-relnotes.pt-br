@@ -207,4 +207,5 @@
   <block id="d90600b832876e9302411cfab905b9bc" category="section-title">Melhorias no inventário de bancos de dados</block>
   <block id="3772c3dfbcdf91deef3f77333da3ced1" category="paragraph">Na tela de instância no inventário de bancos de dados, as opções para corrigir, adiar e descartar um problema de configuração estão disponíveis para instâncias únicas ou múltiplas do Microsoft SQL Server ou para bancos de dados únicos ou múltiplos do Oracle.</block>
   <block id="a0766b901d28d8d972d369d556ae3e10" category="paragraph"><block ref="a0766b901d28d8d972d369d556ae3e10" category="inline-link-macro-rx"></block></block>
+  <block id="9d4ab4efb1eff322f698ff725220f0c6" category="paragraph">O serviço de notificação do NetApp Workload Factory inclui a notificação para gerenciamento automático de capacidade de armazenamento.</block>
 </blocks>
