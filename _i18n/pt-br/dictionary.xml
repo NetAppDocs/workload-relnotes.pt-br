@@ -207,8 +207,9 @@
   <block id="d90600b832876e9302411cfab905b9bc" category="section-title">Melhorias no inventário de bancos de dados</block>
   <block id="3772c3dfbcdf91deef3f77333da3ced1" category="paragraph">Na tela de instância no inventário de bancos de dados, as opções para corrigir, adiar e descartar um problema de configuração estão disponíveis para instâncias únicas ou múltiplas do Microsoft SQL Server ou para bancos de dados únicos ou múltiplos do Oracle.</block>
   <block id="a0766b901d28d8d972d369d556ae3e10" category="paragraph"><block ref="a0766b901d28d8d972d369d556ae3e10" category="inline-link-macro-rx"></block></block>
-  <block id="9d4ab4efb1eff322f698ff725220f0c6" category="paragraph">O serviço de notificação do NetApp Workload Factory inclui a notificação para gerenciamento automático de capacidade de armazenamento.</block>
   <block id="ba72fdb3bdfd568a9dee9e12c3566da1" category="paragraph">O serviço de notificação de fábrica de carga de trabalho inclui notificações de sucesso e falha para gerenciamento automático de capacidade de armazenamento.</block>
   <block id="28a2c493e9a663d617e582302e1bcf28" category="inline-link-macro">Notificações para a BlueXP workload factory</block>
   <block id="165f0ade723f657a5d7981bfecbfc75a" category="paragraph"><block ref="165f0ade723f657a5d7981bfecbfc75a" category="inline-link-macro-rx"></block></block>
+  <block id="fd46c6801c12745a0b45c3f9e025fb2e" category="paragraph">O serviço de notificação de BlueXP workload factory inclui a notificação para gerenciamento automático de capacidade para armazenamento.</block>
+  <block id="a4bdb4b5125441fbfaec27ac4bb48be0" category="paragraph"><block ref="a4bdb4b5125441fbfaec27ac4bb48be0" category="inline-link-macro-rx"></block></block>
 </blocks>
