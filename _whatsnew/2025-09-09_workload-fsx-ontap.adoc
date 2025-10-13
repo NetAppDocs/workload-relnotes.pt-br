@@ -43,3 +43,11 @@ image:screenshot-manage-snapshots-screen.png["Captura de tela que mostra a tela 
 A fábrica de carga de trabalho oferece suporte à redução da capacidade da unidade de estado sólido (SSD) dos seus sistemas de arquivos de segunda geração. Com a capacidade elástica do sistema de arquivos, você pode ajustar dinamicamente a capacidade dos seus sistemas de arquivos para atender às necessidades das suas cargas de trabalho.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["Ajustar a capacidade do sistema de arquivos"]
+
+
+
+=== Nova notificação para armazenamento
+
+O serviço de notificação de fábrica de carga de trabalho inclui notificações de sucesso e falha para gerenciamento automático de capacidade de armazenamento.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Notificações para a BlueXP workload factory"^]
