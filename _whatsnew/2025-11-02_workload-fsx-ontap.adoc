@@ -16,7 +16,7 @@ Você pode executar as seguintes operações de gerenciamento de volume de cache
 * Excluir um volume de cache
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Gerenciar volumes de cache"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Gerenciar volumes de cache"]
 
 
 
@@ -24,7 +24,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html[
 
 Você pode habilitar o gerenciamento automático de inodes sem a necessidade de habilitar o gerenciamento automático de capacidade.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Ativar o gerenciamento automático de inodes"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Ativar o gerenciamento automático de inodes"]
 
 
 
@@ -38,7 +38,7 @@ Avisos de limite estão disponíveis tanto para capacidade quanto para uso de in
 
 É possível diminuir o tamanho dos volumes NFS e SMB/CIFS no NetApp Workload Factory. Essa funcionalidade permite um melhor gerenciamento dos recursos de armazenamento, possibilitando a redução do tamanho de volumes que não são mais necessários em sua capacidade atual.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["Diminuir a capacidade de um volume"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["Diminuir a capacidade de um volume"]
 
 
 
@@ -69,7 +69,7 @@ O Workload Factory oferece mais clareza sobre as permissões necessárias para a
 
 Ao adicionar credenciais, você pode selecionar uma ou mais dessas políticas de permissão com base no nível de acesso que deseja fornecer ao Workload Factory.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referência de permissões do Workload Factory"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referência de permissões do Workload Factory"]
 
 
 
@@ -77,4 +77,4 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 Você pode criar um cofre cibernético usando o FSx para ONTAP como origem ou destino na arquitetura do cofre cibernético. Os cofres cibernéticos oferecem um ambiente seguro e isolado para armazenar dados críticos, protegendo-os contra ransomware e outras ameaças cibernéticas.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["Configure um cofre cibernético com FSx para ONTAP."^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["Configure um cofre cibernético com FSx para ONTAP."]
