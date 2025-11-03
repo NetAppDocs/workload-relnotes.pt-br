@@ -1,0 +1,59 @@
+= Melhorias no painel de controle
+:allow-uri-read: 
+
+
+
+
+=== Melhorias no painel de controle
+
+O novo painel de controle foi simplificado e melhor organizado para fornecer uma visão geral mais clara dos seus recursos de banco de dados e das principais funcionalidades do Workload Factory em uma única tela; um cartão destaca os recursos do banco de dados, um cartão fornece informações sobre a pontuação e análise de arquitetura adequada, um cartão exibe a análise de erros, dois cartões exibem o custo mensal e a economia potencial, e um cartão exibe informações sobre os ambientes de teste (sandboxes).
+
+
+
+=== Análise bem arquitetada para Oracle
+
+A análise bem arquitetada inclui as seguintes avaliações e correções para configurações do Oracle:
+
+* Sistema operacional de configuração de armazenamento usando o protocolo NFS: avalia e corrige problemas de configuração do NFS em implantações de banco de dados Oracle existentes.
+* Sistema operacional de configuração de armazenamento usando o protocolo iSCSI: avalia e corrige problemas de configuração iSCSI em implantações de banco de dados Oracle existentes.
+* Sistema operacional de configuração de armazenamento usando o Automatic Storage Management (ASM): avalia problemas de configuração com o ASM em implementações de banco de dados Oracle existentes.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas no Workload Factory"]
+
+
+
+=== Alterações de permissões para o Workload Factory para Bancos de Dados
+
+O Workload Factory for Databases atualizou as políticas de permissões para fornecer mais clareza sobre o que é necessário para ações específicas e granularidade para selecionar apenas as permissões de que você precisa. Ao adicionar credenciais, você terá três opções de permissões para escolher, em vez do modelo de permissões anterior, que era _somente leitura_ e _leitura/gravação_. O novo modelo de permissões divide as políticas de permissão da seguinte forma:
+
+* _Visualização, planejamento e análise_: visualize o inventário de recursos do banco de dados, saiba mais sobre a integridade dos seus recursos, revise a análise bem arquitetada das suas configurações de banco de dados, obtenha análises de logs de erros e explore oportunidades de economia.
+* _Operações e correção_: execute tarefas operacionais para seus recursos de banco de dados e corrija problemas de configuração do banco de dados e do sistema de arquivos FSx para ONTAP subjacente.
+* _Criação de hosts de banco de dados_: implante os hosts de banco de dados e o armazenamento do sistema de arquivos FSx para ONTAP subjacente de acordo com as melhores práticas.
+
+
+Ao adicionar credenciais, você pode selecionar uma ou mais dessas políticas de permissões com base no nível de acesso que deseja fornecer ao Workload Factory for Databases.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referência de permissões do Workload Factory"^]
+
+
+
+=== Painel de controle bem projetado adicionado.
+
+Uma nova tela de painel de controle _Bem arquitetada_ foi adicionada ao menu Bancos de Dados. Nessa tela, você pode obter uma visão geral do status de configuração de todo o seu conjunto de bancos de dados.
+
+
+
+=== Proteção contra edição para implantações de banco de dados no NetApp Backup and Recovery.
+
+A partir do console do Workload Factory, você pode selecionar a opção para editar a proteção de um recurso protegido e, em seguida, será redirecionado para o Backup e Recuperação no NetApp Console , onde poderá modificar a política ou o agendamento de proteção.
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Proteção contra edições para implantações de banco de dados"]
+
+
+
+=== Filtragem de erros por tags disponível para o recurso de análise de erros.
+
+Ao usar o recurso de análise de erros no Workload Factory, você pode filtrar e visualizar os logs de erros do Microsoft SQL Server por tags orientadas à infraestrutura. Essa melhoria ajuda você a triar, solucionar e resolver problemas rapidamente.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Analise os registros de erros com filtragem por tags."^]

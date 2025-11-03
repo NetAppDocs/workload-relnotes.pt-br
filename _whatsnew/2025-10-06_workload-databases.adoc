@@ -42,7 +42,7 @@ Na tela de instância no inventário de bancos de dados, as opções para corrig
 
 
 
-=== Otimize as economias na calculadora de armazenamento para Amazon Elastic Block Store (EBS)
+=== Otimize a economia com base no uso do Amazon Elastic Block Store (EBS).
 
 O Workload Factory pode analisar o uso do desempenho do seu EBS e então sugerir a melhor e mais econômica configuração do FSx para ONTAP para que você possa economizar mais mudando para o FSx para ONTAP.
 
