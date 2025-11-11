@@ -32,7 +32,7 @@ O Workload Factory for Databases atualizou as políticas de permissões para for
 * _Criação de hosts de banco de dados_: implante os hosts de banco de dados e o armazenamento do sistema de arquivos FSx para ONTAP subjacente de acordo com as melhores práticas.
 
 
-Ao adicionar credenciais, você pode selecionar uma ou mais dessas políticas de permissões com base no nível de acesso que deseja fornecer ao Workload Factory for Databases.
+Ao adicionar credenciais, você pode selecionar uma ou mais dessas políticas de permissão com base no nível de acesso que deseja fornecer ao Workload Factory for Databases.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referência de permissões do Workload Factory"^]
 
