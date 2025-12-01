@@ -19,6 +19,44 @@ Saiba mais sobre as alterações mais recentes nas cargas de trabalho que fazem 
 
 
 
+=== Workloads de banco de dados
+
+
+
+==== Otimize a economia na calculadora de bancos de dados para o Amazon Elastic Block Store (EBS).
+
+Duas novas funcionalidades da calculadora melhoram a análise de economia de custos ao executar várias instâncias com armazenamento EBS, para que você possa economizar mais ao migrar para o FSx for ONTAP.
+
+* O Workload Factory oferece uma solução de armazenamento consolidada para vários hosts de banco de dados em um único sistema de arquivos FSx para ONTAP . Essa consolidação otimiza os custos de armazenamento, reduzindo o número de sistemas de arquivos necessários para vários hosts de banco de dados, o que leva a uma maior economia de custos.
+* O Workload Factory analisa o uso de desempenho do seu EBS e, em seguida, sugere a configuração FSx para ONTAP mais adequada e econômica.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Descubra as economias para hosts EBS detectados."]
+
+
+
+==== Relatório em Excel disponível para o painel de controle bem estruturado.
+
+Você pode baixar um relatório em Excel do painel de controle bem estruturado. O relatório apresenta o status de arquitetura adequada para o recurso de banco de dados e recomendações para todas as configurações de recursos, incluindo subconfigurações para sistema operacional e ONTAP.
+
+
+
+==== Analisador de logs de erros disponível para bancos de dados Oracle.
+
+O analisador de logs de erros Agentic, baseado em IA, está disponível para bancos de dados Oracle. O recurso utiliza algoritmos avançados de aprendizado de máquina para detectar e analisar automaticamente erros em arquivos de log. Esta ferramenta tem como objetivo agilizar o processo de solução de problemas, fornecendo aos desenvolvedores insights e recomendações práticas com base nos padrões identificados nos logs.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Saiba mais sobre o analisador de log de erros com tecnologia de IA da Agentic"]
+
+
+
+==== Análise bem arquitetada para Oracle
+
+A análise bem arquitetada inclui duas novas configurações de dimensionamento de armazenamento. A análise avalia e corrige problemas de configuração relacionados à alocação de espaço de troca (swap) e à capacidade disponível do sistema de arquivos para implementações existentes de bancos de dados Oracle.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas no Workload Factory"]
+
+
+
 === Workloads da VMware
 
 
