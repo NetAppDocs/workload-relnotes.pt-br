@@ -1,0 +1,11 @@
+= Suporte para pontos de acesso AWS S3 para FSx para ONTAP
+:allow-uri-read: 
+
+
+
+
+=== Suporte para pontos de acesso AWS S3 para FSx para ONTAP
+
+O NetApp Workload Factory oferece suporte a pontos de acesso AWS S3 para seus sistemas de arquivos FSx for ONTAP . Você pode criar volumes usando pontos de acesso S3, atribuir pontos de acesso S3 a um volume existente e gerenciar pontos de acesso S3 a partir do console do Workload Factory. Utilizando um ponto de acesso S3, você pode acessar dados de arquivos residentes em volumes SMB/CIFS ou NFS por meio das APIs do AWS S3. Isso permite integrar seus dados existentes com GenAI, ML e análises de serviços da AWS que suportam pontos de acesso S3.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Criar um volume"]
