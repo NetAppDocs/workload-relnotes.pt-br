@@ -1,0 +1,18 @@
+= Melhorias na integração com o Active Directory
+:allow-uri-read: 
+
+
+
+
+=== Melhorias na integração com o Active Directory
+
+O Workload Factory for Databases inclui três novos campos do Active Directory (AD) ao implantar o Microsoft SQL Server usando a opção *Criação avançada*. Essas melhorias permitem especificar as preferências de ingresso no Active Directory e usar uma conta de serviço gerenciada.
+
+Os novos campos do AD são:
+
+* Controlador de domínio preferencial
+* Caminho preferencial da unidade organizacional
+* Grupo de destino do Active Directory
+
+
+link:https://docs.netapp.com/us-en/workload-databases/create-database.html["Implantar o Microsoft SQL Server"]
