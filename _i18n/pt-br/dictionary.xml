@@ -193,4 +193,25 @@
   <block id="5e3b7f958129022f75fe2931c55615b2" category="doc">Integração da página inicial do assistente de IA "Pergunte-me"</block>
   <block id="65bcc541760e8f25e0281edbfdfbf7f3" category="paragraph">A página inicial do console do Workload Factory incorpora o assistente de IA "Pergunte-me", permitindo que você faça perguntas sobre seu próprio ambiente de armazenamento, obtenha insights personalizados diretamente do seu ambiente e consulte conversas anteriores. Você pode interagir com o recurso "Pergunte-me" para entender suas cargas de trabalho, solucionar problemas e aprender mais sobre o Workload Factory — tudo isso sem sair do console.</block>
   <block id="334f5b13a66630c66877aaf36ce24673" category="section-title">04 de janeiro de 2026</block>
+  <block id="bc5d3bf99236801351dc3a2d7c20aed7" category="paragraph">O Workload Factory analisa seus sistemas de arquivos FSx para ONTAP para as seguintes configurações:</block>
+  <block id="afc7c7589e5f20d86c03b5e089bbad6b" category="list-text">A proteção autônoma contra ransomware (ARP/AI) da NetApp desativada inclui dispositivos de bloco: verifica se o ARP/AI está desativado em volumes de dispositivos de bloco.</block>
+  <block id="2270e6ac2c31be458c93c87db612a494" category="list-text">Modo de gravação do relacionamento de cache: verifica se o modo de gravação é o ideal para a carga de trabalho do volume de cache.</block>
+  <block id="2125a9a589f0bc57c38acf63f5ffb150" category="list-text">Exclusão de backups desnecessários: verifica se os backups estão desatualizados ou são desnecessários e podem ser excluídos para reduzir custos.</block>
+  <block id="270dd22752e2f3f31c99a49ff489774e" category="section-title">Utilização da entidade de usuário do IAM em políticas de permissão baseadas em recursos de vinculação do Lambda</block>
+  <block id="75141a4e46e0a646f4c8379f8d5e7b52" category="paragraph">Os links Lambda usados ​​para conectar sua conta do Workload Factory a um ou mais sistemas de arquivos FSx for ONTAP para executar operações avançadas do ONTAP agora usam a entidade de usuário do IAM para permissões de política baseadas em recursos. Essa mudança proporciona um melhor alinhamento com as melhores práticas do setor para acesso a recursos da AWS.</block>
+  <block id="b0dd04cf44137b432a8f89cb4f3c9919" category="section-title">Adicionada tela de análise para o analisador de IA para eventos de emergência médica.</block>
+  <block id="5cd27690d7988b2c3f04768e500459bb" category="paragraph">Uma nova tela de _Análise_ foi adicionada ao menu Armazenamento. A partir desta tela, você pode usar o analisador de IA para o recurso de eventos FSx para ONTAP EMS.</block>
+  <block id="a9b4b239246fd03c03ac43e963075319" category="section-title">Aprimoramentos de dispositivos de bloco no NetApp Workload Factory</block>
+  <block id="6ef37e3f05edf0fb9740ef851722a8f3" category="paragraph">As seguintes melhorias foram implementadas para dispositivos de bloco.</block>
+  <block id="0a32dfaa27bfe59db7152c5c5da72282" category="section-title">Criação de dispositivo de bloco</block>
+  <block id="8e8c152eb29cb88d5d80a375d44aee87" category="paragraph">O NetApp Workload Factory oferece suporte à criação de dispositivos de bloco usando o protocolo iSCSI em sistemas de arquivos FSx para ONTAP , permitindo que você ofereça melhor suporte aos seus aplicativos de linha de negócios (LOB) a partir do console do Workload Factory.</block>
+  <block id="0b5d1c04d20d94c2a21dacfa53d7354d" category="section-title">Melhorias no gerenciamento de dispositivos de bloco</block>
+  <block id="e578bac1e9f39054ae2eb2b16d807f71" category="inline-link-macro">gerenciando dispositivos de bloco</block>
+  <block id="e16cdf4dbd146007b4b40124e28ca1a2" category="paragraph">O NetApp Workload Factory inclui os seguintes aprimoramentos para <block ref="b08ca4e282a45fe2e49c9a019646bd36" category="inline-link-macro-rx"></block>. Agora você pode executar as seguintes tarefas no console do Workload Factory:</block>
+  <block id="f8b3baca819978515d628c6a5881eb4e" category="list-text">Gerenciar o acesso do cliente</block>
+  <block id="5338dad31c000cc89dea6cc573f1a242" category="list-text">Dados do dispositivo de bloco de arquivamento</block>
+  <block id="88073627bb09173d8e0b3fa15a27725b" category="list-text">Excluir dispositivo de bloco</block>
+  <block id="3c4600754ec66ef615c303417126da12" category="section-title">Suporte para ARP/AI em volumes FlexVol que contêm dispositivos de bloco</block>
+  <block id="3043237188bfe3f198084dbfe55d05c0" category="inline-link-macro">Proteção autônoma contra ransomware da NetApp com IA (ARP/AI)</block>
+  <block id="34f4bbf8697d1205da43ee612001efe7" category="paragraph">Você pode ativar <block ref="028271ae216dacdd20feb47aea2c131d" category="inline-link-macro-rx"></block> em volumes FlexVol que contêm dispositivos de bloco. Habilitar o ARP/AI detecta ataques de ransomware usando IA e auxilia na recuperação de dados.</block>
 </blocks>

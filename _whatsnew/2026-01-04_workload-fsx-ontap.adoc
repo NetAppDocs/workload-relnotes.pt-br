@@ -1,0 +1,63 @@
+= Atualizações de análise bem arquitetadas
+:allow-uri-read: 
+
+
+
+
+=== Atualizações de análise bem arquitetadas
+
+O Workload Factory analisa seus sistemas de arquivos FSx para ONTAP para as seguintes configurações:
+
+* A proteção autônoma contra ransomware (ARP/AI) da NetApp desativada inclui dispositivos de bloco: verifica se o ARP/AI está desativado em volumes de dispositivos de bloco.
+* Modo de gravação do relacionamento de cache: verifica se o modo de gravação é o ideal para a carga de trabalho do volume de cache.
+* Exclusão de backups desnecessários: verifica se os backups estão desatualizados ou são desnecessários e podem ser excluídos para reduzir custos.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Visualize o status bem arquitetado do seu FSx para sistemas de arquivos ONTAP"]
+
+
+
+=== Integração da página inicial do assistente de IA "Pergunte-me"
+
+A página inicial do console do Workload Factory incorpora o assistente de IA "Pergunte-me", permitindo que você faça perguntas sobre seu próprio ambiente de armazenamento, obtenha insights personalizados diretamente do seu ambiente e consulte conversas anteriores. Você pode interagir com o recurso "Pergunte-me" para entender suas cargas de trabalho, solucionar problemas e aprender mais sobre o Workload Factory — tudo isso sem sair do console.
+
+
+
+=== Utilização da entidade de usuário do IAM em políticas de permissão baseadas em recursos de vinculação do Lambda
+
+Os links Lambda usados ​​para conectar sua conta do Workload Factory a um ou mais sistemas de arquivos FSx for ONTAP para executar operações avançadas do ONTAP agora usam a entidade de usuário do IAM para permissões de política baseadas em recursos. Essa mudança proporciona um melhor alinhamento com as melhores práticas do setor para acesso a recursos da AWS.
+
+
+
+=== Adicionada tela de análise para o analisador de IA para eventos de emergência médica.
+
+Uma nova tela de _Análise_ foi adicionada ao menu Armazenamento. A partir desta tela, você pode usar o analisador de IA para o recurso de eventos FSx para ONTAP EMS.
+
+
+
+=== Aprimoramentos de dispositivos de bloco no NetApp Workload Factory
+
+As seguintes melhorias foram implementadas para dispositivos de bloco.
+
+
+
+==== Criação de dispositivo de bloco
+
+O NetApp Workload Factory oferece suporte à criação de dispositivos de bloco usando o protocolo iSCSI em sistemas de arquivos FSx para ONTAP , permitindo que você ofereça melhor suporte aos seus aplicativos de linha de negócios (LOB) a partir do console do Workload Factory.
+
+
+
+==== Melhorias no gerenciamento de dispositivos de bloco
+
+O NetApp Workload Factory inclui os seguintes aprimoramentos para link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html["gerenciando dispositivos de bloco"]. Agora você pode executar as seguintes tarefas no console do Workload Factory:
+
+* Gerenciar o acesso do cliente
+* Dados do dispositivo de bloco de arquivamento
+* Excluir dispositivo de bloco
+
+
+
+
+==== Suporte para ARP/AI em volumes FlexVol que contêm dispositivos de bloco
+
+Você pode ativar link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Proteção autônoma contra ransomware da NetApp com IA (ARP/AI)"] em volumes FlexVol que contêm dispositivos de bloco. Habilitar o ARP/AI detecta ataques de ransomware usando IA e auxilia na recuperação de dados.
