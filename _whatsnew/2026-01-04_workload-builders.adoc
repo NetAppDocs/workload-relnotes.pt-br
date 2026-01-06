@@ -1,0 +1,17 @@
+= O NetApp Workload Factory para Builders agora é o NetApp Workload Factory para EDA.
+:allow-uri-read: 
+
+
+
+
+=== O NetApp Workload Factory para Builders agora é o NetApp Workload Factory para EDA.
+
+Workload Factory for Builders agora é Workload Factory for EDA. A mudança de nome reflete o foco nas cargas de trabalho de automação de projeto eletrônico (EDA).
+
+O Workload Factory for EDA ajuda você a otimizar o FSx para ONTAP em vários sistemas de arquivos. Você pode otimizar o desempenho e reduzir os custos operacionais automatizando os parâmetros de armazenamento, analisando as restrições de desempenho e obtendo insights sobre projetos de EDA. O Workload Factory para EDA foi projetado para se integrar com suas estruturas de Infraestrutura como Código (IaC).
+
+
+
+=== Integração da página inicial do assistente de IA "Pergunte-me"
+
+A página inicial do console do Workload Factory incorpora o assistente de IA "Pergunte-me", permitindo que você faça perguntas sobre seu próprio ambiente de armazenamento, obtenha insights personalizados diretamente do seu ambiente e consulte conversas anteriores. Você pode interagir com o recurso "Pergunte-me" para entender suas cargas de trabalho, solucionar problemas e aprender mais sobre o Workload Factory — tudo isso sem sair do console.

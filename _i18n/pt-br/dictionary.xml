@@ -214,4 +214,7 @@
   <block id="3c4600754ec66ef615c303417126da12" category="section-title">Suporte para ARP/AI em volumes FlexVol que contêm dispositivos de bloco</block>
   <block id="3043237188bfe3f198084dbfe55d05c0" category="inline-link-macro">Proteção autônoma contra ransomware da NetApp com IA (ARP/AI)</block>
   <block id="34f4bbf8697d1205da43ee612001efe7" category="paragraph">Você pode ativar <block ref="028271ae216dacdd20feb47aea2c131d" category="inline-link-macro-rx"></block> em volumes FlexVol que contêm dispositivos de bloco. Habilitar o ARP/AI detecta ataques de ransomware usando IA e auxilia na recuperação de dados.</block>
+  <block id="ef702fb37688ffbfdf16f6b005df7436" category="doc">O NetApp Workload Factory para Builders agora é o NetApp Workload Factory para EDA.</block>
+  <block id="f48bd4568e33f95e23f1ea90df81f8af" category="paragraph">Workload Factory for Builders agora é Workload Factory for EDA. A mudança de nome reflete o foco nas cargas de trabalho de automação de projeto eletrônico (EDA).</block>
+  <block id="8e2c84558eaf80d5e8e99422d320b395" category="paragraph">O Workload Factory for EDA ajuda você a otimizar o FSx para ONTAP em vários sistemas de arquivos. Você pode otimizar o desempenho e reduzir os custos operacionais automatizando os parâmetros de armazenamento, analisando as restrições de desempenho e obtendo insights sobre projetos de EDA. O Workload Factory para EDA foi projetado para se integrar com suas estruturas de Infraestrutura como Código (IaC).</block>
 </blocks>
