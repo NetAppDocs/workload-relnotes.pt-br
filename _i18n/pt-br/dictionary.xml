@@ -141,4 +141,21 @@
   <block id="3ac4be70f27829fbadc2c932a5b029e4" category="inline-link-macro">Implementar configurações bem arquitetadas</block>
   <block id="0f39698d75936e2b93022b9c574c0eb3" category="paragraph"><block ref="0f39698d75936e2b93022b9c574c0eb3" category="inline-link-macro-rx"></block></block>
   <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">01 de fevereiro de 2026</block>
+  <block id="efc6f47d5e8620dbd993bbf5427fa876" category="doc">Filtragem aprimorada do painel com tags personalizáveis</block>
+  <block id="1c074117512c813d0d3c5474c6839792" category="paragraph">Agora você pode configurar até cinco filtros personalizados no painel do EDA com base em suas tags da AWS. Cada filtro personalizado inclui um nome de rótulo, uma chave de tag da AWS e um tipo de seleção (seleção única ou multi-seleção).</block>
+  <block id="a290a89777e8fd7db6061c83affdbda9" category="paragraph">A seleção múltipla permite selecionar vários valores simultaneamente, enquanto a seleção única restringe você a um valor por vez. Os filtros personalizados aparecem na ordem em que você os configura, facilitando a organização dos filtros mais usados.</block>
+  <block id="a9f4d955c73322ea2697149d48ca3230" category="paragraph">Se você não configurar filtros personalizados, os filtros padrão (sistema de arquivos, tipo de volume e intervalo de tempo) permanecerão disponíveis para que você possa continuar visualizando e interagindo com seus dashboards.</block>
+  <block id="7f599cf351ac708ac51a573f45f1adfe" category="inline-link">Saiba mais sobre configurar filtros personalizados</block>
+  <block id="b4d8b5d35eb5ad238c4bc40c7bfa5cc8" category="paragraph"><block ref="0fffea6d188f5a3a46b25be10dcf1dca" category="inline-link-rx"></block>.</block>
+  <block id="5908526b06383bf6b835d957813a0a5b" category="section-title">Visualização detalhada do volume para análise granular de desempenho</block>
+  <block id="be14699d8f808150c6e3ec8fd5f5fb6f" category="paragraph">O painel agora oferece dois modos de visualização: visualização total e visualização por volume. A visualização total exibe métricas agregadas de todos os volumes, enquanto a visualização por volume mostra o desempenho individual dos 10 principais volumes ao longo do tempo.</block>
+  <block id="6828b4aa70bf0499581d68bc0a737c8a" category="paragraph">Na visualização de Volume, dicas de ferramentas interativas ao passar o cursor fornecem informações detalhadas para cada volume, incluindo nome do volume, métricas e valores específicos de tempo. Quando os mesmos volumes aparecem em vários componentes, a codificação por cores consistente facilita o rastreamento de volumes específicos em diferentes métricas.</block>
+  <block id="b7259cf0b1b93b9f8f56fd85b8a2075f" category="inline-link">Saiba mais sobre como visualizar detalhes do volume</block>
+  <block id="3d218b60cf53ed75572aecfde4c1d233" category="paragraph"><block ref="fdc27d3397a23552fa2bc2b42dee0c76" category="inline-link-rx"></block>.</block>
+  <block id="a63dd8c708227f66adf2e93b1b973bfe" category="section-title">Análise de latência para monitoramento proativo de desempenho</block>
+  <block id="4eca5955b4d0f7b664a2f65c49306dcf" category="paragraph">A análise de latência permite monitorar a latência de leitura e gravação de volumes em seus sistemas de arquivos FSx for ONTAP. Você pode configurar limites de aviso e eventos críticos personalizáveis para identificar proativamente gargalos de desempenho antes que eles impactem suas cargas de trabalho de EDA.</block>
+  <block id="40a74d0e93037927ed8b742952444782" category="paragraph">A tabela de eventos de latência exibe todos os eventos de aviso e críticos, permitindo que você monitore o desempenho do volume e identifique os volumes que precisam de otimização.</block>
+  <block id="40599551b14b033049a0306f8d7e0da2" category="paragraph">Esse recurso requer credenciais da AWS e é acessível no menu Latency no painel EDA.</block>
+  <block id="195b656b2b34184ab7cb51ea0158eba0" category="inline-link">Saiba mais sobre análise de latência</block>
+  <block id="3589dd4e8f5f2cbdba29810271d0f1d9" category="paragraph"><block ref="6f22f53277ef02f84f5ed64bde49085d" category="inline-link-rx"></block>.</block>
 </blocks>
