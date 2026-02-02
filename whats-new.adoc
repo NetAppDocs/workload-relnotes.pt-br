@@ -15,6 +15,30 @@ Saiba mais sobre as alterações mais recentes nas cargas de trabalho que fazem 
 
 
 
+== 01 de fevereiro de 2026
+
+
+
+=== Workloads da VMware
+
+
+
+==== Análise bem arquitetada para Amazon Elastic VMware Service
+
+O Workload Factory agora oferece análise automatizada bem arquitetada para seus ambientes do Amazon Elastic VMware Service (Exchange Virtual Server). Varreduras diárias identificam desalinhamentos de configuração e oferecem recomendações detalhadas de correção para ajudar você a manter operações, segurança e eficiência de custos ideais.
+
+As análises são realizadas usando APIs da AWS—sem necessidade de credenciais vSphere ou conectividade vCenter necessárias. Os resultados estão disponíveis na nova guia *Well-architected status* nos detalhes do seu ambiente Exchange Virtual Server.
+
+Esta versão inclui insights para:
+
+* *Status de proteção contra parada/encerramento de instância*: Identifica nós Exchange Virtual Server sem proteção contra parada ou encerramento do EC2. Parar ou encerrar nós Exchange Virtual Server a partir do console do EC2 pode levar à indisponibilidade de dados da máquina virtual ou perda de dados.
+* *Alinhamento do posicionamento de partições de nós de cluster*: Detecta desalinhamentos de particionamento que podem resultar em perda significativa de poder de processamento ou tempo de inatividade caso uma partição falhe em uma Zona de Disponibilidade da AWS. Cada insight inclui níveis de gravidade, resultados detalhados com informações sobre os recursos afetados e procedimentos de correção passo a passo com base nas melhores práticas da AWS.
+
+
+link:view-evs-well-architected.html["Implementar configurações bem arquitetadas"]
+
+
+
 == 04 de janeiro de 2026
 
 
@@ -299,211 +323,3 @@ O analisador de eventos do FSx para ONTAP EMS usa as seguintes permissões do Am
 
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Registro de alterações de referência de permissões"]
-
-
-
-== 02 de novembro de 2025
-
-
-
-=== Amazon FSX para NetApp ONTAP
-
-
-
-==== Gerenciamento de volume de cache
-
-Você pode executar as seguintes operações de gerenciamento de volume de cache no console do Workload Factory:
-
-* Editar o nome do cache
-* Aumentar a capacidade de um volume de cache
-* Edite o caminho de montagem ou a política de exportação para um volume de cache.
-* Alterar o método ou modo de cache para um volume de cache.
-* Pré-popular um volume de cache
-* Excluir um volume de cache
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Gerenciar volumes de cache"]
-
-
-
-==== Gerenciamento automático de inodes disponível
-
-Você pode habilitar o gerenciamento automático de inodes sem a necessidade de habilitar o gerenciamento automático de capacidade.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Ativar o gerenciamento automático de inodes"]
-
-
-
-==== Configuração de aviso de limite para uso de capacidade e inodes.
-
-Avisos de limite estão disponíveis tanto para capacidade quanto para uso de inodes. Você pode definir esses limites ao ativar o gerenciamento automático de capacidade ou de inodes. Para usar essa configuração, você precisará configurar as notificações usando olink:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Serviço de notificação do NetApp Workload Factory"^] .
-
-
-
-==== redução do tamanho do volume disponível
-
-É possível diminuir o tamanho dos volumes NFS e SMB/CIFS no NetApp Workload Factory. Essa funcionalidade permite um melhor gerenciamento dos recursos de armazenamento, possibilitando a redução do tamanho de volumes que não são mais necessários em sua capacidade atual.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["Diminuir a capacidade de um volume"]
-
-
-
-==== FSx aprimorado para estado de recurso ONTAP
-
-O Workload Factory aprimorou o estado de recurso "mal configurado" para incluir uma explicação do problema real do recurso.
-
-
-
-==== Atualizações de análise bem arquitetadas
-
-O Workload Factory analisa seus sistemas de arquivos FSx para ONTAP para as seguintes configurações:
-
-* Utilização do volume próxima do limite: verifica se algum volume está utilizando 80% ou mais de sua capacidade de armazenamento. Isso ajuda a identificar volumes que podem precisar de capacidade adicional.
-* Acesso não autorizado a volumes: verifica se um volume iSCSI está acessível usando um caminho de montagem NFS ou SMB/CIFS e permite remover o acesso não autorizado ao volume para evitar riscos de segurança.
-
-
-
-
-==== Alterações de permissões para o Workload Factory para armazenamento
-
-O Workload Factory oferece mais clareza sobre as permissões necessárias para ações específicas e permite selecionar apenas as permissões de que você precisa. Ao adicionar credenciais, você terá três opções de permissões para escolher, em vez do modelo de permissões anterior, que era _somente leitura_ e _leitura/gravação_. O novo modelo de permissões divide as políticas de permissão da seguinte forma:
-
-* _Visualização, planejamento e análise_: Visualize os sistemas de arquivos FSx para ONTAP , aprenda sobre a integridade do sistema, obtenha uma análise bem arquitetada para seus sistemas e explore oportunidades de economia.
-* _Operações e correção_: Execute tarefas operacionais como ajustar a capacidade do sistema de arquivos e corrigir problemas nas configurações do seu sistema de arquivos.
-* _Criação e exclusão de sistemas de arquivos_: Crie e exclua sistemas de arquivos FSx para ONTAP e VMs de armazenamento.
-
-
-Ao adicionar credenciais, você pode selecionar uma ou mais dessas políticas de permissão com base no nível de acesso que deseja fornecer ao Workload Factory.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referência de permissões do Workload Factory"]
-
-
-
-==== Suporte ao cofre cibernético FSx para ONTAP
-
-Você pode criar um cofre cibernético usando o FSx para ONTAP como origem ou destino na arquitetura do cofre cibernético. Os cofres cibernéticos oferecem um ambiente seguro e isolado para armazenar dados críticos, protegendo-os contra ransomware e outras ameaças cibernéticas.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["Configure um cofre cibernético com FSx para ONTAP."]
-
-
-
-=== Workloads de banco de dados
-
-
-
-==== Melhorias no painel de controle
-
-O novo painel de controle foi simplificado e melhor organizado para fornecer uma visão geral mais clara dos seus recursos de banco de dados e das principais funcionalidades do Workload Factory em uma única tela; um cartão destaca os recursos do banco de dados, um cartão fornece informações sobre a pontuação e análise de arquitetura adequada, um cartão exibe a análise de erros, dois cartões exibem o custo mensal e a economia potencial, e um cartão exibe informações sobre os ambientes de teste (sandboxes).
-
-
-
-==== Análise bem arquitetada para Oracle
-
-A análise bem arquitetada inclui as seguintes avaliações e correções para configurações do Oracle:
-
-* Sistema operacional de configuração de armazenamento usando o protocolo NFS: avalia e corrige problemas de configuração do NFS em implantações de banco de dados Oracle existentes.
-* Sistema operacional de configuração de armazenamento usando o protocolo iSCSI: avalia e corrige problemas de configuração iSCSI em implantações de banco de dados Oracle existentes.
-* Sistema operacional de configuração de armazenamento usando o Automatic Storage Management (ASM): avalia problemas de configuração com o ASM em implementações de banco de dados Oracle existentes.
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas no Workload Factory"]
-
-
-
-==== Alterações de permissões para o Workload Factory para Bancos de Dados
-
-O Workload Factory for Databases atualizou as políticas de permissões para fornecer mais clareza sobre o que é necessário para ações específicas e granularidade para selecionar apenas as permissões de que você precisa. Ao adicionar credenciais, você terá três opções de permissões para escolher, em vez do modelo de permissões anterior, que era _somente leitura_ e _leitura/gravação_. O novo modelo de permissões divide as políticas de permissão da seguinte forma:
-
-* _Visualização, planejamento e análise_: visualize o inventário de recursos do banco de dados, saiba mais sobre a integridade dos seus recursos, revise a análise bem arquitetada das suas configurações de banco de dados, obtenha análises de logs de erros e explore oportunidades de economia.
-* _Operações e correção_: execute tarefas operacionais para seus recursos de banco de dados e corrija problemas de configuração do banco de dados e do sistema de arquivos FSx para ONTAP subjacente.
-* _Criação de hosts de banco de dados_: implante os hosts de banco de dados e o armazenamento do sistema de arquivos FSx para ONTAP subjacente de acordo com as melhores práticas.
-
-
-Ao adicionar credenciais, você pode selecionar uma ou mais dessas políticas de permissão com base no nível de acesso que deseja fornecer ao Workload Factory for Databases.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referência de permissões do Workload Factory"^]
-
-
-
-==== Painel de controle bem projetado adicionado.
-
-Uma nova tela de painel de controle _Bem arquitetada_ foi adicionada ao menu Bancos de Dados. Nessa tela, você pode obter uma visão geral do status de configuração de todo o seu conjunto de bancos de dados.
-
-
-
-==== Proteção contra edição para implantações de banco de dados no NetApp Backup and Recovery.
-
-A partir do console do Workload Factory, você pode selecionar a opção para editar a proteção de um recurso protegido e, em seguida, será redirecionado para o Backup e Recuperação no NetApp Console , onde poderá modificar a política ou o agendamento de proteção.
-
-link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Proteção contra edições para implantações de banco de dados"]
-
-
-
-==== Filtragem de erros por tags disponível para o recurso de análise de erros.
-
-Ao usar o recurso de análise de erros no Workload Factory, você pode filtrar e visualizar os logs de erros do Microsoft SQL Server por tags orientadas à infraestrutura. Essa melhoria ajuda você a triar, solucionar e resolver problemas rapidamente.
-
-link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Analise os registros de erros com filtragem por tags."^]
-
-
-
-=== Workloads da VMware
-
-
-
-==== Apresentando as preferências do Amazon Elastic VMware Service no assistente de implantação do sistema de arquivos FSx para ONTAP .
-
-Ao implantar um sistema de arquivos FSx para ONTAP para ser usado como armazenamento de dados NFS externo para o Amazon Elastic VMware Service, agora você pode selecionar o ambiente EVS ao qual os armazenamentos de dados serão conectados. Isso preenche automaticamente vários campos no assistente de implantação para simplificar o processo de implantação.
-
-https://docs.netapp.com/us-en/workload-vmware/deploy-fsx-file-system-evs.html["Implante o sistema de arquivos FSx recomendado para ONTAP."]
-
-
-
-==== Alterações de permissões para cargas de trabalho do VMware
-
-As cargas de trabalho da VMware oferecem mais clareza sobre as permissões necessárias para ações específicas e granularidade para selecionar apenas as permissões de que você precisa. Ao adicionar credenciais, você terá duas opções de permissões para escolher, em vez do modelo de permissões anterior, que era _somente leitura_ e _leitura/gravação_. O novo modelo de permissões divide as políticas de permissão da seguinte forma:
-
-* _Visualização, planejamento e análise_: Visualize o inventário de ambientes de virtualização da EVS, obtenha uma análise bem arquitetada para seus sistemas e explore oportunidades de economia.
-* _Implantação e conectividade do armazenamento de dados_: Implante os layouts de VM recomendados em clusters Amazon EVS, Amazon EC2 ou VMware Cloud on AWS vSphere e use sistemas de arquivos Amazon FSx for NetApp ONTAP como armazenamentos de dados externos.
-
-
-Ao adicionar credenciais, você pode selecionar uma ou mais dessas políticas de permissão com base no nível de acesso que deseja fornecer às cargas de trabalho do VMware.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referência de permissões do Workload Factory"^]
-
-
-
-==== Melhorias no consultor de migração do Amazon EC2
-
-Esta versão do NetApp Workload Factory para VMware apresenta diversas melhorias na experiência do assistente de migração:
-
-* *Salvar ou baixar um plano de migração*: Agora você pode salvar ou baixar um plano de migração como um arquivo PDF ou CSV. Ao salvar um plano de migração, o plano é salvo em sua conta do Workload Factory.
-
-
-
-
-=== Configuração e administração
-
-
-
-==== Atualização de permissões
-
-Nesta versão, fizemos atualizações significativas nas políticas de permissão para cargas de trabalho de armazenamento, banco de dados e VMware, a fim de aprimorar a segurança e o controle do usuário. Você pode personalizar suas configurações de permissão de forma mais detalhada, adicionando ou removendo permissões conforme achar melhor.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referência de permissões para o Workload Factory"]
-
-
-
-==== Nova notificação para armazenamento
-
-O serviço de notificação do NetApp Workload Factory inclui a notificação para gerenciamento automático de inodes para armazenamento.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Notificações para NetApp Workload Factory"]
-
-
-
-==== Avisos de limite para gerenciamento automático de capacidade e inodes.
-
-O gerenciamento automático de capacidade e inodes para armazenamento pode ser configurado com um limite de alerta que aciona uma notificação do serviço de notificação do Workload Factory. Para usar esse recurso, você precisa primeiro ativar o serviço de notificação do Workload Factory.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configure as notificações para o NetApp Workload Factory."]
