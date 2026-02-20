@@ -1,0 +1,19 @@
+= Redução de custos aprimorada para vários hosts de banco de dados no Microsoft SQL Server no local
+:allow-uri-read: 
+
+
+
+
+=== Redução de custos aprimorada para vários hosts de banco de dados no Microsoft SQL Server no local
+
+A análise de redução de custos para Microsoft SQL Server storage no local foi aprimorada para fornecer uma solução de storage consolidada para vários hosts de banco de dados em um sistema de arquivos FSx for ONTAP. Essa consolidação otimiza os custos de storage ao reduzir o número de sistemas de arquivos necessários para vários hosts de banco de dados, levando a uma maior economia de custos.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Explore as economias para hosts detectados no Microsoft SQL Server no local"]
+
+
+
+=== Análise bem arquitetada para Oracle
+
+A análise bem arquitetada inclui quatro novas subavaliações para a análise da configuração de storage do Oracle: capacitação do dNFS, resolução de IP consistente do dNFS, arquivo de configuração do dNFS e dNFS `nosharecache`. Essas avaliações se relacionam à habilitação e configuração do Direct NFS (dNFS) para o seu ambiente Oracle, que ignora o cliente NFS e executa operações de arquivo NFS diretamente em um servidor NFS, melhorando o desempenho de E/S e diminuindo a carga no host e no sistema de storage porque a E/S é realizada de forma mais eficiente.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas no Workload Factory"]
