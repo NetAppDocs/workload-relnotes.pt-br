@@ -15,6 +15,62 @@ Saiba mais sobre as alterações mais recentes nas cargas de trabalho que fazem 
 
 
 
+== 02 de março de 2026
+
+
+
+=== Workloads de banco de dados
+
+
+
+==== Avaliação única
+
+Workload Factory agora oferece uma avaliação única para analisar as configurações de suas implantações de banco de dados sempre que necessário - novas implantações, pós-migração, solução de problemas e muito mais. Você receberá recomendações para ajudar a otimizar suas configurações de implantação e cumprir as melhores práticas. Esta é a sua oportunidade de usar o recurso well-architected sem se comprometer totalmente com o processo de configuração. Você pode avaliar seus bancos de dados sem armazenar credenciais no Workload Factory, registrar recursos de banco de dados ou configurar conexões externas.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Realize uma avaliação única das suas implementações de banco de dados"]
+
+
+
+==== Suporte para registro de grupos de disponibilidade Always On no Microsoft SQL Server e Data Guard no Oracle
+
+Agora você pode descobrir e registrar instâncias do Microsoft SQL Server com o modelo de implantação Always On availability group (AOAG) e bancos de dados Oracle com o modelo de implantação Data Guard na carga de trabalho de bancos de dados do NetApp Workload Factory. Essa melhoria permite um gerenciamento mais eficiente dos recursos do SQL Server e do Oracle no console do Workload Factory.
+
+Após registrar suas instâncias do AOAG e bancos de dados do Data Guard, você pode aproveitar os diversos recursos do NetApp Workload Factory for Databases, como visualizar detalhes dos recursos e analisar logs de erros.
+
+Workload Factory for Databases também oferece suporte à análise bem arquitetada para instâncias do Microsoft SQL Server com o modelo de implantação AOAG. Você pode analisar as configurações de suas instâncias do SQL Server em um grupo de disponibilidade e receber recomendações para otimizar suas configurações de implantação e cumprir as melhores práticas. Registre suas instâncias AOAG para habilitar esse recurso.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html#register-a-sql-server-instance["Registre recursos no Workload Factory for Databases"]
+
+
+
+==== Análise bem arquitetada para Oracle
+
+A análise bem arquitetada inclui *patches do sistema operacional* para Oracle para verificar se você possui os patches mais recentes no sistema operacional e informar como instalá-los.
+
+Além disso, a análise bem arquitetada para Oracle notifica você quando uma configuração, como layout de storage, tem dependências de outras configurações. A notificação informa quais ações tomar para otimizar as configurações vinculadas, de modo que todas as recomendações que fornecemos sejam ideais.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas no Workload Factory"]
+
+
+
+==== Análise de custos e planejamento de migração de ambientes de banco de dados Oracle on-premises
+
+O Workload Factory for Databases agora analisa e ajuda você a planejar a migração de banco de dados Oracle no local para Amazon FSx for NetApp ONTAP. Você pode usar a calculadora de economia para estimar o custo de execução do seu ambiente de banco de dados Oracle no local na nuvem e consultar recomendações para migrar seu ambiente de banco de dados no local para a nuvem.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore as oportunidades de economia em ambientes de banco de dados locais"]
+
+
+
+==== Novo marcador Ask Me disponível no Workload Factory
+
+Adicionamos um novo marcador Ask Me em todas as telas do console do Workload Factory. Essa melhoria torna mais fácil e rápido para você acessar o Ask Me sempre que precisar de ajuda. Ask Me é nosso assistente de IA, permitindo que você faça perguntas sobre seus próprios ambientes de carga de trabalho, obtenha insights personalizados diretamente do seu ambiente e consulte conversas anteriores.
+
+Você pode abrir o Ask Me em qualquer página clicando no novo marcador. Ele abre o Ask Me em um painel lateral sem interromper seu trabalho atual e oferece explicações rápidas e recomendações relacionadas ao que você está fazendo no momento.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Saiba mais sobre Ask Me"^]
+
+
+
 == 01 de março de 2026
 
 
@@ -30,6 +86,46 @@ Adicionamos um novo marcador Ask Me em todas as telas do console do Workload Fac
 Você pode abrir Ask Me de qualquer página clicando no novo marcador. Ele inicia o Ask Me em um painel lateral sem interromper seu trabalho atual e oferece explicações rápidas e recomendações relacionadas ao que você está fazendo no momento.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Saiba mais sobre Ask Me"]
+
+
+
+=== Cargas de trabalho EDA
+
+
+
+==== Painel de visão geral para gerenciamento de storage
+
+Como administrador de TI responsável por dezenas de FSx for ONTAP sistemas de arquivos, você pode usar o painel de visão geral para responder a perguntas operacionais comuns sobre a integridade do cluster, a utilização e o posicionamento de volumes.
+
+O painel de visão geral inclui:
+
+* *Estado de integridade do cluster*: Informações resumidas na parte superior do painel que destacam desempenho, capacidade, disponibilidade, proteção e eventos de segurança em seus clusters.
+* *Tabela de clusters*: Uma tabela pesquisável, filtrável e paginada que exibe a capacidade do SSD, o pool de capacidade e as métricas de throughput por cluster, com suporte para personalização de colunas e exportação em CSV.
+
+
+O painel principal anterior agora está acessível na aba *Project*. As abas de EDA agora estão organizadas da seguinte forma: Overview, Latency, Project, CI/CD.
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Saiba mais sobre o painel de visão geral"^].
+
+
+
+==== Análise automatizada de latência
+
+A análise de latência agora inclui análise básica automatizada. Quando eventos de latência são detectados, o sistema analisa automaticamente as métricas do centro de atraso de QoS do ONTAP para identificar a origem dos problemas de latência.
+
+A análise básica avalia as políticas de QoS, o desempenho do disco, os problemas de rede e as configurações do cluster para fornecer informações imediatas na coluna Detalhes da tabela de eventos de latência.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["Saiba mais sobre análise básica de latência"^].
+
+
+
+==== Novo marcador Ask Me disponível no Workload Factory
+
+Adicionamos um novo marcador Ask Me em todas as telas do console do Workload Factory. Essa melhoria torna mais fácil e rápido para você acessar o Ask Me sempre que precisar de ajuda. Ask Me é nosso assistente de IA, permitindo que você faça perguntas sobre seus próprios ambientes de carga de trabalho, obtenha insights personalizados diretamente do seu ambiente e consulte conversas anteriores.
+
+Você pode abrir o Ask Me em qualquer página clicando no novo marcador. Ele abre o Ask Me em um painel lateral sem interromper seu trabalho atual e oferece explicações rápidas e recomendações relacionadas ao que você está fazendo no momento.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Saiba mais sobre Ask Me"^]
 
 
 
@@ -324,9 +420,9 @@ Você pode ativar link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomwa
 
 
 
-==== Integração da página inicial do assistente de IA "Pergunte-me"
+==== Integração da home page do assistente de IA Ask Me
 
-A página inicial do console do Workload Factory incorpora o assistente de IA "Pergunte-me", permitindo que você faça perguntas sobre seu próprio ambiente de armazenamento, obtenha insights personalizados diretamente do seu ambiente e consulte conversas anteriores. Você pode interagir com o recurso "Pergunte-me" para entender suas cargas de trabalho, solucionar problemas e aprender mais sobre o Workload Factory — tudo isso sem sair do console.
+A página inicial do console do Workload Factory incorpora o assistente de IA Ask Me, permitindo que você faça perguntas sobre seu próprio storage estate, obtenha insights personalizados diretamente do seu ambiente e consulte conversas anteriores. Você pode interagir com o Ask Me para entender suas workloads, solucionar problemas e aprender mais sobre o Workload Factory — tudo sem sair do console.
 
 
 
