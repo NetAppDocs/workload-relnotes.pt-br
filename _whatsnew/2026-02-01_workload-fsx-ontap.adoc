@@ -57,7 +57,7 @@ Três novos cartões foram adicionados à guia Dispositivos de bloco na carga de
 
 * Eficiências de armazenamento: exibe a capacidade de storage usada e disponível; a capacidade usada é discriminada por SSD e por níveis de storage do pool de capacidade.
 * Dispositivos protegidos: exibe a porcentagem de dispositivos de bloco com snapshots, replicação remota, NetApp Autonomous Ransomware Protection (ARP/AI) e backups.
-* Dispositivos órfãos: exibe se algum dispositivo de bloco não foi usado por sete dias consecutivos, ajudando você a identificar e gerenciar recursos não utilizados com eficiência. A partir daqui, você pode link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#archive-the-data-of-an-inactive-block-device["recuperar espaço para dispositivos de bloco não utilizados"].
+* Dispositivos órfãos: exibe se algum dispositivo de bloco não foi usado por sete dias consecutivos, ajudando você a identificar e gerenciar recursos não utilizados com eficiência. A partir daqui, você pode link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html#archive-the-data-of-an-inactive-block-device["recuperar espaço para dispositivos de bloco não utilizados"].
 
 
 
