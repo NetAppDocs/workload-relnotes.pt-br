@@ -40,13 +40,6 @@
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Registro de alterações de referência de permissões</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="01f76f754caa3b688233762c1b9391f6" category="section-title">Suporte para pontos de acesso AWS S3 para FSx para ONTAP</block>
-  <block id="d30cb805d7270ac0b7cc06375888e47f" category="paragraph">O NetApp Workload Factory oferece suporte a pontos de acesso AWS S3 para seus sistemas de arquivos FSx for ONTAP . Você pode criar volumes usando pontos de acesso S3, atribuir pontos de acesso S3 a um volume existente e gerenciar pontos de acesso S3 a partir do console do Workload Factory. Utilizando um ponto de acesso S3, você pode acessar dados de arquivos residentes em volumes SMB/CIFS ou NFS por meio das APIs do AWS S3. Isso permite integrar seus dados existentes com GenAI, ML e análises de serviços da AWS que suportam pontos de acesso S3.</block>
-  <block id="ef6c8d59ba70b1efd5437dd31e63efcb" category="section-title">04 de dezembro de 2025</block>
-  <block id="bf9dc967c38bf5f6366aea1d464016b5" category="inline-link-macro">Crie um volume usando pontos de acesso S3.</block>
-  <block id="9650d80f3b4a8975eb2cc3145efe97fd" category="list-text"><block ref="9650d80f3b4a8975eb2cc3145efe97fd" category="inline-link-macro-rx"></block></block>
-  <block id="3e2c74c8c2d6921bd86b94a0e3ce7846" category="inline-link-macro">Gerenciar pontos de acesso S3 para um volume</block>
-  <block id="bec075d59b91517943ea96b4d56e06de" category="list-text"><block ref="bec075d59b91517943ea96b4d56e06de" category="inline-link-macro-rx"></block></block>
   <block id="e75004bce0e2abb43e6673b8bd4bbd2f" category="doc">Melhorias na integração com o Active Directory</block>
   <block id="4be7fbd19e77cc55e8637326f3cc569d" category="paragraph">O Workload Factory for Databases inclui três novos campos do Active Directory (AD) ao implantar o Microsoft SQL Server usando a opção *Criação avançada*. Essas melhorias permitem especificar as preferências de ingresso no Active Directory e usar uma conta de serviço gerenciada.</block>
   <block id="2d652258eef11b26b58d2ac1040af4fb" category="paragraph">Os novos campos do AD são:</block>
@@ -234,4 +227,13 @@
   <block id="19d4c34be6525aca788802a6167a4156" category="inline-link-macro">Aprenda sobre gerenciamento automático de capacidade e notificações de capacidade no NetApp Workload Factory</block>
   <block id="ef319467f119e3bda1a975eb1f26e46d" category="paragraph"><block ref="ef319467f119e3bda1a975eb1f26e46d" category="inline-link-macro-rx"></block></block>
   <block id="1c0128659c34cfdfa6e26b42e3133599" category="paragraph">Adicionamos um novo marcador Ask Me em todas as telas do console do Workload Factory. Essa melhoria torna mais fácil e rápido para você acessar o Ask Me sempre que precisar de ajuda. Ask Me é nosso assistente de IA. Você pode fazer perguntas sobre seus ambientes de workload, obter insights personalizados e revisar conversas anteriores.</block>
+  <block id="d9a614ba22162f87467dc9820cb657d0" category="doc">Apresentando o suporte do migration advisor para Google Cloud VMware Engine</block>
+  <block id="9ed9d229ad690b47d132eb6206cba909" category="paragraph">NetApp Workload Factory agora é compatível com o Google Cloud VMware Engine. Você pode migrar suas cargas de trabalho VMware locais para o Google Cloud VMware Engine usando o Google Cloud NetApp Volumes como datastores NFS externos, otimizando custos e permitindo maior controle sobre seu ambiente VMware sem a necessidade de refatorar ou replataformar seus aplicativos.</block>
+  <block id="42fbc3a98a8196c1e84ea7586967c06f" category="paragraph">O consultor de migração do Google Cloud VMware Engine fornece:</block>
+  <block id="6e784cfbe98c0f6a070e3304420a9971" category="list-text">Dimensionamento e design automatizados de clusters do Google Cloud VMware Engine com suporte para tipos de nó VE1 e VE2</block>
+  <block id="f6879c882f4384c5ca30017d48dafe42" category="list-text">Otimização do layout de máquinas virtuais entre datastores internos do vSAN e datastores NFS externos do Google Cloud NetApp Volumes.</block>
+  <block id="a29465f74d83dc4ead73643e19ed4387" category="list-text">Comparação detalhada de custos e análise de TCO entre configurações somente vSAN e configurações aprimoradas pelo Google Cloud NetApp Volumes.</block>
+  <block id="1711c42c1c1d16547f3fc604cd9af939" category="list-text">Suporte para os níveis de serviço Standard, Premium e Extreme do Google Cloud NetApp Volumes.</block>
+  <block id="d5adbe8ffd84800d108bc7ddf1451b8a" category="list-text">Implantação de Infrastructure-as-Code com Terraform para provisionamento automatizado.</block>
+  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">09 de março de 2026</block>
 </blocks>
