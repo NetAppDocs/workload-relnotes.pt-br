@@ -19,6 +19,42 @@ Saiba mais sobre as alterações mais recentes nas cargas de trabalho que fazem 
 
 
 
+=== Amazon FSX para NetApp ONTAP
+
+
+
+==== Atualizações de análise bem arquitetadas
+
+O Workload Factory analisa seus sistemas de arquivos FSx for ONTAP em busca de *volumes NAS inativos*. A análise de configuração identifica volumes NAS que não estão sendo usados ativamente e recomenda ações para otimizar a utilização do storage e reduzir custos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Implementar FSx bem arquitetado para sistemas de arquivos ONTAP"]
+
+
+
+==== Funcionalidade de tabela de diário para pontos de acesso S3
+
+O recurso de tabela de diário oferece uma maneira de gerenciar FSx ONTAP S3 storage de objetos em escala, permitindo auditar facilmente os eventos de acesso do usuário e as operações em objetos nos seus buckets. Com o Workload Factory, você pode configurar varreduras automáticas dos seus buckets e tabelas S3 para manter um registro de eventos, mostrando todos os objetos, seus detalhes e as ações do usuário.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/setup-journal-table.html["Configure a infraestrutura da tabela de diários para NetApp Workload Factory"]
+
+
+
+==== Suporte para gerenciamento de igroups existentes
+
+O Workload Factory oferece suporte ao gerenciamento de igroups existentes. Você pode adicionar ou remover dispositivos de bloco e iniciadores de host para entregar sua carga de trabalho implantada no prazo.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["Gerencie o armazenamento em blocos no NetApp Workload Factory"]
+
+
+
+==== Suporte para especificar o agregado para volumes FlexVol
+
+O Workload Factory permite criar volumes FlexVol em um agregado escolhido. Isso possibilita dividir a carga de capacidade e desempenho entre todos os recursos do sistema de arquivos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crie um FlexVol volume no NetApp Workload Factory"]
+
+
+
 === Workloads de banco de dados
 
 
@@ -161,7 +197,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["R
 
 Você pode alterar o usuário e o tipo de usuário de um ponto de acesso S3 existente conectado a um volume. Você também pode ativar ou desativar metadados para o ponto de acesso.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Editar pontos de acesso S3 no NetApp Workload Factory"]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-s3-access-points.html["Editar pontos de acesso S3 no NetApp Workload Factory"]
 
 
 
@@ -333,17 +369,15 @@ Diversas melhorias foram implementadas nos recursos de gerenciamento de pontos d
 
 ===== Detalhes do bucket S3 disponíveis em Storage
 
-Com metadados ativados para os pontos de acesso do S3, NetApp Workload Factory verifica automaticamente seus buckets do AWS S3 e preenche as tabelas do S3 para fornecer uma visão clara de todos os objetos, seus metadados, atributos e tags. O acesso a esses detalhes ajuda você a manter controle, visibilidade e confiança nos dados pelos quais você é responsável, enquanto reduz a sobrecarga operacional.
+A nova tabela de Inventário examina automaticamente seus buckets do AWS S3 e preenche as tabelas do S3 para fornecer uma visão geral clara de todos os objetos, seus metadados, atributos e tags. O acesso a esses detalhes ajuda você a manter o controle, a visibilidade e a confiança nos dados pelos quais você é responsável, enquanto reduz a sobrecarga operacional. Você pode ativar o recurso ao criar e anexar pontos de acesso ao S3 ou ao editar pontos de acesso existentes.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Veja detalhes dos pontos de acesso S3 em sistemas de arquivos FSx for ONTAP"]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-s3-access-point.html["Crie e anexe um ponto de acesso S3 para um volume no NetApp Workload Factory"]
 
 
 
 ===== Operações de gerenciamento adicionais para pontos de acesso S3
 
 NetApp Workload Factory oferece operações de gerenciamento adicionais para pontos de acesso S3. Você pode visualizar detalhes do ponto de acesso, modificar pontos de acesso S3 existentes e adicionar ou remover tags de pontos de acesso S3 a partir da interface NetApp Workload Factory, simplificando suas tarefas de gerenciamento de storage de objetos.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Gerencie os pontos de acesso S3 no NetApp Workload Factory"]
 
 
 
@@ -364,7 +398,7 @@ Três novos cartões foram adicionados à guia Dispositivos de bloco na carga de
 
 * Eficiências de armazenamento: exibe a capacidade de storage usada e disponível; a capacidade usada é discriminada por SSD e por níveis de storage do pool de capacidade.
 * Dispositivos protegidos: exibe a porcentagem de dispositivos de bloco com snapshots, replicação remota, NetApp Autonomous Ransomware Protection (ARP/AI) e backups.
-* Dispositivos órfãos: exibe se algum dispositivo de bloco não foi usado por sete dias consecutivos, ajudando você a identificar e gerenciar recursos não utilizados com eficiência. A partir daqui, você pode link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html#archive-the-data-of-an-inactive-block-device["recuperar espaço para dispositivos de bloco não utilizados"].
+* Dispositivos de bloco inativos: exibe se algum dispositivo de bloco não foi usado por sete dias consecutivos, ajudando você a identificar e gerenciar recursos não utilizados com eficiência. A partir daqui, você pode link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html#archive-the-data-of-an-inactive-block-device["recuperar espaço para dispositivos de bloco não utilizados"].
 
 
 

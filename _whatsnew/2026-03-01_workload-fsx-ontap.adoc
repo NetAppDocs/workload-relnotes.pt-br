@@ -26,7 +26,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["R
 
 Você pode alterar o usuário e o tipo de usuário de um ponto de acesso S3 existente conectado a um volume. Você também pode ativar ou desativar metadados para o ponto de acesso.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Editar pontos de acesso S3 no NetApp Workload Factory"]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-s3-access-points.html["Editar pontos de acesso S3 no NetApp Workload Factory"]
 
 
 
