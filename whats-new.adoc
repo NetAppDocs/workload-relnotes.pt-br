@@ -88,6 +88,18 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explo
 
 
 
+=== Configuração e administração
+
+
+
+==== Nova notificação para Storage
+
+O serviço de notificação do NetApp Workload Factory inclui a notificação para NetApp Autonomous Ransomware Protection com IA (ARP/AI) para Storage.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Notificações para NetApp Workload Factory"]
+
+
+
 == 09 de março de 2026
 
 
