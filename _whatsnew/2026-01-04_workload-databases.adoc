@@ -1,9 +1,0 @@
-= Integração da home page do assistente de IA Ask Me
-:allow-uri-read: 
-
-
-
-
-=== Integração da home page do assistente de IA Ask Me
-
-A página inicial do console do Workload Factory incorpora o assistente de IA Ask Me, permitindo que você faça perguntas sobre seu próprio storage estate, obtenha insights personalizados diretamente do seu ambiente e consulte conversas anteriores. Você pode interagir com o Ask Me para entender suas workloads, solucionar problemas e aprender mais sobre o Workload Factory — tudo sem sair do console.
