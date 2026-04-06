@@ -15,6 +15,43 @@ Saiba mais sobre as alterações mais recentes nas cargas de trabalho que fazem 
 
 
 
+== 06 de abril de 2026
+
+
+
+=== Workloads de banco de dados
+
+
+
+==== Análise bem arquitetada para Oracle
+
+A análise bem arquitetada inclui as seguintes novas configurações para Oracle:
+
+* *Atualizações Críticas de Segurança da Oracle*: avalia a ausência de patches de segurança para instalações de banco de dados Oracle autogerenciadas suportadas.
+* *Replicação entre regiões*: verifica se a replicação entre regiões (CRR) está habilitada para seus sistemas de arquivos FSx for ONTAP que atendem a bancos de dados Oracle.
+* *Snapshots consistentes com a aplicação*: verifica se o banco de dados Oracle está protegido por snapshots consistentes com a aplicação NetApp SnapCenter.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas no Workload Factory"]
+
+
+
+==== Avaliação única para Oracle
+
+O Workload Factory agora oferece uma avaliação única para analisar as configurações de suas implementações de banco de dados Oracle sempre que necessário — novas implementações, pós-migração, solução de problemas e muito mais. Você receberá recomendações para ajudar a otimizar suas configurações de implementação e a cumprir as melhores práticas. Esta é a sua oportunidade de usar o recurso well-architected sem precisar se comprometer totalmente com o processo de configuração. Você pode avaliar seus bancos de dados sem armazenar credenciais no Workload Factory, registrar recursos de banco de dados ou configurar conexões externas.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Realize uma avaliação única das suas implementações de banco de dados Oracle"]
+
+
+
+==== Melhoria na redução de custos em diversos bancos de dados Oracle
+
+Aprimoramos a análise de redução de custos para Oracle para fornecer uma solução de storage consolidada para vários bancos de dados Oracle locais em um único sistema de arquivos FSx for ONTAP. Essa consolidação otimiza os custos de armazenamento ao reduzir o número de sistemas de arquivos necessários para vários bancos de dados, resultando em maior economia.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Explore as economias para bancos de dados detectados em Oracle on-premises"]
+
+
+
 == 09 de março de 2026
 
 
@@ -46,9 +83,9 @@ O consultor de migração do Google Cloud VMware Engine fornece:
 
 
 
-==== Avaliação única
+==== Avaliação única para SQL Server
 
-Workload Factory agora oferece uma avaliação única para analisar as configurações de suas implantações de banco de dados sempre que necessário - novas implantações, pós-migração, solução de problemas e muito mais. Você receberá recomendações para ajudar a otimizar suas configurações de implantação e cumprir as melhores práticas. Esta é a sua oportunidade de usar o recurso well-architected sem se comprometer totalmente com o processo de configuração. Você pode avaliar seus bancos de dados sem armazenar credenciais no Workload Factory, registrar recursos de banco de dados ou configurar conexões externas.
+O Workload Factory agora oferece uma avaliação única para analisar as configurações das suas implantações de banco de dados SQL Server sempre que necessário — novas implantações, pós-migração, solução de problemas e muito mais. Você receberá recomendações para ajudar a otimizar suas configurações de implementação e a cumprir as melhores práticas. Esta é a sua oportunidade de usar o recurso well-architected sem precisar se comprometer totalmente com o processo de configuração. Você pode avaliar seus bancos de dados sem armazenar credenciais no Workload Factory, registrar recursos de banco de dados ou configurar conexões externas.
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Realize uma avaliação única das suas implementações de banco de dados"]
 
