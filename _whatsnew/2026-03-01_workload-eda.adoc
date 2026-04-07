@@ -6,7 +6,7 @@
 
 === Painel de visão geral para gerenciamento de storage
 
-Como administrador de TI responsável por dezenas de FSx for ONTAP sistemas de arquivos, você pode usar o painel de visão geral para responder a perguntas operacionais comuns sobre a integridade do cluster, a utilização e o posicionamento de volumes.
+Como administrador de TI responsável por dezenas de sistemas de arquivos FSx for ONTAP, você pode usar o painel Visão geral para responder a perguntas operacionais comuns sobre a integridade do cluster, utilização e alocação de volumes.
 
 O painel de visão geral inclui:
 
@@ -16,7 +16,7 @@ O painel de visão geral inclui:
 
 O painel principal anterior agora está acessível na aba *Project*. As abas de EDA agora estão organizadas da seguinte forma: Overview, Latency, Project, CI/CD.
 
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Saiba mais sobre o painel de visão geral"^].
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Saiba mais sobre o painel de Visão Geral"^].
 
 
 
@@ -25,8 +25,6 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Sai
 A análise de latência agora inclui análise básica automatizada. Quando eventos de latência são detectados, o sistema analisa automaticamente as métricas do centro de atraso de QoS do ONTAP para identificar a origem dos problemas de latência.
 
 A análise básica avalia as políticas de QoS, o desempenho do disco, os problemas de rede e as configurações do cluster para fornecer informações imediatas na coluna Detalhes da tabela de eventos de latência.
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["Saiba mais sobre análise básica de latência"^].
 
 
 
