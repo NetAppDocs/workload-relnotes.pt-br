@@ -33,3 +33,9 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html[
 O Workload Factory permite criar volumes FlexVol em um agregado escolhido. Isso possibilita dividir a carga de capacidade e desempenho entre todos os recursos do sistema de arquivos.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crie um FlexVol volume no NetApp Workload Factory"]
+
+
+
+=== Último tempo de acesso para dispositivos de bloco
+
+O Workload Factory registra o último tempo de acesso aos dispositivos de bloco. Esse tempo é baseado no último acesso ao igroup no Workload Factory. Saber quando cada dispositivo de bloco foi usado pela última vez permite otimizar seus recursos.
