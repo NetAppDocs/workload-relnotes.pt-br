@@ -172,4 +172,17 @@
   <block id="9fe282a2158bc82a938a6290a314ca79" category="inline-link-macro">Gerencie a capacidade automaticamente no NetApp Workload Factory</block>
   <block id="9ab7147fcc802f47be068771ba492092" category="paragraph"><block ref="9ab7147fcc802f47be068771ba492092" category="inline-link-macro-rx"></block></block>
   <block id="3be044b694628f6e958377c22febfacd" category="section-title">03 de maio de 2026</block>
+  <block id="97c13014b9e16335b445d04850fb955f" category="doc">Notificações por e-mail e SNS para eventos de latência</block>
+  <block id="c31a2fa4340e87df74fd4add6857d037" category="paragraph">Agora você pode receber notificações automáticas quando eventos de latência forem detectados em seus volumes FSx for ONTAP. Configure notificações por e-mail ou Amazon SNS nas configurações do Workload Factory para receber alertas em tempo real quando os volumes ultrapassarem os limites de latência configurados.</block>
+  <block id="64252b5e1bc1f93bfafd01c34fd0860b" category="paragraph">As notificações são enviadas com base no sistema de arquivos e incluem detalhes sobre todos os volumes afetados, níveis de gravidade, comparações de limites e um link direto para a página de Latência para investigação.</block>
+  <block id="95e7f36fe4398f41dfcbc5591df71f8d" category="inline-link">Aprenda como configurar notificações de latência</block>
+  <block id="547067437333ccf9f6257f448035fd15" category="paragraph"><block ref="2a3ce45bc4405505b722625836bbe768" category="inline-link-rx"></block>.</block>
+  <block id="f18c989c700bb32f3bcb80ace5539b64" category="section-title">Visualização da tendência de latência com gráficos interativos</block>
+  <block id="11ef7238b057019c31802d06c0bf5b75" category="paragraph">O painel de análise de latência agora inclui uma interface com abas para uma análise de latência abrangente:</block>
+  <block id="eb39bcaa5c101fc5087275547ab8e3e6" category="list-text">*Visão geral*: visualize os resultados da análise básica automatizada mostrando qual componente está causando latência</block>
+  <block id="142deff8a2ec74d2d2667eca22500eab" category="list-text">*Ao longo do tempo*: Visualize o comportamento da latência de volume com um gráfico interativo em vários intervalos de tempo (1 hora, 3 horas, 12 horas, 24 horas ou 72 horas)</block>
+  <block id="5ff8bee829d6ed38b529ef851b350ad1" category="paragraph">A aba *Ao longo do tempo* exibe dados brutos de latência do CloudWatch (leitura ou gravação, dependendo do alarme acionado) com linhas de limite de aviso e crítico, indicadores de violação e métricas detalhadas para cada violação.</block>
+  <block id="7eec84a410cc084b608a43e90acfccd1" category="paragraph">Essa visualização abrangente ajuda você a identificar padrões, entender se os problemas de latência são recorrentes ou isolados e tomar decisões mais informadas sobre a correção.</block>
+  <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link">Aprenda a analisar tendências de latência</block>
+  <block id="89bed93f6bbf811d8bd82c2b7fbc1dea" category="paragraph"><block ref="ed7c0b83df2858b326a608c49012d510" category="inline-link-rx"></block>.</block>
 </blocks>
