@@ -193,4 +193,6 @@
   <block id="72139a3373d3afc6254af7e39dc3cd2a" category="paragraph">O serviço de notificação do NetApp Workload Factory inclui a notificação de latência de EDA, que avisa quando a latência de uma operação EDA excede um determinado limite.</block>
   <block id="7c1a1feb7968ed15d338ae3e7284dd4e" category="inline-link-macro">Configurar notificações do Workload Factory</block>
   <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
+  <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">Nova notificação para sistemas de arquivos FSx for ONTAP</block>
+  <block id="6d358c966898e9dabc6d051e85958cd8" category="paragraph">O serviço de notificações do NetApp Workload Factory inclui uma notificação com um resumo mensal dos custos da sua conta, mostrando tendências de gastos, alterações incomuns e as melhores oportunidades de economia para sistemas de arquivos FSx for ONTAP.</block>
 </blocks>
