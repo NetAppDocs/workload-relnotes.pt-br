@@ -450,19 +450,3 @@ Adicionamos um novo marcador Ask Me em todas as telas do console do Workload Fac
 Você pode abrir o Ask Me em qualquer página clicando no novo marcador. Ele abre o Ask Me em um painel lateral sem interromper seu trabalho atual e oferece explicações rápidas e recomendações relacionadas ao que você está fazendo no momento.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Saiba mais sobre Ask Me"^]
-
-
-
-== 16 de fevereiro de 2026
-
-
-
-=== Amazon FSX para NetApp ONTAP
-
-
-
-==== Suporte para migração de storage VM
-
-NetApp Workload Factory agora oferece suporte à migração para VMs de armazenamento. Esse recurso permite a migração de dados e configurações do sistema de storage ONTAP de sistemas ONTAP locais ou sistemas de arquivos FSx for ONTAP de primeira geração para sistemas de arquivos FSx for ONTAP de segunda geração. Você pode replicar os dados e as configurações da VM de armazenamento para migrar para o novo sistema de arquivos com tempo de inatividade e interrupção mínimos para usuários e aplicativos.
-
-Para usar este recurso, link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["criar uma relação de replicação"] e selecione *Migração* como caso de uso. Para concluir o processo de migração, você deve link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html#cut-over-replication-for-migration-use-cases["migrar o storage VM e seus volumes replicados"] imediatamente para migrar permanentemente os dados e as configurações da VM de storage para o sistema de arquivos FSx for ONTAP de destino.
