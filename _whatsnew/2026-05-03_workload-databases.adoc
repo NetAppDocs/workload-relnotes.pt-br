@@ -1,0 +1,37 @@
+= Análise bem arquitetada para Oracle
+:allow-uri-read: 
+
+
+
+
+=== Análise bem arquitetada para Oracle
+
+A análise bem arquitetada inclui as seguintes novas configurações para Oracle:
+
+* *Configuração de backup*: verifica se seus bancos de dados Oracle estão protegidos pelo AWS Backup ou FSx for ONTAP backups.
+* *Limpeza de clones*: recomenda remover clones desatualizados ou não utilizados para reduzir os custos de storage.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas no Workload Factory"]
+
+
+
+=== Cálculo automático de economia para bancos de dados Oracle no Amazon Elastic Block Store (EBS)
+
+O Workload Factory analisa automaticamente o custo do EBS usado para bancos de dados Oracle e, em seguida, sugere a configuração FSx for ONTAP mais adequada e econômica. Você pode selecionar vários hosts EBS para analisar e, em seguida, comparar o custo de execução desses hosts em EBS versus FSx for ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Explore as economias para hosts EBS detectados"]
+
+
+
+=== Verificação de pré-requisitos de configuração do CRR
+
+Ao habilitar a replicação entre regiões (CRR) para seu ambiente de banco de dados, a carga de trabalho do Database verifica se o FSx for ONTAP sistema de arquivos possui um link associado e uma configuração de replicação. Se necessário, a carga de trabalho do Database redireciona você para o assistente de replicação da carga de trabalho de Storage do FSx for ONTAP para lidar com os pré-requisitos do link da mesma forma que o Storage faz.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configurações de banco de dados bem arquitetadas no Workload Factory"]
+
+
+
+=== LUNs associadas para bancos de dados Microsoft SQL Server
+
+Agora você pode visualizar os LUNs mapeados para bancos de dados do Microsoft SQL Server no Workload Factory a partir da tela de Inventário. Isso permite identificar facilmente quais LUNs estão associados a quais bancos de dados, facilitando o gerenciamento e a otimização dos recursos de storage.
