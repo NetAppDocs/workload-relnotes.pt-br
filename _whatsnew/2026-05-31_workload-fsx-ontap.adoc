@@ -1,0 +1,79 @@
+= Suporte para AWS GovCloud (US) no NetApp Workload Factory
+:allow-uri-read: 
+
+
+
+
+=== Suporte para AWS GovCloud (US) no NetApp Workload Factory
+
+NetApp Workload Factory é compatível com contas AWS GovCloud (US). Usando uma conta GovCloud, você pode implantar e gerenciar cargas de trabalho de armazenamento nas regiões AWS GovCloud (US).
+
+
+
+=== Defina os limites de latência de volume no NetApp Workload Factory
+
+Você pode configurar limites de latência para cada volume individualmente, a fim de monitorar o desempenho e receber alertas quando os valores de latência excederem os limites definidos. O Workload Factory monitora tanto a latência de leitura quanto a de gravação e gera alertas quando qualquer um dos limites é excedido.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["Defina os limites de latência de volume no NetApp Workload Factory"]
+
+
+
+=== Acompanhe os atrasos de replicação no NetApp Workload Factory
+
+Com o NetApp Workload Factory, você pode monitorar os atrasos de replicação dos seus sistemas de arquivos FSx for ONTAP que estão configurados com replicação remota. Os atrasos de replicação indicam o intervalo de tempo entre quando os dados são gravados no sistema de arquivos de origem e quando são replicados para o sistema de arquivos de destino. Monitorar os atrasos de replicação ajuda você a acompanhar a integridade da sua configuração de replicação e a identificar possíveis problemas que possam afetar a consistência de dados e os objetivos de ponto de recuperação (RPOs).
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["Acompanhe os atrasos de replicação no NetApp Workload Factory"]
+
+
+
+=== Identificação de hosts e definições de carga de trabalho no NetApp Workload Factory
+
+O Workload Factory identifica os hosts que consomem armazenamento e os tipos de cargas de trabalho associadas à atividade do host. As definições de carga de trabalho são geradas por IA com base em tags da AWS e metadados. Você pode visualizar detalhes do host e definições de carga de trabalho nas telas de recursos de sistema de arquivos, volume e dispositivo de bloco no Workload Factory.
+
+
+
+=== Detalhes do LIF disponíveis no NetApp Workload Factory
+
+Exibimos todos os endpoints do sistema de arquivos e das máquinas virtuais de armazenamento (VMs) diretamente na guia Visão geral de um sistema de arquivos. A visibilidade direta dos endpoints no console do Workload Factory facilita o monitoramento do acesso à rede, dos endpoints e do status de failover sem usar a CLI ou CloudShell. Para exibir detalhes do LIF, incluindo funções, endpoints, nós, endereços IP e status, você precisará associar um link ao sistema de arquivos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Aprenda como associar um link ao seu sistema de arquivos no NetApp Workload Factory"].
+
+
+
+=== Melhorias de custo
+
+Novos filtros opcionais em nível de página estão disponíveis para aprimorar os resultados da análise de custos dos seus recursos em todas as contas da AWS. Você pode selecionar várias regiões e usar a chave da tag de alocação do sistema de arquivos e os valores da chave para filtrar os resultados da análise de custos e obter detalhes de custos específicos de recursos para seus sistemas de arquivos e volumes FSx for ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-costs.html["Utilize filtros para análise de custos no NetApp Workload Factory"]
+
+
+
+=== O agendamento de inicialização da replicação está disponível no NetApp Workload Factory
+
+Durante a configuração da replicação de dados, agora você pode agendar a inicialização da replicação para seus sistemas de arquivos FSx for ONTAP. As opções são inicializar a relação de replicação imediatamente ou em um horário específico. A inicialização da replicação é o processo de criação de uma linha de base para a replicação, copiando dados do sistema de arquivos de origem para o sistema de arquivos de destino. O agendamento da inicialização da replicação permite automatizar esse processo e garantir que sua configuração de replicação esteja atualizada sem intervenção manual.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Replicar dados no NetApp Workload Factory"]
+
+
+
+=== Relatório em Excel do status bem arquitetado do FSx for ONTAP file systems
+
+Após a análise, você pode baixar um relatório em Excel sobre o status de arquitetura adequada dos seus sistemas de arquivos FSx for ONTAP para seus registros ou para compartilhar com suas equipes.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Visualize o status de arquitetura adequada dos seus sistemas de arquivos FSx for ONTAP no NetApp Workload Factory"]
+
+
+
+=== Visualize e analise eventos de latência
+
+O NetApp Workload Factory agora oferece suporte à visualização e análise de eventos de latência para volumes FSx for ONTAP. Você pode visualizar eventos de latência sem uma conexão de link, facilitando o monitoramento de problemas de desempenho. Para analisar eventos de latência e receber insights e recomendações baseados em IA, é necessário conectar-se ao sistema de arquivos usando um link. A análise fornece valores de latência atuais, limites, análise de resposta de QoS e orientações para correção.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html["Analise eventos do FSx for ONTAP no NetApp Workload Factory"]
+
+
+
+=== Defina os limites de latência de volume
+
+Agora você pode configurar limites de latência por volume para monitorar o desempenho e receber alertas quando a latência de leitura ou gravação exceder os limites definidos. O monitoramento de latência ajuda você a identificar proativamente problemas de desempenho antes que eles afetem suas cargas de trabalho.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["Defina os limites de latência de volume no NetApp Workload Factory"]
