@@ -15,6 +15,38 @@ Saiba mais sobre as alterações mais recentes nas cargas de trabalho que fazem 
 
 
 
+== 01 de junho de 2026
+
+
+
+=== Workloads de banco de dados
+
+
+
+==== Economias personalizadas para hosts Oracle no Amazon Elastic Block Store
+
+NetApp Workload Factory for Databases permite personalizar a economia para hosts Oracle no Amazon Elastic Block Store (EBS). Você pode ajustar diversos campos, como a frequência de snapshots, o número de cópias clonadas e os detalhes do volume, para ver como eles afetam sua economia.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore as oportunidades de economia para hosts Oracle no EBS"]
+
+
+
+==== Seleção de múltiplos grupos de segurança para implantação de hosts Microsoft SQL Server e PostgreSQL
+
+NetApp Workload Factory para bancos de dados agora permite selecionar vários grupos de segurança ao implantar hosts do Microsoft SQL Server e PostgreSQL. Isso oferece maior flexibilidade na configuração da segurança de rede para suas cargas de trabalho de banco de dados.
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["Implantar hosts do Microsoft SQL Server"]
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Implantar hosts PostgreSQL"]
+
+
+
+
+==== Suporte para AWS GovCloud (US) no NetApp Workload Factory
+
+NetApp Workload Factory é compatível com contas da AWS GovCloud (EUA). Usando uma conta GovCloud, você pode implantar e gerenciar cargas de trabalho de banco de dados nas regiões da AWS GovCloud (EUA).
+
+
+
 == 31 de maio de 2026
 
 
