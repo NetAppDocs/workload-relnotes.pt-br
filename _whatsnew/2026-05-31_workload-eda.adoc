@@ -1,0 +1,56 @@
+= Modos de gerenciamento de aumento da capacidade de SSD e automação
+:allow-uri-read: 
+
+
+
+
+=== Modos de gerenciamento de aumento da capacidade de SSD e automação
+
+O Workload Factory agora oferece modos de gerenciamento de aumento da capacidade de SSD para corresponder às suas preferências operacionais:
+
+* *Automatizar*
+* *Recomendar*
+* *Nenhum*
+
+
+O modo atual e seus parâmetros são exibidos na parte superior do gráfico de uso do SSD na página de detalhes do sistema de arquivos. Você pode alternar entre os modos a qualquer momento, de acordo com suas necessidades operacionais.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#change-ssd-management-mode["Saiba mais sobre os modos de gerenciamento de SSD"^].
+
+
+
+=== Editar em massa os parâmetros de gerenciamento de aumento da capacidade de SSD
+
+Agora você pode ajustar os parâmetros de gerenciamento de aumento de capacidade de SSD em vários sistemas de arquivos a partir do painel Visão geral. Selecione um ou mais clusters na tabela Clusters e edite os valores de Threshold (10-90%), Lookback (1-200 horas) e Ahead (1-200 horas) em lote.
+
+A caixa de diálogo de edição é preenchida automaticamente com base na sua seleção: se todos os sistemas de arquivos selecionados compartilharem os mesmos valores de parâmetro, esses valores serão exibidos; caso contrário, os valores padrão serão usados. Isso ajuda você a aplicar configurações de capacidade consistentes em todo o seu ambiente.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#bulk-edit-ssd-management-parameters["Aprenda como editar parâmetros em massa"^].
+
+
+
+=== Visualização dos pontos de decisão de capacidade
+
+O gráfico de utilização de SSD agora mostra pontos de decisão que indicam quando as recomendações de capacidade foram geradas ou ações automatizadas foram tomadas.
+
+* *Pontos de decisão de recomendação*: Passe o cursor para visualizar o carimbo de data/hora, o tamanho de aumento recomendado e a capacidade atual.
+* *Pontos de decisão da automação*: Passe o cursor para visualizar o registro de data e hora, o status de sucesso ou falha, o aumento de tamanho e o novo tamanho de agregado. As tentativas com falha incluem o motivo da falha.
+
+
+Os pontos de decisão podem ocorrer a cada 30 minutos e são exibidos individualmente ou consolidados dependendo do intervalo de tempo selecionado.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#analyze-capacity-trends-and-decision-points["Saiba mais sobre os pontos de decisão de capacidade"^].
+
+
+
+=== Status de configuração do link na tabela Clusters
+
+A tabela Clusters no painel Visão geral agora inclui uma coluna Link associado que mostra se um link FSx for ONTAP está configurado para cada sistema de arquivos. O status da conexão é validado diariamente, ajudando você a identificar sistemas de arquivos que precisam de configuração de link ou que podem apresentar problemas de conectividade.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Veja o painel de visão geral"^].
+
+
+
+=== Suporte para AWS GovCloud (US) no NetApp Workload Factory
+
+NetApp Workload Factory é compatível com contas AWS GovCloud (US). Usando uma conta GovCloud, você pode implantar e gerenciar cargas de trabalho de armazenamento nas regiões AWS GovCloud (US).
