@@ -167,4 +167,16 @@
   <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">Calcule a economia estimada para Exchange Virtual Server</block>
   <block id="86271c8c1063215a7f1ff0f45240c576" category="paragraph"><block ref="86271c8c1063215a7f1ff0f45240c576" category="inline-link-macro-rx"></block></block>
   <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">06 de julho de 2026</block>
+  <block id="33e0c31d77f9c8cc22645a3c4d8f1c27" category="doc">Análise de latência aprimorada com gráficos de IOPS e taxa de transferência</block>
+  <block id="820660d0f2f623290b9d6bf61dc7b971" category="paragraph">O painel de análise de latência agora exibe gráficos de desempenho sincronizados na guia *Ao longo do tempo*:</block>
+  <block id="07139d61108a6478189b71bcdc7f39b8" category="list-text">*Gráfico de latência*: Mostra como a latência muda ao longo do tempo, com linhas de limite e alertas quando os limites são excedidos.</block>
+  <block id="390641ad0fb5c4dcbd3e1ea9a432933d" category="list-text">*Gráfico de IOPS*: mostra as operações por segundo, com linhas de limite e indicadores de violações de limite anteriores.</block>
+  <block id="167a301ac11e90acd4e01899787518a1" category="list-text">*Gráfico de throughput*: Mostra as taxas de transferência de dados (DataReadBytes ou DataWriteBytes).</block>
+  <block id="38f51c8db276cb26c3c7af52f545996e" category="paragraph">Todos os gráficos usam a mesma linha do tempo e mostram automaticamente as métricas corretas com base em se o evento é de leitura ou de gravação.</block>
+  <block id="40f862a8ef42e494a25d0887d6827d75" category="paragraph">Um novo filtro permite que você alterne entre Todas, Ler, Gravar ou Metadados para uma análise mais detalhada.</block>
+  <block id="b8f78f4759a5bd3c20308a67276707aa" category="paragraph">Esses gráficos ajudam você a ver como latência, IOPS e taxa de transferência se relacionam, facilitando a identificação da causa dos problemas de desempenho e a decisão de como corrigi-los.</block>
+  <block id="41b8190fd8c34e03bd93c4234b033876" category="paragraph">Os gráficos de desempenho agora estão disponíveis somente mediante o fornecimento de credenciais da AWS. Os links do FSx for ONTAP são necessários apenas para a análise detalhada dos componentes nas análises básica e de IA.</block>
+  <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">Aprenda a analisar tendências de latência com múltiplos gráficos</block>
+  <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
+  <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">05 de julho de 2026</block>
 </blocks>
