@@ -185,4 +185,13 @@
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">Os painéis personalizados são somente leitura, portanto, não podem alterar suas configurações de armazenamento ou carga de trabalho. Qualquer pessoa em sua conta do Workload Factory pode visualizar e gerenciar esses painéis, facilitando o compartilhamento de informações e o alinhamento entre as equipes.</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">Saiba mais sobre painéis personalizados</block>
   <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
+  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">Defina a frequência de notificação de latência</block>
+  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">Agora você pode escolher com que frequência deseja receber notificações por e-mail sobre violações de latência:</block>
+  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*Lembre-me todos os dias (Recomendado)*: Receba notificações quando um novo problema ocorrer em qualquer sistema de arquivos FSx for ONTAP.</block>
+  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">Se vários problemas de latência ocorrerem no mesmo sistema de arquivos em um único dia, você receberá apenas um e-mail.</block>
+  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">Após enviar um alerta de latência para um sistema de arquivos, o Workload Factory aguarda 24 horas antes de enviar outro alerta para esse sistema de arquivos.</block>
+  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*Notifique sobre qualquer violação de latência (a cada 20 minutos)*: receba uma notificação quando uma violação for detectada, até uma vez a cada 20 minutos.</block>
+  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">As notificações diárias estão ativadas por padrão para reduzir o volume de e-mails, mas ainda assim alertar você sobre problemas de latência. Você pode alterar sua preferência de notificação ao configurar o monitoramento de latência ou editar as configurações de limite.</block>
+  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">Aprenda como configurar o monitoramento de latência</block>
+  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
 </blocks>
