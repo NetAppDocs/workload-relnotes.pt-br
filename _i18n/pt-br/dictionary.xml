@@ -179,4 +179,10 @@
   <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">Aprenda a analisar tendências de latência com múltiplos gráficos</block>
   <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
   <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">05 de julho de 2026</block>
+  <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">Painéis personalizados</block>
+  <block id="2865e3ecb86dc9391d13f92e53f2a2ac" category="paragraph">Crie painéis de controle com inteligência artificial que se adaptem às suas cargas de trabalho e prioridades para que você possa visualizar facilmente o desempenho das suas operações. Em vez de depender de visualizações fixas, os painéis personalizados permitem que você se concentre nas informações que mais importam.</block>
+  <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">Basta descrever o que você deseja monitorar em linguagem simples, e a IA criará um painel com base na sua solicitação. Por exemplo, você pode monitorar o status de recuperação de desastres, a capacidade e os custos em diferentes regiões, a conformidade com a proteção de armazenamento e outras métricas operacionais.</block>
+  <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">Os painéis personalizados são somente leitura, portanto, não podem alterar suas configurações de armazenamento ou carga de trabalho. Qualquer pessoa em sua conta do Workload Factory pode visualizar e gerenciar esses painéis, facilitando o compartilhamento de informações e o alinhamento entre as equipes.</block>
+  <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">Saiba mais sobre painéis personalizados</block>
+  <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
 </blocks>
