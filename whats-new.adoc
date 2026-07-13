@@ -15,10 +15,12 @@ Saiba mais sobre as alterações mais recentes nas cargas de trabalho que fazem 
 
 
 
+[[06-july-2026]]
 == 06 de julho de 2026
 
 
 
+[[vmware-workloads]]
 === Workloads da VMware
 
 
@@ -33,10 +35,12 @@ link:calculate-evs-savings.html["Calcule a economia estimada para Exchange Virtu
 
 
 
+[[05-july-2026]]
 == 05 de julho de 2026
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
 === Amazon FSX para NetApp ONTAP
 
 
@@ -49,39 +53,17 @@ Você ainda pode acessar a análise de arquitetura adequada para um sistema de a
 
 
 
-==== Novas recomendações na análise well-architected
-
-O Workload Factory agora inclui as seguintes configurações na análise bem arquitetada para sistemas de arquivos FSx for ONTAP:
-
-* Conectar host ao nó de failover: verifica se os hosts estão conectados ao nó de failover em um sistema de arquivos FSx for ONTAP ativo-passivo e sugere conectar os hosts ao nó de failover para maior confiabilidade.
-* Conectar host ao nó preferencial: verifica se os hosts estão conectados aos seus dispositivos de bloco usando o nó preferencial e sugere conectar os hosts ao nó preferencial para eficiência de desempenho.
-
-
-
-
 ==== Explorador de volumes
 
 O Volumes Explorer oferece uma visualização simples e pesquisável de todos os seus volumes no NetApp Workload Factory. Veja rapidamente quais volumes atendem cargas de trabalho de bloco ou de arquivo. Visualize o tamanho lógico de cada volume, a capacidade física utilizada e se ele usa recursos de eficiência de storage (compressão, deduplicação e compactação). Filtre e classifique por nome, status (disponível/com falha), latência, tamanho, capacidade utilizada e recursos de proteção.
 
 
 
-==== Melhorias no atraso de replicação
-
-
-
-===== Notificações de e-mail aprimoradas para atrasos na replicação
+==== Notificações de e-mail aprimoradas para atrasos na replicação
 
 As notificações por e-mail sobre atrasos na replicação agora incluem mais detalhes sobre o relacionamento afetado. Essa notificação ajuda você a identificar rapidamente o relacionamento afetado e analisá-lo no console do Workload Factory.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["Ativar notificações para atrasos na replicação"]
-
-
-
-===== Exportar dados de atraso de replicação para CSV
-
-Agora você pode exportar os dados de atraso de replicação para um arquivo CSV para analisar os dados em uma planilha e compartilhá-los com outras pessoas.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["Acompanhe atrasos na replicação"]
 
 
 
@@ -93,6 +75,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["
 
 
 
+[[setup-and-administration]]
 === Configuração e administração
 
 
@@ -109,6 +92,7 @@ link:learn-custom-dashboards.html["Saiba mais sobre painéis personalizados"]
 
 
 
+[[eda-workloads]]
 === Cargas de trabalho EDA
 
 
@@ -154,10 +138,12 @@ https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.htm
 
 
 
+[[01-june-2026]]
 == 01 de junho de 2026
 
 
 
+[[database-workloads]]
 === Workloads de banco de dados
 
 
@@ -186,10 +172,12 @@ NetApp Workload Factory é compatível com contas da AWS GovCloud (EUA). Usando 
 
 
 
+[[31-may-2026]]
 == 31 de maio de 2026
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
 === Amazon FSX para NetApp ONTAP
 
 
@@ -270,6 +258,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresho
 
 
 
+[[vmware-workloads]]
 === Workloads da VMware
 
 
@@ -280,6 +269,7 @@ NetApp Workload Factory é compatível com contas AWS GovCloud (US). Usando uma 
 
 
 
+[[genai-workloads]]
 === Cargas de trabalho do GenAI
 
 
@@ -290,6 +280,7 @@ NetApp Workload Factory é compatível com contas da AWS GovCloud (EUA). Usando 
 
 
 
+[[setup-and-administration]]
 === Configuração e administração
 
 
@@ -310,6 +301,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["Crie 
 
 
 
+[[eda-workloads]]
 === Cargas de trabalho EDA
 
 
@@ -367,10 +359,12 @@ NetApp Workload Factory é compatível com contas AWS GovCloud (US). Usando uma 
 
 
 
+[[03-may-2026]]
 == 03 de maio de 2026
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
 === Amazon FSX para NetApp ONTAP
 
 
@@ -409,6 +403,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.htm
 
 
 
+[[database-workloads]]
 === Workloads de banco de dados
 
 
@@ -447,6 +442,7 @@ Agora você pode visualizar os LUNs mapeados para bancos de dados do Microsoft S
 
 
 
+[[setup-and-administration]]
 === Configuração e administração
 
 
@@ -477,6 +473,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 
 
 
+[[eda-workloads]]
 === Cargas de trabalho EDA
 
 

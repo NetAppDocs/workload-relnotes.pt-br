@@ -4,6 +4,7 @@
 
 
 
+[[i7i-metal-24xl-instance-support-in-evs-tco-calculator]]
 === Suporte para instâncias i7i.metal-24xl no calculadora de TCO do Exchange Virtual Server
 
 A calculadora de TCO do Exchange Virtual Server agora oferece suporte a instâncias EC2 AWS i7i.metal-24xl como hosts de cluster. Comparadas às configurações i4i.metal, essas instâncias reduzem o custo inicial do Exchange Virtual Server em cerca de 33% para computação e 25% para armazenamento vSAN.

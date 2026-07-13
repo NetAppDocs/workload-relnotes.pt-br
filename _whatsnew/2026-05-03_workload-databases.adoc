@@ -4,6 +4,7 @@
 
 
 
+[[well-architected-analysis-for-oracle]]
 === Análise bem arquitetada para Oracle
 
 A análise bem arquitetada inclui as seguintes novas configurações para Oracle:
@@ -16,6 +17,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+[[automatic-savings-calculation-for-oracle-databases-on-amazon-elastic-block-store-ebs]]
 === Cálculo automático de economia para bancos de dados Oracle no Amazon Elastic Block Store (EBS)
 
 O Workload Factory analisa automaticamente o custo do EBS usado para bancos de dados Oracle e, em seguida, sugere a configuração FSx for ONTAP mais adequada e econômica. Você pode selecionar vários hosts EBS para analisar e, em seguida, comparar o custo de execução desses hosts em EBS versus FSx for ONTAP.
@@ -24,6 +26,7 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explo
 
 
 
+[[crr-configuration-prerequisite-check]]
 === Verificação de pré-requisitos de configuração do CRR
 
 Ao habilitar a replicação entre regiões (CRR) para seu ambiente de banco de dados, a carga de trabalho do Database verifica se o FSx for ONTAP sistema de arquivos possui um link associado e uma configuração de replicação. Se necessário, a carga de trabalho do Database redireciona você para o assistente de replicação da carga de trabalho de Storage do FSx for ONTAP para lidar com os pré-requisitos do link da mesma forma que o Storage faz.
@@ -32,6 +35,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+[[associated-luns-for-microsoft-sql-server-databases]]
 === LUNs associadas para bancos de dados Microsoft SQL Server
 
 Agora você pode visualizar os LUNs mapeados para bancos de dados do Microsoft SQL Server no Workload Factory a partir da tela de Inventário. Isso permite identificar facilmente quais LUNs estão associados a quais bancos de dados, facilitando o gerenciamento e a otimização dos recursos de storage.
