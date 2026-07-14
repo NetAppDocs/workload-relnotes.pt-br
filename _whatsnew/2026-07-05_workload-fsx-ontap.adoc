@@ -1,15 +1,6 @@
-= Novo painel de controle bem arquitetado disponível para todos os sistemas FSx para ONTAP
+= Explorador de volumes
 :allow-uri-read: 
 
-
-
-
-[[new-well-architected-dashboard-available-for-all-fsx-for-ontap-systems]]
-=== Novo painel de controle bem arquitetado disponível para todos os sistemas FSx para ONTAP
-
-A análise de arquitetura bem estruturada agora está disponível para sistemas de arquivos FSx for ONTAP a partir do novo painel de arquitetura bem estruturada no NetApp Workload Factory. O novo painel oferece uma visão centralizada de todos os seus sistemas de arquivos em todas as contas e regiões e suas configurações em um único local. Uma notificação pop-up aparece quando você acessa a guia *Arquitetura bem estruturada* a partir de um sistema de arquivos. Acesse o novo painel selecionando *Arquitetura bem estruturada* no menu de navegação à esquerda no Workload Factory.
-
-Você ainda pode acessar a análise de arquitetura adequada para um sistema de arquivos específico e pela opção de menu *Well-architected* em Storage.
 
 
 
