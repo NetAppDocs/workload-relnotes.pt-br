@@ -84,6 +84,12 @@ link:learn-custom-dashboards.html["Saiba mais sobre painéis personalizados"]
 
 
 
+==== Remoção de workload GenAI do Workload Factory
+
+A carga de trabalho GenAI foi removida do console do Workload Factory.
+
+
+
 [[eda-workloads]]
 === Cargas de trabalho EDA
 
