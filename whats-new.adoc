@@ -95,22 +95,18 @@ A carga de trabalho GenAI foi removida do console do Workload Factory.
 
 
 
-==== Análise de latência aprimorada com gráficos de IOPS e taxa de transferência
+==== Análise de latência aprimorada com gráficos sincronizados de latência, IOPS e taxa de transferência
 
-O painel de análise de latência agora exibe gráficos de desempenho sincronizados na guia *Ao longo do tempo*:
+O painel de análise de latência agora inclui uma página de *Análise de latência detalhada* com gráficos de desempenho sincronizados:
 
 * *Gráfico de latência*: Mostra como a latência muda ao longo do tempo, com linhas de limite e alertas quando os limites são excedidos.
 * *Gráfico de IOPS*: mostra as operações por segundo, com linhas de limite e indicadores de violações de limite anteriores.
-* *Gráfico de throughput*: Mostra as taxas de transferência de dados (DataReadBytes ou DataWriteBytes).
+* *Gráfico de taxa de transferência*: Mostra as taxas de transferência de dados (DataReadBytes ou DataWriteBytes). Quando Metadados é selecionado no filtro, o gráfico de taxa de transferência não exibe dados.
 
 
 Todos os gráficos usam a mesma linha do tempo e mostram automaticamente as métricas corretas com base em se o evento é de leitura ou de gravação.
 
-Um novo filtro permite que você alterne entre Todas, Ler, Gravar ou Metadados para uma análise mais detalhada.
-
-Esses gráficos ajudam você a ver como latência, IOPS e taxa de transferência se relacionam, facilitando a identificação da causa dos problemas de desempenho e a decisão de como corrigi-los.
-
-Os gráficos de desempenho agora estão disponíveis somente mediante o fornecimento de credenciais da AWS. Os links do FSx for ONTAP são necessários apenas para a análise detalhada dos componentes nas análises básica e de IA.
+Você pode ajustar a visualização e correlacionar picos de latência com alterações em IOPS e taxa de transferência. Marcadores de violação e detalhes ao passar o mouse ajudam você a ver quando os limites foram excedidos e a analisar as principais métricas da violação detectada.
 
 https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Aprenda a analisar tendências de latência com múltiplos gráficos"^].
 
