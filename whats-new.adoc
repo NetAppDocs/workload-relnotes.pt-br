@@ -83,6 +83,37 @@ link:manage-genai-features.html["Saiba mais sobre como gerenciar recursos de IA"
 
 
 
+[[eda-workloads]]
+=== Cargas de trabalho EDA
+
+
+
+==== Análise de latência de IA com controles de custo
+
+Como administrador do Workload Factory, você pode controlar o acesso à análise de latência por IA em toda a sua organização.
+
+* *NetApp-créditos de IA gerenciados*: Se o seu administrador habilitar, você pode usar a análise de IA por meio da integração gerenciada do Amazon Bedrock da NetApp. Nenhuma configuração adicional é necessária. Seu uso mensal é limitado pelo seu orçamento atribuído. Se você atingir o limite mensal, os recursos com IA serão desativados e você verá uma mensagem.
+* *Desativado pelo administrador*: Se o seu administrador desativar os recursos de IA, as opções de análise de IA ficarão acinzentadas e você verá uma mensagem informando que o recurso está desativado.
+
+
+
+
+==== Gerenciamento de aumento de throughput elástico
+
+Agora você pode gerenciar o comportamento de aumento de throughput na página Visão geral do EDA para um ou mais sistemas de arquivos FSx for ONTAP selecionados.
+
+* *Seleção de modo*: escolha *Automatizar* ou *Recomendar*.
+* *Atualizações em lote*: selecione um ou mais sistemas de arquivos e aplique as alterações de modo e parâmetros em uma única ação.
+* *Caixa de diálogo de gerenciamento de taxa de transferência*: edite as configurações de aumento de taxa de transferência com os valores padrão do EDA na caixa de diálogo.
+* *Configurações avançadas*: Configure parâmetros adicionais de decisão de throughput em uma seção expansível de *configuração avançada*.
+* *Visibilidade da tabela*: Uma nova coluna *Gerenciamento de throughput* está disponível na tabela Clusters e pode ser ativada nas configurações da coluna.
+* *Configuração da placa superior*: A placa superior agora suporta a configuração do modo de aumento de throughput, semelhante ao gerenciamento de SSD.
+
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Aprenda a usar o painel de visão geral"^].
+
+
+
 [[06-july-2026]]
 == 06 de julho de 2026
 

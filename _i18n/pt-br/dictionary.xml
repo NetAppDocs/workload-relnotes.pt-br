@@ -188,4 +188,18 @@
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">Saiba mais sobre como gerenciar recursos de IA</block>
   <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03 de agosto de 2026</block>
+  <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">Análise de latência de IA com controles de custo</block>
+  <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">Como administrador do Workload Factory, você pode controlar o acesso à análise de latência por IA em toda a sua organização.</block>
+  <block id="4c9d3f8b46f94437f92a47d3612a2829" category="list-text">*NetApp-créditos de IA gerenciados*: Se o seu administrador habilitar, você pode usar a análise de IA por meio da integração gerenciada do Amazon Bedrock da NetApp. Nenhuma configuração adicional é necessária. Seu uso mensal é limitado pelo seu orçamento atribuído. Se você atingir o limite mensal, os recursos com IA serão desativados e você verá uma mensagem.</block>
+  <block id="67ee5da1047f90d8a684f7e0d2ca1944" category="list-text">*Desativado pelo administrador*: Se o seu administrador desativar os recursos de IA, as opções de análise de IA ficarão acinzentadas e você verá uma mensagem informando que o recurso está desativado.</block>
+  <block id="69e316ff96b412dd2a5045f8dd2f433c" category="section-title">Gerenciamento de aumento de throughput elástico</block>
+  <block id="a01f5f5609c9aee121b699114cfe006f" category="paragraph">Agora você pode gerenciar o comportamento de aumento de throughput na página Visão geral do EDA para um ou mais sistemas de arquivos FSx for ONTAP selecionados.</block>
+  <block id="9c3ee7dcbca3424fcc3c760549aa303d" category="list-text">*Seleção de modo*: escolha *Automatizar* ou *Recomendar*.</block>
+  <block id="b9722197734c8293fedc4e7c6db77abe" category="list-text">*Atualizações em lote*: selecione um ou mais sistemas de arquivos e aplique as alterações de modo e parâmetros em uma única ação.</block>
+  <block id="1a97c66f134399c6e8ddf03e8cd9055e" category="list-text">*Caixa de diálogo de gerenciamento de taxa de transferência*: edite as configurações de aumento de taxa de transferência com os valores padrão do EDA na caixa de diálogo.</block>
+  <block id="0e71e5ed033b79a12a3d33146bbef832" category="list-text">*Configurações avançadas*: Configure parâmetros adicionais de decisão de throughput em uma seção expansível de *configuração avançada*.</block>
+  <block id="3c559babe76da927fd273d0640ba2089" category="list-text">*Visibilidade da tabela*: Uma nova coluna *Gerenciamento de throughput* está disponível na tabela Clusters e pode ser ativada nas configurações da coluna.</block>
+  <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*Configuração da placa superior*: A placa superior agora suporta a configuração do modo de aumento de throughput, semelhante ao gerenciamento de SSD.</block>
+  <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">Aprenda a usar o painel de visão geral</block>
+  <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>.</block>
 </blocks>
