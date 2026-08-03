@@ -217,7 +217,6 @@
   <block id="b26629c4d0db7a100913103c2501115d" category="section-title">Etiquetagem de carga de trabalho e recursos de IA</block>
   <block id="c6e3575ea0e96a40eeea1698ed97e99f" category="paragraph">As cargas de trabalho não são etiquetadas quando um administrador desativa os recursos de IA. Se os recursos de IA estiverem desativados nas configurações da sua conta do Workload Factory, o serviço de etiquetagem não identificará nem classificará as cargas de trabalho nos seus recursos de storage.</block>
   <block id="9801425a2145ab6ed5aa12b9446c905c" category="inline-link-macro">Saiba mais sobre administração de IA</block>
-  <block id="cbbc45b1bedc18c950d2da6ef1fe1f43" category="paragraph"><block ref="40737cbe54dcebc9ef5c68ebf72b8d96" category="inline-link-macro-rx"></block>.</block>
   <block id="39cf1aaf3e84c5c49c930c5bfe27e098" category="section-title">Explore a melhoria no cálculo do snapshot de economias</block>
   <block id="a4f25c93cc96e84a15a9a235f569bbe2" category="paragraph">Explore Savings agora utiliza um cálculo consistente de capacidade de snapshot, assim as estimativas de economia do FSx for ONTAP consideram corretamente a necessidade adicional de capacidade do pool de snapshots.</block>
   <block id="e14c4b029cabd340fe3b6c67835e9927" category="inline-link-macro">Descubra as oportunidades de economia para seus ambientes de storage no Amazon Elastic Block Store, FSx para Windows File Server e Elastic File System.</block>
@@ -229,4 +228,5 @@
   <block id="c634bf7b5214ed8f0d82613de1e29eff" category="inline-link-macro">editar pontos de acesso S3</block>
   <block id="84118bd808a8989867b6fc874b0b1b45" category="paragraph">Para configurar notificações para eventos do S3, <block ref="5014cadb2b53045b84df58ebddada57a" category="inline-link-macro-rx"></block> selecione *Enviar eventos do S3 por SNS* na seção *Tabela de diário*.</block>
   <block id="adf6bc23c10d536eed25c42f34ba48e8" category="section-title">02 de agosto de 2026</block>
+  <block id="bb971caaebe9e5940267caf457500810" category="paragraph"><block ref="247b746a5e5f871115d636673a8fd3a7" category="inline-link-macro-rx"></block>.</block>
 </blocks>

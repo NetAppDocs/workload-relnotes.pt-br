@@ -160,7 +160,7 @@ Cada configuração relacionada a volumes no painel de controle bem arquitetado 
 
 As cargas de trabalho não são etiquetadas quando um administrador desativa os recursos de IA. Se os recursos de IA estiverem desativados nas configurações da sua conta do Workload Factory, o serviço de etiquetagem não identificará nem classificará as cargas de trabalho nos seus recursos de storage.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-genai-features.html["Saiba mais sobre administração de IA"^].
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Saiba mais sobre administração de IA"^].
 
 
 
