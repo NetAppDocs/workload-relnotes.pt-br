@@ -1,0 +1,31 @@
+= Alterações de configuração para Oracle e Microsoft SQL Server na análise well-architected
+:allow-uri-read: 
+
+
+
+
+[[configuration-changes-for-oracle-and-microsoft-sql-server-in-the-well-architected-analysis]]
+=== Alterações de configuração para Oracle e Microsoft SQL Server na análise well-architected
+
+Diversas configurações de banco de dados foram combinadas e renomeadas para as seguintes configurações na análise bem arquitetada.
+
+* *Gerenciamento de espaço de dispositivo de bloco*: inclui reserva de espaço, alocação de espaço e reserva fracionária
+* *Eficiência de armazenamento*: inclui compressão, deduplicação e compactação
+* *Otimização de tiering/TCO*: inclui política de tiering e dias mínimos de resfriamento para tiering
+* *Agendar snapshots locais*: inclui política de snapshots
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Análise de configuração no Workload Factory"]
+
+
+
+[[updated-iam-permission-policies-for-databases]]
+=== Políticas de permissão IAM atualizadas para bancos de dados
+
+As permissões para bancos de dados foram atualizadas para melhorar o acesso aos recursos e limitar o acesso ao SSM onde desnecessário.
+
+As permissões de visualização, planejamento e análise são limitadas a documentos do AWS SSM. Com essas permissões, você pode visualizar hosts, instâncias e bancos de dados. Você também pode executar uma análise básica sob demanda bem arquitetada dos seus recursos.
+
+As permissões de operação e correção permitem que você faça alterações em seus recursos, analise registros de erros, obtenha uma análise abrangente e bem arquitetada de seus recursos e corrija problemas de configuração.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referência de permissões"^]
