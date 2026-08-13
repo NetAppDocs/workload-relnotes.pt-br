@@ -221,6 +221,12 @@ Para configurar notificações para eventos do S3, link:https://docs.netapp.com/
 
 
 
+==== Recursos do ONTAP exibidos no explorador de volumes
+
+O explorador de volumes agora inclui recursos do ONTAP na tabela de volumes. Esses recursos fornecem informações mais detalhadas sobre a configuração e o status dos seus volumes, como cobertura de proteção, status da Autonomous Ransomware Protection (ARP/AI), eficiência de storage, política de tiering e volume com crescimento automático.
+
+
+
 [[06-july-2026]]
 == 06 de julho de 2026
 
@@ -472,17 +478,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresho
 ==== Suporte para AWS GovCloud (US) no NetApp Workload Factory
 
 NetApp Workload Factory é compatível com contas AWS GovCloud (US). Usando uma conta GovCloud, você pode implantar e gerenciar cargas de trabalho de armazenamento nas regiões AWS GovCloud (US).
-
-
-
-[[genai-workloads]]
-=== Cargas de trabalho do GenAI
-
-
-
-==== Suporte para AWS GovCloud (US) no NetApp Workload Factory
-
-NetApp Workload Factory é compatível com contas da AWS GovCloud (EUA). Usando uma conta GovCloud, você pode implantar e gerenciar cargas de trabalho GenAI nas regiões AWS GovCloud (EUA).
 
 
 

@@ -37,7 +37,6 @@
   <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
   <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">Nova notificação para sistemas de arquivos FSx for ONTAP</block>
   <block id="ed577820f4fec6bbade3e14c5eb7020d" category="doc">Suporte para AWS GovCloud (US) no NetApp Workload Factory</block>
-  <block id="699b8f027b66b237760179b118b65c6e" category="paragraph">NetApp Workload Factory é compatível com contas da AWS GovCloud (EUA). Usando uma conta GovCloud, você pode implantar e gerenciar cargas de trabalho GenAI nas regiões AWS GovCloud (EUA).</block>
   <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">31 de maio de 2026</block>
   <block id="779d05f80e557ffb6b9d91002c8c535c" category="doc">Economias personalizadas para hosts Oracle no Amazon Elastic Block Store</block>
   <block id="3a4be47663e2fa751113137a974a3fbf" category="paragraph">NetApp Workload Factory for Databases permite personalizar a economia para hosts Oracle no Amazon Elastic Block Store (EBS). Você pode ajustar diversos campos, como a frequência de snapshots, o número de cópias clonadas e os detalhes do volume, para ver como eles afetam sua economia.</block>
@@ -238,4 +237,6 @@
   <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
   <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
+  <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">Recursos do ONTAP exibidos no explorador de volumes</block>
+  <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">O explorador de volumes agora inclui recursos do ONTAP na tabela de volumes. Esses recursos fornecem informações mais detalhadas sobre a configuração e o status dos seus volumes, como cobertura de proteção, status da Autonomous Ransomware Protection (ARP/AI), eficiência de storage, política de tiering e volume com crescimento automático.</block>
 </blocks>
