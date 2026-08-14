@@ -275,7 +275,7 @@ link:calculate-evs-savings.html["Calcule a economia estimada para Exchange Virtu
 
 ==== Explorador de volumes
 
-O Volumes Explorer oferece uma visualização simples e pesquisável de todos os seus volumes no NetApp Workload Factory. Veja rapidamente quais volumes atendem cargas de trabalho de bloco ou de arquivo. Visualize o tamanho lógico de cada volume, a capacidade física utilizada e se ele usa recursos de eficiência de storage (compressão, deduplicação e compactação). Filtre e classifique por nome, status (disponível/com falha), latência, tamanho, capacidade utilizada e recursos de proteção.
+O explorador de volumes oferece a você uma visualização simples e pesquisável de todos os seus volumes no NetApp Workload Factory. Veja rapidamente quais volumes atendem cargas de trabalho de bloco ou de arquivo. Visualize o tamanho lógico de cada volume, a capacidade física utilizada e se ele usa recursos de eficiência de storage (compressão, deduplicação e compactação). Filtre e classifique por nome, status (disponível/com falha), latência, tamanho, capacidade utilizada e recursos de proteção.
 
 
 
