@@ -239,4 +239,7 @@
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
   <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">Recursos do ONTAP exibidos no explorador de volumes</block>
   <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">O explorador de volumes agora inclui recursos do ONTAP na tabela de volumes. Esses recursos fornecem informações mais detalhadas sobre a configuração e o status dos seus volumes, como cobertura de proteção, status da Autonomous Ransomware Protection (ARP/AI), eficiência de storage, política de tiering e volume com crescimento automático.</block>
+  <block id="9b988decb4830a521f8e1487584f0385" category="doc">Ações de volume disponíveis no explorador de volumes</block>
+  <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">Todas as ações de volume estão disponíveis diretamente no Volumes explorer para um ou mais volumes. Isso torna mais rápido executar operações em nível de volume. As ações de volume incluem modificar configurações de volume, gerenciar snapshots e realizar outras tarefas de volume sem sair do Volumes explorer. Você também pode acessar essas ações na guia Volumes na visão geral do sistema de arquivos FSx for ONTAP.</block>
+  <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">11 de agosto de 2026</block>
 </blocks>
