@@ -168,4 +168,8 @@
   <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">Nova experiência de integração para credenciais e links</block>
   <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">O Workload Factory aprimora a experiência de integração de credenciais e links, facilitando o início do uso. Após você criar sua conta e fazer login, selecione *Começar* em qualquer bloco de carga de trabalho, por exemplo *Armazenamento*, e a próxima página guiará você pelo processo de configuração passo a passo.</block>
   <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">30 de agosto de 2026</block>
+  <block id="c329a6ebc8c0891e88889203e3e31c39" category="doc">A criação de links está disponível na página Links.</block>
+  <block id="ef8e743556b96fe2947729361cb5835f" category="paragraph">Agora você pode criar links diretamente da página Links no menu Administração, além da página de inventário do FSx para ONTAP e da página de visão geral do sistema de arquivos.</block>
+  <block id="b65fab1584e1a15fb6cd01b1fb573a1f" category="inline-link-macro">Saiba mais sobre como criar links</block>
+  <block id="2fb8fbf9eac6cb7cdbca3e8cae581dd0" category="paragraph"><block ref="ac8902bc899b18c41d3bea9bfd9e1e86" category="inline-link-macro-rx"></block>.</block>
 </blocks>
