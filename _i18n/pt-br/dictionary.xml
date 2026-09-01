@@ -172,4 +172,10 @@
   <block id="ef8e743556b96fe2947729361cb5835f" category="paragraph">Agora você pode criar links diretamente da página Links no menu Administração, além da página de inventário do FSx para ONTAP e da página de visão geral do sistema de arquivos.</block>
   <block id="b65fab1584e1a15fb6cd01b1fb573a1f" category="inline-link-macro">Saiba mais sobre como criar links</block>
   <block id="2fb8fbf9eac6cb7cdbca3e8cae581dd0" category="paragraph"><block ref="ac8902bc899b18c41d3bea9bfd9e1e86" category="inline-link-macro-rx"></block>.</block>
+  <block id="619b54ce9e8c031c19256b4d8d750363" category="doc">Atualização da calculadora de economia</block>
+  <block id="e5dcb68e9a92c735dc0967956647bc80" category="paragraph">Você pode comparar vários componentes de custo da execução de cargas de trabalho do Microsoft SQL Server, como armazenamento, computação, licença SQL, snapshots e clones para suas cargas de trabalho de banco de dados em FSx for ONTAP sistemas de arquivos em comparação com Elastic Block Store (EBS), FSx for Windows File Server e storage no local usando apenas permissões de visualização, planejamento e análise.</block>
+  <block id="fa97573f07318758714d48498eeb8beb" category="inline-link-macro">Explore as possibilidades de economia para cargas de trabalho de banco de dados</block>
+  <block id="99e479d341973e05fca0c15ab9ffdad2" category="list-text"><block ref="99e479d341973e05fca0c15ab9ffdad2" category="inline-link-macro-rx"></block></block>
+  <block id="a5ca0e96d815aa95d08fcc15e4dee05c" category="inline-link-macro">Permissões para cargas de trabalho de banco de dados</block>
+  <block id="6c371a91504dc6f98ab6ece596f7ab2f" category="list-text"><block ref="6c371a91504dc6f98ab6ece596f7ab2f" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -1,0 +1,14 @@
+= Atualização da calculadora de economia
+:allow-uri-read: 
+
+
+
+
+[[savings-calculator-update]]
+=== Atualização da calculadora de economia
+
+Você pode comparar vários componentes de custo da execução de cargas de trabalho do Microsoft SQL Server, como armazenamento, computação, licença SQL, snapshots e clones para suas cargas de trabalho de banco de dados em FSx for ONTAP sistemas de arquivos em comparação com Elastic Block Store (EBS), FSx for Windows File Server e storage no local usando apenas permissões de visualização, planejamento e análise.
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore as possibilidades de economia para cargas de trabalho de banco de dados"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#permissions-for-database-workloads["Permissões para cargas de trabalho de banco de dados"^]
+
