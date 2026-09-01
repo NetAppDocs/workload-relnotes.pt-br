@@ -33,6 +33,14 @@ link:create-link.html["Saiba mais sobre como criar links"].
 
 
 
+==== Identificação da carga de trabalho
+
+* O Workload Factory agora identifica cargas de trabalho para hosts conectados ao armazenamento FSx for ONTAP implantado em uma região diferente.
+* A lógica aprimorada de detecção de carga de trabalho agora descobre tipos adicionais de carga de trabalho e melhora a precisão dos resultados.
+
+
+
+
 [[database-workloads]]
 === Workloads de banco de dados
 
