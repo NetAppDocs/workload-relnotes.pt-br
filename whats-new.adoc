@@ -415,3 +415,27 @@ Após enviar um alerta de latência para um sistema de arquivos, o Workload Fact
 As notificações diárias estão ativadas por padrão para reduzir o volume de e-mails, mas ainda assim alertar você sobre problemas de latência. Você pode alterar sua preferência de notificação ao configurar o monitoramento de latência ou editar as configurações de limite.
 
 https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["Aprenda como configurar o monitoramento de latência"^].
+
+
+
+[[01-june-2026]]
+== 01 de junho de 2026
+
+
+
+[[database-workloads]]
+=== Workloads de banco de dados
+
+Diretiva não resolvida em <stdin> - include::_whatsnew/2026-06-01_workload-databases.adoc[leveloffset=+1]
+
+
+
+[[31-may-2026]]
+== 31 de maio de 2026
+
+
+
+[[amazon-fsx-for-netapp-ontap]]
+=== Amazon FSX para NetApp ONTAP
+
+Diretiva não resolvida em <stdin> - include::_whatsnew/2026-05-31_workload-fsx-ontap.adoc[leveloffset=+1] === Cargas de trabalho VMware Diretiva não resolvida em <stdin> - include::_whatsnew/2026-05-31_workload-vmware.adoc[leveloffset=+1] === Configuração e administração Diretiva não resolvida em <stdin> - include::_whatsnew/2026-05-31_workload-setup-admin.adoc[leveloffset=+1] === Cargas de trabalho EDA Diretiva não resolvida em <stdin> - include::_whatsnew/2026-05-31_workload-eda.adoc[leveloffset=+1]
