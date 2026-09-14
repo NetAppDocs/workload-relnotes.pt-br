@@ -9,7 +9,7 @@
 
 Agora você pode criar links diretamente da página Links no menu Administração, além da página de inventário do FSx para ONTAP e da página de visão geral do sistema de arquivos.
 
-link:create-link.html["Saiba mais sobre como criar links"].
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Saiba mais sobre como criar links"^].
 
 
 

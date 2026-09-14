@@ -171,7 +171,6 @@
   <block id="c329a6ebc8c0891e88889203e3e31c39" category="doc">A criação de links está disponível na página Links.</block>
   <block id="ef8e743556b96fe2947729361cb5835f" category="paragraph">Agora você pode criar links diretamente da página Links no menu Administração, além da página de inventário do FSx para ONTAP e da página de visão geral do sistema de arquivos.</block>
   <block id="b65fab1584e1a15fb6cd01b1fb573a1f" category="inline-link-macro">Saiba mais sobre como criar links</block>
-  <block id="2fb8fbf9eac6cb7cdbca3e8cae581dd0" category="paragraph"><block ref="ac8902bc899b18c41d3bea9bfd9e1e86" category="inline-link-macro-rx"></block>.</block>
   <block id="619b54ce9e8c031c19256b4d8d750363" category="doc">Atualização da calculadora de economia</block>
   <block id="e5dcb68e9a92c735dc0967956647bc80" category="paragraph">Você pode comparar vários componentes de custo da execução de cargas de trabalho do Microsoft SQL Server, como armazenamento, computação, licença SQL, snapshots e clones para suas cargas de trabalho de banco de dados em FSx for ONTAP sistemas de arquivos em comparação com Elastic Block Store (EBS), FSx for Windows File Server e storage no local usando apenas permissões de visualização, planejamento e análise.</block>
   <block id="fa97573f07318758714d48498eeb8beb" category="inline-link-macro">Explore as possibilidades de economia para cargas de trabalho de banco de dados</block>
@@ -181,8 +180,5 @@
   <block id="c82db17d9640cb358a39977100613e95" category="section-title">Identificação da carga de trabalho</block>
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">O Workload Factory agora identifica cargas de trabalho para hosts conectados ao armazenamento FSx for ONTAP implantado em uma região diferente.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">A lógica aprimorada de detecção de carga de trabalho agora descobre tipos adicionais de carga de trabalho e melhora a precisão dos resultados.</block>
-  <block id="431b3c73dcd090440f753c5d3af80bb0" category="section-title">01 de junho de 2026</block>
-  <block id="04c0507bac5db3815eb05149e687293a" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include::_whatsnew/2026-06-01_workload-databases.adoc[leveloffset=+1]</block>
-  <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">31 de maio de 2026</block>
-  <block id="a5f1df54f2f444fcc2dd868e0f219417" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-fsx-ontap.adoc[leveloffset=+1] === Cargas de trabalho VMware Diretiva não resolvida em &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-vmware.adoc[leveloffset=+1] === Configuração e administração Diretiva não resolvida em &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-setup-admin.adoc[leveloffset=+1] === Cargas de trabalho EDA Diretiva não resolvida em &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-eda.adoc[leveloffset=+1]</block>
+  <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
 </blocks>
