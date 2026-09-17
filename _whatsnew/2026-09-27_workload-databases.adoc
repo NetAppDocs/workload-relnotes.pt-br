@@ -1,0 +1,20 @@
+= Configurações de banco de dados incluídas em um painel de controle bem arquitetado
+:allow-uri-read: 
+
+
+
+
+[[database-configurations-included-in-well-architected-dashboard]]
+=== Configurações de banco de dados incluídas em um painel de controle bem arquitetado
+
+O painel de controle bem arquitetado agora inclui recomendações para as configurações do seu banco de dados, permitindo que você avalie e otimize sua configuração com base nas melhores práticas. As primeiras configurações incluem:
+
+* Hierarquização de dados frios
+* Eficiências de armazenamento
+* Política do Snapshot
+* Espaço livre de capacidade do SSD
+
+
+Encontre o painel de controle well-architected selecionando o menu principal no console do NetApp Workload Factory e selecione *Well-architected*.
+
+image:well-architected-menu-option.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]

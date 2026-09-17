@@ -181,4 +181,14 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">O Workload Factory agora identifica cargas de trabalho para hosts conectados ao armazenamento FSx for ONTAP implantado em uma região diferente.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">A lógica aprimorada de detecção de carga de trabalho agora descobre tipos adicionais de carga de trabalho e melhora a precisão dos resultados.</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
+  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">Configurações de banco de dados incluídas em um painel de controle bem arquitetado</block>
+  <block id="a04fc413f106e041524732d895e4258e" category="paragraph">O painel de controle bem arquitetado agora inclui recomendações para as configurações do seu banco de dados, permitindo que você avalie e otimize sua configuração com base nas melhores práticas. As primeiras configurações incluem:</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">Hierarquização de dados frios</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">Eficiências de armazenamento</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">Política do Snapshot</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">Espaço livre de capacidade do SSD</block>
+  <block id="4dcac8e07a1246e665077c1572955236" category="paragraph">Encontre o painel de controle well-architected selecionando o menu principal no console do NetApp Workload Factory e selecione *Well-architected*.</block>
+  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Opção de menu bem arquitetada no console do NetApp Workload Factory</block>
+  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 de setembro de 2026</block>
 </blocks>

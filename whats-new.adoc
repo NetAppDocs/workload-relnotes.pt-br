@@ -15,6 +15,32 @@ Saiba mais sobre as alterações mais recentes nas cargas de trabalho que fazem 
 
 
 
+[[27-september-2026]]
+== 27 de setembro de 2026
+
+
+
+[[database-workloads]]
+=== Workloads de banco de dados
+
+
+
+==== Configurações de banco de dados incluídas em um painel de controle bem arquitetado
+
+O painel de controle bem arquitetado agora inclui recomendações para as configurações do seu banco de dados, permitindo que você avalie e otimize sua configuração com base nas melhores práticas. As primeiras configurações incluem:
+
+* Hierarquização de dados frios
+* Eficiências de armazenamento
+* Política do Snapshot
+* Espaço livre de capacidade do SSD
+
+
+Encontre o painel de controle well-architected selecionando o menu principal no console do NetApp Workload Factory e selecione *Well-architected*.
+
+image:well-architected-menu-option.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
+
+
+
 [[30-august-2026]]
 == 30 de agosto de 2026
 
