@@ -50,7 +50,6 @@
   <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">Basta descrever o que você deseja monitorar em linguagem simples, e a IA criará um painel com base na sua solicitação. Por exemplo, você pode monitorar o status de recuperação de desastres, a capacidade e os custos em diferentes regiões, a conformidade com a proteção de armazenamento e outras métricas operacionais.</block>
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">Os painéis personalizados são somente leitura, portanto, não podem alterar suas configurações de armazenamento ou carga de trabalho. Qualquer pessoa em sua conta do Workload Factory pode visualizar e gerenciar esses painéis, facilitando o compartilhamento de informações e o alinhamento entre as equipes.</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">Saiba mais sobre painéis personalizados</block>
-  <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
   <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">Defina a frequência de notificação de latência</block>
   <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">Agora você pode escolher com que frequência deseja receber notificações por e-mail sobre violações de latência:</block>
   <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*Lembre-me todos os dias (Recomendado)*: Receba notificações quando um novo problema ocorrer em qualquer sistema de arquivos FSx for ONTAP.</block>
@@ -191,4 +190,5 @@
   <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Opção de menu bem arquitetada no console do NetApp Workload Factory</block>
   <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 de setembro de 2026</block>
+  <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
 </blocks>
