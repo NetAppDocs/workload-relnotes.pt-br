@@ -1,20 +1,10 @@
-= Configurações de banco de dados incluídas em um painel de controle bem arquitetado
+= Suporte a vários sistemas de arquivos por uma única instância
 :allow-uri-read: 
 
 
 
 
-[[database-configurations-included-in-well-architected-dashboard]]
-=== Configurações de banco de dados incluídas em um painel de controle bem arquitetado
+[[support-for-multiple-file-systems-per-a-single-instance]]
+=== Suporte a vários sistemas de arquivos por uma única instância
 
-O painel de controle bem arquitetado agora inclui recomendações para as configurações do seu banco de dados, permitindo que você avalie e otimize sua configuração com base nas melhores práticas. As primeiras configurações incluem:
-
-* Hierarquização de dados frios
-* Eficiências de armazenamento
-* Política do Snapshot
-* Espaço livre de capacidade do SSD
-
-
-Encontre o painel de controle well-architected selecionando o menu principal no console do NetApp Workload Factory e selecione *Well-architected*.
-
-image:well-architected-menu-option.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
+O Workload Factory for Databases oferece suporte a vários sistemas de arquivos por instância única do Microsoft SQL Server. Você pode registrar vários sistemas de arquivos em uma instância do SQL Server e corrigir um problema de configuração em vários sistemas de arquivos em uma instância do SQL Server ao mesmo tempo.
