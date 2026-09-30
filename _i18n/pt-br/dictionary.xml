@@ -191,4 +191,47 @@
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 de setembro de 2026</block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
+  <block id="08b543f700a568688a9f78d874d0ce8b" category="doc">Notificações aprimoradas de capacidade do SSD</block>
+  <block id="f37e9239265205bdf39af7b4def6f75a" category="paragraph">As notificações de gerenciamento de capacidade de SSD agora incluem mensagens de erro detalhadas para solucionar problemas de falhas de automação. As notificações são enviadas para aumentos de capacidade bem-sucedidos, erros durante operações de aumento, falhas na verificação de capacidade, avisos de limite e recomendações. Os detalhes do erro incluem motivos específicos da falha, como permissões ausentes, atualizações simultâneas em andamento, períodos de resfriamento da AWS ou problemas na recuperação de métricas do CloudWatch.</block>
+  <block id="4a3354724a06bbb8040fa512f39a5e07" category="inline-link-macro">Saiba mais sobre o gerenciamento de capacidade de SSD</block>
+  <block id="3e69b701694082d892b97eb050525650" category="paragraph"><block ref="bc2811c6501476df42adeca777dc6dd3" category="inline-link-macro-rx"></block>.</block>
+  <block id="b1b09cb9ca77b33ed95a7406fab56623" category="section-title">Período de uma semana para os gráficos de latência</block>
+  <block id="a5ff2097c50c86e897e35110fe5629d9" category="paragraph">Os gráficos de análise de latência agora suportam um período de 1 semana, além das opções existentes (1 hora, 3 horas, 12 horas, 24 horas, 72 horas). Use a visualização semanal para identificar padrões e tendências de longo prazo no comportamento da latência do volume.</block>
+  <block id="8d6933264e6e5f9ec4a93a7936daf177" category="inline-link-macro">Aprenda sobre a análise de tendências de latência</block>
+  <block id="f00c9e117aa43f7e65780e53b18b74a8" category="paragraph"><block ref="8280dff077bedc5ff5df29e3a9ab24f4" category="inline-link-macro-rx"></block>.</block>
+  <block id="dad79f11b2960d3be921e97689e00796" category="section-title">Visibilidade aprimorada do sistema de arquivos na interface</block>
+  <block id="856b733ee2011b50fb74e26e28353b8c" category="paragraph">O Workload Factory agora oferece uma visão mais clara dos seus sistemas de arquivos na interface. Você pode visualizar tendências de uso da capacidade e da taxa de transferência do SSD, resumos de cargas de trabalho e informações detalhadas de configuração diretamente da visão geral do sistema de arquivos.</block>
+  <block id="f1b1a4bfd4b138d7b7f910daf038bf87" category="doc">Agentes de IA para o Workload Factory</block>
+  <block id="4f92226af9b21739ad4453bb92ea1a12" category="paragraph">O Workload Factory AIOps usa IA para analisar seu ambiente e recomendar melhorias. Se você aprovar, ele também poderá executar ações usando as credenciais e permissões que você configurou. Os agentes de IA analisam seu ambiente, ajudando você a encontrar riscos, melhorar cargas de trabalho e solucionar problemas no Workload Factory e no Slack.</block>
+  <block id="d2887c33a251e8530157941bab73941d" category="paragraph">Acesse os agentes de IA na nova seção *Explorar Agentes* no Ask Me. Por padrão, os agentes são executados em modo somente leitura e fornecem recomendações e análises.</block>
+  <block id="13b9f07ec133fa8d4a2ca6cc3fdd50fd" category="paragraph">Use as *Configurações de agentes* para controlar como os agentes funcionam. Você pode:</block>
+  <block id="51ac931b574bb48f344c39da84a32911" category="list-text">Escolha o modo somente leitura ou leitura e gravação</block>
+  <block id="2eef1803f198e56db81b4062ea8cddf4" category="list-text">Selecione quais credenciais os agentes podem usar</block>
+  <block id="46a4cbdaf48bb2fb183d7572e3a8f6b7" category="list-text">Adicionar instruções personalizadas</block>
+  <block id="cbf940f0da0f9c2f02c84f568e2df3e3" category="list-text">Ajuste o nível de detalhamento das respostas</block>
+  <block id="72c9ca3fa9790aabd5a7a741dfe036e9" category="paragraph">Esses controles adicionais oferecem mais visibilidade e supervisão. No modo de leitura e gravação, os agentes precisam da sua aprovação antes de fazer alterações na AWS, ONTAP ou em APIs compatíveis. Você também pode escolher o nível de detalhamento das respostas, incluindo informações sobre o raciocínio do agente e, no Slack, sua atividade com as ferramentas.</block>
+  <block id="8b4711746b3adfa755ed575da3759c69" category="paragraph">Os agentes também são compatíveis com ambientes de múltiplas contas e facilitam a configuração. Um único agente pode operar com segurança em várias contas da AWS usando diversas credenciais.</block>
+  <block id="ff2cb9e669640d8f287be7fc339c4d78" category="inline-link-macro">Saiba mais sobre agentes de IA</block>
+  <block id="fd0b6331664a65cf7a31ea72bbff0ad8" category="paragraph"><block ref="fd0b6331664a65cf7a31ea72bbff0ad8" category="inline-link-macro-rx"></block></block>
+  <block id="718a428bd3b2faadb3c143efe186c19c" category="inline-link-macro">Gerenciar configurações dos agentes</block>
+  <block id="f96519dcd31d8fc6ae26fb065d41298c" category="paragraph"><block ref="f96519dcd31d8fc6ae26fb065d41298c" category="inline-link-macro-rx"></block></block>
+  <block id="3cfde347b20875f3299e4bc85cde4012" category="section-title">Tarefas agendadas no Ask Me</block>
+  <block id="ed6bda88b37dd9ee0232de291a362174" category="paragraph">Agora você pode personalizar um prompt no chat do Ask Me para criar tarefas agendadas. Use tarefas agendadas para solicitar que o Ask Me execute verificações recorrentes e envie atualizações no chat de acordo com a programação que você definir.</block>
+  <block id="ff51f1512e81cb44e19946405c4c3751" category="paragraph">Exemplos de prompts:</block>
+  <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">Verifique o status de integridade e do ciclo de vida de todos os sistemas de arquivos FSx for NetApp ONTAP a cada hora para detectar problemas precocemente.</block>
+  <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">Liste todos os sistemas de arquivos do AWS FSx acessíveis a cada hora para manter um inventário atualizado.</block>
+  <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Saiba mais sobre Ask Me</block>
+  <block id="21acc05c94ffdfe8d543fc22e8162a92" category="paragraph"><block ref="21acc05c94ffdfe8d543fc22e8162a92" category="inline-link-macro-rx"></block></block>
+  <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Suporte ao ONTAP no Ask Me</block>
+  <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">O Ask Me agora é compatível com o FSx para ONTAP e sistemas ONTAP locais. Use a mesma experiência de chat para obter respostas e insights em toda a sua infraestrutura ONTAP.</block>
+  <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">Atualização de notificações</block>
+  <block id="02796e8ea898eccf4fc1ec43b8c9a990" category="paragraph">As notificações do NetApp Console agora estão ativadas por padrão. Os usuários do NetApp Console receberão automaticamente notificações do Workload Factory sem necessidade de configuração adicional.</block>
+  <block id="21342e11f90d32dc68b1110fcbb8adc2" category="inline-link-macro">Notificações do Workload Factory</block>
+  <block id="a70bc5a52e36d1d7057060329e076649" category="paragraph"><block ref="a70bc5a52e36d1d7057060329e076649" category="inline-link-macro-rx"></block></block>
+  <block id="5c944601b7f8744b2a84a9a8ea43d363" category="section-title">E-mail de notificação de criação de link</block>
+  <block id="19206cde68f30f89cddf386749d22382" category="paragraph">O Workload Factory agora lembra você de concluir a associação de links após adicionar as credenciais com sucesso. Embora as credenciais permitam a descoberta de recursos, os recursos avançados do ONTAP exigem a associação de links com os sistemas de arquivos descobertos. Você receberá a notificação por e-mail uma vez por semana na segunda-feira. Após concluir a associação de links, as notificações param.</block>
+  <block id="9ea7b6eb4bee9afd3cbcdda4cee6e9ca" category="section-title">Notificações de versão do Lambda link e orientações de atualização</block>
+  <block id="44268d176d67be14130038589d76e779" category="paragraph">O Workload Factory agora avisa você quando um link do Lambda não está usando a imagem mais recente disponível. Se as atualizações automáticas não forem compatíveis com um link, a notificação mostra quando uma versão mais recente está disponível.</block>
+  <block id="36be3d9219f21557e17dda1fb159e09d" category="paragraph">Você pode visualizar as instruções de atualização na página Links. As instruções explicam como atualizar manualmente a imagem do link do Lambda e ativar as atualizações automáticas quando disponíveis. Manter os links atualizados dá a você acesso aos recursos mais recentes, corrige problemas conhecidos e aplica as atualizações de segurança mais recentes.</block>
+  <block id="14bda382780d759b676db8bd277841a9" category="paragraph">Você também recebe um alerta no painel do FSx for ONTAP quando uma versão mais recente do link está disponível para um link que não oferece suporte a atualizações automáticas.</block>
 </blocks>
