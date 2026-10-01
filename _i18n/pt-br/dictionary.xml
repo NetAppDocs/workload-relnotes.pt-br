@@ -209,8 +209,6 @@
   <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">Verifique o status de integridade e do ciclo de vida de todos os sistemas de arquivos FSx for NetApp ONTAP a cada hora para detectar problemas precocemente.</block>
   <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">Liste todos os sistemas de arquivos do AWS FSx acessíveis a cada hora para manter um inventário atualizado.</block>
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Saiba mais sobre Ask Me</block>
-  <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Suporte ao ONTAP no Ask Me</block>
-  <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">O Ask Me agora é compatível com o FSx para ONTAP e sistemas ONTAP locais. Use a mesma experiência de chat para obter respostas e insights em toda a sua infraestrutura ONTAP.</block>
   <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">Atualização de notificações</block>
   <block id="02796e8ea898eccf4fc1ec43b8c9a990" category="paragraph">As notificações do NetApp Console agora estão ativadas por padrão. Os usuários do NetApp Console receberão automaticamente notificações do Workload Factory sem necessidade de configuração adicional.</block>
   <block id="21342e11f90d32dc68b1110fcbb8adc2" category="inline-link-macro">Notificações do Workload Factory</block>
@@ -268,7 +266,6 @@
   <block id="988626e00644e40216e6917f272294d3" category="paragraph">O Workload Factory agora reconhece o modo de gravação preferencial do FlexCache para volumes e recomenda alterá-lo, se necessário, para otimizar o desempenho.</block>
   <block id="7add6c128bfc87116bba8dfec617987f" category="section-title">Suporte à documentação de links</block>
   <block id="19ecacf22bc9ac252b9476a0a17ca657" category="inline-link-macro">Saiba mais sobre os links do NetApp Workload Factory</block>
-  <block id="41d8c250ba5deffd33a0d05e7f94eaf4" category="paragraph">Toda a documentação de links agora está incluída na documentação de configuração e administração do Workload Factory. Você ainda pode consultar a <block ref="25b81a757714a127c9c382013e960ce5" category="inline-link-macro-rx"></block> documentação do Workload Factory FSx for ONTAP e encontrar links para as páginas relevantes na documentação de configuração e administração.</block>
   <block id="ab868acd52ff4eb0e8c4b7bedf975941" category="inline-link-macro">Saiba mais sobre como configurar links no console do Workload Factory.</block>
   <block id="3d5d598217b93a807560cdae92940fdc" category="paragraph"><block ref="3d5d598217b93a807560cdae92940fdc" category="inline-link-macro-rx"></block></block>
   <block id="433dd4f7423c50024b8b40531d2cdae6" category="section-title">Descoberta de relações entre host e storage entre regiões</block>
@@ -280,4 +277,7 @@
   <block id="92ef509d26c2f4b8f1eafc483dafc514" category="paragraph"><block ref="92ef509d26c2f4b8f1eafc483dafc514" category="inline-link-macro-rx"></block></block>
   <block id="ff60e6cb69fa35fc765fb6716dc86a1d" category="paragraph"><block ref="ff60e6cb69fa35fc765fb6716dc86a1d" category="inline-link-macro-rx"></block></block>
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
+  <block id="56643767ee547abedda1d643567a4c85" category="paragraph">Toda a documentação de links agora está incluída na documentação de configuração e administração do Workload Factory. Você ainda pode consultar a <block ref="08c564abbdedd12846cfb2f0de43f628" category="inline-link-macro-rx"></block> documentação do Workload Factory FSx for ONTAP e encontrar links para as páginas relevantes na documentação de configuração e administração.</block>
+  <block id="d757afa220ac7f97f408903182fddee2" category="section-title">Suporte de armazenamento no Ask Me</block>
+  <block id="541644294bd888a59c4f26e19102bfb2" category="paragraph">O Ask Me agora é compatível com o FSx for ONTAP e o Google Cloud NetApp Volumes. Use a mesma experiência de chat para obter respostas e insights em todos os seus ambientes de armazenamento compatíveis.</block>
 </blocks>

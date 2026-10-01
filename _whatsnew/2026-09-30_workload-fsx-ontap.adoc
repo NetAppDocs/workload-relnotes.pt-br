@@ -113,7 +113,7 @@ O Workload Factory agora reconhece o modo de gravação preferencial do FlexCach
 [[link-documentation-support]]
 === Suporte à documentação de links
 
-Toda a documentação de links agora está incluída na documentação de configuração e administração do Workload Factory. Você ainda pode consultar a link:links-overview.html["Saiba mais sobre os links do NetApp Workload Factory"] documentação do Workload Factory FSx for ONTAP e encontrar links para as páginas relevantes na documentação de configuração e administração.
+Toda a documentação de links agora está incluída na documentação de configuração e administração do Workload Factory. Você ainda pode consultar a link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["Saiba mais sobre os links do NetApp Workload Factory"] documentação do Workload Factory FSx for ONTAP e encontrar links para as páginas relevantes na documentação de configuração e administração.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Saiba mais sobre como configurar links no console do Workload Factory."^]
 
