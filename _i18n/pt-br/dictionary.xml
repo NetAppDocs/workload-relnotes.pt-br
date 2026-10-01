@@ -202,16 +202,13 @@
   <block id="72c9ca3fa9790aabd5a7a741dfe036e9" category="paragraph">Esses controles adicionais oferecem mais visibilidade e supervisão. No modo de leitura e gravação, os agentes precisam da sua aprovação antes de fazer alterações na AWS, ONTAP ou em APIs compatíveis. Você também pode escolher o nível de detalhamento das respostas, incluindo informações sobre o raciocínio do agente e, no Slack, sua atividade com as ferramentas.</block>
   <block id="8b4711746b3adfa755ed575da3759c69" category="paragraph">Os agentes também são compatíveis com ambientes de múltiplas contas e facilitam a configuração. Um único agente pode operar com segurança em várias contas da AWS usando diversas credenciais.</block>
   <block id="ff2cb9e669640d8f287be7fc339c4d78" category="inline-link-macro">Saiba mais sobre agentes de IA</block>
-  <block id="fd0b6331664a65cf7a31ea72bbff0ad8" category="paragraph"><block ref="fd0b6331664a65cf7a31ea72bbff0ad8" category="inline-link-macro-rx"></block></block>
   <block id="718a428bd3b2faadb3c143efe186c19c" category="inline-link-macro">Gerenciar configurações dos agentes</block>
-  <block id="f96519dcd31d8fc6ae26fb065d41298c" category="paragraph"><block ref="f96519dcd31d8fc6ae26fb065d41298c" category="inline-link-macro-rx"></block></block>
   <block id="3cfde347b20875f3299e4bc85cde4012" category="section-title">Tarefas agendadas no Ask Me</block>
   <block id="ed6bda88b37dd9ee0232de291a362174" category="paragraph">Agora você pode personalizar um prompt no chat do Ask Me para criar tarefas agendadas. Use tarefas agendadas para solicitar que o Ask Me execute verificações recorrentes e envie atualizações no chat de acordo com a programação que você definir.</block>
   <block id="ff51f1512e81cb44e19946405c4c3751" category="paragraph">Exemplos de prompts:</block>
   <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">Verifique o status de integridade e do ciclo de vida de todos os sistemas de arquivos FSx for NetApp ONTAP a cada hora para detectar problemas precocemente.</block>
   <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">Liste todos os sistemas de arquivos do AWS FSx acessíveis a cada hora para manter um inventário atualizado.</block>
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Saiba mais sobre Ask Me</block>
-  <block id="21acc05c94ffdfe8d543fc22e8162a92" category="paragraph"><block ref="21acc05c94ffdfe8d543fc22e8162a92" category="inline-link-macro-rx"></block></block>
   <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Suporte ao ONTAP no Ask Me</block>
   <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">O Ask Me agora é compatível com o FSx para ONTAP e sistemas ONTAP locais. Use a mesma experiência de chat para obter respostas e insights em toda a sua infraestrutura ONTAP.</block>
   <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">Atualização de notificações</block>
@@ -280,4 +277,7 @@
   <block id="a2113e92c2a5c9986659d92e10f81f0a" category="paragraph">O Workload Factory agora identifica e classifica cargas de trabalho e hosts com mais precisão no serviço de marcação de cargas de trabalho. Os métodos de detecção atualizados reduzem a classificação incorreta e fornecem resultados de marcação e classificação mais precisos.</block>
   <block id="a8b7294bac36c008516aba27f6d45bab" category="paragraph">O Workload Factory agora oferece uma visão mais clara dos seus sistemas de arquivos na interface. Você pode visualizar tendências de uso da capacidade e da taxa de transferência de SSDs, resumos de cargas de trabalho e informações detalhadas de configuração diretamente da visão geral do sistema de arquivos. O Workload Factory agora identifica e classifica cargas de trabalho e hosts com mais precisão no serviço de marcação de cargas de trabalho. Os métodos de detecção atualizados reduzem a classificação incorreta e fornecem resultados de marcação e classificação mais precisos.</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30 de setembro de 2026</block>
+  <block id="92ef509d26c2f4b8f1eafc483dafc514" category="paragraph"><block ref="92ef509d26c2f4b8f1eafc483dafc514" category="inline-link-macro-rx"></block></block>
+  <block id="ff60e6cb69fa35fc765fb6716dc86a1d" category="paragraph"><block ref="ff60e6cb69fa35fc765fb6716dc86a1d" category="inline-link-macro-rx"></block></block>
+  <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
 </blocks>
