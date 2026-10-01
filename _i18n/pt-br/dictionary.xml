@@ -179,7 +179,6 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">O Workload Factory agora identifica cargas de trabalho para hosts conectados ao armazenamento FSx for ONTAP implantado em uma região diferente.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">A lógica aprimorada de detecção de carga de trabalho agora descobre tipos adicionais de carga de trabalho e melhora a precisão dos resultados.</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 de setembro de 2026</block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
   <block id="08b543f700a568688a9f78d874d0ce8b" category="doc">Notificações aprimoradas de capacidade do SSD</block>
@@ -280,4 +279,5 @@
   <block id="9b81d2dcd48e266f74c209ecd9598393" category="section-title">Precisão aprimorada na identificação de cargas de trabalho e hosts</block>
   <block id="a2113e92c2a5c9986659d92e10f81f0a" category="paragraph">O Workload Factory agora identifica e classifica cargas de trabalho e hosts com mais precisão no serviço de marcação de cargas de trabalho. Os métodos de detecção atualizados reduzem a classificação incorreta e fornecem resultados de marcação e classificação mais precisos.</block>
   <block id="a8b7294bac36c008516aba27f6d45bab" category="paragraph">O Workload Factory agora oferece uma visão mais clara dos seus sistemas de arquivos na interface. Você pode visualizar tendências de uso da capacidade e da taxa de transferência de SSDs, resumos de cargas de trabalho e informações detalhadas de configuração diretamente da visão geral do sistema de arquivos. O Workload Factory agora identifica e classifica cargas de trabalho e hosts com mais precisão no serviço de marcação de cargas de trabalho. Os métodos de detecção atualizados reduzem a classificação incorreta e fornecem resultados de marcação e classificação mais precisos.</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30 de setembro de 2026</block>
 </blocks>
