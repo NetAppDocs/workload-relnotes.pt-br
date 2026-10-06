@@ -15,6 +15,40 @@ Saiba mais sobre as alterações mais recentes nas cargas de trabalho que fazem 
 
 
 
+[[04-october-2026]]
+== 04 de outubro de 2026
+
+
+
+[[setup-and-administration]]
+=== Configuração e administração
+
+
+
+==== Atualizações do dashboard personalizado
+
+Painéis personalizados agora facilitam o gerenciamento do seu trabalho.
+
+Você pode editar painéis diretamente do catálogo, incluindo métricas, gráficos e intervalos de tempo.
+
+Ao editar um painel, o Workload Factory reabre o chat com seus prompts e mensagens anteriores. Você pode então atualizar o painel, salvar suas alterações ou restaurar a versão anterior.
+
+Somente o criador do painel pode editá-lo. Enquanto você estiver editando, outros usuários não poderão ver suas alterações até que você as salve.
+
+O catálogo de dashboards agora inclui mais filtros para ajudar você a encontrar dashboards rapidamente com base na categoria e no status.
+
+Se o seu administrador desativar os recursos de IA ou se o seu limite de crédito mensal for atingido, a criação e a edição do painel serão desativadas.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/learn-custom-dashboards.html["Saiba mais sobre painéis personalizados"]
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-custom-dashboard.html["Crie um painel personalizado"]
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html["Gerencie painéis personalizados"]
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/troubleshoot-custom-dashboards.html["Solucionar problemas de painéis personalizados"]
+
+
+
 [[30-september-2026]]
 == 30 de setembro de 2026
 
@@ -538,126 +572,3 @@ Para configurar notificações para eventos do S3, link:https://docs.netapp.com/
 ==== Recursos do ONTAP exibidos no explorador de volumes
 
 O explorador de volumes agora inclui recursos do ONTAP na tabela de volumes. Esses recursos fornecem informações mais detalhadas sobre a configuração e o status dos seus volumes, como cobertura de proteção, status da Autonomous Ransomware Protection (ARP/AI), eficiência de storage, política de tiering e volume com crescimento automático.
-
-
-
-[[06-july-2026]]
-== 06 de julho de 2026
-
-
-
-[[vmware-workloads]]
-=== Workloads da VMware
-
-
-
-==== Suporte para instâncias i7i.metal-24xl no calculadora de TCO do Exchange Virtual Server
-
-A calculadora de TCO do Exchange Virtual Server agora oferece suporte a instâncias EC2 AWS i7i.metal-24xl como hosts de cluster. Comparadas às configurações i4i.metal, essas instâncias reduzem o custo inicial do Exchange Virtual Server em cerca de 33% para computação e 25% para armazenamento vSAN.
-
-A calculadora compara automaticamente os dois tipos de instância e seleciona a opção mais econômica. Uma nova seção de comparação mostra as configurações de host do Exchange Virtual Server lado a lado, facilitando a busca pela configuração ideal para suas necessidades.
-
-link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Calcule a economia estimada para Exchange Virtual Server"]
-
-
-
-[[05-july-2026]]
-== 05 de julho de 2026
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== Amazon FSX para NetApp ONTAP
-
-
-
-==== Explorador de volumes
-
-O explorador de volumes oferece a você uma visualização simples e pesquisável de todos os seus volumes no NetApp Workload Factory. Veja rapidamente quais volumes atendem cargas de trabalho de bloco ou de arquivo. Visualize o tamanho lógico de cada volume, a capacidade física utilizada e se ele usa recursos de eficiência de storage (compressão, deduplicação e compactação). Filtre e classifique por nome, status (disponível/com falha), latência, tamanho, capacidade utilizada e recursos de proteção.
-
-
-
-==== Notificações de e-mail aprimoradas para atrasos na replicação
-
-As notificações por e-mail sobre atrasos na replicação agora incluem mais detalhes sobre o relacionamento afetado. Essa notificação ajuda você a identificar rapidamente o relacionamento afetado e analisá-lo no console do Workload Factory.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["Ativar notificações para atrasos na replicação"]
-
-
-
-==== Aprimoramento da criação de dispositivos de bloco
-
-O Workload Factory suporta a criação de dispositivos de bloco a partir de um snapshot de volume.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["Crie um dispositivo de bloco a partir de um snapshot de volume no Workload Factory"]
-
-
-
-==== Etiquetagem de workload para volumes e dispositivos de bloco
-
-O Workload Factory agora identifica e etiqueta volumes e dispositivos de bloco de acordo com sua carga de trabalho ou aplicação principal. Você pode atribuir tags de carga de trabalho predefinidas, como Microsoft SQL Server ou Oracle Database, ou criar tags personalizadas para suas aplicações. As tags podem ser aplicadas a recursos individuais ou herdadas por recursos de storage conectados. Isso ajuda você a alinhar as configurações de storage com os requisitos da carga de trabalho, entender o impacto de incidentes e solucionar problemas com mais eficiência.
-
-
-
-[[setup-and-administration]]
-=== Configuração e administração
-
-
-
-==== Painéis personalizados
-
-Crie painéis de controle com inteligência artificial que se adaptem às suas cargas de trabalho e prioridades para que você possa visualizar facilmente o desempenho das suas operações. Em vez de depender de visualizações fixas, os painéis personalizados permitem que você se concentre nas informações que mais importam.
-
-Basta descrever o que você deseja monitorar em linguagem simples, e a IA criará um painel com base na sua solicitação. Por exemplo, você pode monitorar o status de recuperação de desastres, a capacidade e os custos em diferentes regiões, a conformidade com a proteção de armazenamento e outras métricas operacionais.
-
-Os painéis personalizados são somente leitura, portanto, não podem alterar suas configurações de armazenamento ou carga de trabalho. Qualquer pessoa em sua conta do Workload Factory pode visualizar e gerenciar esses painéis, facilitando o compartilhamento de informações e o alinhamento entre as equipes.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/learn-custom-dashboards.html["Saiba mais sobre painéis personalizados"]
-
-
-
-==== Remoção de workload GenAI do Workload Factory
-
-A carga de trabalho GenAI foi removida do console do Workload Factory.
-
-
-
-[[eda-workloads]]
-=== Cargas de trabalho EDA
-
-
-
-==== Análise de latência aprimorada com gráficos sincronizados de latência, IOPS e taxa de transferência
-
-O painel de análise de latência agora inclui uma página de *Análise de latência detalhada* com gráficos de desempenho sincronizados:
-
-* *Gráfico de latência*: Mostra como a latência muda ao longo do tempo, com linhas de limite e alertas quando os limites são excedidos.
-* *Gráfico de IOPS*: mostra as operações por segundo, com linhas de limite e indicadores de violações de limite anteriores.
-* *Gráfico de taxa de transferência*: Mostra as taxas de transferência de dados (DataReadBytes ou DataWriteBytes). Quando Metadados é selecionado no filtro, o gráfico de taxa de transferência não exibe dados.
-
-
-Todos os gráficos usam a mesma linha do tempo e mostram automaticamente as métricas corretas com base em se o evento é de leitura ou de gravação.
-
-Você pode ajustar a visualização e correlacionar picos de latência com alterações em IOPS e taxa de transferência. Marcadores de violação e detalhes ao passar o mouse ajudam você a ver quando os limites foram excedidos e a analisar as principais métricas da violação detectada.
-
-https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Aprenda a analisar tendências de latência com múltiplos gráficos"^].
-
-
-
-==== Defina a frequência de notificação de latência
-
-Agora você pode escolher com que frequência deseja receber notificações por e-mail sobre violações de latência:
-
-* *Lembre-me todos os dias (Recomendado)*: Receba notificações quando um novo problema ocorrer em qualquer sistema de arquivos FSx for ONTAP.
-
-
-Se vários problemas de latência ocorrerem no mesmo sistema de arquivos em um único dia, você receberá apenas um e-mail.
-
-Após enviar um alerta de latência para um sistema de arquivos, o Workload Factory aguarda 24 horas antes de enviar outro alerta para esse sistema de arquivos.
-
-* *Notifique sobre qualquer violação de latência (a cada 20 minutos)*: receba uma notificação quando uma violação for detectada, até uma vez a cada 20 minutos.
-
-
-As notificações diárias estão ativadas por padrão para reduzir o volume de e-mails, mas ainda assim alertar você sobre problemas de latência. Você pode alterar sua preferência de notificação ao configurar o monitoramento de latência ou editar as configurações de limite.
-
-https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["Aprenda como configurar o monitoramento de latência"^].

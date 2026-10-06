@@ -33,48 +33,7 @@
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">Estas notas de versão descrevem melhorias recentes nos serviços de nuvem que fazem parte do NetApp Workload Factory.</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">Notas de versão do NetApp Workload Factory</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">Cargas de trabalho EDA</block>
-  <block id="caa606c0b1085a846c384cef14c3a17f" category="doc">Suporte para instâncias i7i.metal-24xl no calculadora de TCO do Exchange Virtual Server</block>
-  <block id="b055674b094a39e8822f5941fd1ddf8d" category="paragraph">A calculadora de TCO do Exchange Virtual Server agora oferece suporte a instâncias EC2 AWS i7i.metal-24xl como hosts de cluster. Comparadas às configurações i4i.metal, essas instâncias reduzem o custo inicial do Exchange Virtual Server em cerca de 33% para computação e 25% para armazenamento vSAN.</block>
-  <block id="bbc7cb1849fc26e314ad21ecd99ca5fe" category="paragraph">A calculadora compara automaticamente os dois tipos de instância e seleciona a opção mais econômica. Uma nova seção de comparação mostra as configurações de host do Exchange Virtual Server lado a lado, facilitando a busca pela configuração ideal para suas necessidades.</block>
-  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">Calcule a economia estimada para Exchange Virtual Server</block>
-  <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">06 de julho de 2026</block>
-  <block id="07139d61108a6478189b71bcdc7f39b8" category="list-text">*Gráfico de latência*: Mostra como a latência muda ao longo do tempo, com linhas de limite e alertas quando os limites são excedidos.</block>
-  <block id="390641ad0fb5c4dcbd3e1ea9a432933d" category="list-text">*Gráfico de IOPS*: mostra as operações por segundo, com linhas de limite e indicadores de violações de limite anteriores.</block>
-  <block id="38f51c8db276cb26c3c7af52f545996e" category="paragraph">Todos os gráficos usam a mesma linha do tempo e mostram automaticamente as métricas corretas com base em se o evento é de leitura ou de gravação.</block>
-  <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">Aprenda a analisar tendências de latência com múltiplos gráficos</block>
-  <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
-  <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">05 de julho de 2026</block>
   <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">Painéis personalizados</block>
-  <block id="2865e3ecb86dc9391d13f92e53f2a2ac" category="paragraph">Crie painéis de controle com inteligência artificial que se adaptem às suas cargas de trabalho e prioridades para que você possa visualizar facilmente o desempenho das suas operações. Em vez de depender de visualizações fixas, os painéis personalizados permitem que você se concentre nas informações que mais importam.</block>
-  <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">Basta descrever o que você deseja monitorar em linguagem simples, e a IA criará um painel com base na sua solicitação. Por exemplo, você pode monitorar o status de recuperação de desastres, a capacidade e os custos em diferentes regiões, a conformidade com a proteção de armazenamento e outras métricas operacionais.</block>
-  <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">Os painéis personalizados são somente leitura, portanto, não podem alterar suas configurações de armazenamento ou carga de trabalho. Qualquer pessoa em sua conta do Workload Factory pode visualizar e gerenciar esses painéis, facilitando o compartilhamento de informações e o alinhamento entre as equipes.</block>
-  <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">Saiba mais sobre painéis personalizados</block>
-  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">Defina a frequência de notificação de latência</block>
-  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">Agora você pode escolher com que frequência deseja receber notificações por e-mail sobre violações de latência:</block>
-  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*Lembre-me todos os dias (Recomendado)*: Receba notificações quando um novo problema ocorrer em qualquer sistema de arquivos FSx for ONTAP.</block>
-  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">Se vários problemas de latência ocorrerem no mesmo sistema de arquivos em um único dia, você receberá apenas um e-mail.</block>
-  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">Após enviar um alerta de latência para um sistema de arquivos, o Workload Factory aguarda 24 horas antes de enviar outro alerta para esse sistema de arquivos.</block>
-  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*Notifique sobre qualquer violação de latência (a cada 20 minutos)*: receba uma notificação quando uma violação for detectada, até uma vez a cada 20 minutos.</block>
-  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">As notificações diárias estão ativadas por padrão para reduzir o volume de e-mails, mas ainda assim alertar você sobre problemas de latência. Você pode alterar sua preferência de notificação ao configurar o monitoramento de latência ou editar as configurações de limite.</block>
-  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">Aprenda como configurar o monitoramento de latência</block>
-  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
-  <block id="efbeddc0347a679a438120189b77f860" category="section-title">Explorador de volumes</block>
-  <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">Notificações de e-mail aprimoradas para atrasos na replicação</block>
-  <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">As notificações por e-mail sobre atrasos na replicação agora incluem mais detalhes sobre o relacionamento afetado. Essa notificação ajuda você a identificar rapidamente o relacionamento afetado e analisá-lo no console do Workload Factory.</block>
-  <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">Ativar notificações para atrasos na replicação</block>
-  <block id="7f27417270cfb269527e679a64b5a19a" category="paragraph"><block ref="7f27417270cfb269527e679a64b5a19a" category="inline-link-macro-rx"></block></block>
-  <block id="5312d8ea7e9ef079aeac882dbcd64d0a" category="section-title">Aprimoramento da criação de dispositivos de bloco</block>
-  <block id="85fb39d6f3bb52679cb9ce3bd27ffd1c" category="paragraph">O Workload Factory suporta a criação de dispositivos de bloco a partir de um snapshot de volume.</block>
-  <block id="a439412a0228682fa1054f4bc1a96815" category="inline-link-macro">Crie um dispositivo de bloco a partir de um snapshot de volume no Workload Factory</block>
-  <block id="40a9299c5fdf8c1e8242dcb670c6b1cd" category="paragraph"><block ref="40a9299c5fdf8c1e8242dcb670c6b1cd" category="inline-link-macro-rx"></block></block>
-  <block id="cc661418365d138458bf55f936b73a47" category="section-title">Remoção de workload GenAI do Workload Factory</block>
-  <block id="ef18329e66f7a0f5b022b9a400dd74ed" category="paragraph">A carga de trabalho GenAI foi removida do console do Workload Factory.</block>
-  <block id="efb6a1d0d54500167c0d1ae30ab8ac5b" category="doc">Análise de latência aprimorada com gráficos sincronizados de latência, IOPS e taxa de transferência</block>
-  <block id="a868b37aeda2e8d7f0a8e48f498112fc" category="paragraph">O painel de análise de latência agora inclui uma página de *Análise de latência detalhada* com gráficos de desempenho sincronizados:</block>
-  <block id="a4abbd682ae58689df4450b4a65c90a2" category="list-text">*Gráfico de taxa de transferência*: Mostra as taxas de transferência de dados (DataReadBytes ou DataWriteBytes). Quando Metadados é selecionado no filtro, o gráfico de taxa de transferência não exibe dados.</block>
-  <block id="7e9591a005bdef4cdf16dfd575186f3b" category="paragraph">Você pode ajustar a visualização e correlacionar picos de latência com alterações em IOPS e taxa de transferência. Marcadores de violação e detalhes ao passar o mouse ajudam você a ver quando os limites foram excedidos e a analisar as principais métricas da violação detectada.</block>
-  <block id="842065a36dace972d6dab0c170421bd1" category="section-title">Etiquetagem de workload para volumes e dispositivos de bloco</block>
-  <block id="47c38c6a3d7e96ce1b3b2519a980f283" category="paragraph">O Workload Factory agora identifica e etiqueta volumes e dispositivos de bloco de acordo com sua carga de trabalho ou aplicação principal. Você pode atribuir tags de carga de trabalho predefinidas, como Microsoft SQL Server ou Oracle Database, ou criar tags personalizadas para suas aplicações. As tags podem ser aplicadas a recursos individuais ou herdadas por recursos de storage conectados. Isso ajuda você a alinhar as configurações de storage com os requisitos da carga de trabalho, entender o impacto de incidentes e solucionar problemas com mais eficiência.</block>
   <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">Políticas de permissão IAM atualizadas para bancos de dados</block>
   <block id="e9e3af45119a834b75ee5ce8ad5fc96d" category="paragraph">As permissões para bancos de dados foram atualizadas para melhorar o acesso aos recursos e limitar o acesso ao SSM onde desnecessário.</block>
   <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">As permissões de visualização, planejamento e análise são limitadas a documentos do AWS SSM. Com essas permissões, você pode visualizar hosts, instâncias e bancos de dados. Você também pode executar uma análise básica sob demanda bem arquitetada dos seus recursos.</block>
@@ -162,7 +121,6 @@
   <block id="9b988decb4830a521f8e1487584f0385" category="doc">Ações de volume disponíveis no explorador de volumes</block>
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">Todas as ações de volume estão disponíveis diretamente no Volumes explorer para um ou mais volumes. Isso torna mais rápido executar operações em nível de volume. As ações de volume incluem modificar configurações de volume, gerenciar snapshots e realizar outras tarefas de volume sem sair do Volumes explorer. Você também pode acessar essas ações na guia Volumes na visão geral do sistema de arquivos FSx for ONTAP.</block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">11 de agosto de 2026</block>
-  <block id="2b2db21e376d227839b25c1e6fcb7638" category="paragraph">O explorador de volumes oferece a você uma visualização simples e pesquisável de todos os seus volumes no NetApp Workload Factory. Veja rapidamente quais volumes atendem cargas de trabalho de bloco ou de arquivo. Visualize o tamanho lógico de cada volume, a capacidade física utilizada e se ele usa recursos de eficiência de storage (compressão, deduplicação e compactação). Filtre e classifique por nome, status (disponível/com falha), latência, tamanho, capacidade utilizada e recursos de proteção.</block>
   <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">Nova experiência de integração para credenciais e links</block>
   <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">O Workload Factory aprimora a experiência de integração de credenciais e links, facilitando o início do uso. Após você criar sua conta e fazer login, selecione *Começar* em qualquer bloco de carga de trabalho, por exemplo *Armazenamento*, e a próxima página guiará você pelo processo de configuração passo a passo.</block>
   <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">30 de agosto de 2026</block>
@@ -179,8 +137,6 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">O Workload Factory agora identifica cargas de trabalho para hosts conectados ao armazenamento FSx for ONTAP implantado em uma região diferente.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">A lógica aprimorada de detecção de carga de trabalho agora descobre tipos adicionais de carga de trabalho e melhora a precisão dos resultados.</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
-  <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
-  <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
   <block id="08b543f700a568688a9f78d874d0ce8b" category="doc">Notificações aprimoradas de capacidade do SSD</block>
   <block id="f37e9239265205bdf39af7b4def6f75a" category="paragraph">As notificações de gerenciamento de capacidade de SSD agora incluem mensagens de erro detalhadas para solucionar problemas de falhas de automação. As notificações são enviadas para aumentos de capacidade bem-sucedidos, erros durante operações de aumento, falhas na verificação de capacidade, avisos de limite e recomendações. Os detalhes do erro incluem motivos específicos da falha, como permissões ausentes, atualizações simultâneas em andamento, períodos de resfriamento da AWS ou problemas na recuperação de métricas do CloudWatch.</block>
   <block id="4a3354724a06bbb8040fa512f39a5e07" category="inline-link-macro">Saiba mais sobre o gerenciamento de capacidade de SSD</block>
@@ -280,4 +236,20 @@
   <block id="56643767ee547abedda1d643567a4c85" category="paragraph">Toda a documentação de links agora está incluída na documentação de configuração e administração do Workload Factory. Você ainda pode consultar a <block ref="08c564abbdedd12846cfb2f0de43f628" category="inline-link-macro-rx"></block> documentação do Workload Factory FSx for ONTAP e encontrar links para as páginas relevantes na documentação de configuração e administração.</block>
   <block id="d757afa220ac7f97f408903182fddee2" category="section-title">Suporte de armazenamento no Ask Me</block>
   <block id="541644294bd888a59c4f26e19102bfb2" category="paragraph">O Ask Me agora é compatível com o FSx for ONTAP e o Google Cloud NetApp Volumes. Use a mesma experiência de chat para obter respostas e insights em todos os seus ambientes de armazenamento compatíveis.</block>
+  <block id="77c39d029270c567ae2816d2c688ea3b" category="doc">Atualizações do dashboard personalizado</block>
+  <block id="b4a3fedd52cfe46140994157b6fa12ec" category="paragraph">Painéis personalizados agora facilitam o gerenciamento do seu trabalho.</block>
+  <block id="5d95426dd9834d03b33e051ae7f9fb5c" category="paragraph">Você pode editar painéis diretamente do catálogo, incluindo métricas, gráficos e intervalos de tempo.</block>
+  <block id="e57137dc0ab44a9b0797700e3e8c851c" category="paragraph">Ao editar um painel, o Workload Factory reabre o chat com seus prompts e mensagens anteriores. Você pode então atualizar o painel, salvar suas alterações ou restaurar a versão anterior.</block>
+  <block id="8f44990f66d79c05eb2b8e612e7e18b5" category="paragraph">Somente o criador do painel pode editá-lo. Enquanto você estiver editando, outros usuários não poderão ver suas alterações até que você as salve.</block>
+  <block id="14dd0ad1c8f18e92cbbc77ecf3a2645b" category="paragraph">O catálogo de dashboards agora inclui mais filtros para ajudar você a encontrar dashboards rapidamente com base na categoria e no status.</block>
+  <block id="fb1ecdb5253f537a735a53d5e9e2eba6" category="paragraph">Se o seu administrador desativar os recursos de IA ou se o seu limite de crédito mensal for atingido, a criação e a edição do painel serão desativadas.</block>
+  <block id="adf3d3abc197eec345a7ab721730806c" category="inline-link-macro">Saiba mais sobre painéis personalizados</block>
+  <block id="f736e966e4394f88a05cee94fdba57ff" category="paragraph"><block ref="f736e966e4394f88a05cee94fdba57ff" category="inline-link-macro-rx"></block></block>
+  <block id="dfc2a77d9b383cd28cba1a1e99f9a378" category="inline-link-macro">Crie um painel personalizado</block>
+  <block id="e703f5c9737234e07b6d50b473d03d31" category="paragraph"><block ref="e703f5c9737234e07b6d50b473d03d31" category="inline-link-macro-rx"></block></block>
+  <block id="62403e3fa28afe128e2c0e15bf0333f7" category="inline-link-macro">Gerencie painéis personalizados</block>
+  <block id="a6624b6c8238a8d2fecbcab00748683a" category="paragraph"><block ref="a6624b6c8238a8d2fecbcab00748683a" category="inline-link-macro-rx"></block></block>
+  <block id="1703fc0755f2533bd9d727fa0298c500" category="inline-link-macro">Solucionar problemas de painéis personalizados</block>
+  <block id="6690aacdf8125a25e4539caa3239e86f" category="paragraph"><block ref="6690aacdf8125a25e4539caa3239e86f" category="inline-link-macro-rx"></block></block>
+  <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">04 de outubro de 2026</block>
 </blocks>
