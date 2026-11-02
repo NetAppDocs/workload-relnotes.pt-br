@@ -115,3 +115,10 @@ Agora você pode ativar as notificações automáticas de gerenciamento de capac
 === Pontos de decisão da taxa de transferência
 
 Agora você pode ver a recomendação de throughput do cliente e os pontos de decisão da automação. Passe o cursor sobre um ponto de decisão para ver detalhes, como o SKU atual e o recomendado ou as métricas que excederam o limite na janela de tempo (%).
+
+
+
+[[customer-managed-bedrock-support-for-classification]]
+=== Suporte ao Bedrock gerenciado pelo cliente para classificação
+
+O Workload Factory agora permite que você use sua própria configuração do Amazon Bedrock para a classificação de tags de cargas de trabalho. Você pode fornecer seu próprio endpoint e credenciais do Bedrock para que as solicitações de classificação sejam executadas por meio de sua própria configuração do Bedrock.

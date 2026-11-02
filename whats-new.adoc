@@ -131,6 +131,12 @@ Agora você pode ver a recomendação de throughput do cliente e os pontos de de
 
 
 
+==== Suporte ao Bedrock gerenciado pelo cliente para classificação
+
+O Workload Factory agora permite que você use sua própria configuração do Amazon Bedrock para a classificação de tags de cargas de trabalho. Você pode fornecer seu próprio endpoint e credenciais do Bedrock para que as solicitações de classificação sejam executadas por meio de sua própria configuração do Bedrock.
+
+
+
 [[database-workloads]]
 === Workloads de banco de dados
 
