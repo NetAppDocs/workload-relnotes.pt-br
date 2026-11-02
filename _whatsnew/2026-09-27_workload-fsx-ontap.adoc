@@ -1,0 +1,127 @@
+= Aprimoramentos no diagrama do grupo de iniciadores
+:allow-uri-read: 
+
+
+
+
+[[initiator-group-diagram-enhancements]]
+=== Aprimoramentos no diagrama do grupo de iniciadores
+
+O diagrama que exibe os grupos de iniciadores para dispositivos de bloco na página Gerenciar acesso do cliente agora inclui mais detalhes sobre os hosts. Ao passar o cursor sobre um host no diagrama, os detalhes do host são exibidos, incluindo o nome do host, o ID da instância, o tipo de carga de trabalho, a região e o Nome Qualificado iSCSI (IQN).
+
+
+
+[[cost-dashboard-enhancements]]
+=== Melhorias no painel de custos
+
+O painel de custos agora inclui uma seção de resumo executivo de custos que fornece uma visão geral dos gastos da sua organização, ajudando você a entender e gerenciar os custos rapidamente. O Ask Me, o assistente de IA do Workload Factory, pode fornecer insights e recomendações adicionais com base nos seus dados de custos. Você pode interagir com o Ask Me para obter explicações detalhadas e sugestões para otimizar seus custos.
+
+Além disso, você pode filtrar os dados de custo por um ou mais sistemas de arquivos e um ou mais volumes dentro de um sistema de arquivos. Quando os filtros são aplicados, o Workload Factory exibe:
+
+* Custo total estimado por mês
+* Custo estimado por GiB/mês
+* Detalhamento de custos por serviço
+
+
+Todas as informações de custo vêm diretamente da API do AWS Cost Explorer, exceto pela alocação de custo no nível do sistema de arquivos e do volume; o Workload Factory estima a alocação de custo no nível do sistema de arquivos e do volume.
+
+
+
+[[well-architected-dashboard-access]]
+=== Acesso ao painel bem arquitetado
+
+Você pode acessar o painel well-architected pelo menu principal no console do Workload Factory e também em um sistema de arquivos. Para encontrar o painel well-architected no menu principal, selecione o menu principal e, em seguida, selecione *Well-architected*.
+
+image:well-architected-menu-option.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
+
+
+
+[[new-recommendations-in-the-well-architected-analysis]]
+=== Novas recomendações na análise well-architected
+
+O Workload Factory agora inclui as seguintes configurações na análise bem arquitetada para sistemas de arquivos FSx for ONTAP:
+
+* *Configuração de gerenciamento de espaço do volume*: recomenda-se habilitar o gerenciamento de espaço coordenado do volume para volumes do Amazon FSx for NetApp ONTAP.
+* *Integração do FSx com o AWS MGN*: recomenda aplicar a configuração de prontidão do AWS MGN necessária aos sistemas de arquivos Amazon FSx for NetApp ONTAP selecionados.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["Saiba mais sobre as recomendações de melhores práticas para seus sistemas de arquivos FSx for ONTAP."]
+
+
+
+[[volumes-explorer-enhancements]]
+=== Aprimoramentos do explorador de volumes
+
+O explorador de volumes é um local central no console do Workload Factory onde você pode visualizar e gerenciar todos os seus volumes em diferentes sistemas de arquivos. Ele fornece informações detalhadas sobre cada volume, incluindo seu desempenho, uso e status de proteção. Os aprimoramentos desta versão incluem seleção de carga de trabalho, exibição da latência do volume e status de ARP/AI para volumes.
+
+
+
+==== O explorador de volumes oferece suporte à seleção de carga de trabalho
+
+O Workload Factory seleciona uma carga de trabalho por padrão com base nas características do volume e em seus padrões de uso. Agora você pode alterar a carga de trabalho de um ou mais volumes no Volumes explorer.
+
+
+
+==== O explorador de volumes exibe a latência do volume
+
+O explorador de volumes exibe o status de latência do volume com os seguintes status: não configurado, dentro do limite e excedido. Esses status ajudam você a encontrar e corrigir gargalos de desempenho no nível do volume.
+
+
+
+==== O explorador de volumes exibe o status de ARP/AI para volumes em todos os sistemas de arquivos
+
+A tela do Explorador de Volumes agora inclui um cartão com o status da Proteção Autônoma contra Ransomware com IA (ARP/AI) da NetApp para volumes em todos os seus sistemas de arquivos. O cartão exibe o número de volumes protegidos e indica se algum volume está em risco. A partir do cartão, você pode *Analisar ataques* para investigar possíveis ameaças de ransomware e tomar as medidas apropriadas para proteger seus dados.
+
+image:volumes-explorer-arp-ai-card.png["A captura de tela mostra um novo cartão na tela do Explorador de Volumes, exibindo o status de ARP/AI para volumes em todos os sistemas de arquivos. O cartão indica o número de volumes protegidos e quaisquer volumes em risco. Os usuários podem selecionar o texto \"Analyze attacks\" para investigar possíveis ataques e tomar as medidas apropriadas para proteger seus dados."]
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Saiba mais sobre proteção contra ransomware."]
+
+
+
+[[email-notification-for-unhealthy-replication-relationships]]
+=== Notificação por e-mail para relacionamentos de replicação não íntegros
+
+Quando o status de um relacionamento de replicação é *não saudável*, o Workload Factory envia uma notificação por e-mail a cada 24 horas enquanto o relacionamento permanecer não saudável. As notificações de lembrete param quando o relacionamento retorna a um estado saudável.
+
+
+
+[[support-for-restricted-ontap-credentials-for-aiops]]
+=== Suporte para credenciais restritas do ONTAP para AIOps
+
+O Workload Factory oferece suporte a dois tipos de credenciais do ONTAP para um sistema de arquivos FSx for ONTAP: primárias e restritas. Por padrão, um sistema de arquivos usa as credenciais primárias do ONTAP. Usamos credenciais restritas apenas para operações de IA (AIOps), como Rule builder, Custom dashboards e Ask Me, nosso assistente de IA. Agora você pode adicionar suas próprias credenciais, usando um nome de usuário e senha ou um ARN de segredo, para restringir o acesso aos recursos de AIOps.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-file-system-settings.html["Gerenciar credenciais do ONTAP para um sistema de arquivos do FSx for ONTAP"]
+
+
+
+[[workload-selection-during-volume-creation]]
+=== Seleção de workload durante a criação de volume
+
+O Workload Factory agora inclui um campo *Workloads* na criação de volumes para que você possa selecionar a carga de trabalho a ser associada ao volume. Isso garante que o volume seja otimizado para a carga de trabalho pretendida desde o momento de sua criação.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crie um volume no console do Workload Factory"]
+
+
+
+[[flexcache-write-mode-improvement]]
+=== Melhoria no modo de escrita do FlexCache
+
+O Workload Factory agora reconhece o modo de gravação preferencial do FlexCache para volumes e recomenda alterá-lo, se necessário, para otimizar o desempenho.
+
+
+
+[[link-creation-notification-email]]
+=== E-mail de notificação de criação de link
+
+O Workload Factory agora lembra você de concluir a associação de links após adicionar as credenciais com sucesso. Embora as credenciais permitam a descoberta de recursos, os recursos avançados do ONTAP exigem a associação de links com os sistemas de arquivos descobertos. Você receberá a notificação por e-mail uma vez por semana na segunda-feira. Após concluir a associação de links, as notificações param.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configure as notificações no console do Workload Factory"]
+
+
+
+[[link-documentation-support]]
+=== Suporte à documentação de links
+
+Toda a documentação de links agora está incluída na documentação de configuração e administração do Workload Factory. Você ainda pode consultar a link:links-overview.html["Saiba mais sobre os links do NetApp Workload Factory"] documentação do Workload Factory FSx for ONTAP e encontrar links para as páginas relevantes na documentação de configuração e administração.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Saiba mais sobre como configurar links no console do Workload Factory."^]
