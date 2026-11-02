@@ -1,0 +1,37 @@
+= Detalhes do volume na análise de latência
+:allow-uri-read: 
+
+
+
+
+[[volume-details-in-latency-analysis]]
+=== Detalhes do volume na análise de latência
+
+Agora você pode visualizar os detalhes adicionais do volume *Tipo de volume* (RW/DP), *Estilo do volume* (o FlexVol e o FlexGroup) na página *Análise detalhada de latência*.
+
+
+
+[[file-system-pressure-check-for-latency-events]]
+=== Verificação da pressão do sistema de arquivos para eventos de latência
+
+Para volumes com um alerta de latência, agora você pode verificar se o sistema de arquivos estava sob pressão suficiente para afetar o desempenho no momento em que o evento ocorreu. Você pode visualizar os dados do CloudWatch dos 40 minutos anteriores ao evento e seguir um link para o sistema de arquivos para uma investigação mais detalhada.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Aprenda a analisar tendências de latência"^].
+
+
+
+[[throughput-decision-points]]
+=== Pontos de decisão da taxa de transferência
+
+Agora você pode ver a recomendação de throughput do cliente e os pontos de decisão da automação. Passe o cursor sobre um ponto de decisão para ver detalhes, como o SKU atual e o recomendado ou as métricas que excederam o limite na janela de tempo (%).
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#analyze-capacity-trends-and-decision-points["Saiba mais sobre pontos de decisão"^].
+
+
+
+[[re-run-latency-analysis]]
+=== Executar novamente a análise de latência
+
+Agora você pode selecionar *Executar análise novamente* para iniciar uma nova análise de latência de um volume e atualizar os resultados sob demanda.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["Aprenda a analisar problemas de latência"^].

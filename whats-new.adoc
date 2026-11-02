@@ -15,6 +15,83 @@ Saiba mais sobre as alterações mais recentes nas cargas de trabalho que fazem 
 
 
 
+[[01-november-2026]]
+== 01 de novembro de 2026
+
+
+
+[[vmware-workloads]]
+=== Workloads da VMware
+
+
+
+==== Suporte para instâncias i7i.metal-24xl e i7i.metal-48xl na calculadora de TCO do Exchange Virtual Server
+
+A calculadora de TCO do Exchange Virtual Server agora oferece suporte a instâncias EC2 AWS i7i.metal-24xl e i7i.metal-48xl como hosts de cluster. Comparadas às configurações i4i.metal, as instâncias i7i.metal-24xl reduzem o custo inicial do Exchange Virtual Server em cerca de 33% para computação e 25% para armazenamento vSAN.
+
+A calculadora compara todos os tipos de instância e seleciona automaticamente a opção de menor custo. Uma nova seção de comparação exibe as configurações de host do Exchange Virtual Server lado a lado, facilitando a escolha da melhor configuração para suas necessidades.
+
+link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Calcule a economia estimada para Exchange Virtual Server"]
+
+
+
+[[eda-workloads]]
+=== Cargas de trabalho EDA
+
+
+
+==== Detalhes do volume na análise de latência
+
+Agora você pode visualizar os detalhes adicionais do volume *Tipo de volume* (RW/DP), *Estilo do volume* (o FlexVol e o FlexGroup) na página *Análise detalhada de latência*.
+
+
+
+==== Verificação da pressão do sistema de arquivos para eventos de latência
+
+Para volumes com um alerta de latência, agora você pode verificar se o sistema de arquivos estava sob pressão suficiente para afetar o desempenho no momento em que o evento ocorreu. Você pode visualizar os dados do CloudWatch dos 40 minutos anteriores ao evento e seguir um link para o sistema de arquivos para uma investigação mais detalhada.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Aprenda a analisar tendências de latência"^].
+
+
+
+==== Pontos de decisão da taxa de transferência
+
+Agora você pode ver a recomendação de throughput do cliente e os pontos de decisão da automação. Passe o cursor sobre um ponto de decisão para ver detalhes, como o SKU atual e o recomendado ou as métricas que excederam o limite na janela de tempo (%).
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#analyze-capacity-trends-and-decision-points["Saiba mais sobre pontos de decisão"^].
+
+
+
+==== Executar novamente a análise de latência
+
+Agora você pode selecionar *Executar análise novamente* para iniciar uma nova análise de latência de um volume e atualizar os resultados sob demanda.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["Aprenda a analisar problemas de latência"^].
+
+
+
+[[14-october-2026]]
+== 14 de outubro de 2026
+
+
+
+[[setup-and-administration]]
+=== Configuração e administração
+
+
+
+==== Use sua própria instância do Amazon Bedrock para ferramentas de IA
+
+O Workload Factory agora inclui mais uma opção na página de configurações de IA que permite aos clientes usar sua própria instância do Amazon Bedrock.
+
+Essa opção está disponível no Bedrock gerenciado pelo cliente para ferramentas de IA e é compatível com todos os serviços de IA do Workload Factory.
+
+Depois que você se conecta, o Workload Factory informa se a conexão foi bem-sucedida.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Saiba mais sobre como gerenciar recursos de IA"]
+
+
+
 [[04-october-2026]]
 == 04 de outubro de 2026
 
@@ -360,215 +437,3 @@ O Workload Factory aprimora a experiência de integração de credenciais e link
 ==== Ações de volume disponíveis no explorador de volumes
 
 Todas as ações de volume estão disponíveis diretamente no Volumes explorer para um ou mais volumes. Isso torna mais rápido executar operações em nível de volume. As ações de volume incluem modificar configurações de volume, gerenciar snapshots e realizar outras tarefas de volume sem sair do Volumes explorer. Você também pode acessar essas ações na guia Volumes na visão geral do sistema de arquivos FSx for ONTAP.
-
-
-
-[[03-august-2026]]
-== 03 de agosto de 2026
-
-
-
-[[database-workloads]]
-=== Workloads de banco de dados
-
-
-
-==== Alterações de configuração para Oracle e Microsoft SQL Server na análise well-architected
-
-Diversas configurações de banco de dados foram combinadas e renomeadas para as seguintes configurações na análise bem arquitetada.
-
-* *Gerenciamento de espaço de dispositivo de bloco*: inclui reserva de espaço, alocação de espaço e reserva fracionária
-* *Eficiência de armazenamento*: inclui compressão, deduplicação e compactação
-* *Otimização de tiering/TCO*: inclui política de tiering e dias mínimos de resfriamento para tiering
-* *Agendar snapshots locais*: inclui política de snapshots
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Análise de configuração no Workload Factory"]
-
-
-
-==== Políticas de permissão IAM atualizadas para bancos de dados
-
-As permissões para bancos de dados foram atualizadas para melhorar o acesso aos recursos e limitar o acesso ao SSM onde desnecessário.
-
-As permissões de visualização, planejamento e análise são limitadas a documentos do AWS SSM. Com essas permissões, você pode visualizar hosts, instâncias e bancos de dados. Você também pode executar uma análise básica sob demanda bem arquitetada dos seus recursos.
-
-As permissões de operação e correção permitem que você faça alterações em seus recursos, analise registros de erros, obtenha uma análise abrangente e bem arquitetada de seus recursos e corrija problemas de configuração.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referência de permissões"^]
-
-
-
-[[setup-and-administration]]
-=== Configuração e administração
-
-
-
-==== Políticas de permissão IAM atualizadas para bancos de dados
-
-As permissões para bancos de dados foram atualizadas para melhorar o acesso aos recursos e limitar o acesso ao SSM onde desnecessário.
-
-As permissões de visualização, planejamento e análise são limitadas a documentos do AWS SSM. Com essas permissões, você pode visualizar hosts, instâncias e bancos de dados. Você também pode executar uma análise básica sob demanda bem arquitetada dos seus recursos.
-
-As permissões de operação e correção permitem que você faça alterações em seus recursos, analise registros de erros, obtenha uma análise abrangente e bem arquitetada de seus recursos e corrija problemas de configuração.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referência de permissões"]
-
-
-
-==== Painéis personalizados
-
-
-
-===== Notificações para painéis personalizados
-
-O Workload Factory agora notifica você quando seu painel personalizado está pronto ou se a criação falhar.
-
-Após criar um painel personalizado, você receberá uma notificação com um link direto para visualizá-lo. Se a criação falhar, você receberá uma notificação com um link para o inventário do painel personalizado para tentar novamente.
-
-Isso ajuda você a saber quando seu painel está pronto e facilita revisar ou recriar o painel.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/create-custom-dashboard.html["Aprenda como criar painéis personalizados"]
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Saiba mais sobre como configurar notificações"]
-
-
-
-===== Painéis de controle personalizados privados e públicos
-
-Os painéis personalizados agora incluem configurações de compartilhamento. Você pode manter um painel privado ou compartilhá-lo com sua equipe.
-
-Por padrão, os novos painéis são privados e visíveis apenas para você. Você pode tornar um painel público a qualquer momento para compartilhá-lo com todos em sua conta do Workload Factory.
-
-Cada cartão do painel exibe um rótulo "Privado" ou "Público" para que você possa ver rapidamente quais painéis são compartilhados.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/learn-custom-dashboards.html#view-and-share-dashboards["Saiba mais sobre visibilidade e compartilhamento de painéis"]
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html#change-dashboard-visibility["Aprenda como compartilhar dashboards"]
-
-
-
-==== Administração de recursos de IA
-
-Você pode controlar o acesso aos recursos de IA em toda a sua organização com as seguintes configurações na administração do Workload Factory.
-
-* Use o Bedrock gerenciado pela NetApp (recomendado e ativado por padrão, com limites de crédito mensais)
-* Desative todos os recursos de IA
-
-
-A nova página de administração permite gerenciar essas configurações em um só lugar.
-
-Os recursos de IA incluem "Pergunte-me", painéis personalizados, construtor de regras e analisadores para EMS, logs de banco de dados e latência de volume.
-
-Se os recursos de IA estiverem desativados, os usuários verão uma mensagem informando que a IA não está disponível.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Saiba mais sobre como gerenciar recursos de IA"]
-
-
-
-[[eda-workloads]]
-=== Cargas de trabalho EDA
-
-
-
-==== Análise de latência de IA com controles de custo
-
-Como administrador do Workload Factory, você pode controlar o acesso à análise de latência por IA em toda a sua organização.
-
-* *NetApp-créditos de IA gerenciados*: Se o seu administrador habilitar, você pode usar a análise de IA por meio da integração gerenciada do Amazon Bedrock da NetApp. Nenhuma configuração adicional é necessária. Seu uso mensal é limitado pelo seu orçamento atribuído. Se você atingir o limite mensal, os recursos com IA serão desativados e você verá uma mensagem.
-* *Desativado pelo administrador*: Se o seu administrador desativar os recursos de IA, as opções de análise de IA ficarão acinzentadas e você verá uma mensagem informando que o recurso está desativado.
-
-
-
-
-==== Gerenciamento de aumento de throughput elástico
-
-Agora você pode gerenciar o comportamento de aumento de throughput na página Visão geral do EDA para um ou mais sistemas de arquivos FSx for ONTAP selecionados.
-
-* *Seleção de modo*: escolha *Automatizar* ou *Recomendar*.
-* *Atualizações em lote*: selecione um ou mais sistemas de arquivos e aplique as alterações de modo e parâmetros em uma única ação.
-* *Caixa de diálogo de gerenciamento de taxa de transferência*: edite as configurações de aumento de taxa de transferência com os valores padrão do EDA na caixa de diálogo.
-* *Configurações avançadas*: Configure parâmetros adicionais de decisão de throughput em uma seção expansível de *configuração avançada*.
-* *Visibilidade da tabela*: Uma nova coluna *Gerenciamento de throughput* está disponível na tabela Clusters e pode ser ativada nas configurações da coluna.
-* *Configuração da placa superior*: A placa superior agora suporta a configuração do modo de aumento de throughput, semelhante ao gerenciamento de SSD.
-
-
-link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Aprenda a usar o painel de visão geral"^].
-
-
-
-[[02-august-2026]]
-== 02 de agosto de 2026
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== Amazon FSX para NetApp ONTAP
-
-
-
-==== Novo painel de controle bem arquitetado disponível para todos os sistemas FSx para ONTAP
-
-A análise de arquitetura bem estruturada agora está disponível para sistemas de arquivos FSx for ONTAP a partir do novo painel de arquitetura bem estruturada no NetApp Workload Factory. O novo painel oferece uma visão centralizada de todos os seus sistemas de arquivos em todas as contas e regiões e suas configurações em um único local. Uma notificação pop-up aparece quando você acessa a guia *Arquitetura bem estruturada* a partir de um sistema de arquivos. Acesse o novo painel selecionando *Arquitetura bem estruturada* no menu de navegação à esquerda no Workload Factory.
-
-Você ainda pode acessar a análise de arquitetura adequada para um sistema de arquivos específico e pela opção de menu *Well-architected* em Storage.
-
-
-
-==== Novos widgets adicionados ao painel de controle do Storage
-
-O painel de controle de Storage agora inclui dois novos widgets para ajudar você a entender como utiliza storage e encontrar maneiras de otimizá-lo.
-
-* *Principais cargas de trabalho detectadas* Exibe os dados de cargas de trabalho encontrados pelo serviço de marcação em todo o seu ambiente. Visualize as cargas de trabalho com uma pontuação de confiança acima de 80% que incluem recursos FSx associados, como volumes e dispositivos de bloco. Cada carga de trabalho exibe seu nome, número de recursos, capacidade provisionada e capacidade usada. Classifique por contagem de recursos (padrão), capacidade provisionada ou capacidade usada para identificar rapidamente suas maiores cargas de trabalho e entender os padrões de uso de storage.
-* *Informações e observações baseadas em IA* Exibe informações geradas por IA para seus ativos gerenciados. O widget analisa os dados do seu ambiente dentro do escopo selecionado e destaca as três principais descobertas em áreas-chave, incluindo capacidade, desempenho, proteção de dados, replicação, redução de custos e tendências de storage.
-
-
-Cada insight inclui um resumo, conclusões detalhadas e ações recomendadas. Expanda um insight para ver mais detalhes e priorize problemas com base na gravidade, melhorias de desempenho e oportunidades de redução de custos.
-
-
-
-==== Etiquetagem de carga de trabalho
-
-
-
-===== Integração do AWS Systems Manager para marcação de cargas de trabalho
-
-O serviço de marcação de cargas de trabalho agora funciona com AWS Systems Manager para adicionar mais detalhes aos dados de inventário de hosts. Workload Factory agora pode coletar e processar informações de inventário do SSM para identificar e classificar melhor as cargas de trabalho. Os atributos do AWS SSM também são incluídos no processo de marcação para melhorar a precisão da descoberta de cargas de trabalho.
-
-Cada configuração relacionada a volumes no painel de controle bem arquitetado agora inclui a coluna *Workload* na tabela de recursos. Essa coluna mostra o workload que o Workload Factory associa a cada volume.
-
-
-
-==== Etiquetagem de carga de trabalho e recursos de IA
-
-As cargas de trabalho não são etiquetadas quando um administrador desativa os recursos de IA. Se os recursos de IA estiverem desativados nas configurações da sua conta do Workload Factory, o serviço de etiquetagem não identificará nem classificará as cargas de trabalho nos seus recursos de storage.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Saiba mais sobre administração de IA"^].
-
-
-
-==== Explore a melhoria no cálculo do snapshot de economias
-
-Explore Savings agora utiliza um cálculo consistente de capacidade de snapshot, assim as estimativas de economia do FSx for ONTAP consideram corretamente a necessidade adicional de capacidade do pool de snapshots.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["Descubra as oportunidades de economia para seus ambientes de storage no Amazon Elastic Block Store, FSx para Windows File Server e Elastic File System."]
-
-
-
-===== Exportar dados de atraso de replicação para CSV
-
-Agora você pode exportar os dados de atraso de replicação para um arquivo CSV para analisar os dados em uma planilha e compartilhá-los com outras pessoas.
-
-
-
-==== Eventos do ponto de acesso S3
-
-Agora você pode enviar eventos do ponto de acesso S3 para o tópico SNS em uma programação definida. Cada atualização inclui todos os eventos que ocorreram desde a última atualização.
-
-Para configurar notificações para eventos do S3, link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-s3-access-points.html["editar pontos de acesso S3"] selecione *Enviar eventos do S3 por SNS* na seção *Tabela de diário*.
-
-
-
-==== Recursos do ONTAP exibidos no explorador de volumes
-
-O explorador de volumes agora inclui recursos do ONTAP na tabela de volumes. Esses recursos fornecem informações mais detalhadas sobre a configuração e o status dos seus volumes, como cobertura de proteção, status da Autonomous Ransomware Protection (ARP/AI), eficiência de storage, política de tiering e volume com crescimento automático.
