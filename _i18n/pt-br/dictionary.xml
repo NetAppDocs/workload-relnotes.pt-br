@@ -194,4 +194,21 @@
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
   <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">01 de novembro de 2026</block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">14 de outubro de 2026</block>
+  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">Configurações de banco de dados incluídas em um painel de controle bem arquitetado</block>
+  <block id="17d52f36b5492e8aeada41d949434243" category="paragraph">O painel bem arquitetado agora inclui recomendações para as configurações do seu banco de dados, permitindo que você avalie e otimize sua configuração com base nas melhores práticas. As primeiras configurações incluídas no painel são:</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">Hierarquização de dados frios</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">Eficiências de armazenamento</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">Política do Snapshot</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">Espaço livre de capacidade do SSD</block>
+  <block id="ea87fe154a3b0752922812472bd1e33d" category="list-text">Gerenciamento de espaço do dispositivo de bloco</block>
+  <block id="6fcd25081a49cfc1b0ec4806afa3d35f" category="list-text">Tipo de OS</block>
+  <block id="935aff9bc7bcf43dd1fe5825226b72c1" category="list-text">Corresponda o tipo de sistema operacional do dispositivo de bloco ao host</block>
+  <block id="868e9efce60d04bdf51fc2494a73a9ce" category="list-text">Dispositivos de bloco inativos (LUNs)</block>
+  <block id="797a6fe95ffc7bef7107556bac722567" category="list-text">Posicionamento de arquivos de dados (.mdf)</block>
+  <block id="27c70398ced593abb96a3c33b5e1072b" category="list-text">Posicionamento de arquivos de log (.ldf)</block>
+  <block id="346c87aaab415cd5adb218f88181ede8" category="list-text">Status de E/S multipath</block>
+  <block id="92a6dbd219f1455bd74f5d666b1b27c5" category="list-text">Tempo limite de E/S multipath</block>
+  <block id="6716a97e4d0f5c2b2ba84a9c8a65b74d" category="list-text">Quórum do cluster</block>
+  <block id="34d46ee23892b96b30e5db7bf4eb7871" category="list-text">Dimensionamento correto de computação</block>
+  <block id="33bf723377efe51bc70f70bbb5efa8a4" category="paragraph">Selecione o menu principal no console do Workload Factory e, em seguida, selecione *Well-architected* para encontrar o painel do Well-architected.</block>
 </blocks>
