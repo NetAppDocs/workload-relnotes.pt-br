@@ -164,7 +164,7 @@ O painel bem arquitetado agora inclui recomendações para as configurações do
 
 Selecione o menu principal no console do Workload Factory e, em seguida, selecione *Well-architected* para encontrar o painel do Well-architected.
 
-image:well-architected-menu-option.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
+image:workload-databases/well-architected-menu-option-databases.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
 
 
 
@@ -360,7 +360,7 @@ Todas as informações de custo vêm diretamente da API do AWS Cost Explorer, ex
 
 Você pode acessar o painel well-architected pelo menu principal no console do Workload Factory e também em um sistema de arquivos. Para encontrar o painel well-architected no menu principal, selecione o menu principal e, em seguida, selecione *Well-architected*.
 
-image:well-architected-menu-option.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
+image:workload-fsx-ontap/well-architected-menu-option.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
 
 
 
@@ -398,7 +398,7 @@ O explorador de volumes exibe o status de latência do volume com os seguintes s
 
 A tela do Explorador de Volumes agora inclui um cartão com o status da Proteção Autônoma contra Ransomware com IA (ARP/AI) da NetApp para volumes em todos os seus sistemas de arquivos. O cartão exibe o número de volumes protegidos e indica se algum volume está em risco. A partir do cartão, você pode *Analisar ataques* para investigar possíveis ameaças de ransomware e tomar as medidas apropriadas para proteger seus dados.
 
-image:volumes-explorer-arp-ai-card.png["A captura de tela mostra um novo cartão na tela do Explorador de Volumes, exibindo o status de ARP/AI para volumes em todos os sistemas de arquivos. O cartão indica o número de volumes protegidos e quaisquer volumes em risco. Os usuários podem selecionar o texto \"Analyze attacks\" para investigar possíveis ataques e tomar as medidas apropriadas para proteger seus dados."]
+image:workload-fsx-ontap/volumes-explorer-arp-ai-card.png["A captura de tela mostra um novo cartão na tela do Explorador de Volumes, exibindo o status de ARP/AI para volumes em todos os sistemas de arquivos. O cartão indica o número de volumes protegidos e quaisquer volumes em risco. Os usuários podem selecionar o texto \"Analyze attacks\" para investigar possíveis ataques e tomar as medidas apropriadas para proteger seus dados."]
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Saiba mais sobre proteção contra ransomware."]
 
@@ -606,7 +606,7 @@ Todas as informações de custo vêm diretamente da API do AWS Cost Explorer, ex
 
 Você pode acessar o painel well-architected pelo menu principal no console do Workload Factory e também em um sistema de arquivos. Para encontrar o painel well-architected no menu principal, selecione o menu principal e, em seguida, selecione *Well-architected*.
 
-image:well-architected-menu-option.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
+image:workload-fsx-ontap/well-architected-menu-option.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
 
 
 
@@ -644,7 +644,7 @@ O explorador de volumes exibe o status de latência do volume com os seguintes s
 
 A tela do Explorador de Volumes agora inclui um cartão com o status da Proteção Autônoma contra Ransomware com IA (ARP/AI) da NetApp para volumes em todos os seus sistemas de arquivos. O cartão exibe o número de volumes protegidos e indica se algum volume está em risco. A partir do cartão, você pode *Analisar ataques* para investigar possíveis ameaças de ransomware e tomar as medidas apropriadas para proteger seus dados.
 
-image:volumes-explorer-arp-ai-card.png["A captura de tela mostra um novo cartão na tela do Explorador de Volumes, exibindo o status de ARP/AI para volumes em todos os sistemas de arquivos. O cartão indica o número de volumes protegidos e quaisquer volumes em risco. Os usuários podem selecionar o texto \"Analyze attacks\" para investigar possíveis ataques e tomar as medidas apropriadas para proteger seus dados."]
+image:workload-fsx-ontap/volumes-explorer-arp-ai-card.png["A captura de tela mostra um novo cartão na tela do Explorador de Volumes, exibindo o status de ARP/AI para volumes em todos os sistemas de arquivos. O cartão indica o número de volumes protegidos e quaisquer volumes em risco. Os usuários podem selecionar o texto \"Analyze attacks\" para investigar possíveis ataques e tomar as medidas apropriadas para proteger seus dados."]
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Saiba mais sobre proteção contra ransomware."]
 

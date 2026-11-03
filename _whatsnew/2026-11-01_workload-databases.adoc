@@ -27,4 +27,4 @@ O painel bem arquitetado agora inclui recomendações para as configurações do
 
 Selecione o menu principal no console do Workload Factory e, em seguida, selecione *Well-architected* para encontrar o painel do Well-architected.
 
-image:well-architected-menu-option.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
+image:workload-databases/well-architected-menu-option-databases.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
