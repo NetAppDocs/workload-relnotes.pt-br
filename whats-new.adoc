@@ -15,6 +15,42 @@ Saiba mais sobre as alterações mais recentes nas cargas de trabalho que fazem 
 
 
 
+[[02-november-2026]]
+== 02 de novembro de 2026
+
+
+
+[[database-workloads]]
+=== Workloads de banco de dados
+
+
+
+==== Configurações de banco de dados incluídas em um painel de controle bem arquitetado
+
+O painel bem arquitetado agora inclui recomendações para as configurações do seu banco de dados, permitindo que você avalie e otimize sua configuração com base nas melhores práticas. As primeiras configurações incluídas no painel são:
+
+* Hierarquização de dados frios
+* Eficiências de armazenamento
+* Política do Snapshot
+* Espaço livre de capacidade do SSD
+* Gerenciamento de espaço do dispositivo de bloco
+* Tipo de OS
+* Corresponda o tipo de sistema operacional do dispositivo de bloco ao host
+* Dispositivos de bloco inativos (LUNs)
+* Posicionamento de arquivos de dados (.mdf)
+* Posicionamento de arquivos de log (.ldf)
+* Status de E/S multipath
+* Tempo limite de E/S multipath
+* Quórum do cluster
+* Dimensionamento correto de computação
+
+
+Selecione o menu principal no console do Workload Factory e, em seguida, selecione *Well-architected* para encontrar o painel do Well-architected.
+
+image:workload-databases/well-architected-menu-option-databases.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
+
+
+
 [[01-november-2026]]
 == 01 de novembro de 2026
 
@@ -134,37 +170,6 @@ Agora você pode ver a recomendação de throughput do cliente e os pontos de de
 ==== Suporte ao Bedrock gerenciado pelo cliente para classificação
 
 O Workload Factory agora permite que você use sua própria configuração do Amazon Bedrock para a classificação de tags de cargas de trabalho. Você pode fornecer seu próprio endpoint e credenciais do Bedrock para que as solicitações de classificação sejam executadas por meio de sua própria configuração do Bedrock.
-
-
-
-[[database-workloads]]
-=== Workloads de banco de dados
-
-
-
-==== Configurações de banco de dados incluídas em um painel de controle bem arquitetado
-
-O painel bem arquitetado agora inclui recomendações para as configurações do seu banco de dados, permitindo que você avalie e otimize sua configuração com base nas melhores práticas. As primeiras configurações incluídas no painel são:
-
-* Hierarquização de dados frios
-* Eficiências de armazenamento
-* Política do Snapshot
-* Espaço livre de capacidade do SSD
-* Gerenciamento de espaço do dispositivo de bloco
-* Tipo de OS
-* Corresponda o tipo de sistema operacional do dispositivo de bloco ao host
-* Dispositivos de bloco inativos (LUNs)
-* Posicionamento de arquivos de dados (.mdf)
-* Posicionamento de arquivos de log (.ldf)
-* Status de E/S multipath
-* Tempo limite de E/S multipath
-* Quórum do cluster
-* Dimensionamento correto de computação
-
-
-Selecione o menu principal no console do Workload Factory e, em seguida, selecione *Well-architected* para encontrar o painel do Well-architected.
-
-image:workload-databases/well-architected-menu-option-databases.png["Opção de menu bem arquitetada no console do NetApp Workload Factory"]
 
 
 
